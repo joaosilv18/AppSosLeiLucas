@@ -19,9 +19,11 @@ namespace ProjetoLeiLucasTelas
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void BtnProtocolos_Click(object sender, EventArgs e)
         {
-
+            Form2 telaEmergencia = new Form2();
+            telaEmergencia.Show();
+            this.Hide();
         }
 
         private void button13_Click(object sender, EventArgs e)
@@ -39,11 +41,21 @@ namespace ProjetoLeiLucasTelas
 
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void BtnIniciarEmergencia_Click(object sender, EventArgs e)
         {
+            Form2 telaEmergencia = new Form2();
+            telaEmergencia.Show();
+            this.Hide();
         }
 
-        private void button10_Click(object sender, EventArgs e)
+        private void BtnSideBarProtocolos_Click(object sender, EventArgs e)
+        {
+            Form2 telaEmergencia = new Form2();
+            telaEmergencia.Show();
+            this.Hide();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
         {
 
         }

@@ -44,7 +44,7 @@
             button12 = new Button();
             button13 = new Button();
             pictureBox5 = new PictureBox();
-            button6 = new Button();
+            btnIniciarEmergencia_Click = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -109,7 +109,7 @@
             button3.Size = new Size(260, 229);
             button3.TabIndex = 5;
             button3.UseVisualStyleBackColor = false;
-            button3.Click += button3_Click;
+            button3.Click += BtnProtocolos_Click;
             // 
             // button4
             // 
@@ -173,6 +173,7 @@
             button8.Size = new Size(382, 65);
             button8.TabIndex = 11;
             button8.UseVisualStyleBackColor = false;
+            button8.Click += button8_Click;
             // 
             // button9
             // 
@@ -199,7 +200,7 @@
             button10.Size = new Size(382, 65);
             button10.TabIndex = 13;
             button10.UseVisualStyleBackColor = false;
-            button10.Click += button10_Click;
+            button10.Click += BtnSideBarProtocolos_Click;
             // 
             // button12
             // 
@@ -242,19 +243,19 @@
             pictureBox5.TabIndex = 17;
             pictureBox5.TabStop = false;
             // 
-            // button6
+            // btnIniciarEmergencia_Click
             // 
-            button6.BackColor = Color.Transparent;
-            button6.BackgroundImage = (Image)resources.GetObject("button6.BackgroundImage");
-            button6.FlatAppearance.BorderSize = 0;
-            button6.FlatStyle = FlatStyle.Flat;
-            button6.Location = new Point(783, 567);
-            button6.Margin = new Padding(3, 2, 3, 2);
-            button6.Name = "button6";
-            button6.Size = new Size(270, 76);
-            button6.TabIndex = 18;
-            button6.UseVisualStyleBackColor = false;
-            button6.Click += button6_Click;
+            btnIniciarEmergencia_Click.BackColor = Color.Transparent;
+            btnIniciarEmergencia_Click.BackgroundImage = (Image)resources.GetObject("btnIniciarEmergencia_Click.BackgroundImage");
+            btnIniciarEmergencia_Click.FlatAppearance.BorderSize = 0;
+            btnIniciarEmergencia_Click.FlatStyle = FlatStyle.Flat;
+            btnIniciarEmergencia_Click.Location = new Point(783, 567);
+            btnIniciarEmergencia_Click.Margin = new Padding(3, 2, 3, 2);
+            btnIniciarEmergencia_Click.Name = "btnIniciarEmergencia_Click";
+            btnIniciarEmergencia_Click.Size = new Size(270, 76);
+            btnIniciarEmergencia_Click.TabIndex = 18;
+            btnIniciarEmergencia_Click.UseVisualStyleBackColor = false;
+            btnIniciarEmergencia_Click.Click += BtnIniciarEmergencia_Click;
             // 
             // TelaInicio
             // 
@@ -262,7 +263,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1904, 1041);
-            Controls.Add(button6);
+            Controls.Add(btnIniciarEmergencia_Click);
             Controls.Add(pictureBox5);
             Controls.Add(button13);
             Controls.Add(button12);
@@ -308,6 +309,6 @@
         private Button button12;
         private Button button13;
         private PictureBox pictureBox5;
-        private Button button6;
+        private Button btnIniciarEmergencia_Click;
     }
 }

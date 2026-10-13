@@ -41,7 +41,7 @@
             button8 = new Button();
             button9 = new Button();
             button10 = new Button();
-            button12 = new Button();
+            BtnSideBarAjuda = new Button();
             button13 = new Button();
             pictureBox5 = new PictureBox();
             btnIniciarEmergencia_Click = new Button();
@@ -202,20 +202,21 @@
             button10.UseVisualStyleBackColor = false;
             button10.Click += BtnSideBarProtocolos_Click;
             // 
-            // button12
+            // BtnSideBarAjuda
             // 
-            button12.BackColor = Color.Transparent;
-            button12.BackgroundImage = (Image)resources.GetObject("button12.BackgroundImage");
-            button12.DialogResult = DialogResult.Cancel;
-            button12.FlatAppearance.BorderSize = 0;
-            button12.FlatStyle = FlatStyle.Flat;
-            button12.Location = new Point(14, 866);
-            button12.Margin = new Padding(3, 2, 3, 2);
-            button12.Name = "button12";
-            button12.Size = new Size(382, 65);
-            button12.TabIndex = 15;
-            button12.Text = " ";
-            button12.UseVisualStyleBackColor = false;
+            BtnSideBarAjuda.BackColor = Color.Transparent;
+            BtnSideBarAjuda.BackgroundImage = (Image)resources.GetObject("BtnSideBarAjuda.BackgroundImage");
+            BtnSideBarAjuda.DialogResult = DialogResult.Cancel;
+            BtnSideBarAjuda.FlatAppearance.BorderSize = 0;
+            BtnSideBarAjuda.FlatStyle = FlatStyle.Flat;
+            BtnSideBarAjuda.Location = new Point(14, 866);
+            BtnSideBarAjuda.Margin = new Padding(3, 2, 3, 2);
+            BtnSideBarAjuda.Name = "BtnSideBarAjuda";
+            BtnSideBarAjuda.Size = new Size(382, 65);
+            BtnSideBarAjuda.TabIndex = 15;
+            BtnSideBarAjuda.Text = " ";
+            BtnSideBarAjuda.UseVisualStyleBackColor = false;
+            BtnSideBarAjuda.Click += BtnSideBarAjuda_Click;
             // 
             // button13
             // 
@@ -248,7 +249,10 @@
             btnIniciarEmergencia_Click.BackColor = Color.Transparent;
             btnIniciarEmergencia_Click.BackgroundImage = (Image)resources.GetObject("btnIniciarEmergencia_Click.BackgroundImage");
             btnIniciarEmergencia_Click.FlatAppearance.BorderSize = 0;
+            btnIniciarEmergencia_Click.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnIniciarEmergencia_Click.FlatAppearance.MouseOverBackColor = Color.Transparent;
             btnIniciarEmergencia_Click.FlatStyle = FlatStyle.Flat;
+            btnIniciarEmergencia_Click.ForeColor = Color.Transparent;
             btnIniciarEmergencia_Click.Location = new Point(783, 567);
             btnIniciarEmergencia_Click.Margin = new Padding(3, 2, 3, 2);
             btnIniciarEmergencia_Click.Name = "btnIniciarEmergencia_Click";
@@ -266,7 +270,7 @@
             Controls.Add(btnIniciarEmergencia_Click);
             Controls.Add(pictureBox5);
             Controls.Add(button13);
-            Controls.Add(button12);
+            Controls.Add(BtnSideBarAjuda);
             Controls.Add(button10);
             Controls.Add(button9);
             Controls.Add(button8);
@@ -306,7 +310,7 @@
         private Button button8;
         private Button button9;
         private Button button10;
-        private Button button12;
+        private Button BtnSideBarAjuda;
         private Button button13;
         private PictureBox pictureBox5;
         private Button btnIniciarEmergencia_Click;

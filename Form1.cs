@@ -59,5 +59,12 @@ namespace ProjetoLeiLucasTelas
         {
 
         }
+
+        private void BtnSideBarAjuda_Click(object sender, EventArgs e)
+        {
+            Form3 telaAjuda = new Form3();
+            telaAjuda.Show();
+            this.Hide();
+        }
     }
 }

@@ -89,11 +89,12 @@
             button2.BackgroundImage = (Image)resources.GetObject("button2.BackgroundImage");
             button2.FlatAppearance.BorderSize = 0;
             button2.FlatStyle = FlatStyle.Flat;
+            button2.ForeColor = SystemColors.ControlLightLight;
             button2.ImageAlign = ContentAlignment.BottomLeft;
-            button2.Location = new Point(498, 721);
+            button2.Location = new Point(512, 713);
             button2.Margin = new Padding(3, 2, 3, 2);
             button2.Name = "button2";
-            button2.Size = new Size(261, 229);
+            button2.Size = new Size(247, 229);
             button2.TabIndex = 4;
             button2.UseVisualStyleBackColor = false;
             // 
@@ -103,10 +104,10 @@
             button3.BackgroundImage = (Image)resources.GetObject("button3.BackgroundImage");
             button3.FlatAppearance.BorderSize = 0;
             button3.FlatStyle = FlatStyle.Flat;
-            button3.Location = new Point(780, 721);
+            button3.Location = new Point(794, 713);
             button3.Margin = new Padding(3, 2, 3, 2);
             button3.Name = "button3";
-            button3.Size = new Size(260, 229);
+            button3.Size = new Size(246, 229);
             button3.TabIndex = 5;
             button3.UseVisualStyleBackColor = false;
             button3.Click += BtnProtocolos_Click;
@@ -117,10 +118,10 @@
             button4.BackgroundImage = (Image)resources.GetObject("button4.BackgroundImage");
             button4.FlatAppearance.BorderSize = 0;
             button4.FlatStyle = FlatStyle.Flat;
-            button4.Location = new Point(1064, 721);
+            button4.Location = new Point(1078, 713);
             button4.Margin = new Padding(3, 2, 3, 2);
             button4.Name = "button4";
-            button4.Size = new Size(259, 229);
+            button4.Size = new Size(247, 229);
             button4.TabIndex = 6;
             button4.UseVisualStyleBackColor = false;
             // 
@@ -130,12 +131,13 @@
             button5.FlatAppearance.BorderSize = 0;
             button5.FlatStyle = FlatStyle.Flat;
             button5.Image = (Image)resources.GetObject("button5.Image");
-            button5.Location = new Point(1373, 237);
+            button5.Location = new Point(1382, 239);
             button5.Margin = new Padding(3, 2, 3, 2);
             button5.Name = "button5";
-            button5.Size = new Size(462, 311);
+            button5.Size = new Size(451, 301);
             button5.TabIndex = 7;
             button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
             // 
             // pictureBox4
             // 
@@ -253,10 +255,10 @@
             btnIniciarEmergencia_Click.FlatAppearance.MouseOverBackColor = Color.Transparent;
             btnIniciarEmergencia_Click.FlatStyle = FlatStyle.Flat;
             btnIniciarEmergencia_Click.ForeColor = Color.Transparent;
-            btnIniciarEmergencia_Click.Location = new Point(783, 567);
+            btnIniciarEmergencia_Click.Location = new Point(786, 573);
             btnIniciarEmergencia_Click.Margin = new Padding(3, 2, 3, 2);
             btnIniciarEmergencia_Click.Name = "btnIniciarEmergencia_Click";
-            btnIniciarEmergencia_Click.Size = new Size(270, 76);
+            btnIniciarEmergencia_Click.Size = new Size(254, 61);
             btnIniciarEmergencia_Click.TabIndex = 18;
             btnIniciarEmergencia_Click.UseVisualStyleBackColor = false;
             btnIniciarEmergencia_Click.Click += BtnIniciarEmergencia_Click;

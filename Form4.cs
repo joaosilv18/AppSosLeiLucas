@@ -21,5 +21,12 @@ namespace ProjetoLeiLucasTelas
             telainforma.Show();
             this.Hide();
         }
+
+        private void VoltarAoInicio_Click(object sender, EventArgs e)
+        {
+            TelaInicio telaEmergencia = new TelaInicio();
+            telaEmergencia.Show();
+            this.Hide();
+        }
     }
 }

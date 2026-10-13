@@ -66,5 +66,12 @@ namespace ProjetoLeiLucasTelas
             telaAjuda.Show();
             this.Hide();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            telaInforLei telaLei = new telaInforLei();
+            telaLei.Show();
+            this.Hide();
+        }
     }
 }

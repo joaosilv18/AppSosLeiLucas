@@ -30,14 +30,14 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             pictureBox1 = new PictureBox();
-            button1 = new Button();
-            button2 = new Button();
             button5 = new Button();
             button3 = new Button();
             button4 = new Button();
             button6 = new Button();
             button7 = new Button();
             button8 = new Button();
+            button2 = new Button();
+            VoltarAoInicio = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -51,31 +51,6 @@
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
-            // button1
-            // 
-            button1.BackColor = Color.Transparent;
-            button1.BackgroundImage = (Image)resources.GetObject("button1.BackgroundImage");
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Location = new Point(1593, 49);
-            button1.Name = "button1";
-            button1.Size = new Size(274, 83);
-            button1.TabIndex = 1;
-            button1.UseVisualStyleBackColor = false;
-            // 
-            // button2
-            // 
-            button2.BackColor = Color.Transparent;
-            button2.BackgroundImage = (Image)resources.GetObject("button2.BackgroundImage");
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Location = new Point(39, 45);
-            button2.Name = "button2";
-            button2.Size = new Size(106, 87);
-            button2.TabIndex = 2;
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += BtnVoltarInicio_Click;
-            // 
             // button5
             // 
             button5.BackColor = Color.Transparent;
@@ -87,6 +62,7 @@
             button5.Size = new Size(514, 306);
             button5.TabIndex = 5;
             button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
             // 
             // button3
             // 
@@ -149,20 +125,46 @@
             button8.TabIndex = 10;
             button8.UseVisualStyleBackColor = false;
             // 
+            // button2
+            // 
+            button2.BackColor = Color.Transparent;
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Image = (Image)resources.GetObject("button2.Image");
+            button2.Location = new Point(39, 45);
+            button2.Name = "button2";
+            button2.Size = new Size(76, 61);
+            button2.TabIndex = 14;
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
+            // 
+            // VoltarAoInicio
+            // 
+            VoltarAoInicio.BackColor = Color.Transparent;
+            VoltarAoInicio.FlatAppearance.BorderSize = 0;
+            VoltarAoInicio.FlatStyle = FlatStyle.Flat;
+            VoltarAoInicio.Image = (Image)resources.GetObject("VoltarAoInicio.Image");
+            VoltarAoInicio.Location = new Point(1593, 49);
+            VoltarAoInicio.Name = "VoltarAoInicio";
+            VoltarAoInicio.Size = new Size(254, 62);
+            VoltarAoInicio.TabIndex = 15;
+            VoltarAoInicio.UseVisualStyleBackColor = false;
+            VoltarAoInicio.Click += VoltarAoInicio_Click;
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1904, 1041);
+            Controls.Add(VoltarAoInicio);
+            Controls.Add(button2);
             Controls.Add(button8);
             Controls.Add(button7);
             Controls.Add(button6);
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button5);
-            Controls.Add(button2);
-            Controls.Add(button1);
             Controls.Add(pictureBox1);
             Name = "Form2";
             Text = "Form2";
@@ -173,13 +175,13 @@
         #endregion
 
         private PictureBox pictureBox1;
-        private Button button1;
-        private Button button2;
         private Button button5;
         private Button button3;
         private Button button4;
         private Button button6;
         private Button button7;
         private Button button8;
+        private Button button2;
+        private Button VoltarAoInicio;
     }
 }

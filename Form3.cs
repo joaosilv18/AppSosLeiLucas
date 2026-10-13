@@ -22,13 +22,20 @@ namespace ProjetoLeiLucasTelas
 
         private void VoltarAoInicio_Enter(object sender, EventArgs e)
         {
-            
+
         }
 
         private void VoltarAoInicio_Click(object sender, EventArgs e)
         {
             TelaInicio telaAjuda = new TelaInicio();
             telaAjuda.Show();
+            this.Hide();
+        }
+
+        private void VoltarAoInicio_Click_1(object sender, EventArgs e)
+        {
+            TelaInicio telaEmergencia = new TelaInicio();
+            telaEmergencia.Show();
             this.Hide();
         }
     }

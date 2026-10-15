@@ -54,5 +54,17 @@ namespace ProjetoLeiLucasTelas
             telaEmergencia.Show();
             this.Hide();
         }
+
+        private void BtnQueimaduras_Click(object sender, EventArgs e)
+        {
+            Form12 InformacaoQueimadura1 = new Form12();
+            InformacaoQueimadura1.Show();
+            this.Hide();
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

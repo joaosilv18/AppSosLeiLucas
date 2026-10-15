@@ -75,6 +75,7 @@
             button3.Size = new Size(514, 306);
             button3.TabIndex = 6;
             button3.UseVisualStyleBackColor = false;
+            button3.Click += BtnQueimaduras_Click;
             // 
             // button4
             // 
@@ -168,6 +169,7 @@
             Controls.Add(pictureBox1);
             Name = "Form2";
             Text = "Form2";
+            Load += Form2_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }

@@ -121,6 +121,7 @@
             button3.Size = new Size(474, 266);
             button3.TabIndex = 15;
             button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
@@ -133,6 +134,7 @@
             button4.Size = new Size(473, 266);
             button4.TabIndex = 16;
             button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
             // 
             // TelaSelecao
             // 

@@ -35,5 +35,19 @@ namespace ProjetoLeiLucasTelas
             telaEmergencia.Show();
             this.Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form6 telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            FormEngCriancas01 telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
+        }
     }
 }

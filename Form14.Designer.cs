@@ -97,6 +97,7 @@
             VerificaASituacao3.Size = new Size(376, 60);
             VerificaASituacao3.TabIndex = 8;
             VerificaASituacao3.UseVisualStyleBackColor = true;
+            VerificaASituacao3.Click += VerificaASituacao3_Click;
             // 
             // SoliciteAjuda3
             // 
@@ -108,6 +109,7 @@
             SoliciteAjuda3.Size = new Size(376, 60);
             SoliciteAjuda3.TabIndex = 9;
             SoliciteAjuda3.UseVisualStyleBackColor = true;
+            SoliciteAjuda3.Click += SoliciteAjuda3_Click;
             // 
             // InicieAsManobras3
             // 
@@ -119,6 +121,7 @@
             InicieAsManobras3.Size = new Size(376, 59);
             InicieAsManobras3.TabIndex = 10;
             InicieAsManobras3.UseVisualStyleBackColor = true;
+            InicieAsManobras3.Click += InicieAsManobras3_Click;
             // 
             // MonitorasAVitima3
             // 
@@ -130,6 +133,7 @@
             MonitorasAVitima3.Size = new Size(375, 59);
             MonitorasAVitima3.TabIndex = 11;
             MonitorasAVitima3.UseVisualStyleBackColor = true;
+            MonitorasAVitima3.Click += MonitorasAVitima3_Click;
             // 
             // AcioneOSamu3
             // 
@@ -141,6 +145,7 @@
             AcioneOSamu3.Size = new Size(371, 62);
             AcioneOSamu3.TabIndex = 12;
             AcioneOSamu3.UseVisualStyleBackColor = true;
+            AcioneOSamu3.Click += AcioneOSamu3_Click;
             // 
             // voltar3
             // 
@@ -157,6 +162,7 @@
             voltar3.Size = new Size(75, 59);
             voltar3.TabIndex = 13;
             voltar3.UseVisualStyleBackColor = false;
+            voltar3.Click += voltar3_Click;
             // 
             // proximo3
             // 
@@ -170,6 +176,7 @@
             proximo3.Size = new Size(272, 76);
             proximo3.TabIndex = 14;
             proximo3.UseVisualStyleBackColor = true;
+            proximo3.Click += proximo3_Click_1;
             // 
             // voltar33
             // 
@@ -181,6 +188,7 @@
             voltar33.Size = new Size(266, 70);
             voltar33.TabIndex = 15;
             voltar33.UseVisualStyleBackColor = true;
+            voltar33.Click += voltar33_Click;
             // 
             // Form14
             // 

@@ -114,6 +114,7 @@
             VerificaASituacao1.Size = new Size(376, 60);
             VerificaASituacao1.TabIndex = 5;
             VerificaASituacao1.UseVisualStyleBackColor = true;
+            VerificaASituacao1.Click += VerificaASituacao1_Click;
             // 
             // SoliciteAjuda1
             // 
@@ -137,6 +138,7 @@
             MonitorasAVitima1.Size = new Size(375, 59);
             MonitorasAVitima1.TabIndex = 7;
             MonitorasAVitima1.UseVisualStyleBackColor = true;
+            MonitorasAVitima1.Click += MonitorasAVitima1_Click_1;
             // 
             // InicieAsManobras1
             // 
@@ -148,6 +150,7 @@
             InicieAsManobras1.Size = new Size(376, 59);
             InicieAsManobras1.TabIndex = 8;
             InicieAsManobras1.UseVisualStyleBackColor = true;
+            InicieAsManobras1.Click += InicieAsManobras1_Click_1;
             // 
             // AcioneOSamu1
             // 
@@ -159,6 +162,7 @@
             AcioneOSamu1.Size = new Size(371, 62);
             AcioneOSamu1.TabIndex = 9;
             AcioneOSamu1.UseVisualStyleBackColor = true;
+            AcioneOSamu1.Click += AcioneOSamu1_Click_1;
             // 
             // voltar11
             // 
@@ -170,6 +174,7 @@
             voltar11.Size = new Size(266, 70);
             voltar11.TabIndex = 10;
             voltar11.UseVisualStyleBackColor = true;
+            voltar11.Click += voltar11_Click;
             // 
             // Proximo1
             // 

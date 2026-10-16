@@ -146,7 +146,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(800, 539);
+            ClientSize = new Size(1904, 1041);
             Controls.Add(buttoPasso5voltarTela4Rcp);
             Controls.Add(buttonAcioneSamu5Rcp);
             Controls.Add(buttonMonitoreViti5Rcp);

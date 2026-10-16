@@ -159,7 +159,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1904, 1041);
             Controls.Add(buttonAcioneSamu2Rcp);
             Controls.Add(buttonMonitoreViti2Rcp);
             Controls.Add(buttoninicie2Rcp_Rcp);

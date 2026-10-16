@@ -97,6 +97,7 @@
             VerificaASituacao4.Size = new Size(376, 60);
             VerificaASituacao4.TabIndex = 9;
             VerificaASituacao4.UseVisualStyleBackColor = true;
+            VerificaASituacao4.Click += VerificaASituacao4_Click;
             // 
             // SoliciteAjuda4
             // 
@@ -108,6 +109,7 @@
             SoliciteAjuda4.Size = new Size(376, 60);
             SoliciteAjuda4.TabIndex = 10;
             SoliciteAjuda4.UseVisualStyleBackColor = true;
+            SoliciteAjuda4.Click += SoliciteAjuda4_Click;
             // 
             // InicieAsManobras4
             // 
@@ -119,6 +121,7 @@
             InicieAsManobras4.Size = new Size(376, 59);
             InicieAsManobras4.TabIndex = 11;
             InicieAsManobras4.UseVisualStyleBackColor = true;
+            InicieAsManobras4.Click += InicieAsManobras4_Click;
             // 
             // MonitorasAVitima4
             // 
@@ -130,6 +133,7 @@
             MonitorasAVitima4.Size = new Size(375, 59);
             MonitorasAVitima4.TabIndex = 12;
             MonitorasAVitima4.UseVisualStyleBackColor = true;
+            MonitorasAVitima4.Click += MonitorasAVitima4_Click;
             // 
             // AcioneOSamu4
             // 
@@ -141,6 +145,7 @@
             AcioneOSamu4.Size = new Size(371, 62);
             AcioneOSamu4.TabIndex = 13;
             AcioneOSamu4.UseVisualStyleBackColor = true;
+            AcioneOSamu4.Click += AcioneOSamu4_Click;
             // 
             // voltar4
             // 
@@ -157,9 +162,11 @@
             voltar4.Size = new Size(75, 59);
             voltar4.TabIndex = 14;
             voltar4.UseVisualStyleBackColor = false;
+            voltar4.Click += voltar4_Click;
             // 
             // proximo4
             // 
+            proximo4.BackColor = Color.Transparent;
             proximo4.BackgroundImage = (Image)resources.GetObject("proximo4.BackgroundImage");
             proximo4.BackgroundImageLayout = ImageLayout.Center;
             proximo4.FlatAppearance.BorderSize = 0;
@@ -169,7 +176,8 @@
             proximo4.Name = "proximo4";
             proximo4.Size = new Size(272, 76);
             proximo4.TabIndex = 15;
-            proximo4.UseVisualStyleBackColor = true;
+            proximo4.UseVisualStyleBackColor = false;
+            proximo4.Click += proximo4_Click;
             // 
             // voltar44
             // 
@@ -181,11 +189,13 @@
             voltar44.Size = new Size(266, 70);
             voltar44.TabIndex = 16;
             voltar44.UseVisualStyleBackColor = true;
+            voltar44.Click += voltar44_Click;
             // 
             // Form15
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1904, 1041);
             Controls.Add(voltar44);
             Controls.Add(proximo4);

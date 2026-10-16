@@ -98,6 +98,7 @@
             VerificaASituacao2.Size = new Size(376, 60);
             VerificaASituacao2.TabIndex = 7;
             VerificaASituacao2.UseVisualStyleBackColor = true;
+            VerificaASituacao2.Click += VerificaASituacao2_Click;
             // 
             // SoliciteAjuda2
             // 
@@ -109,6 +110,7 @@
             SoliciteAjuda2.Size = new Size(376, 60);
             SoliciteAjuda2.TabIndex = 8;
             SoliciteAjuda2.UseVisualStyleBackColor = true;
+            SoliciteAjuda2.Click += SoliciteAjuda2_Click;
             // 
             // InicieAsManobras2
             // 
@@ -120,6 +122,7 @@
             InicieAsManobras2.Size = new Size(376, 59);
             InicieAsManobras2.TabIndex = 9;
             InicieAsManobras2.UseVisualStyleBackColor = true;
+            InicieAsManobras2.Click += InicieAsManobras2_Click;
             // 
             // MonitorasAVitima2
             // 
@@ -131,6 +134,7 @@
             MonitorasAVitima2.Size = new Size(375, 59);
             MonitorasAVitima2.TabIndex = 10;
             MonitorasAVitima2.UseVisualStyleBackColor = true;
+            MonitorasAVitima2.Click += MonitorasAVitima2_Click;
             // 
             // AcioneOSamu2
             // 
@@ -142,6 +146,7 @@
             AcioneOSamu2.Size = new Size(371, 62);
             AcioneOSamu2.TabIndex = 11;
             AcioneOSamu2.UseVisualStyleBackColor = true;
+            AcioneOSamu2.Click += AcioneOSamu2_Click;
             // 
             // voltar2
             // 
@@ -158,6 +163,7 @@
             voltar2.Size = new Size(75, 59);
             voltar2.TabIndex = 12;
             voltar2.UseVisualStyleBackColor = false;
+            voltar2.Click += voltar2_Click;
             // 
             // proximo2
             // 
@@ -171,6 +177,7 @@
             proximo2.Size = new Size(272, 76);
             proximo2.TabIndex = 13;
             proximo2.UseVisualStyleBackColor = true;
+            proximo2.Click += proximo2_Click;
             // 
             // voltar22
             // 
@@ -182,6 +189,7 @@
             voltar22.Size = new Size(266, 70);
             voltar22.TabIndex = 14;
             voltar22.UseVisualStyleBackColor = true;
+            voltar22.Click += voltar22_Click;
             // 
             // Queimaduras2
             // 

@@ -96,6 +96,7 @@
             VerificaASituacao5.Size = new Size(376, 60);
             VerificaASituacao5.TabIndex = 10;
             VerificaASituacao5.UseVisualStyleBackColor = true;
+            VerificaASituacao5.Click += VerificaASituacao5_Click;
             // 
             // SoliciteAjuda5
             // 
@@ -107,6 +108,7 @@
             SoliciteAjuda5.Size = new Size(376, 60);
             SoliciteAjuda5.TabIndex = 11;
             SoliciteAjuda5.UseVisualStyleBackColor = true;
+            SoliciteAjuda5.Click += SoliciteAjuda5_Click;
             // 
             // InicieAsManobras5
             // 
@@ -118,6 +120,7 @@
             InicieAsManobras5.Size = new Size(376, 59);
             InicieAsManobras5.TabIndex = 12;
             InicieAsManobras5.UseVisualStyleBackColor = true;
+            InicieAsManobras5.Click += InicieAsManobras5_Click;
             // 
             // MonitorasAVitima5
             // 
@@ -129,6 +132,7 @@
             MonitorasAVitima5.Size = new Size(375, 59);
             MonitorasAVitima5.TabIndex = 13;
             MonitorasAVitima5.UseVisualStyleBackColor = true;
+            MonitorasAVitima5.Click += MonitorasAVitima5_Click;
             // 
             // AcioneOSamu5
             // 
@@ -140,6 +144,7 @@
             AcioneOSamu5.Size = new Size(371, 62);
             AcioneOSamu5.TabIndex = 14;
             AcioneOSamu5.UseVisualStyleBackColor = true;
+            AcioneOSamu5.Click += AcioneOSamu5_Click;
             // 
             // voltar5
             // 
@@ -156,6 +161,7 @@
             voltar5.Size = new Size(75, 59);
             voltar5.TabIndex = 15;
             voltar5.UseVisualStyleBackColor = false;
+            voltar5.Click += voltar5_Click;
             // 
             // voltar55
             // 
@@ -167,6 +173,7 @@
             voltar55.Size = new Size(266, 70);
             voltar55.TabIndex = 16;
             voltar55.UseVisualStyleBackColor = true;
+            voltar55.Click += voltar55_Click;
             // 
             // Form16
             // 

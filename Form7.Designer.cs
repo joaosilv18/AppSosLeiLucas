@@ -71,11 +71,12 @@
             button1voltarRcp1.BackgroundImage = (Image)resources.GetObject("button1voltarRcp1.BackgroundImage");
             button1voltarRcp1.FlatStyle = FlatStyle.Flat;
             button1voltarRcp1.Image = (Image)resources.GetObject("button1voltarRcp1.Image");
-            button1voltarRcp1.Location = new Point(584, 924);
+            button1voltarRcp1.Location = new Point(585, 924);
             button1voltarRcp1.Name = "button1voltarRcp1";
             button1voltarRcp1.Size = new Size(272, 76);
             button1voltarRcp1.TabIndex = 3;
             button1voltarRcp1.UseVisualStyleBackColor = true;
+            button1voltarRcp1.Click += button1voltarRcp1_Click;
             // 
             // buttonRCP1proximo
             // 
@@ -85,7 +86,7 @@
             buttonRCP1proximo.FlatStyle = FlatStyle.Flat;
             buttonRCP1proximo.ForeColor = Color.Black;
             buttonRCP1proximo.Image = (Image)resources.GetObject("buttonRCP1proximo.Image");
-            buttonRCP1proximo.Location = new Point(1479, 931);
+            buttonRCP1proximo.Location = new Point(1478, 930);
             buttonRCP1proximo.Name = "buttonRCP1proximo";
             buttonRCP1proximo.Size = new Size(272, 76);
             buttonRCP1proximo.TabIndex = 4;
@@ -96,11 +97,12 @@
             // 
             buttonVoltarProtocoloRcp.BackgroundImage = (Image)resources.GetObject("buttonVoltarProtocoloRcp.BackgroundImage");
             buttonVoltarProtocoloRcp.FlatStyle = FlatStyle.Flat;
-            buttonVoltarProtocoloRcp.Location = new Point(21, 10);
+            buttonVoltarProtocoloRcp.Location = new Point(40, 27);
             buttonVoltarProtocoloRcp.Name = "buttonVoltarProtocoloRcp";
             buttonVoltarProtocoloRcp.Size = new Size(66, 58);
             buttonVoltarProtocoloRcp.TabIndex = 5;
             buttonVoltarProtocoloRcp.UseVisualStyleBackColor = true;
+            buttonVoltarProtocoloRcp.Click += buttonVoltarProtocoloRcp_Click;
             // 
             // buttonVerificacaoRcp
             // 
@@ -112,6 +114,7 @@
             buttonVerificacaoRcp.Size = new Size(376, 65);
             buttonVerificacaoRcp.TabIndex = 6;
             buttonVerificacaoRcp.UseVisualStyleBackColor = true;
+            buttonVerificacaoRcp.Click += buttonVerificacaoRcp_Click;
             // 
             // buttonSoliciteAjudaRcp
             // 
@@ -122,6 +125,7 @@
             buttonSoliciteAjudaRcp.Size = new Size(376, 71);
             buttonSoliciteAjudaRcp.TabIndex = 7;
             buttonSoliciteAjudaRcp.UseVisualStyleBackColor = true;
+            buttonSoliciteAjudaRcp.Click += buttonSoliciteAjudaRcp_Click;
             // 
             // buttonMonitoreVitiRcp
             // 
@@ -133,6 +137,7 @@
             buttonMonitoreVitiRcp.Size = new Size(376, 65);
             buttonMonitoreVitiRcp.TabIndex = 8;
             buttonMonitoreVitiRcp.UseVisualStyleBackColor = true;
+            buttonMonitoreVitiRcp.Click += buttonMonitoreVitiRcp_Click;
             // 
             // buttonAcioneSamuRcp
             // 
@@ -144,6 +149,7 @@
             buttonAcioneSamuRcp.Size = new Size(376, 65);
             buttonAcioneSamuRcp.TabIndex = 9;
             buttonAcioneSamuRcp.UseVisualStyleBackColor = true;
+            buttonAcioneSamuRcp.Click += buttonAcioneSamuRcp_Click;
             // 
             // buttoninicieRcp_Rcp
             // 

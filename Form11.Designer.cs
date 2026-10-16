@@ -1,6 +1,6 @@
 ﻿namespace ProjetoLeiLucasTelas
 {
-    partial class Rcp_Passo5
+    partial class FormRcp5
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Rcp_Passo5));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormRcp5));
             Footer5Rcp = new PictureBox();
             SiderBox5 = new PictureBox();
             Header5Rcp = new PictureBox();
@@ -39,17 +39,19 @@
             buttonMonitoreViti5Rcp = new Button();
             buttonAcioneSamu5Rcp = new Button();
             buttoPasso5voltarTela4Rcp = new Button();
+            pictureBoxRcp5 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)Footer5Rcp).BeginInit();
             ((System.ComponentModel.ISupportInitialize)SiderBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)Header5Rcp).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxRcp5).BeginInit();
             SuspendLayout();
             // 
             // Footer5Rcp
             // 
             Footer5Rcp.BackgroundImage = (Image)resources.GetObject("Footer5Rcp.BackgroundImage");
-            Footer5Rcp.Location = new Point(1, 490);
+            Footer5Rcp.Location = new Point(415, 839);
             Footer5Rcp.Name = "Footer5Rcp";
-            Footer5Rcp.Size = new Size(799, 50);
+            Footer5Rcp.Size = new Size(1497, 200);
             Footer5Rcp.TabIndex = 0;
             Footer5Rcp.TabStop = false;
             // 
@@ -58,7 +60,7 @@
             SiderBox5.BackgroundImage = (Image)resources.GetObject("SiderBox5.BackgroundImage");
             SiderBox5.Location = new Point(1, 76);
             SiderBox5.Name = "SiderBox5";
-            SiderBox5.Size = new Size(149, 413);
+            SiderBox5.Size = new Size(414, 963);
             SiderBox5.TabIndex = 1;
             SiderBox5.TabStop = false;
             // 
@@ -67,7 +69,7 @@
             Header5Rcp.BackgroundImage = (Image)resources.GetObject("Header5Rcp.BackgroundImage");
             Header5Rcp.Location = new Point(1, 1);
             Header5Rcp.Name = "Header5Rcp";
-            Header5Rcp.Size = new Size(799, 78);
+            Header5Rcp.Size = new Size(1920, 118);
             Header5Rcp.TabIndex = 2;
             Header5Rcp.TabStop = false;
             // 
@@ -75,73 +77,96 @@
             // 
             buttonVoltarTelaPara4Rcp.BackgroundImage = (Image)resources.GetObject("buttonVoltarTelaPara4Rcp.BackgroundImage");
             buttonVoltarTelaPara4Rcp.FlatStyle = FlatStyle.Flat;
-            buttonVoltarTelaPara4Rcp.Location = new Point(30, 12);
+            buttonVoltarTelaPara4Rcp.Location = new Point(65, 31);
             buttonVoltarTelaPara4Rcp.Name = "buttonVoltarTelaPara4Rcp";
             buttonVoltarTelaPara4Rcp.Size = new Size(66, 58);
             buttonVoltarTelaPara4Rcp.TabIndex = 21;
             buttonVoltarTelaPara4Rcp.UseVisualStyleBackColor = true;
+            buttonVoltarTelaPara4Rcp.Click += buttonVoltarTelaPara4Rcp_Click;
             // 
             // buttonVerificacao5Rcp
             // 
             buttonVerificacao5Rcp.BackgroundImage = (Image)resources.GetObject("buttonVerificacao5Rcp.BackgroundImage");
             buttonVerificacao5Rcp.FlatStyle = FlatStyle.Flat;
-            buttonVerificacao5Rcp.Location = new Point(1, 99);
+            buttonVerificacao5Rcp.Image = (Image)resources.GetObject("buttonVerificacao5Rcp.Image");
+            buttonVerificacao5Rcp.Location = new Point(30, 148);
             buttonVerificacao5Rcp.Name = "buttonVerificacao5Rcp";
-            buttonVerificacao5Rcp.Size = new Size(382, 65);
+            buttonVerificacao5Rcp.Size = new Size(370, 65);
             buttonVerificacao5Rcp.TabIndex = 22;
             buttonVerificacao5Rcp.UseVisualStyleBackColor = true;
+            buttonVerificacao5Rcp.Click += buttonVerificacao5Rcp_Click;
             // 
             // buttonSoliciteAjuda5Rcp
             // 
             buttonSoliciteAjuda5Rcp.BackgroundImage = (Image)resources.GetObject("buttonSoliciteAjuda5Rcp.BackgroundImage");
             buttonSoliciteAjuda5Rcp.FlatStyle = FlatStyle.Flat;
-            buttonSoliciteAjuda5Rcp.Location = new Point(1, 170);
+            buttonSoliciteAjuda5Rcp.Image = (Image)resources.GetObject("buttonSoliciteAjuda5Rcp.Image");
+            buttonSoliciteAjuda5Rcp.Location = new Point(33, 219);
             buttonSoliciteAjuda5Rcp.Name = "buttonSoliciteAjuda5Rcp";
-            buttonSoliciteAjuda5Rcp.Size = new Size(382, 65);
+            buttonSoliciteAjuda5Rcp.Size = new Size(367, 65);
             buttonSoliciteAjuda5Rcp.TabIndex = 23;
             buttonSoliciteAjuda5Rcp.UseVisualStyleBackColor = true;
+            buttonSoliciteAjuda5Rcp.Click += buttonSoliciteAjuda5Rcp_Click;
             // 
             // buttoninicie5Rcp_Rcp
             // 
             buttoninicie5Rcp_Rcp.BackgroundImage = (Image)resources.GetObject("buttoninicie5Rcp_Rcp.BackgroundImage");
             buttoninicie5Rcp_Rcp.FlatStyle = FlatStyle.Flat;
-            buttoninicie5Rcp_Rcp.Location = new Point(1, 241);
+            buttoninicie5Rcp_Rcp.Image = (Image)resources.GetObject("buttoninicie5Rcp_Rcp.Image");
+            buttoninicie5Rcp_Rcp.Location = new Point(33, 309);
             buttoninicie5Rcp_Rcp.Name = "buttoninicie5Rcp_Rcp";
-            buttoninicie5Rcp_Rcp.Size = new Size(382, 65);
+            buttoninicie5Rcp_Rcp.Size = new Size(367, 65);
             buttoninicie5Rcp_Rcp.TabIndex = 24;
             buttoninicie5Rcp_Rcp.UseVisualStyleBackColor = true;
+            buttoninicie5Rcp_Rcp.Click += buttoninicie5Rcp_Rcp_Click;
             // 
             // buttonMonitoreViti5Rcp
             // 
             buttonMonitoreViti5Rcp.BackgroundImage = (Image)resources.GetObject("buttonMonitoreViti5Rcp.BackgroundImage");
             buttonMonitoreViti5Rcp.FlatStyle = FlatStyle.Flat;
-            buttonMonitoreViti5Rcp.Location = new Point(1, 312);
+            buttonMonitoreViti5Rcp.Image = (Image)resources.GetObject("buttonMonitoreViti5Rcp.Image");
+            buttonMonitoreViti5Rcp.Location = new Point(33, 380);
             buttonMonitoreViti5Rcp.Name = "buttonMonitoreViti5Rcp";
-            buttonMonitoreViti5Rcp.Size = new Size(382, 65);
+            buttonMonitoreViti5Rcp.Size = new Size(367, 65);
             buttonMonitoreViti5Rcp.TabIndex = 25;
             buttonMonitoreViti5Rcp.UseVisualStyleBackColor = true;
+            buttonMonitoreViti5Rcp.Click += buttonMonitoreViti5Rcp_Click;
             // 
             // buttonAcioneSamu5Rcp
             // 
             buttonAcioneSamu5Rcp.BackgroundImage = (Image)resources.GetObject("buttonAcioneSamu5Rcp.BackgroundImage");
             buttonAcioneSamu5Rcp.FlatStyle = FlatStyle.Flat;
-            buttonAcioneSamu5Rcp.Location = new Point(1, 383);
+            buttonAcioneSamu5Rcp.Image = (Image)resources.GetObject("buttonAcioneSamu5Rcp.Image");
+            buttonAcioneSamu5Rcp.Location = new Point(30, 470);
             buttonAcioneSamu5Rcp.Name = "buttonAcioneSamu5Rcp";
-            buttonAcioneSamu5Rcp.Size = new Size(382, 65);
+            buttonAcioneSamu5Rcp.Size = new Size(370, 65);
             buttonAcioneSamu5Rcp.TabIndex = 26;
             buttonAcioneSamu5Rcp.UseVisualStyleBackColor = true;
+            buttonAcioneSamu5Rcp.Click += buttonAcioneSamu5Rcp_Click;
             // 
             // buttoPasso5voltarTela4Rcp
             // 
             buttoPasso5voltarTela4Rcp.BackgroundImage = (Image)resources.GetObject("buttoPasso5voltarTela4Rcp.BackgroundImage");
             buttoPasso5voltarTela4Rcp.FlatStyle = FlatStyle.Flat;
-            buttoPasso5voltarTela4Rcp.Location = new Point(178, 458);
+            buttoPasso5voltarTela4Rcp.Image = (Image)resources.GetObject("buttoPasso5voltarTela4Rcp.Image");
+            buttoPasso5voltarTela4Rcp.Location = new Point(586, 895);
             buttoPasso5voltarTela4Rcp.Name = "buttoPasso5voltarTela4Rcp";
-            buttoPasso5voltarTela4Rcp.Size = new Size(273, 69);
+            buttoPasso5voltarTela4Rcp.Size = new Size(272, 76);
             buttoPasso5voltarTela4Rcp.TabIndex = 27;
             buttoPasso5voltarTela4Rcp.UseVisualStyleBackColor = true;
+            buttoPasso5voltarTela4Rcp.Click += buttoPasso5voltarTela4Rcp_Click;
             // 
-            // Rcp_Passo5
+            // pictureBoxRcp5
+            // 
+            pictureBoxRcp5.BackgroundImage = (Image)resources.GetObject("pictureBoxRcp5.BackgroundImage");
+            pictureBoxRcp5.Location = new Point(415, 32);
+            pictureBoxRcp5.Name = "pictureBoxRcp5";
+            pictureBoxRcp5.Size = new Size(1485, 827);
+            pictureBoxRcp5.TabIndex = 28;
+            pictureBoxRcp5.TabStop = false;
+            pictureBoxRcp5.Click += pictureBox1_Click;
+            // 
+            // FormRcp5
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -157,11 +182,13 @@
             Controls.Add(Header5Rcp);
             Controls.Add(SiderBox5);
             Controls.Add(Footer5Rcp);
-            Name = "Rcp_Passo5";
+            Controls.Add(pictureBoxRcp5);
+            Name = "FormRcp5";
             Text = "Rcp Passo 5";
             ((System.ComponentModel.ISupportInitialize)Footer5Rcp).EndInit();
             ((System.ComponentModel.ISupportInitialize)SiderBox5).EndInit();
             ((System.ComponentModel.ISupportInitialize)Header5Rcp).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxRcp5).EndInit();
             ResumeLayout(false);
         }
 
@@ -177,5 +204,6 @@
         private Button buttonMonitoreViti5Rcp;
         private Button buttonAcioneSamu5Rcp;
         private Button buttoPasso5voltarTela4Rcp;
+        private PictureBox pictureBoxRcp5;
     }
 }

@@ -17,7 +17,9 @@ namespace ProjetoLeiLucasTelas
 
         private void button4_Click(object sender, EventArgs e)
         {
-
+            Form_RCP1 telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
         }
 
         private void BtnVoltarInicio_Click(object sender, EventArgs e)

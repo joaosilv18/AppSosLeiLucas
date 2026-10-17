@@ -1,0 +1,10 @@
+LEI LUCAS - Sistema de primeiros socorros
+Estrutura de telas baseada no fluxograma.
+
+Cada arquivo .png.txt é um marcador de posição.
+Substitua pelo export real da tela (mesmo nome, extensão .png).
+
+00-geral ............ Home, Ajuda, Modo Emergência, texto da Lei
+01-engasgo .......... Seleção + fluxos Crianças e Bebês
+02 a 06 ............. RCP, Hemorragia, Queimaduras, Quedas, Convulsão
+Etapas: 01 Verifique | 02 Solicite ajuda | 03 Inicie manobras | 04 Monitore | 05 Acione o SAMU

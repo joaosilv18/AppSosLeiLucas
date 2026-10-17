@@ -134,11 +134,12 @@
             buttonQuedaFraVol_Tela1.BackgroundImage = (Image)resources.GetObject("buttonQuedaFraVol_Tela1.BackgroundImage");
             buttonQuedaFraVol_Tela1.FlatStyle = FlatStyle.Flat;
             buttonQuedaFraVol_Tela1.Image = (Image)resources.GetObject("buttonQuedaFraVol_Tela1.Image");
-            buttonQuedaFraVol_Tela1.Location = new Point(87, 32);
+            buttonQuedaFraVol_Tela1.Location = new Point(435, 99);
             buttonQuedaFraVol_Tela1.Name = "buttonQuedaFraVol_Tela1";
-            buttonQuedaFraVol_Tela1.Size = new Size(75, 34);
+            buttonQuedaFraVol_Tela1.Size = new Size(63, 54);
             buttonQuedaFraVol_Tela1.TabIndex = 9;
             buttonQuedaFraVol_Tela1.UseVisualStyleBackColor = true;
+            buttonQuedaFraVol_Tela1.Click += buttonQuedaFraVol_Tela1_Click;
             // 
             // buttonVoltarQuedatela1
             // 
@@ -165,7 +166,7 @@
             // pictureBoxQuedaFra2
             // 
             pictureBoxQuedaFra2.BackgroundImage = (Image)resources.GetObject("pictureBoxQuedaFra2.BackgroundImage");
-            pictureBoxQuedaFra2.Location = new Point(400, 101);
+            pictureBoxQuedaFra2.Location = new Point(400, 179);
             pictureBoxQuedaFra2.Name = "pictureBoxQuedaFra2";
             pictureBoxQuedaFra2.Size = new Size(315, 221);
             pictureBoxQuedaFra2.TabIndex = 13;

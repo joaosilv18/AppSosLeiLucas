@@ -14,5 +14,10 @@ namespace ProjetoLeiLucasTelas
         {
             InitializeComponent();
         }
+
+        private void buttonQuedaFraVol_Tela1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

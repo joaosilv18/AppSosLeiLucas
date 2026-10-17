@@ -68,5 +68,12 @@ namespace ProjetoLeiLucasTelas
         {
 
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            FormConvulcoes1 pictureBoxinformacoesConvulcoes1 = new FormConvulcoes1();
+            pictureBoxinformacoesConvulcoes1.Show();
+            this.Hide();
+        }
     }
 }

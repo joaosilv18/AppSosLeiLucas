@@ -77,7 +77,6 @@
             buttonQuedas4_1.Size = new Size(139, 23);
             buttonQuedas4_1.TabIndex = 2;
             buttonQuedas4_1.UseVisualStyleBackColor = true;
-            buttonQuedas4_1.Click += this.buttonQuedas4_1_Click;
             // 
             // buttonQuedas4_2
             // 

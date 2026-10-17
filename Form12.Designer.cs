@@ -178,6 +178,7 @@
             // 
             // Proximo1
             // 
+            Proximo1.BackColor = Color.Transparent;
             Proximo1.BackgroundImage = (Image)resources.GetObject("Proximo1.BackgroundImage");
             Proximo1.BackgroundImageLayout = ImageLayout.Center;
             Proximo1.FlatAppearance.BorderSize = 0;
@@ -187,13 +188,14 @@
             Proximo1.Name = "Proximo1";
             Proximo1.Size = new Size(272, 76);
             Proximo1.TabIndex = 11;
-            Proximo1.UseVisualStyleBackColor = true;
+            Proximo1.UseVisualStyleBackColor = false;
             Proximo1.Click += Proximo1_Click;
             // 
             // Form12
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1904, 1041);
             Controls.Add(Proximo1);
             Controls.Add(voltar11);

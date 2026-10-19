@@ -88,6 +88,7 @@
             button1.Size = new Size(76, 62);
             button1.TabIndex = 13;
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // VoltarAoInicio
             // 

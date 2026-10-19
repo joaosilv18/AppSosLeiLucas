@@ -50,27 +50,27 @@
             // pictureBoxFraCoheader1
             // 
             pictureBoxFraCoheader1.BackgroundImage = (Image)resources.GetObject("pictureBoxFraCoheader1.BackgroundImage");
-            pictureBoxFraCoheader1.Location = new Point(13, 5);
+            pictureBoxFraCoheader1.Location = new Point(2, -1);
             pictureBoxFraCoheader1.Name = "pictureBoxFraCoheader1";
-            pictureBoxFraCoheader1.Size = new Size(578, 50);
+            pictureBoxFraCoheader1.Size = new Size(1897, 118);
             pictureBoxFraCoheader1.TabIndex = 0;
             pictureBoxFraCoheader1.TabStop = false;
             // 
             // SideBarFraTCo1
             // 
             SideBarFraTCo1.BackgroundImage = (Image)resources.GetObject("SideBarFraTCo1.BackgroundImage");
-            SideBarFraTCo1.Location = new Point(3, 71);
+            SideBarFraTCo1.Location = new Point(3, 77);
             SideBarFraTCo1.Name = "SideBarFraTCo1";
-            SideBarFraTCo1.Size = new Size(415, 434);
+            SideBarFraTCo1.Size = new Size(414, 963);
             SideBarFraTCo1.TabIndex = 1;
             SideBarFraTCo1.TabStop = false;
             // 
             // FooterQuedaFra1
             // 
             FooterQuedaFra1.BackgroundImage = (Image)resources.GetObject("FooterQuedaFra1.BackgroundImage");
-            FooterQuedaFra1.Location = new Point(108, 616);
+            FooterQuedaFra1.Location = new Point(419, 840);
             FooterQuedaFra1.Name = "FooterQuedaFra1";
-            FooterQuedaFra1.Size = new Size(483, 100);
+            FooterQuedaFra1.Size = new Size(1485, 200);
             FooterQuedaFra1.TabIndex = 2;
             FooterQuedaFra1.TabStop = false;
             // 
@@ -82,11 +82,12 @@
             buttonSBQUedaFra1_1.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonSBQUedaFra1_1.FlatStyle = FlatStyle.Flat;
             buttonSBQUedaFra1_1.Image = (Image)resources.GetObject("buttonSBQUedaFra1_1.Image");
-            buttonSBQUedaFra1_1.Location = new Point(23, 119);
+            buttonSBQUedaFra1_1.Location = new Point(0, 141);
             buttonSBQUedaFra1_1.Name = "buttonSBQUedaFra1_1";
-            buttonSBQUedaFra1_1.Size = new Size(355, 65);
+            buttonSBQUedaFra1_1.Size = new Size(376, 60);
             buttonSBQUedaFra1_1.TabIndex = 3;
             buttonSBQUedaFra1_1.UseVisualStyleBackColor = true;
+            buttonSBQUedaFra1_1.Click += buttonSBQUedaFra1_1_Click;
             // 
             // buttonSBQUedaFra1_2
             // 
@@ -96,11 +97,12 @@
             buttonSBQUedaFra1_2.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonSBQUedaFra1_2.FlatStyle = FlatStyle.Flat;
             buttonSBQUedaFra1_2.Image = (Image)resources.GetObject("buttonSBQUedaFra1_2.Image");
-            buttonSBQUedaFra1_2.Location = new Point(23, 203);
+            buttonSBQUedaFra1_2.Location = new Point(1, 203);
             buttonSBQUedaFra1_2.Name = "buttonSBQUedaFra1_2";
-            buttonSBQUedaFra1_2.Size = new Size(355, 65);
+            buttonSBQUedaFra1_2.Size = new Size(376, 60);
             buttonSBQUedaFra1_2.TabIndex = 4;
             buttonSBQUedaFra1_2.UseVisualStyleBackColor = true;
+            buttonSBQUedaFra1_2.Click += buttonSBQUedaFra1_2_Click;
             // 
             // buttonSBQUedaFra1_3
             // 
@@ -110,11 +112,12 @@
             buttonSBQUedaFra1_3.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonSBQUedaFra1_3.FlatStyle = FlatStyle.Flat;
             buttonSBQUedaFra1_3.Image = (Image)resources.GetObject("buttonSBQUedaFra1_3.Image");
-            buttonSBQUedaFra1_3.Location = new Point(23, 274);
+            buttonSBQUedaFra1_3.Location = new Point(1, 269);
             buttonSBQUedaFra1_3.Name = "buttonSBQUedaFra1_3";
-            buttonSBQUedaFra1_3.Size = new Size(355, 65);
+            buttonSBQUedaFra1_3.Size = new Size(376, 60);
             buttonSBQUedaFra1_3.TabIndex = 5;
             buttonSBQUedaFra1_3.UseVisualStyleBackColor = true;
+            buttonSBQUedaFra1_3.Click += buttonSBQUedaFra1_3_Click;
             // 
             // buttonSBQUedaFra1_4
             // 
@@ -124,11 +127,12 @@
             buttonSBQUedaFra1_4.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonSBQUedaFra1_4.FlatStyle = FlatStyle.Flat;
             buttonSBQUedaFra1_4.Image = (Image)resources.GetObject("buttonSBQUedaFra1_4.Image");
-            buttonSBQUedaFra1_4.Location = new Point(23, 345);
+            buttonSBQUedaFra1_4.Location = new Point(-1, 332);
             buttonSBQUedaFra1_4.Name = "buttonSBQUedaFra1_4";
-            buttonSBQUedaFra1_4.Size = new Size(355, 65);
+            buttonSBQUedaFra1_4.Size = new Size(376, 60);
             buttonSBQUedaFra1_4.TabIndex = 6;
             buttonSBQUedaFra1_4.UseVisualStyleBackColor = true;
+            buttonSBQUedaFra1_4.Click += buttonSBQUedaFra1_4_Click;
             // 
             // buttonSBQUedaFra1_5
             // 
@@ -138,11 +142,12 @@
             buttonSBQUedaFra1_5.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonSBQUedaFra1_5.FlatStyle = FlatStyle.Flat;
             buttonSBQUedaFra1_5.Image = (Image)resources.GetObject("buttonSBQUedaFra1_5.Image");
-            buttonSBQUedaFra1_5.Location = new Point(23, 416);
+            buttonSBQUedaFra1_5.Location = new Point(1, 387);
             buttonSBQUedaFra1_5.Name = "buttonSBQUedaFra1_5";
-            buttonSBQUedaFra1_5.Size = new Size(355, 65);
+            buttonSBQUedaFra1_5.Size = new Size(376, 60);
             buttonSBQUedaFra1_5.TabIndex = 7;
             buttonSBQUedaFra1_5.UseVisualStyleBackColor = true;
+            buttonSBQUedaFra1_5.Click += buttonSBQUedaFra1_5_Click;
             // 
             // buttonQuedaFraVolProtocolo1
             // 
@@ -152,18 +157,19 @@
             buttonQuedaFraVolProtocolo1.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonQuedaFraVolProtocolo1.FlatStyle = FlatStyle.Flat;
             buttonQuedaFraVolProtocolo1.Image = (Image)resources.GetObject("buttonQuedaFraVolProtocolo1.Image");
-            buttonQuedaFraVolProtocolo1.Location = new Point(58, 21);
+            buttonQuedaFraVolProtocolo1.Location = new Point(25, 27);
             buttonQuedaFraVolProtocolo1.Name = "buttonQuedaFraVolProtocolo1";
-            buttonQuedaFraVolProtocolo1.Size = new Size(75, 34);
+            buttonQuedaFraVolProtocolo1.Size = new Size(75, 59);
             buttonQuedaFraVolProtocolo1.TabIndex = 8;
             buttonQuedaFraVolProtocolo1.UseVisualStyleBackColor = true;
+            buttonQuedaFraVolProtocolo1.Click += buttonQuedaFraVolProtocolo1_Click;
             // 
             // picturQuedaFra1
             // 
             picturQuedaFra1.BackgroundImage = (Image)resources.GetObject("picturQuedaFra1.BackgroundImage");
-            picturQuedaFra1.Location = new Point(482, 135);
+            picturQuedaFra1.Location = new Point(381, -31);
             picturQuedaFra1.Name = "picturQuedaFra1";
-            picturQuedaFra1.Size = new Size(341, 204);
+            picturQuedaFra1.Size = new Size(1503, 1080);
             picturQuedaFra1.TabIndex = 9;
             picturQuedaFra1.TabStop = false;
             // 
@@ -175,11 +181,12 @@
             buttonVoltarProtocoloQuedaFra1.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonVoltarProtocoloQuedaFra1.FlatStyle = FlatStyle.Flat;
             buttonVoltarProtocoloQuedaFra1.Image = (Image)resources.GetObject("buttonVoltarProtocoloQuedaFra1.Image");
-            buttonVoltarProtocoloQuedaFra1.Location = new Point(148, 630);
+            buttonVoltarProtocoloQuedaFra1.Location = new Point(593, 898);
             buttonVoltarProtocoloQuedaFra1.Name = "buttonVoltarProtocoloQuedaFra1";
-            buttonVoltarProtocoloQuedaFra1.Size = new Size(128, 54);
+            buttonVoltarProtocoloQuedaFra1.Size = new Size(266, 70);
             buttonVoltarProtocoloQuedaFra1.TabIndex = 10;
             buttonVoltarProtocoloQuedaFra1.UseVisualStyleBackColor = true;
+            buttonVoltarProtocoloQuedaFra1.Click += buttonVoltarProtocoloQuedaFra1_Click;
             // 
             // buttonQuedaProTela2
             // 
@@ -189,21 +196,21 @@
             buttonQuedaProTela2.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonQuedaProTela2.FlatStyle = FlatStyle.Flat;
             buttonQuedaProTela2.Image = (Image)resources.GetObject("buttonQuedaProTela2.Image");
-            buttonQuedaProTela2.Location = new Point(452, 616);
+            buttonQuedaProTela2.Location = new Point(1486, 905);
             buttonQuedaProTela2.Name = "buttonQuedaProTela2";
-            buttonQuedaProTela2.Size = new Size(128, 54);
+            buttonQuedaProTela2.Size = new Size(266, 70);
             buttonQuedaProTela2.TabIndex = 11;
             buttonQuedaProTela2.UseVisualStyleBackColor = true;
+            buttonQuedaProTela2.Click += buttonQuedaProTela2_Click;
             // 
             // FormQuedafra1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(1159, 740);
+            ClientSize = new Size(1904, 1041);
             Controls.Add(buttonQuedaProTela2);
             Controls.Add(buttonVoltarProtocoloQuedaFra1);
-            Controls.Add(picturQuedaFra1);
             Controls.Add(buttonQuedaFraVolProtocolo1);
             Controls.Add(buttonSBQUedaFra1_5);
             Controls.Add(buttonSBQUedaFra1_4);
@@ -211,8 +218,9 @@
             Controls.Add(buttonSBQUedaFra1_2);
             Controls.Add(buttonSBQUedaFra1_1);
             Controls.Add(FooterQuedaFra1);
-            Controls.Add(SideBarFraTCo1);
             Controls.Add(pictureBoxFraCoheader1);
+            Controls.Add(SideBarFraTCo1);
+            Controls.Add(picturQuedaFra1);
             Name = "FormQuedafra1";
             Text = "Quedas e Fraturas";
             ((System.ComponentModel.ISupportInitialize)pictureBoxFraCoheader1).EndInit();

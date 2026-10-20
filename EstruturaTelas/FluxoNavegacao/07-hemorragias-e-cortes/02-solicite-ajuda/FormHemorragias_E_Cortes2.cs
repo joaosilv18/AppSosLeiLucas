@@ -14,5 +14,61 @@ namespace ProjetoLeiLucasTelas
         {
             InitializeComponent();
         }
+
+        private void buttonVoltarProtocoloHemorragia2_Click(object sender, EventArgs e)
+        {
+            Form2 telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
+        }
+
+        private void buttonVoltartelaHemoragia2_Click(object sender, EventArgs e)
+        {
+            FormHemorragia_E_Cortes1 telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
+        }
+
+        private void button2_1hemorragia_Click(object sender, EventArgs e)
+        {
+            FormHemorragia_E_Cortes1 telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
+        }
+
+        private void buttonProximaTelaHemorragia2_Click(object sender, EventArgs e)
+        {
+            FormHemorragias_E_Cortes3 telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
+        }
+
+        private void button2_2Hemorragia_Click(object sender, EventArgs e)
+        {
+            FormHemorragias_E_Cortes2 telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
+        }
+
+        private void button2_3Hemoragia_Click(object sender, EventArgs e)
+        {
+            FormHemorragias_E_Cortes3 telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
+        }
+
+        private void button2_4Hemorragia_Click(object sender, EventArgs e)
+        {
+            FormHemorragias_E_Cortes4 telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
+        }
+
+        private void button2_5Hemorragia_Click(object sender, EventArgs e)
+        {
+            FormHemorragias_E_Cortes5 telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
+        }
     }
 }

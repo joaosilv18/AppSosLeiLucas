@@ -26,9 +26,9 @@ namespace ProjetoLeiLucasTelas
             this.Hide();
         }
 
-        private void button13_Click(object sender, EventArgs e)
+        private void btnSair_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
 
         private void button11_Click(object sender, EventArgs e)

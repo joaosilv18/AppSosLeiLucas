@@ -49,10 +49,10 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
             pictureBox2.Location = new Point(2, -1);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(1897, 118);
+            pictureBox2.Size = new Size(1920, 118);
             pictureBox2.TabIndex = 2;
             pictureBox2.TabStop = false;
             // 
@@ -79,9 +79,9 @@
             // VoltareProximo2
             // 
             VoltareProximo2.BackgroundImage = (Image)resources.GetObject("VoltareProximo2.BackgroundImage");
-            VoltareProximo2.Location = new Point(418, 865);
+            VoltareProximo2.Location = new Point(416, 865);
             VoltareProximo2.Name = "VoltareProximo2";
-            VoltareProximo2.Size = new Size(1485, 200);
+            VoltareProximo2.Size = new Size(1507, 200);
             VoltareProximo2.TabIndex = 6;
             VoltareProximo2.TabStop = false;
             // 

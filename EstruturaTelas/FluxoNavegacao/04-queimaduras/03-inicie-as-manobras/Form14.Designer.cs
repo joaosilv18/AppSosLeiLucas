@@ -49,10 +49,10 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
             pictureBox2.Location = new Point(1, -3);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(1897, 118);
+            pictureBox2.Size = new Size(1920, 118);
             pictureBox2.TabIndex = 3;
             pictureBox2.TabStop = false;
             // 
@@ -60,7 +60,7 @@
             // 
             barralateral3.BackColor = Color.Transparent;
             barralateral3.BackgroundImage = (Image)resources.GetObject("barralateral3.BackgroundImage");
-            barralateral3.Location = new Point(1, 82);
+            barralateral3.Location = new Point(1, 86);
             barralateral3.Name = "barralateral3";
             barralateral3.Size = new Size(414, 963);
             barralateral3.TabIndex = 5;
@@ -78,9 +78,9 @@
             // VoltareProximo3
             // 
             VoltareProximo3.BackgroundImage = (Image)resources.GetObject("VoltareProximo3.BackgroundImage");
-            VoltareProximo3.Location = new Point(416, 844);
+            VoltareProximo3.Location = new Point(414, 849);
             VoltareProximo3.Name = "VoltareProximo3";
-            VoltareProximo3.Size = new Size(1485, 200);
+            VoltareProximo3.Size = new Size(1507, 200);
             VoltareProximo3.TabIndex = 7;
             VoltareProximo3.TabStop = false;
             // 

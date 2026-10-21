@@ -48,10 +48,10 @@
             // 
             // pictureBox2
             // 
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
             pictureBox2.Location = new Point(3, 1);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(1897, 118);
+            pictureBox2.Size = new Size(1920, 118);
             pictureBox2.TabIndex = 5;
             pictureBox2.TabStop = false;
             // 
@@ -59,7 +59,7 @@
             // 
             barralateral5.BackColor = Color.Transparent;
             barralateral5.BackgroundImage = (Image)resources.GetObject("barralateral5.BackgroundImage");
-            barralateral5.Location = new Point(3, 119);
+            barralateral5.Location = new Point(3, 120);
             barralateral5.Name = "barralateral5";
             barralateral5.Size = new Size(414, 963);
             barralateral5.TabIndex = 7;
@@ -77,9 +77,9 @@
             // VoltareProximo5
             // 
             VoltareProximo5.BackgroundImage = (Image)resources.GetObject("VoltareProximo5.BackgroundImage");
-            VoltareProximo5.Location = new Point(416, 845);
+            VoltareProximo5.Location = new Point(414, 854);
             VoltareProximo5.Name = "VoltareProximo5";
-            VoltareProximo5.Size = new Size(1485, 200);
+            VoltareProximo5.Size = new Size(1507, 200);
             VoltareProximo5.TabIndex = 9;
             VoltareProximo5.TabStop = false;
             // 

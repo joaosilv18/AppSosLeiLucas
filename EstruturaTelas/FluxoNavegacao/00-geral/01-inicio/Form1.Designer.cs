@@ -98,6 +98,9 @@
             button2.Size = new Size(247, 229);
             button2.TabIndex = 4;
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
+            button2.MouseEnter += button2_MouseEnter;
+            button2.MouseLeave += button2_MouseLeave;
             // 
             // button3
             // 
@@ -115,6 +118,8 @@
             button3.TabIndex = 5;
             button3.UseVisualStyleBackColor = false;
             button3.Click += BtnProtocolos_Click;
+            button3.MouseEnter += BtnProtocolos_MouseEnter;
+            button3.MouseLeave += BtnProtocolos_MouseLeave;
             // 
             // button4
             // 
@@ -131,22 +136,28 @@
             button4.Size = new Size(247, 229);
             button4.TabIndex = 6;
             button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
+            button4.MouseEnter += button4_MouseEnter;
+            button4.MouseLeave += button4_MouseLeave;
             // 
             // button5
             // 
             button5.BackColor = Color.Transparent;
+            button5.BackgroundImage = (Image)resources.GetObject("button5.BackgroundImage");
             button5.FlatAppearance.BorderSize = 0;
             button5.FlatAppearance.MouseDownBackColor = Color.Transparent;
             button5.FlatAppearance.MouseOverBackColor = Color.Transparent;
             button5.FlatStyle = FlatStyle.Flat;
-            button5.Image = (Image)resources.GetObject("button5.Image");
+            button5.ForeColor = Color.Transparent;
             button5.Location = new Point(1382, 239);
             button5.Margin = new Padding(3, 2, 3, 2);
             button5.Name = "button5";
-            button5.Size = new Size(451, 301);
+            button5.Size = new Size(454, 303);
             button5.TabIndex = 7;
             button5.UseVisualStyleBackColor = false;
             button5.Click += button5_Click;
+            button5.MouseEnter += button5_MouseEnter;
+            button5.MouseLeave += button5_MouseLeave;
             // 
             // pictureBox4
             // 
@@ -173,6 +184,9 @@
             button7.Size = new Size(382, 65);
             button7.TabIndex = 10;
             button7.UseVisualStyleBackColor = false;
+            button7.Click += button7_Click;
+            button7.MouseEnter += button7_MouseEnter;
+            button7.MouseLeave += button7_MouseLeave;
             // 
             // button9
             // 
@@ -188,6 +202,9 @@
             button9.Size = new Size(382, 65);
             button9.TabIndex = 12;
             button9.UseVisualStyleBackColor = false;
+            button9.Click += button9_Click;
+            button9.MouseEnter += button9_MouseEnter;
+            button9.MouseLeave += button9_MouseLeave;
             // 
             // button10
             // 
@@ -204,6 +221,8 @@
             button10.TabIndex = 13;
             button10.UseVisualStyleBackColor = false;
             button10.Click += BtnSideBarProtocolos_Click;
+            button10.MouseEnter += BtnSideBarProtocolos_MouseEnter;
+            button10.MouseLeave += BtnSideBarProtocolos_MouseLeave;
             // 
             // BtnSideBarAjuda
             // 
@@ -222,6 +241,8 @@
             BtnSideBarAjuda.Text = " ";
             BtnSideBarAjuda.UseVisualStyleBackColor = false;
             BtnSideBarAjuda.Click += BtnSideBarAjuda_Click;
+            BtnSideBarAjuda.MouseEnter += BtnSideBarAjuda_MouseEnter;
+            BtnSideBarAjuda.MouseLeave += BtnSideBarAjuda_MouseLeave;
             // 
             // btnSair
             // 
@@ -239,6 +260,8 @@
             btnSair.TabIndex = 16;
             btnSair.UseVisualStyleBackColor = false;
             btnSair.Click += btnSair_Click;
+            btnSair.MouseEnter += btnSair_MouseEnter;
+            btnSair.MouseLeave += btnSair_MouseLeave;
             // 
             // pictureBox5
             // 
@@ -267,6 +290,8 @@
             btnIniciarEmergencia_Click.TabIndex = 18;
             btnIniciarEmergencia_Click.UseVisualStyleBackColor = false;
             btnIniciarEmergencia_Click.Click += BtnIniciarEmergencia_Click;
+            btnIniciarEmergencia_Click.MouseEnter += BtnIniciarEmergencia_MouseEnter;
+            btnIniciarEmergencia_Click.MouseLeave += BtnIniciarEmergencia_MouseLeave;
             // 
             // TelaInicio
             // 

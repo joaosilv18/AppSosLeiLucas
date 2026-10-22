@@ -52,16 +52,16 @@
             pictureBoxHeader.BackgroundImage = (Image)resources.GetObject("pictureBoxHeader.BackgroundImage");
             pictureBoxHeader.Location = new Point(1, -1);
             pictureBoxHeader.Name = "pictureBoxHeader";
-            pictureBoxHeader.Size = new Size(1899, 118);
+            pictureBoxHeader.Size = new Size(1920, 118);
             pictureBoxHeader.TabIndex = 1;
             pictureBoxHeader.TabStop = false;
             // 
             // pictureBoxFooterRcp
             // 
             pictureBoxFooterRcp.BackgroundImage = (Image)resources.GetObject("pictureBoxFooterRcp.BackgroundImage");
-            pictureBoxFooterRcp.Location = new Point(414, 868);
+            pictureBoxFooterRcp.Location = new Point(414, 866);
             pictureBoxFooterRcp.Name = "pictureBoxFooterRcp";
-            pictureBoxFooterRcp.Size = new Size(1485, 193);
+            pictureBoxFooterRcp.Size = new Size(1507, 200);
             pictureBoxFooterRcp.TabIndex = 2;
             pictureBoxFooterRcp.TabStop = false;
             pictureBoxFooterRcp.Click += pictureBoxFooterRcp_Click;
@@ -120,7 +120,6 @@
             buttonVerificacaoRcp.FlatAppearance.MouseDownBackColor = Color.Transparent;
             buttonVerificacaoRcp.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonVerificacaoRcp.FlatStyle = FlatStyle.Flat;
-            buttonVerificacaoRcp.Image = (Image)resources.GetObject("buttonVerificacaoRcp.Image");
             buttonVerificacaoRcp.Location = new Point(1, 123);
             buttonVerificacaoRcp.Name = "buttonVerificacaoRcp";
             buttonVerificacaoRcp.Size = new Size(376, 65);
@@ -149,7 +148,6 @@
             buttonMonitoreVitiRcp.FlatAppearance.MouseDownBackColor = Color.Transparent;
             buttonMonitoreVitiRcp.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonMonitoreVitiRcp.FlatStyle = FlatStyle.Flat;
-            buttonMonitoreVitiRcp.Image = (Image)resources.GetObject("buttonMonitoreVitiRcp.Image");
             buttonMonitoreVitiRcp.Location = new Point(1, 342);
             buttonMonitoreVitiRcp.Name = "buttonMonitoreVitiRcp";
             buttonMonitoreVitiRcp.Size = new Size(376, 65);
@@ -164,7 +162,6 @@
             buttonAcioneSamuRcp.FlatAppearance.MouseDownBackColor = Color.Transparent;
             buttonAcioneSamuRcp.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttonAcioneSamuRcp.FlatStyle = FlatStyle.Flat;
-            buttonAcioneSamuRcp.Image = (Image)resources.GetObject("buttonAcioneSamuRcp.Image");
             buttonAcioneSamuRcp.Location = new Point(1, 413);
             buttonAcioneSamuRcp.Name = "buttonAcioneSamuRcp";
             buttonAcioneSamuRcp.Size = new Size(376, 65);
@@ -179,7 +176,6 @@
             buttoninicieRcp_Rcp.FlatAppearance.MouseDownBackColor = Color.Transparent;
             buttoninicieRcp_Rcp.FlatAppearance.MouseOverBackColor = Color.Transparent;
             buttoninicieRcp_Rcp.FlatStyle = FlatStyle.Flat;
-            buttoninicieRcp_Rcp.Image = (Image)resources.GetObject("buttoninicieRcp_Rcp.Image");
             buttoninicieRcp_Rcp.Location = new Point(1, 271);
             buttoninicieRcp_Rcp.Name = "buttoninicieRcp_Rcp";
             buttoninicieRcp_Rcp.Size = new Size(376, 65);

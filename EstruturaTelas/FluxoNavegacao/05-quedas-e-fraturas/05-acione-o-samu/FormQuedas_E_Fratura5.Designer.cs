@@ -51,7 +51,7 @@
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.Location = new Point(2, -1);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(1897, 118);
+            pictureBox1.Size = new Size(1920, 118);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
@@ -157,9 +157,9 @@
             // FooterQueda5
             // 
             FooterQueda5.BackgroundImage = (Image)resources.GetObject("FooterQueda5.BackgroundImage");
-            FooterQueda5.Location = new Point(419, 840);
+            FooterQueda5.Location = new Point(417, 840);
             FooterQueda5.Name = "FooterQueda5";
-            FooterQueda5.Size = new Size(1485, 200);
+            FooterQueda5.Size = new Size(1507, 200);
             FooterQueda5.TabIndex = 8;
             FooterQueda5.TabStop = false;
             // 

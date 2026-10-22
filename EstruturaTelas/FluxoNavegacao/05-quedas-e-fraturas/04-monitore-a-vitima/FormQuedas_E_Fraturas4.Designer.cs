@@ -67,7 +67,7 @@
             pictureBoxHeaderQueda4.BackgroundImage = (Image)resources.GetObject("pictureBoxHeaderQueda4.BackgroundImage");
             pictureBoxHeaderQueda4.Location = new Point(2, -1);
             pictureBoxHeaderQueda4.Name = "pictureBoxHeaderQueda4";
-            pictureBoxHeaderQueda4.Size = new Size(1897, 118);
+            pictureBoxHeaderQueda4.Size = new Size(1920, 118);
             pictureBoxHeaderQueda4.TabIndex = 1;
             pictureBoxHeaderQueda4.TabStop = false;
             // 
@@ -188,9 +188,9 @@
             // FooterQueda4
             // 
             FooterQueda4.BackgroundImage = (Image)resources.GetObject("FooterQueda4.BackgroundImage");
-            FooterQueda4.Location = new Point(419, 840);
+            FooterQueda4.Location = new Point(416, 840);
             FooterQueda4.Name = "FooterQueda4";
-            FooterQueda4.Size = new Size(1485, 200);
+            FooterQueda4.Size = new Size(1507, 200);
             FooterQueda4.TabIndex = 15;
             FooterQueda4.TabStop = false;
             // 

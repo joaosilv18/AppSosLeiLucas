@@ -49,17 +49,17 @@
             // 
             // picturboxConvulcoes4
             // 
-            picturboxConvulcoes4.Image = (Image)resources.GetObject("picturboxConvulcoes4.Image");
+            picturboxConvulcoes4.BackgroundImage = (Image)resources.GetObject("picturboxConvulcoes4.BackgroundImage");
             picturboxConvulcoes4.Location = new Point(1, 1);
             picturboxConvulcoes4.Name = "picturboxConvulcoes4";
-            picturboxConvulcoes4.Size = new Size(1897, 118);
+            picturboxConvulcoes4.Size = new Size(1920, 118);
             picturboxConvulcoes4.TabIndex = 3;
             picturboxConvulcoes4.TabStop = false;
             // 
             // pictureBoxlateralesquerdoConvulcoes4
             // 
             pictureBoxlateralesquerdoConvulcoes4.Image = (Image)resources.GetObject("pictureBoxlateralesquerdoConvulcoes4.Image");
-            pictureBoxlateralesquerdoConvulcoes4.Location = new Point(1, 76);
+            pictureBoxlateralesquerdoConvulcoes4.Location = new Point(1, 77);
             pictureBoxlateralesquerdoConvulcoes4.Name = "pictureBoxlateralesquerdoConvulcoes4";
             pictureBoxlateralesquerdoConvulcoes4.Size = new Size(414, 963);
             pictureBoxlateralesquerdoConvulcoes4.TabIndex = 4;
@@ -67,10 +67,10 @@
             // 
             // pictureBoxConvulcoesBarraInferior4
             // 
-            pictureBoxConvulcoesBarraInferior4.Image = (Image)resources.GetObject("pictureBoxConvulcoesBarraInferior4.Image");
-            pictureBoxConvulcoesBarraInferior4.Location = new Point(416, 840);
+            pictureBoxConvulcoesBarraInferior4.BackgroundImage = (Image)resources.GetObject("pictureBoxConvulcoesBarraInferior4.BackgroundImage");
+            pictureBoxConvulcoesBarraInferior4.Location = new Point(414, 841);
             pictureBoxConvulcoesBarraInferior4.Name = "pictureBoxConvulcoesBarraInferior4";
-            pictureBoxConvulcoesBarraInferior4.Size = new Size(1485, 200);
+            pictureBoxConvulcoesBarraInferior4.Size = new Size(1507, 200);
             pictureBoxConvulcoesBarraInferior4.TabIndex = 5;
             pictureBoxConvulcoesBarraInferior4.TabStop = false;
             // 

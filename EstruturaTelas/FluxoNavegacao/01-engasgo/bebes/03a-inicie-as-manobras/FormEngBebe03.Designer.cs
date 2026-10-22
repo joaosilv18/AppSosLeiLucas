@@ -33,7 +33,6 @@
             pictureBox2 = new PictureBox();
             btnVoltarTelaProtBebe03 = new Button();
             SiderBar1Rcp = new PictureBox();
-            pictureBox3 = new PictureBox();
             pictureBox4 = new PictureBox();
             btnVerificacaoBebe03 = new Button();
             btnSoliciteAjudaBebe03 = new Button();
@@ -47,7 +46,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)SiderBar1Rcp).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             SuspendLayout();
@@ -57,7 +55,7 @@
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.Location = new Point(0, 0);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(1899, 118);
+            pictureBox1.Size = new Size(1920, 118);
             pictureBox1.TabIndex = 2;
             pictureBox1.TabStop = false;
             // 
@@ -93,21 +91,12 @@
             SiderBar1Rcp.TabIndex = 14;
             SiderBar1Rcp.TabStop = false;
             // 
-            // pictureBox3
-            // 
-            pictureBox3.BackgroundImage = (Image)resources.GetObject("pictureBox3.BackgroundImage");
-            pictureBox3.Location = new Point(394, 868);
-            pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(51, 200);
-            pictureBox3.TabIndex = 21;
-            pictureBox3.TabStop = false;
-            // 
             // pictureBox4
             // 
             pictureBox4.BackgroundImage = (Image)resources.GetObject("pictureBox4.BackgroundImage");
-            pictureBox4.Location = new Point(434, 868);
+            pictureBox4.Location = new Point(415, 868);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(1485, 200);
+            pictureBox4.Size = new Size(1507, 200);
             pictureBox4.TabIndex = 22;
             pictureBox4.TabStop = false;
             // 
@@ -118,7 +107,6 @@
             btnVerificacaoBebe03.FlatAppearance.MouseDownBackColor = Color.Transparent;
             btnVerificacaoBebe03.FlatAppearance.MouseOverBackColor = Color.Transparent;
             btnVerificacaoBebe03.FlatStyle = FlatStyle.Flat;
-            btnVerificacaoBebe03.Image = (Image)resources.GetObject("btnVerificacaoBebe03.Image");
             btnVerificacaoBebe03.Location = new Point(21, 151);
             btnVerificacaoBebe03.Name = "btnVerificacaoBebe03";
             btnVerificacaoBebe03.Size = new Size(376, 65);
@@ -147,7 +135,6 @@
             btnManobrasBebe03.FlatAppearance.MouseDownBackColor = Color.Transparent;
             btnManobrasBebe03.FlatAppearance.MouseOverBackColor = Color.Transparent;
             btnManobrasBebe03.FlatStyle = FlatStyle.Flat;
-            btnManobrasBebe03.Image = (Image)resources.GetObject("btnManobrasBebe03.Image");
             btnManobrasBebe03.Location = new Point(21, 322);
             btnManobrasBebe03.Name = "btnManobrasBebe03";
             btnManobrasBebe03.Size = new Size(376, 65);
@@ -162,7 +149,6 @@
             btnMonitoreVitBebe03.FlatAppearance.MouseDownBackColor = Color.Transparent;
             btnMonitoreVitBebe03.FlatAppearance.MouseOverBackColor = Color.Transparent;
             btnMonitoreVitBebe03.FlatStyle = FlatStyle.Flat;
-            btnMonitoreVitBebe03.Image = (Image)resources.GetObject("btnMonitoreVitBebe03.Image");
             btnMonitoreVitBebe03.Location = new Point(21, 404);
             btnMonitoreVitBebe03.Name = "btnMonitoreVitBebe03";
             btnMonitoreVitBebe03.Size = new Size(376, 65);
@@ -177,7 +163,6 @@
             btnAcioneSamuBebe03.FlatAppearance.MouseDownBackColor = Color.Transparent;
             btnAcioneSamuBebe03.FlatAppearance.MouseOverBackColor = Color.Transparent;
             btnAcioneSamuBebe03.FlatStyle = FlatStyle.Flat;
-            btnAcioneSamuBebe03.Image = (Image)resources.GetObject("btnAcioneSamuBebe03.Image");
             btnAcioneSamuBebe03.Location = new Point(21, 485);
             btnAcioneSamuBebe03.Name = "btnAcioneSamuBebe03";
             btnAcioneSamuBebe03.Size = new Size(376, 65);
@@ -259,14 +244,12 @@
             Controls.Add(pictureBox1);
             Controls.Add(pictureBox2);
             Controls.Add(SiderBar1Rcp);
-            Controls.Add(pictureBox3);
             Controls.Add(pictureBox5);
             Name = "FormEngBebe03";
             Text = "FormEngBebe03";
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)SiderBar1Rcp).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ResumeLayout(false);
@@ -278,7 +261,6 @@
         private PictureBox pictureBox2;
         private Button btnVoltarTelaProtBebe03;
         private PictureBox SiderBar1Rcp;
-        private PictureBox pictureBox3;
         private PictureBox pictureBox4;
         private Button btnVerificacaoBebe03;
         private Button btnSoliciteAjudaBebe03;

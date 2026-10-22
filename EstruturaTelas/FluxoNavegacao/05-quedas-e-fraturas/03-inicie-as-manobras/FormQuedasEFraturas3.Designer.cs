@@ -52,7 +52,7 @@
             HeaderQuedas3.BackgroundImage = (Image)resources.GetObject("HeaderQuedas3.BackgroundImage");
             HeaderQuedas3.Location = new Point(2, -1);
             HeaderQuedas3.Name = "HeaderQuedas3";
-            HeaderQuedas3.Size = new Size(1897, 118);
+            HeaderQuedas3.Size = new Size(1920, 118);
             HeaderQuedas3.TabIndex = 0;
             HeaderQuedas3.TabStop = false;
             // 
@@ -158,9 +158,9 @@
             // FooterQueda3
             // 
             FooterQueda3.BackgroundImage = (Image)resources.GetObject("FooterQueda3.BackgroundImage");
-            FooterQueda3.Location = new Point(419, 840);
+            FooterQueda3.Location = new Point(417, 840);
             FooterQueda3.Name = "FooterQueda3";
-            FooterQueda3.Size = new Size(1485, 200);
+            FooterQueda3.Size = new Size(1507, 200);
             FooterQueda3.TabIndex = 8;
             FooterQueda3.TabStop = false;
             // 

@@ -52,7 +52,7 @@
             pictureBoxFraCoheader1.BackgroundImage = (Image)resources.GetObject("pictureBoxFraCoheader1.BackgroundImage");
             pictureBoxFraCoheader1.Location = new Point(2, -1);
             pictureBoxFraCoheader1.Name = "pictureBoxFraCoheader1";
-            pictureBoxFraCoheader1.Size = new Size(1897, 118);
+            pictureBoxFraCoheader1.Size = new Size(1920, 118);
             pictureBoxFraCoheader1.TabIndex = 0;
             pictureBoxFraCoheader1.TabStop = false;
             // 
@@ -68,9 +68,9 @@
             // FooterQuedaFra1
             // 
             FooterQuedaFra1.BackgroundImage = (Image)resources.GetObject("FooterQuedaFra1.BackgroundImage");
-            FooterQuedaFra1.Location = new Point(419, 840);
+            FooterQuedaFra1.Location = new Point(417, 840);
             FooterQuedaFra1.Name = "FooterQuedaFra1";
-            FooterQuedaFra1.Size = new Size(1485, 200);
+            FooterQuedaFra1.Size = new Size(1507, 200);
             FooterQuedaFra1.TabIndex = 2;
             FooterQuedaFra1.TabStop = false;
             // 

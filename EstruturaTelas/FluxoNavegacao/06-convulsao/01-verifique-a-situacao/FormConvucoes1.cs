@@ -70,5 +70,10 @@ namespace ProjetoLeiLucasTelas
             telaEmergencia.Show();
             this.Hide();
         }
+
+        private void picturboxConvulcoes1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

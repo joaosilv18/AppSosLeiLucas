@@ -52,7 +52,7 @@
             headerQuedaFra2.BackgroundImage = (Image)resources.GetObject("headerQuedaFra2.BackgroundImage");
             headerQuedaFra2.Location = new Point(2, -1);
             headerQuedaFra2.Name = "headerQuedaFra2";
-            headerQuedaFra2.Size = new Size(1897, 118);
+            headerQuedaFra2.Size = new Size(1920, 118);
             headerQuedaFra2.TabIndex = 0;
             headerQuedaFra2.TabStop = false;
             // 
@@ -68,9 +68,9 @@
             // FooterQuedaFra2
             // 
             FooterQuedaFra2.BackgroundImage = (Image)resources.GetObject("FooterQuedaFra2.BackgroundImage");
-            FooterQuedaFra2.Location = new Point(419, 840);
+            FooterQuedaFra2.Location = new Point(417, 840);
             FooterQuedaFra2.Name = "FooterQuedaFra2";
-            FooterQuedaFra2.Size = new Size(1485, 200);
+            FooterQuedaFra2.Size = new Size(1507, 200);
             FooterQuedaFra2.TabIndex = 2;
             FooterQuedaFra2.TabStop = false;
             // 

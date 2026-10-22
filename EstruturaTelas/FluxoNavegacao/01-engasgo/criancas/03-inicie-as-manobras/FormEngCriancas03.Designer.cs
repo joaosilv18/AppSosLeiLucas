@@ -52,7 +52,7 @@
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.Location = new Point(0, 0);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(1899, 118);
+            pictureBox1.Size = new Size(1920, 118);
             pictureBox1.TabIndex = 26;
             pictureBox1.TabStop = false;
             // 
@@ -100,7 +100,6 @@
             btnVerificacaoCrianca03.FlatAppearance.MouseDownBackColor = Color.Transparent;
             btnVerificacaoCrianca03.FlatAppearance.MouseOverBackColor = Color.Transparent;
             btnVerificacaoCrianca03.FlatStyle = FlatStyle.Flat;
-            btnVerificacaoCrianca03.Image = (Image)resources.GetObject("btnVerificacaoCrianca03.Image");
             btnVerificacaoCrianca03.Location = new Point(21, 151);
             btnVerificacaoCrianca03.Name = "btnVerificacaoCrianca03";
             btnVerificacaoCrianca03.Size = new Size(376, 65);
@@ -115,7 +114,6 @@
             btnManobrasCrianca03.FlatAppearance.MouseDownBackColor = Color.Transparent;
             btnManobrasCrianca03.FlatAppearance.MouseOverBackColor = Color.Transparent;
             btnManobrasCrianca03.FlatStyle = FlatStyle.Flat;
-            btnManobrasCrianca03.Image = (Image)resources.GetObject("btnManobrasCrianca03.Image");
             btnManobrasCrianca03.Location = new Point(21, 322);
             btnManobrasCrianca03.Name = "btnManobrasCrianca03";
             btnManobrasCrianca03.Size = new Size(376, 65);
@@ -130,7 +128,6 @@
             btnMonitoreVitCrianca03.FlatAppearance.MouseDownBackColor = Color.Transparent;
             btnMonitoreVitCrianca03.FlatAppearance.MouseOverBackColor = Color.Transparent;
             btnMonitoreVitCrianca03.FlatStyle = FlatStyle.Flat;
-            btnMonitoreVitCrianca03.Image = (Image)resources.GetObject("btnMonitoreVitCrianca03.Image");
             btnMonitoreVitCrianca03.Location = new Point(21, 404);
             btnMonitoreVitCrianca03.Name = "btnMonitoreVitCrianca03";
             btnMonitoreVitCrianca03.Size = new Size(376, 65);
@@ -145,7 +142,6 @@
             btnAcioneSamuCrianca03.FlatAppearance.MouseDownBackColor = Color.Transparent;
             btnAcioneSamuCrianca03.FlatAppearance.MouseOverBackColor = Color.Transparent;
             btnAcioneSamuCrianca03.FlatStyle = FlatStyle.Flat;
-            btnAcioneSamuCrianca03.Image = (Image)resources.GetObject("btnAcioneSamuCrianca03.Image");
             btnAcioneSamuCrianca03.Location = new Point(21, 485);
             btnAcioneSamuCrianca03.Name = "btnAcioneSamuCrianca03";
             btnAcioneSamuCrianca03.Size = new Size(376, 65);
@@ -158,7 +154,7 @@
             pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
             pictureBox2.Location = new Point(415, 868);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(1485, 200);
+            pictureBox2.Size = new Size(1507, 200);
             pictureBox2.TabIndex = 36;
             pictureBox2.TabStop = false;
             // 

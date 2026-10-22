@@ -49,12 +49,13 @@
             // 
             // picturboxConvulcoes1
             // 
-            picturboxConvulcoes1.Image = (Image)resources.GetObject("picturboxConvulcoes1.Image");
+            picturboxConvulcoes1.BackgroundImage = (Image)resources.GetObject("picturboxConvulcoes1.BackgroundImage");
             picturboxConvulcoes1.Location = new Point(0, 0);
             picturboxConvulcoes1.Name = "picturboxConvulcoes1";
-            picturboxConvulcoes1.Size = new Size(1897, 118);
+            picturboxConvulcoes1.Size = new Size(1920, 118);
             picturboxConvulcoes1.TabIndex = 0;
             picturboxConvulcoes1.TabStop = false;
+            picturboxConvulcoes1.Click += picturboxConvulcoes1_Click;
             // 
             // pictureBoxlateralesquerdoConvulcoes1
             // 
@@ -67,10 +68,10 @@
             // 
             // pictureBoxConvulcoesBarraInferior1
             // 
-            pictureBoxConvulcoesBarraInferior1.Image = (Image)resources.GetObject("pictureBoxConvulcoesBarraInferior1.Image");
+            pictureBoxConvulcoesBarraInferior1.BackgroundImage = (Image)resources.GetObject("pictureBoxConvulcoesBarraInferior1.BackgroundImage");
             pictureBoxConvulcoesBarraInferior1.Location = new Point(415, 842);
             pictureBoxConvulcoesBarraInferior1.Name = "pictureBoxConvulcoesBarraInferior1";
-            pictureBoxConvulcoesBarraInferior1.Size = new Size(1485, 200);
+            pictureBoxConvulcoesBarraInferior1.Size = new Size(1507, 200);
             pictureBoxConvulcoesBarraInferior1.TabIndex = 2;
             pictureBoxConvulcoesBarraInferior1.TabStop = false;
             // 

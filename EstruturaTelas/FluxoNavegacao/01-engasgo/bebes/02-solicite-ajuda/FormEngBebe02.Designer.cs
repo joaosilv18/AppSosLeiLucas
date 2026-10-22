@@ -42,13 +42,11 @@
             btnVoltarPagBebe02 = new Button();
             btnProximaPagBebe02 = new Button();
             pictureBox5 = new PictureBox();
-            pictureBox6 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)SiderBar1Rcp).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             SuspendLayout();
             // 
             // pictureBox1
@@ -56,7 +54,7 @@
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
             pictureBox1.Location = new Point(0, 0);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(1899, 118);
+            pictureBox1.Size = new Size(1920, 118);
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
             // 
@@ -99,7 +97,6 @@
             btnVerificacaoBebe02.FlatAppearance.MouseDownBackColor = Color.Transparent;
             btnVerificacaoBebe02.FlatAppearance.MouseOverBackColor = Color.Transparent;
             btnVerificacaoBebe02.FlatStyle = FlatStyle.Flat;
-            btnVerificacaoBebe02.Image = (Image)resources.GetObject("btnVerificacaoBebe02.Image");
             btnVerificacaoBebe02.Location = new Point(21, 151);
             btnVerificacaoBebe02.Name = "btnVerificacaoBebe02";
             btnVerificacaoBebe02.Size = new Size(376, 65);
@@ -128,7 +125,6 @@
             btnManobrasBebe02.FlatAppearance.MouseDownBackColor = Color.Transparent;
             btnManobrasBebe02.FlatAppearance.MouseOverBackColor = Color.Transparent;
             btnManobrasBebe02.FlatStyle = FlatStyle.Flat;
-            btnManobrasBebe02.Image = (Image)resources.GetObject("btnManobrasBebe02.Image");
             btnManobrasBebe02.Location = new Point(21, 322);
             btnManobrasBebe02.Name = "btnManobrasBebe02";
             btnManobrasBebe02.Size = new Size(376, 65);
@@ -143,7 +139,6 @@
             btnMonitoreVitBebe02.FlatAppearance.MouseDownBackColor = Color.Transparent;
             btnMonitoreVitBebe02.FlatAppearance.MouseOverBackColor = Color.Transparent;
             btnMonitoreVitBebe02.FlatStyle = FlatStyle.Flat;
-            btnMonitoreVitBebe02.Image = (Image)resources.GetObject("btnMonitoreVitBebe02.Image");
             btnMonitoreVitBebe02.Location = new Point(21, 404);
             btnMonitoreVitBebe02.Name = "btnMonitoreVitBebe02";
             btnMonitoreVitBebe02.Size = new Size(376, 65);
@@ -158,7 +153,6 @@
             btnAcioneSamuBebe02.FlatAppearance.MouseDownBackColor = Color.Transparent;
             btnAcioneSamuBebe02.FlatAppearance.MouseOverBackColor = Color.Transparent;
             btnAcioneSamuBebe02.FlatStyle = FlatStyle.Flat;
-            btnAcioneSamuBebe02.Image = (Image)resources.GetObject("btnAcioneSamuBebe02.Image");
             btnAcioneSamuBebe02.Location = new Point(21, 485);
             btnAcioneSamuBebe02.Name = "btnAcioneSamuBebe02";
             btnAcioneSamuBebe02.Size = new Size(376, 65);
@@ -169,9 +163,9 @@
             // pictureBox4
             // 
             pictureBox4.BackgroundImage = (Image)resources.GetObject("pictureBox4.BackgroundImage");
-            pictureBox4.Location = new Point(434, 868);
+            pictureBox4.Location = new Point(415, 868);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(1485, 200);
+            pictureBox4.Size = new Size(1507, 200);
             pictureBox4.TabIndex = 21;
             pictureBox4.TabStop = false;
             // 
@@ -214,15 +208,6 @@
             pictureBox5.TabIndex = 25;
             pictureBox5.TabStop = false;
             // 
-            // pictureBox6
-            // 
-            pictureBox6.BackgroundImage = (Image)resources.GetObject("pictureBox6.BackgroundImage");
-            pictureBox6.Location = new Point(394, 868);
-            pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(51, 200);
-            pictureBox6.TabIndex = 26;
-            pictureBox6.TabStop = false;
-            // 
             // FormEngBebe02
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -241,7 +226,6 @@
             Controls.Add(pictureBox1);
             Controls.Add(pictureBox2);
             Controls.Add(SiderBar1Rcp);
-            Controls.Add(pictureBox6);
             Controls.Add(pictureBox5);
             Name = "FormEngBebe02";
             Text = "FormEngBebe02";
@@ -250,7 +234,6 @@
             ((System.ComponentModel.ISupportInitialize)SiderBar1Rcp).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ResumeLayout(false);
         }
 
@@ -269,6 +252,5 @@
         private Button btnVoltarPagBebe02;
         private Button btnProximaPagBebe02;
         private PictureBox pictureBox5;
-        private PictureBox pictureBox6;
     }
 }

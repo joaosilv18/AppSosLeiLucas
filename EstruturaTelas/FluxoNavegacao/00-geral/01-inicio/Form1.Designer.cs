@@ -37,13 +37,13 @@
             button4 = new Button();
             button5 = new Button();
             pictureBox4 = new PictureBox();
-            button7 = new Button();
-            button9 = new Button();
-            button10 = new Button();
-            BtnSideBarAjuda = new Button();
-            btnSair = new Button();
             pictureBox5 = new PictureBox();
             btnIniciarEmergencia_Click = new Button();
+            btnSair1 = new teste.ImageHoverButton();
+            BtnIniciarTelaInicio = new teste.ImageHoverButton();
+            BtnTreinamento = new teste.ImageHoverButton();
+            BtnProtocolos = new teste.ImageHoverButton();
+            BtnAjuda = new teste.ImageHoverButton();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -170,99 +170,6 @@
             pictureBox4.TabIndex = 8;
             pictureBox4.TabStop = false;
             // 
-            // button7
-            // 
-            button7.BackColor = Color.Transparent;
-            button7.BackgroundImage = (Image)resources.GetObject("button7.BackgroundImage");
-            button7.FlatAppearance.BorderSize = 0;
-            button7.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            button7.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            button7.FlatStyle = FlatStyle.Flat;
-            button7.Location = new Point(14, 157);
-            button7.Margin = new Padding(3, 2, 3, 2);
-            button7.Name = "button7";
-            button7.Size = new Size(382, 65);
-            button7.TabIndex = 10;
-            button7.UseVisualStyleBackColor = false;
-            button7.Click += button7_Click;
-            button7.MouseEnter += button7_MouseEnter;
-            button7.MouseLeave += button7_MouseLeave;
-            // 
-            // button9
-            // 
-            button9.BackColor = Color.Transparent;
-            button9.BackgroundImage = (Image)resources.GetObject("button9.BackgroundImage");
-            button9.FlatAppearance.BorderSize = 0;
-            button9.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            button9.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            button9.FlatStyle = FlatStyle.Flat;
-            button9.Location = new Point(14, 241);
-            button9.Margin = new Padding(3, 2, 3, 2);
-            button9.Name = "button9";
-            button9.Size = new Size(382, 65);
-            button9.TabIndex = 12;
-            button9.UseVisualStyleBackColor = false;
-            button9.Click += button9_Click;
-            button9.MouseEnter += button9_MouseEnter;
-            button9.MouseLeave += button9_MouseLeave;
-            // 
-            // button10
-            // 
-            button10.BackColor = Color.Transparent;
-            button10.BackgroundImage = (Image)resources.GetObject("button10.BackgroundImage");
-            button10.FlatAppearance.BorderSize = 0;
-            button10.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            button10.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            button10.FlatStyle = FlatStyle.Flat;
-            button10.Location = new Point(14, 320);
-            button10.Margin = new Padding(3, 2, 3, 2);
-            button10.Name = "button10";
-            button10.Size = new Size(382, 65);
-            button10.TabIndex = 13;
-            button10.UseVisualStyleBackColor = false;
-            button10.Click += BtnSideBarProtocolos_Click;
-            button10.MouseEnter += BtnSideBarProtocolos_MouseEnter;
-            button10.MouseLeave += BtnSideBarProtocolos_MouseLeave;
-            // 
-            // BtnSideBarAjuda
-            // 
-            BtnSideBarAjuda.BackColor = Color.Transparent;
-            BtnSideBarAjuda.BackgroundImage = (Image)resources.GetObject("BtnSideBarAjuda.BackgroundImage");
-            BtnSideBarAjuda.DialogResult = DialogResult.Cancel;
-            BtnSideBarAjuda.FlatAppearance.BorderSize = 0;
-            BtnSideBarAjuda.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            BtnSideBarAjuda.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            BtnSideBarAjuda.FlatStyle = FlatStyle.Flat;
-            BtnSideBarAjuda.Location = new Point(14, 866);
-            BtnSideBarAjuda.Margin = new Padding(3, 2, 3, 2);
-            BtnSideBarAjuda.Name = "BtnSideBarAjuda";
-            BtnSideBarAjuda.Size = new Size(382, 65);
-            BtnSideBarAjuda.TabIndex = 15;
-            BtnSideBarAjuda.Text = " ";
-            BtnSideBarAjuda.UseVisualStyleBackColor = false;
-            BtnSideBarAjuda.Click += BtnSideBarAjuda_Click;
-            BtnSideBarAjuda.MouseEnter += BtnSideBarAjuda_MouseEnter;
-            BtnSideBarAjuda.MouseLeave += BtnSideBarAjuda_MouseLeave;
-            // 
-            // btnSair
-            // 
-            btnSair.BackColor = Color.Transparent;
-            btnSair.BackgroundImage = (Image)resources.GetObject("btnSair.BackgroundImage");
-            btnSair.FlatAppearance.BorderSize = 0;
-            btnSair.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            btnSair.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            btnSair.FlatStyle = FlatStyle.Flat;
-            btnSair.ImageAlign = ContentAlignment.MiddleLeft;
-            btnSair.Location = new Point(48, 970);
-            btnSair.Margin = new Padding(3, 2, 3, 2);
-            btnSair.Name = "btnSair";
-            btnSair.Size = new Size(84, 40);
-            btnSair.TabIndex = 16;
-            btnSair.UseVisualStyleBackColor = false;
-            btnSair.Click += btnSair_Click;
-            btnSair.MouseEnter += btnSair_MouseEnter;
-            btnSair.MouseLeave += btnSair_MouseLeave;
-            // 
             // pictureBox5
             // 
             pictureBox5.BackColor = Color.Transparent;
@@ -293,19 +200,109 @@
             btnIniciarEmergencia_Click.MouseEnter += BtnIniciarEmergencia_MouseEnter;
             btnIniciarEmergencia_Click.MouseLeave += BtnIniciarEmergencia_MouseLeave;
             // 
+            // btnSair1
+            // 
+            btnSair1.BackColor = Color.Transparent;
+            btnSair1.BackgroundImage = (Image)resources.GetObject("btnSair1.BackgroundImage");
+            btnSair1.BackgroundImageLayout = ImageLayout.Zoom;
+            btnSair1.FlatAppearance.BorderSize = 0;
+            btnSair1.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnSair1.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btnSair1.FlatStyle = FlatStyle.Flat;
+            btnSair1.ImagemHover = (Image)resources.GetObject("btnSair1.ImagemHover");
+            btnSair1.ImagemNormal = (Image)resources.GetObject("btnSair1.ImagemNormal");
+            btnSair1.Location = new Point(14, 952);
+            btnSair1.Name = "btnSair1";
+            btnSair1.Size = new Size(382, 65);
+            btnSair1.TabIndex = 19;
+            btnSair1.UseVisualStyleBackColor = false;
+            btnSair1.Click += btnSair1_Click;
+            // 
+            // BtnIniciarTelaInicio
+            // 
+            BtnIniciarTelaInicio.BackColor = Color.Transparent;
+            BtnIniciarTelaInicio.BackgroundImage = Properties.Resources.BtnInicioSideBar_Default;
+            BtnIniciarTelaInicio.BackgroundImageLayout = ImageLayout.Zoom;
+            BtnIniciarTelaInicio.FlatAppearance.BorderSize = 0;
+            BtnIniciarTelaInicio.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            BtnIniciarTelaInicio.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            BtnIniciarTelaInicio.FlatStyle = FlatStyle.Flat;
+            BtnIniciarTelaInicio.ImagemHover = Properties.Resources.BtnInicioSideBar_Hover;
+            BtnIniciarTelaInicio.ImagemNormal = Properties.Resources.BtnInicioSideBar_Default;
+            BtnIniciarTelaInicio.Location = new Point(14, 157);
+            BtnIniciarTelaInicio.Name = "BtnIniciarTelaInicio";
+            BtnIniciarTelaInicio.Size = new Size(382, 65);
+            BtnIniciarTelaInicio.TabIndex = 21;
+            BtnIniciarTelaInicio.UseVisualStyleBackColor = false;
+            BtnIniciarTelaInicio.Click += BtnIniciarTelaInicio_Click;
+            // 
+            // BtnTreinamento
+            // 
+            BtnTreinamento.BackColor = Color.Transparent;
+            BtnTreinamento.BackgroundImage = Properties.Resources.BtnTreinamentoSideBar_Default;
+            BtnTreinamento.BackgroundImageLayout = ImageLayout.Zoom;
+            BtnTreinamento.FlatAppearance.BorderSize = 0;
+            BtnTreinamento.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            BtnTreinamento.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            BtnTreinamento.FlatStyle = FlatStyle.Flat;
+            BtnTreinamento.ImagemHover = Properties.Resources.BtnTreinamentoSideBar_Hover;
+            BtnTreinamento.ImagemNormal = Properties.Resources.BtnTreinamentoSideBar_Default;
+            BtnTreinamento.Location = new Point(14, 238);
+            BtnTreinamento.Name = "BtnTreinamento";
+            BtnTreinamento.Size = new Size(382, 65);
+            BtnTreinamento.TabIndex = 22;
+            BtnTreinamento.UseVisualStyleBackColor = false;
+            BtnTreinamento.Click += BtnTreinamento_Click;
+            // 
+            // BtnProtocolos
+            // 
+            BtnProtocolos.BackColor = Color.Transparent;
+            BtnProtocolos.BackgroundImage = Properties.Resources.BtnProtocolosSideBar_Default;
+            BtnProtocolos.BackgroundImageLayout = ImageLayout.Zoom;
+            BtnProtocolos.FlatAppearance.BorderSize = 0;
+            BtnProtocolos.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            BtnProtocolos.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            BtnProtocolos.FlatStyle = FlatStyle.Flat;
+            BtnProtocolos.ImagemHover = Properties.Resources.BtnProtocolosSideBar_Hover;
+            BtnProtocolos.ImagemNormal = Properties.Resources.BtnProtocolosSideBar_Default;
+            BtnProtocolos.Location = new Point(14, 312);
+            BtnProtocolos.Name = "BtnProtocolos";
+            BtnProtocolos.Size = new Size(382, 65);
+            BtnProtocolos.TabIndex = 23;
+            BtnProtocolos.UseVisualStyleBackColor = false;
+            BtnProtocolos.Click += BtnProtocolos_Click_1;
+            // 
+            // BtnAjuda
+            // 
+            BtnAjuda.BackColor = Color.Transparent;
+            BtnAjuda.BackgroundImage = Properties.Resources.BtnAjudaSideBar_Default;
+            BtnAjuda.BackgroundImageLayout = ImageLayout.Zoom;
+            BtnAjuda.FlatAppearance.BorderSize = 0;
+            BtnAjuda.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            BtnAjuda.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            BtnAjuda.FlatStyle = FlatStyle.Flat;
+            BtnAjuda.ImagemHover = Properties.Resources.BtnAjudaSideBar_Hover;
+            BtnAjuda.ImagemNormal = Properties.Resources.BtnAjudaSideBar_Default;
+            BtnAjuda.Location = new Point(14, 866);
+            BtnAjuda.Name = "BtnAjuda";
+            BtnAjuda.Size = new Size(382, 65);
+            BtnAjuda.TabIndex = 24;
+            BtnAjuda.UseVisualStyleBackColor = false;
+            BtnAjuda.Click += BtnAjuda_Click;
+            // 
             // TelaInicio
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1904, 1041);
+            Controls.Add(BtnAjuda);
+            Controls.Add(BtnProtocolos);
+            Controls.Add(BtnTreinamento);
+            Controls.Add(BtnIniciarTelaInicio);
+            Controls.Add(btnSair1);
             Controls.Add(btnIniciarEmergencia_Click);
             Controls.Add(pictureBox5);
-            Controls.Add(btnSair);
-            Controls.Add(BtnSideBarAjuda);
-            Controls.Add(button10);
-            Controls.Add(button9);
-            Controls.Add(button7);
             Controls.Add(pictureBox4);
             Controls.Add(button5);
             Controls.Add(button4);
@@ -337,13 +334,13 @@
         private Button button4;
         private Button button5;
         private PictureBox pictureBox4;
-        private Button button7;
         private Button button8;
-        private Button button9;
-        private Button button10;
-        private Button BtnSideBarAjuda;
-        private Button btnSair;
         private PictureBox pictureBox5;
         private Button btnIniciarEmergencia_Click;
+        private teste.ImageHoverButton btnSair1;
+        private teste.ImageHoverButton BtnIniciarTelaInicio;
+        private teste.ImageHoverButton BtnTreinamento;
+        private teste.ImageHoverButton BtnProtocolos;
+        private teste.ImageHoverButton BtnAjuda;
     }
 }

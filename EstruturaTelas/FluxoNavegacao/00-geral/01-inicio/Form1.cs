@@ -44,12 +44,12 @@ namespace ProjetoLeiLucasTelas
         }
         private void btnSair_MouseEnter(object sender, EventArgs e)
         {
-            btnSair.BackgroundImage = imgHoverSair;
+            btnSair1.BackgroundImage = imgHoverSair;
         }
 
         private void btnSair_MouseLeave(object sender, EventArgs e)
         {
-            btnSair.BackgroundImage = imgNormalSair;
+            btnSair1.BackgroundImage = imgNormalSair;
         }
 
         private void button11_Click(object sender, EventArgs e)
@@ -80,47 +80,10 @@ namespace ProjetoLeiLucasTelas
             btnIniciarEmergencia_Click.BackgroundImage = imgNormalIniciarEmergencia;
         }
 
-        Image imgNormalProtocolosSideBar = Properties.Resources.BtnProtocolosSideBar_Default;
-        Image imgHoverProtocolosSideBar = Properties.Resources.BtnProtocolosSideBar_Hover;
-        private void BtnSideBarProtocolos_Click(object sender, EventArgs e)
-        {
-            Form2 telaEmergencia = new Form2();
-            telaEmergencia.Show();
-            this.Hide();
-        }
-        private void BtnSideBarProtocolos_MouseEnter(object sender, EventArgs e)
-        {
-            button10.BackgroundImage = imgHoverProtocolosSideBar;
-        }
-
-        private void BtnSideBarProtocolos_MouseLeave(object sender, EventArgs e)
-        {
-            button10.BackgroundImage = imgNormalProtocolosSideBar;
-        }
-
         private void button8_Click(object sender, EventArgs e)
         {
 
         }
-
-        Image imgNormalAjudaSideBar = Properties.Resources.BtnAjudaSideBar_Default;
-        Image imgHoverAjudaSideBar = Properties.Resources.BtnAjudaSideBar_Hover;
-        private void BtnSideBarAjuda_Click(object sender, EventArgs e)
-        {
-            Form3 telaAjuda = new Form3();
-            telaAjuda.Show();
-            this.Hide();
-        }
-        private void BtnSideBarAjuda_MouseEnter(object sender, EventArgs e)
-        {
-            BtnSideBarAjuda.BackgroundImage = imgHoverAjudaSideBar;
-        }
-
-        private void BtnSideBarAjuda_MouseLeave(object sender, EventArgs e)
-        {
-            BtnSideBarAjuda.BackgroundImage = imgNormalAjudaSideBar;
-        }
-
         Image imgNormalLei = Properties.Resources.BtnLeiLucas_Default;
         Image imgHoverLei = Properties.Resources.BtnLeiLucas_Hover;
         private void button5_Click(object sender, EventArgs e)
@@ -156,24 +119,6 @@ namespace ProjetoLeiLucasTelas
             button2.BackgroundImage = imgNormalCardTreinamento;
         }
 
-        Image imgNormalInicio = Properties.Resources.BtnInicioSideBar_Default;
-        Image imgHoverInicio = Properties.Resources.BtnInicioSideBar_Hover;
-        private void button7_Click(object sender, EventArgs e)
-        {
-            TelaInicio telaEmergencia = new();
-            telaEmergencia.Show();
-            this.Hide();
-        }
-        private void button7_MouseEnter(object sender, EventArgs e)
-        {
-            button7.BackgroundImage = imgHoverInicio;
-        }
-
-        private void button7_MouseLeave(object sender, EventArgs e)
-        {
-            button7.BackgroundImage = imgNormalInicio;
-        }
-
         Image imgNormalRelatorios = Properties.Resources.BtnRelatorios_Default;
         Image imgHoverRelatorios = Properties.Resources.BtnRelatorios_Hover;
         private void button4_Click(object sender, EventArgs e)
@@ -190,20 +135,50 @@ namespace ProjetoLeiLucasTelas
             button4.BackgroundImage = imgNormalRelatorios;
         }
 
-        Image imgNormalTreinamento = Properties.Resources.BtnTreinamentoSideBar_Default;
-        Image imgHoverTreinamento = Properties.Resources.BtnTreinamentoSideBar_Hover;
-        private void button9_Click(object sender, EventArgs e)
+        private void imageHoverButton1_Click(object sender, EventArgs e)
         {
 
         }
-        private void button9_MouseEnter(object sender, EventArgs e)
+
+        private void imageHoverButton1_MouseEnter(object sender, EventArgs e)
         {
-            button9.BackgroundImage = imgHoverTreinamento;
+
         }
 
-        private void button9_MouseLeave(object sender, EventArgs e)
+        private void imageHoverButton1_MouseLeave(object sender, EventArgs e)
         {
-            button9.BackgroundImage = imgNormalTreinamento;
+
+        }
+
+        private void btnSair1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+
+
+        private void BtnIniciarTelaInicio_Click(object sender, EventArgs e)
+        {
+            TelaInicio telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
+        }
+
+        private void BtnTreinamento_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnProtocolos_Click_1(object sender, EventArgs e)
+        {
+            Form2 telaEmergencia = new Form2();
+            telaEmergencia.Show();
+            this.Hide();
+        }
+
+        private void BtnAjuda_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

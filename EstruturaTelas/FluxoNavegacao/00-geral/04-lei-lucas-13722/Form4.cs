@@ -15,14 +15,14 @@ namespace ProjetoLeiLucasTelas
             InitializeComponent();
         }
 
-        private void buttonInfoVolInicio_Click(object sender, EventArgs e)
+        private void BtnVoltarLeiLucas_Click(object sender, EventArgs e)
         {
-            TelaInicio telainforma = new TelaInicio();
-            telainforma.Show();
+            TelaInicio telaEmergencia = new TelaInicio();
+            telaEmergencia.Show();
             this.Hide();
         }
 
-        private void VoltarAoInicio_Click(object sender, EventArgs e)
+        private void BtnVoltarInicioLeiLucas_Click(object sender, EventArgs e)
         {
             TelaInicio telaEmergencia = new TelaInicio();
             telaEmergencia.Show();

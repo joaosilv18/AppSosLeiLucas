@@ -18,23 +18,6 @@ namespace ProjetoLeiLucasTelas
         {
 
         }
-        Image imgNormalProtocolos = Properties.Resources.BtnProtocolos_Default;
-        Image imgHoverProtocolos = Properties.Resources.BtnProtocolos_Hover;
-        private void BtnProtocolos_Click(object sender, EventArgs e)
-        {
-            Form2 telaEmergencia = new Form2();
-            telaEmergencia.Show();
-            this.Hide();
-        }
-        private void BtnProtocolos_MouseEnter(object sender, EventArgs e)
-        {
-            button3.BackgroundImage = imgHoverProtocolos;
-        }
-
-        private void BtnProtocolos_MouseLeave(object sender, EventArgs e)
-        {
-            button3.BackgroundImage = imgNormalProtocolos;
-        }
 
         Image imgNormalSair = Properties.Resources.BtnSair_Default;
         Image imgHoverSair = Properties.Resources.BtnSair_Hover;
@@ -61,80 +44,10 @@ namespace ProjetoLeiLucasTelas
         {
 
         }
-
-        Image imgNormalIniciarEmergencia = Properties.Resources.BtnIniciarEmergencia_Default;
-        Image imgHoverIniciarEmergencia = Properties.Resources.BtnIniciarEmergencia_Hover;
-        private void BtnIniciarEmergencia_Click(object sender, EventArgs e)
-        {
-            Form2 telaEmergencia = new Form2();
-            telaEmergencia.Show();
-            this.Hide();
-        }
-        private void BtnIniciarEmergencia_MouseEnter(object sender, EventArgs e)
-        {
-            btnIniciarEmergencia_Click.BackgroundImage = imgHoverIniciarEmergencia;
-        }
-
-        private void BtnIniciarEmergencia_MouseLeave(object sender, EventArgs e)
-        {
-            btnIniciarEmergencia_Click.BackgroundImage = imgNormalIniciarEmergencia;
-        }
-
         private void button8_Click(object sender, EventArgs e)
         {
 
         }
-        Image imgNormalLei = Properties.Resources.BtnLeiLucas_Default;
-        Image imgHoverLei = Properties.Resources.BtnLeiLucas_Hover;
-        private void button5_Click(object sender, EventArgs e)
-        {
-            telaInforLei telaLei = new telaInforLei();
-            telaLei.Show();
-            this.Hide();
-        }
-        private void button5_MouseEnter(object sender, EventArgs e)
-        {
-            button5.BackgroundImage = imgHoverLei;
-        }
-
-        private void button5_MouseLeave(object sender, EventArgs e)
-        {
-            button5.BackgroundImage = imgNormalLei;
-        }
-
-        Image imgNormalCardTreinamento = Properties.Resources.CardTreinamentoDefault;
-        Image imgHoverCardTreinamento = Properties.Resources.CardTreinamentoHover;
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button2_MouseEnter(object sender, EventArgs e)
-        {
-            button2.BackgroundImage = imgHoverCardTreinamento;
-        }
-
-        private void button2_MouseLeave(object sender, EventArgs e)
-        {
-            button2.BackgroundImage = imgNormalCardTreinamento;
-        }
-
-        Image imgNormalRelatorios = Properties.Resources.BtnRelatorios_Default;
-        Image imgHoverRelatorios = Properties.Resources.BtnRelatorios_Hover;
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
-        private void button4_MouseEnter(object sender, EventArgs e)
-        {
-            button4.BackgroundImage = imgHoverRelatorios;
-        }
-
-        private void button4_MouseLeave(object sender, EventArgs e)
-        {
-            button4.BackgroundImage = imgNormalRelatorios;
-        }
-
         private void imageHoverButton1_Click(object sender, EventArgs e)
         {
 
@@ -178,7 +91,30 @@ namespace ProjetoLeiLucasTelas
 
         private void BtnAjuda_Click(object sender, EventArgs e)
         {
+            Form3 telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
+        }
 
+        private void BtnProtocolos2_Click(object sender, EventArgs e)
+        {
+            Form2 telaEmergencia = new Form2();
+            telaEmergencia.Show();
+            this.Hide();
+        }
+
+        private void imageHoverButton1_Click_1(object sender, EventArgs e)
+        {
+            Form2 telaEmergencia = new Form2();
+            telaEmergencia.Show();
+            this.Hide();
+        }
+
+        private void BtnvoceSabia_Click(object sender, EventArgs e)
+        {
+            telaInforLei telaLei = new telaInforLei();
+            telaLei.Show();
+            this.Hide();
         }
     }
 }

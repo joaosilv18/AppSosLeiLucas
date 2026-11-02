@@ -32,10 +32,10 @@
             telaAjuda = new PictureBox();
             pictureBox3 = new PictureBox();
             pictureBox4 = new PictureBox();
-            button1 = new Button();
-            VoltarAoInicio = new Button();
             pictureBoxInfoRodape = new PictureBox();
             pictureBoxInforRodape = new PictureBox();
+            BtnVoltar = new teste.ImageHoverButton();
+            BtnVoltarInicio2 = new teste.ImageHoverButton();
             ((System.ComponentModel.ISupportInitialize)telaAjuda).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
@@ -75,36 +75,6 @@
             pictureBox4.TabIndex = 4;
             pictureBox4.TabStop = false;
             // 
-            // button1
-            // 
-            button1.BackColor = Color.Transparent;
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            button1.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Image = (Image)resources.GetObject("button1.Image");
-            button1.Location = new Point(39, 985);
-            button1.Name = "button1";
-            button1.Size = new Size(76, 62);
-            button1.TabIndex = 13;
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
-            // 
-            // VoltarAoInicio
-            // 
-            VoltarAoInicio.BackColor = Color.Transparent;
-            VoltarAoInicio.FlatAppearance.BorderSize = 0;
-            VoltarAoInicio.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            VoltarAoInicio.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            VoltarAoInicio.FlatStyle = FlatStyle.Flat;
-            VoltarAoInicio.Image = (Image)resources.GetObject("VoltarAoInicio.Image");
-            VoltarAoInicio.Location = new Point(1604, 984);
-            VoltarAoInicio.Name = "VoltarAoInicio";
-            VoltarAoInicio.Size = new Size(254, 63);
-            VoltarAoInicio.TabIndex = 12;
-            VoltarAoInicio.UseVisualStyleBackColor = false;
-            VoltarAoInicio.Click += VoltarAoInicio_Click_1;
-            // 
             // pictureBoxInfoRodape
             // 
             pictureBoxInfoRodape.BackgroundImage = (Image)resources.GetObject("pictureBoxInfoRodape.BackgroundImage");
@@ -124,14 +94,50 @@
             pictureBoxInforRodape.TabIndex = 10;
             pictureBoxInforRodape.TabStop = false;
             // 
+            // BtnVoltar
+            // 
+            BtnVoltar.BackColor = Color.Transparent;
+            BtnVoltar.BackgroundImage = (Image)resources.GetObject("BtnVoltar.BackgroundImage");
+            BtnVoltar.BackgroundImageLayout = ImageLayout.Zoom;
+            BtnVoltar.FlatAppearance.BorderSize = 0;
+            BtnVoltar.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            BtnVoltar.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            BtnVoltar.FlatStyle = FlatStyle.Flat;
+            BtnVoltar.ImagemHover = (Image)resources.GetObject("BtnVoltar.ImagemHover");
+            BtnVoltar.ImagemNormal = (Image)resources.GetObject("BtnVoltar.ImagemNormal");
+            BtnVoltar.Location = new Point(39, 979);
+            BtnVoltar.Name = "BtnVoltar";
+            BtnVoltar.Size = new Size(76, 62);
+            BtnVoltar.TabIndex = 14;
+            BtnVoltar.UseVisualStyleBackColor = false;
+            BtnVoltar.Click += BtnVoltar_Click;
+            // 
+            // BtnVoltarInicio2
+            // 
+            BtnVoltarInicio2.BackColor = Color.Transparent;
+            BtnVoltarInicio2.BackgroundImage = (Image)resources.GetObject("BtnVoltarInicio2.BackgroundImage");
+            BtnVoltarInicio2.BackgroundImageLayout = ImageLayout.Zoom;
+            BtnVoltarInicio2.FlatAppearance.BorderSize = 0;
+            BtnVoltarInicio2.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            BtnVoltarInicio2.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            BtnVoltarInicio2.FlatStyle = FlatStyle.Flat;
+            BtnVoltarInicio2.ImagemHover = (Image)resources.GetObject("BtnVoltarInicio2.ImagemHover");
+            BtnVoltarInicio2.ImagemNormal = (Image)resources.GetObject("BtnVoltarInicio2.ImagemNormal");
+            BtnVoltarInicio2.Location = new Point(1604, 979);
+            BtnVoltarInicio2.Name = "BtnVoltarInicio2";
+            BtnVoltarInicio2.Size = new Size(254, 63);
+            BtnVoltarInicio2.TabIndex = 15;
+            BtnVoltarInicio2.UseVisualStyleBackColor = false;
+            BtnVoltarInicio2.Click += BtnVoltarInicio2_Click;
+            // 
             // Form3
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1904, 1041);
-            Controls.Add(button1);
-            Controls.Add(VoltarAoInicio);
+            Controls.Add(BtnVoltarInicio2);
+            Controls.Add(BtnVoltar);
             Controls.Add(pictureBoxInfoRodape);
             Controls.Add(pictureBoxInforRodape);
             Controls.Add(pictureBox4);
@@ -152,9 +158,9 @@
         private PictureBox telaAjuda;
         private PictureBox pictureBox3;
         private PictureBox pictureBox4;
-        private Button button1;
-        private Button VoltarAoInicio;
         private PictureBox pictureBoxInfoRodape;
         private PictureBox pictureBoxInforRodape;
+        private teste.ImageHoverButton BtnVoltar;
+        private teste.ImageHoverButton BtnVoltarInicio2;
     }
 }

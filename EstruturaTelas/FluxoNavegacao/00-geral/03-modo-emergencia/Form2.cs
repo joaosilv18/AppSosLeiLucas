@@ -15,12 +15,7 @@ namespace ProjetoLeiLucasTelas
             InitializeComponent();
         }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-            Form_RCP1 telaEmergencia = new();
-            telaEmergencia.Show();
-            this.Hide();
-        }
+
 
         private void BtnVoltarInicio_Click(object sender, EventArgs e)
         {
@@ -28,28 +23,6 @@ namespace ProjetoLeiLucasTelas
             telaEmergencia.Show();
             this.Hide();
         }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            TelaInicio telaEmergencia = new TelaInicio();
-            telaEmergencia.Show();
-            this.Hide();
-        }
-
-        private void button5_Click(object sender, EventArgs e)
-        {
-            TelaSelecao telaEngasgo = new TelaSelecao();
-            telaEngasgo.Show();
-            this.Hide();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            TelaInicio telaEmergencia = new TelaInicio();
-            telaEmergencia.Show();
-            this.Hide();
-        }
-
         private void VoltarAoInicio_Click(object sender, EventArgs e)
         {
             TelaInicio telaEmergencia = new TelaInicio();
@@ -68,24 +41,58 @@ namespace ProjetoLeiLucasTelas
         {
 
         }
-
-        private void button8_Click(object sender, EventArgs e)
+        private void BtnVoltar_Click(object sender, EventArgs e)
         {
-            FormConvulcoes1 pictureBoxinformacoesConvulcoes1 = new FormConvulcoes1();
-            pictureBoxinformacoesConvulcoes1.Show();
+            TelaInicio telaEmergencia = new TelaInicio();
+            telaEmergencia.Show();
             this.Hide();
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void BtnProtoEngasgo_Click(object sender, EventArgs e)
+        {
+            TelaSelecao telaEngasgo = new TelaSelecao();
+            telaEngasgo.Show();
+            this.Hide();
+        }
+
+        private void BtnProtoRcp_Click(object sender, EventArgs e)
+        {
+            Form_RCP1 telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
+        }
+
+        private void BtProtoHemorragiaCortes_Click(object sender, EventArgs e)
+        {
+            FormHemorragia_E_Cortes1 telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
+        }
+
+        private void BtnLevaTelaInicio_Click(object sender, EventArgs e)
+        {
+            Form12 InformacaoQueimadura1 = new Form12();
+            InformacaoQueimadura1.Show();
+            this.Hide();
+        }
+
+        private void BtnLevaTelaDeQuedas_Click(object sender, EventArgs e)
         {
             FormQuedafra1 telaEmergencia = new();
             telaEmergencia.Show();
             this.Hide();
         }
 
-        private void button7_Click(object sender, EventArgs e)
+        private void BtnLevaTelaDeConvulcoes_Click(object sender, EventArgs e)
         {
-            FormHemorragia_E_Cortes1 telaEmergencia = new();
+            FormConvulcoes1 pictureBoxinformacoesConvulcoes1 = new FormConvulcoes1();
+            pictureBoxinformacoesConvulcoes1.Show();
+            this.Hide();
+        }
+
+        private void BtnVoltarInicio_Click_1(object sender, EventArgs e)
+        {
+            TelaInicio telaEmergencia = new TelaInicio();
             telaEmergencia.Show();
             this.Hide();
         }

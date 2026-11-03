@@ -79,7 +79,9 @@ namespace ProjetoLeiLucasTelas
 
         private void BtnTreinamento_Click(object sender, EventArgs e)
         {
-
+            FormTreinamento telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
         }
 
         private void BtnProtocolos_Click_1(object sender, EventArgs e)
@@ -114,6 +116,20 @@ namespace ProjetoLeiLucasTelas
         {
             telaInforLei telaLei = new telaInforLei();
             telaLei.Show();
+            this.Hide();
+        }
+
+        private void BtnTreinamento2_Click(object sender, EventArgs e)
+        {
+            FormTreinamento telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
+        }
+
+        private void BtnRelatorios2_Click(object sender, EventArgs e)
+        {
+            FormRelatorios telaEmergencia = new();
+            telaEmergencia.Show();
             this.Hide();
         }
     }

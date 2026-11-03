@@ -46,6 +46,8 @@
             BtnVoltar.BackgroundImage = (Image)resources.GetObject("BtnVoltar.BackgroundImage");
             BtnVoltar.BackgroundImageLayout = ImageLayout.Zoom;
             BtnVoltar.FlatAppearance.BorderSize = 0;
+            BtnVoltar.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            BtnVoltar.FlatAppearance.MouseOverBackColor = Color.Transparent;
             BtnVoltar.FlatStyle = FlatStyle.Flat;
             BtnVoltar.ImagemHover = (Image)resources.GetObject("BtnVoltar.ImagemHover");
             BtnVoltar.ImagemNormal = (Image)resources.GetObject("BtnVoltar.ImagemNormal");
@@ -170,6 +172,8 @@
             BtnVoltarInicio.BackgroundImage = (Image)resources.GetObject("BtnVoltarInicio.BackgroundImage");
             BtnVoltarInicio.BackgroundImageLayout = ImageLayout.Zoom;
             BtnVoltarInicio.FlatAppearance.BorderSize = 0;
+            BtnVoltarInicio.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            BtnVoltarInicio.FlatAppearance.MouseOverBackColor = Color.Transparent;
             BtnVoltarInicio.FlatStyle = FlatStyle.Flat;
             BtnVoltarInicio.ImagemHover = (Image)resources.GetObject("BtnVoltarInicio.ImagemHover");
             BtnVoltarInicio.ImagemNormal = (Image)resources.GetObject("BtnVoltarInicio.ImagemNormal");

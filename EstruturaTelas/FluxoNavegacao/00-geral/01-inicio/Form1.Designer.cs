@@ -210,6 +210,7 @@
             BtnTreinamento2.Size = new Size(247, 229);
             BtnTreinamento2.TabIndex = 25;
             BtnTreinamento2.UseVisualStyleBackColor = false;
+            BtnTreinamento2.Click += BtnTreinamento2_Click;
             // 
             // BtnProtocolos2
             // 
@@ -245,6 +246,7 @@
             BtnRelatorios2.Size = new Size(246, 229);
             BtnRelatorios2.TabIndex = 27;
             BtnRelatorios2.UseVisualStyleBackColor = false;
+            BtnRelatorios2.Click += BtnRelatorios2_Click;
             // 
             // BtnIniciarEmergencia
             // 

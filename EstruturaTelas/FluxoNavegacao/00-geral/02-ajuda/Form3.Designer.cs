@@ -105,7 +105,7 @@
             BtnVoltar.FlatStyle = FlatStyle.Flat;
             BtnVoltar.ImagemHover = (Image)resources.GetObject("BtnVoltar.ImagemHover");
             BtnVoltar.ImagemNormal = (Image)resources.GetObject("BtnVoltar.ImagemNormal");
-            BtnVoltar.Location = new Point(39, 979);
+            BtnVoltar.Location = new Point(39, 984);
             BtnVoltar.Name = "BtnVoltar";
             BtnVoltar.Size = new Size(76, 62);
             BtnVoltar.TabIndex = 14;
@@ -123,7 +123,7 @@
             BtnVoltarInicio2.FlatStyle = FlatStyle.Flat;
             BtnVoltarInicio2.ImagemHover = (Image)resources.GetObject("BtnVoltarInicio2.ImagemHover");
             BtnVoltarInicio2.ImagemNormal = (Image)resources.GetObject("BtnVoltarInicio2.ImagemNormal");
-            BtnVoltarInicio2.Location = new Point(1604, 979);
+            BtnVoltarInicio2.Location = new Point(1604, 984);
             BtnVoltarInicio2.Name = "BtnVoltarInicio2";
             BtnVoltarInicio2.Size = new Size(254, 63);
             BtnVoltarInicio2.TabIndex = 15;

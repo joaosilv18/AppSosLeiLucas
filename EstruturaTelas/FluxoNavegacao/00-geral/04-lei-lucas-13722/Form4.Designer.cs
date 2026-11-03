@@ -78,7 +78,7 @@
             BtnVoltarLeiLucas.FlatStyle = FlatStyle.Flat;
             BtnVoltarLeiLucas.ImagemHover = (Image)resources.GetObject("BtnVoltarLeiLucas.ImagemHover");
             BtnVoltarLeiLucas.ImagemNormal = (Image)resources.GetObject("BtnVoltarLeiLucas.ImagemNormal");
-            BtnVoltarLeiLucas.Location = new Point(39, 980);
+            BtnVoltarLeiLucas.Location = new Point(39, 984);
             BtnVoltarLeiLucas.Name = "BtnVoltarLeiLucas";
             BtnVoltarLeiLucas.Size = new Size(76, 62);
             BtnVoltarLeiLucas.TabIndex = 10;
@@ -96,7 +96,7 @@
             BtnVoltarInicioLeiLucas.FlatStyle = FlatStyle.Flat;
             BtnVoltarInicioLeiLucas.ImagemHover = (Image)resources.GetObject("BtnVoltarInicioLeiLucas.ImagemHover");
             BtnVoltarInicioLeiLucas.ImagemNormal = (Image)resources.GetObject("BtnVoltarInicioLeiLucas.ImagemNormal");
-            BtnVoltarInicioLeiLucas.Location = new Point(1604, 978);
+            BtnVoltarInicioLeiLucas.Location = new Point(1604, 984);
             BtnVoltarInicioLeiLucas.Name = "BtnVoltarInicioLeiLucas";
             BtnVoltarInicioLeiLucas.Size = new Size(254, 63);
             BtnVoltarInicioLeiLucas.TabIndex = 11;

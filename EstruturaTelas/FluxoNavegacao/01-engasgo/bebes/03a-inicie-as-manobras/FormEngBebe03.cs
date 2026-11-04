@@ -15,13 +15,6 @@ namespace ProjetoLeiLucasTelas
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            FormVisualManobraBebe telaEmergencia = new();
-            telaEmergencia.Show();
-            this.Hide();
-        }
-
         private void btnVoltarTelaProtBebe03_Click(object sender, EventArgs e)
         {
             TelaSelecao telaEmergencia = new();
@@ -74,6 +67,13 @@ namespace ProjetoLeiLucasTelas
         private void btnProximaPagBebe03_Click(object sender, EventArgs e)
         {
             FormEngBebe04 telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
+        }
+
+        private void btnVisualizarImg_Click(object sender, EventArgs e)
+        {
+            FormVisualManobraBebe telaEmergencia = new();
             telaEmergencia.Show();
             this.Hide();
         }

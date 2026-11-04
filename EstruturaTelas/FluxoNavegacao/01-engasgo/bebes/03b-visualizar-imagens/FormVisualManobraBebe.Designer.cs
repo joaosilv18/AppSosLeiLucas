@@ -31,8 +31,8 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormVisualManobraBebe));
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
-            btnVoltarPagVisualManobraBebe03 = new Button();
-            btnProximaPagVisualManobraBebe03 = new Button();
+            btnVoltarPagVisualManobraBebe03 = new teste.ImageHoverButton();
+            btnProximaPagVisualManobraBebe03 = new teste.ImageHoverButton();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -57,34 +57,37 @@
             // 
             // btnVoltarPagVisualManobraBebe03
             // 
+            btnVoltarPagVisualManobraBebe03.BackColor = Color.Transparent;
             btnVoltarPagVisualManobraBebe03.BackgroundImage = (Image)resources.GetObject("btnVoltarPagVisualManobraBebe03.BackgroundImage");
+            btnVoltarPagVisualManobraBebe03.BackgroundImageLayout = ImageLayout.Zoom;
             btnVoltarPagVisualManobraBebe03.FlatAppearance.BorderSize = 0;
             btnVoltarPagVisualManobraBebe03.FlatAppearance.MouseDownBackColor = Color.Transparent;
             btnVoltarPagVisualManobraBebe03.FlatAppearance.MouseOverBackColor = Color.Transparent;
             btnVoltarPagVisualManobraBebe03.FlatStyle = FlatStyle.Flat;
-            btnVoltarPagVisualManobraBebe03.Image = (Image)resources.GetObject("btnVoltarPagVisualManobraBebe03.Image");
+            btnVoltarPagVisualManobraBebe03.ImagemHover = (Image)resources.GetObject("btnVoltarPagVisualManobraBebe03.ImagemHover");
+            btnVoltarPagVisualManobraBebe03.ImagemNormal = (Image)resources.GetObject("btnVoltarPagVisualManobraBebe03.ImagemNormal");
             btnVoltarPagVisualManobraBebe03.Location = new Point(239, 922);
             btnVoltarPagVisualManobraBebe03.Name = "btnVoltarPagVisualManobraBebe03";
             btnVoltarPagVisualManobraBebe03.Size = new Size(272, 76);
-            btnVoltarPagVisualManobraBebe03.TabIndex = 24;
-            btnVoltarPagVisualManobraBebe03.UseVisualStyleBackColor = true;
+            btnVoltarPagVisualManobraBebe03.TabIndex = 1;
+            btnVoltarPagVisualManobraBebe03.UseVisualStyleBackColor = false;
             btnVoltarPagVisualManobraBebe03.Click += btnVoltarPagVisualManobraBebe03_Click;
             // 
             // btnProximaPagVisualManobraBebe03
             // 
             btnProximaPagVisualManobraBebe03.BackColor = Color.Transparent;
             btnProximaPagVisualManobraBebe03.BackgroundImage = (Image)resources.GetObject("btnProximaPagVisualManobraBebe03.BackgroundImage");
-            btnProximaPagVisualManobraBebe03.BackgroundImageLayout = ImageLayout.None;
+            btnProximaPagVisualManobraBebe03.BackgroundImageLayout = ImageLayout.Zoom;
             btnProximaPagVisualManobraBebe03.FlatAppearance.BorderSize = 0;
             btnProximaPagVisualManobraBebe03.FlatAppearance.MouseDownBackColor = Color.Transparent;
             btnProximaPagVisualManobraBebe03.FlatAppearance.MouseOverBackColor = Color.Transparent;
             btnProximaPagVisualManobraBebe03.FlatStyle = FlatStyle.Flat;
-            btnProximaPagVisualManobraBebe03.ForeColor = Color.Black;
-            btnProximaPagVisualManobraBebe03.Image = (Image)resources.GetObject("btnProximaPagVisualManobraBebe03.Image");
+            btnProximaPagVisualManobraBebe03.ImagemHover = (Image)resources.GetObject("btnProximaPagVisualManobraBebe03.ImagemHover");
+            btnProximaPagVisualManobraBebe03.ImagemNormal = (Image)resources.GetObject("btnProximaPagVisualManobraBebe03.ImagemNormal");
             btnProximaPagVisualManobraBebe03.Location = new Point(1474, 922);
             btnProximaPagVisualManobraBebe03.Name = "btnProximaPagVisualManobraBebe03";
             btnProximaPagVisualManobraBebe03.Size = new Size(272, 76);
-            btnProximaPagVisualManobraBebe03.TabIndex = 32;
+            btnProximaPagVisualManobraBebe03.TabIndex = 2;
             btnProximaPagVisualManobraBebe03.UseVisualStyleBackColor = false;
             btnProximaPagVisualManobraBebe03.Click += btnProximaPagVisualManobraBebe03_Click;
             // 
@@ -110,7 +113,7 @@
 
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
-        private Button btnVoltarPagVisualManobraBebe03;
-        private Button btnProximaPagVisualManobraBebe03;
+        private teste.ImageHoverButton btnVoltarPagVisualManobraBebe03;
+        private teste.ImageHoverButton btnProximaPagVisualManobraBebe03;
     }
 }

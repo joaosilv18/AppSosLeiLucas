@@ -14,8 +14,7 @@ namespace ProjetoLeiLucasTelas
         {
             InitializeComponent();
         }
-
-        private void btnVoltarTelaProtBebe04_Click(object sender, EventArgs e)
+        private void btnVoltarTelaProtBebe04_Click_1(object sender, EventArgs e)
         {
             TelaSelecao telaEmergencia = new();
             telaEmergencia.Show();

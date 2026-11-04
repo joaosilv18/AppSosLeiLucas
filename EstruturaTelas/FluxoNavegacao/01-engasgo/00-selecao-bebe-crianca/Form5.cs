@@ -70,5 +70,12 @@ namespace ProjetoLeiLucasTelas
             telaEmergencia.Show();
             this.Hide();
         }
+
+        private void BtnVoltarSelecao_Click(object sender, EventArgs e)
+        {
+            Form2 telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
+        }
     }
 }

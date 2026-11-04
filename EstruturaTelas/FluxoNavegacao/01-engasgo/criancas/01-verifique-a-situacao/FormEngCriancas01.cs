@@ -15,7 +15,7 @@ namespace ProjetoLeiLucasTelas
             InitializeComponent();
         }
 
-        private void btnVoltarPagBebe01_Click(object sender, EventArgs e)
+        private void btnVoltarTelaProtCrianca01_Click(object sender, EventArgs e)
         {
             TelaSelecao telaEmergencia = new();
             telaEmergencia.Show();
@@ -57,7 +57,7 @@ namespace ProjetoLeiLucasTelas
             this.Hide();
         }
 
-        private void btnVoltarTelaProtCrianca01_Click(object sender, EventArgs e)
+        private void btnVoltarPagCrianca01_Click(object sender, EventArgs e)
         {
             TelaSelecao telaEmergencia = new();
             telaEmergencia.Show();

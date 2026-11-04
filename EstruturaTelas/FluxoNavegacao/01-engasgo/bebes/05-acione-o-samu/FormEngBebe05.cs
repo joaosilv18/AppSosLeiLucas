@@ -55,6 +55,7 @@ namespace ProjetoLeiLucasTelas
             FormEngBebe05 telaEmergencia = new();
             telaEmergencia.Show();
             this.Hide();
+
         }
 
         private void btnVoltarPagBebe05_Click(object sender, EventArgs e)
@@ -62,6 +63,7 @@ namespace ProjetoLeiLucasTelas
             FormEngBebe04 telaEmergencia = new();
             telaEmergencia.Show();
             this.Hide();
+
         }
     }
 }

@@ -85,6 +85,7 @@
             BtnVoltarSelecao.Size = new Size(76, 62);
             BtnVoltarSelecao.TabIndex = 17;
             BtnVoltarSelecao.UseVisualStyleBackColor = false;
+            BtnVoltarSelecao.Click += BtnVoltarSelecao_Click;
             // 
             // BtnVoltarInicioSelecao
             // 

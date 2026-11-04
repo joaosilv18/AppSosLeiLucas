@@ -15,12 +15,7 @@ namespace ProjetoLeiLucasTelas
             InitializeComponent();
         }
 
-        private void btnProximaPagCrianca02_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnVoltarTelaProtCrianca02_Click(object sender, EventArgs e)
+        private void btnVoltarTelaProtCrianca03_Click(object sender, EventArgs e)
         {
             TelaSelecao telaEmergencia = new();
             telaEmergencia.Show();
@@ -50,7 +45,6 @@ namespace ProjetoLeiLucasTelas
 
         private void btnMonitoreVitCrianca03_Click(object sender, EventArgs e)
         {
-
             FormEngCriancas04 telaEmergencia = new();
             telaEmergencia.Show();
             this.Hide();

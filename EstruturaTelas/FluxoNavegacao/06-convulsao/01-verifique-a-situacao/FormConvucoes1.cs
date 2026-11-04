@@ -14,22 +14,12 @@ namespace ProjetoLeiLucasTelas
         {
             InitializeComponent();
         }
-
-        private void BtnProximoTelaDeInformacao1_Click(object sender, EventArgs e)
+        private void picturboxConvulcoes1_Click(object sender, EventArgs e)
         {
-            FormConvulcoes2 telaEmergencia = new();
-            telaEmergencia.Show();
-            this.Hide();
-        }
 
-        private void BtnVoltarTelaDeProdotocolus1_Click(object sender, EventArgs e)
-        {
-            Form2 telaEmergencia = new();
-            telaEmergencia.Show();
-            this.Hide();
         }
-
-        private void BtnVoltarTelaDeInformacao1_Click(object sender, EventArgs e)
+        // novos botões
+        private void BtnVoltarSelecao_Click(object sender, EventArgs e)
         {
             Form2 telaEmergencia = new();
             telaEmergencia.Show();
@@ -43,7 +33,7 @@ namespace ProjetoLeiLucasTelas
             this.Hide();
         }
 
-        private void BtnTelaConvulcaoSoliciteAjuda1_Click(object sender, EventArgs e)
+        private void BtnTelaConvulcaoSoliciteAjuda1_Click_1(object sender, EventArgs e)
         {
             FormConvulcoes2 telaEmergencia = new();
             telaEmergencia.Show();
@@ -71,9 +61,18 @@ namespace ProjetoLeiLucasTelas
             this.Hide();
         }
 
-        private void picturboxConvulcoes1_Click(object sender, EventArgs e)
+        private void BtnVoltarTelaDeInformacao1_Click(object sender, EventArgs e)
         {
+            Form2 telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
+        }
 
+        private void BtnProximoTelaDeInformacao1_Click(object sender, EventArgs e)
+        {
+            FormConvulcoes2 telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
         }
     }
 }

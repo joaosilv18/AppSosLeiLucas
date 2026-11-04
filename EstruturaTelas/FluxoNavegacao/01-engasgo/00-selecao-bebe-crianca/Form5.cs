@@ -49,5 +49,26 @@ namespace ProjetoLeiLucasTelas
             telaEmergencia.Show();
             this.Hide();
         }
+
+        private void BtnVoltarInicioSelecao_Click(object sender, EventArgs e)
+        {
+            TelaInicio telaEmergencia = new TelaInicio();
+            telaEmergencia.Show();
+            this.Hide();
+        }
+
+        private void BtnSelecaoBebe_Click(object sender, EventArgs e)
+        {
+            Form6 telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
+        }
+
+        private void BtnSelecaoCriancas_Click(object sender, EventArgs e)
+        {
+            FormEngCriancas01 telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
+        }
     }
 }

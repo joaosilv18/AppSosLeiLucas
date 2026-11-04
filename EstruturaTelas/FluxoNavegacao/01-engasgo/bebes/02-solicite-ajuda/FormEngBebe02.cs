@@ -29,9 +29,30 @@ namespace ProjetoLeiLucasTelas
             this.Hide();
         }
 
+        private void btnProximaPagBebe02_Click(object sender, EventArgs e)
+        {
+            FormEngBebe03 telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
+        }
+
+        private void btnVoltarTelaProtBebe02_Click_1(object sender, EventArgs e)
+        {
+            TelaSelecao telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
+        }
+
         private void btnVerificacaoBebe02_Click(object sender, EventArgs e)
         {
             Form6 telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
+        }
+
+        private void btnSoliciteAjudaBebe01_Click(object sender, EventArgs e)
+        {
+            FormEngBebe02 telaEmergencia = new();
             telaEmergencia.Show();
             this.Hide();
         }
@@ -64,7 +85,7 @@ namespace ProjetoLeiLucasTelas
             this.Hide();
         }
 
-        private void btnProximaPagBebe02_Click(object sender, EventArgs e)
+        private void btnProximaPagBebe02_Click_1(object sender, EventArgs e)
         {
             FormEngBebe03 telaEmergencia = new();
             telaEmergencia.Show();

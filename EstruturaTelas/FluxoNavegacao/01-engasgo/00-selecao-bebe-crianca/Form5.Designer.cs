@@ -30,13 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaSelecao));
             pictureBoxInforRodape = new PictureBox();
-            button1 = new Button();
             pictureBoxInfoRodape = new PictureBox();
-            VoltarAoInicio = new Button();
             pictureBox1 = new PictureBox();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
+            BtnVoltarSelecao = new teste.ImageHoverButton();
+            BtnVoltarInicioSelecao = new teste.ImageHoverButton();
+            BtnSelecaoBebe = new teste.ImageHoverButton();
+            BtnSelecaoCriancas = new teste.ImageHoverButton();
             ((System.ComponentModel.ISupportInitialize)pictureBoxInforRodape).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxInfoRodape).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -51,45 +50,15 @@
             pictureBoxInforRodape.TabIndex = 2;
             pictureBoxInforRodape.TabStop = false;
             // 
-            // button1
-            // 
-            button1.BackColor = Color.Transparent;
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            button1.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Image = (Image)resources.GetObject("button1.Image");
-            button1.Location = new Point(39, 985);
-            button1.Name = "button1";
-            button1.Size = new Size(76, 62);
-            button1.TabIndex = 10;
-            button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
-            // 
             // pictureBoxInfoRodape
             // 
             pictureBoxInfoRodape.BackgroundImage = (Image)resources.GetObject("pictureBoxInfoRodape.BackgroundImage");
             pictureBoxInfoRodape.Image = (Image)resources.GetObject("pictureBoxInfoRodape.Image");
-            pictureBoxInfoRodape.Location = new Point(855, 988);
+            pictureBoxInfoRodape.Location = new Point(39, 985);
             pictureBoxInfoRodape.Name = "pictureBoxInfoRodape";
             pictureBoxInfoRodape.Size = new Size(222, 48);
             pictureBoxInfoRodape.TabIndex = 11;
             pictureBoxInfoRodape.TabStop = false;
-            // 
-            // VoltarAoInicio
-            // 
-            VoltarAoInicio.BackColor = Color.Transparent;
-            VoltarAoInicio.FlatAppearance.BorderSize = 0;
-            VoltarAoInicio.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            VoltarAoInicio.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            VoltarAoInicio.FlatStyle = FlatStyle.Flat;
-            VoltarAoInicio.Image = (Image)resources.GetObject("VoltarAoInicio.Image");
-            VoltarAoInicio.Location = new Point(1604, 984);
-            VoltarAoInicio.Name = "VoltarAoInicio";
-            VoltarAoInicio.Size = new Size(254, 63);
-            VoltarAoInicio.TabIndex = 12;
-            VoltarAoInicio.UseVisualStyleBackColor = false;
-            VoltarAoInicio.Click += VoltarAoInicio_Click;
             // 
             // pictureBox1
             // 
@@ -100,51 +69,76 @@
             pictureBox1.TabIndex = 13;
             pictureBox1.TabStop = false;
             // 
-            // button2
+            // BtnVoltarSelecao
             // 
-            button2.BackColor = Color.Transparent;
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            button2.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Image = (Image)resources.GetObject("button2.Image");
-            button2.Location = new Point(35, 28);
-            button2.Name = "button2";
-            button2.Size = new Size(76, 62);
-            button2.TabIndex = 14;
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click;
+            BtnVoltarSelecao.BackColor = Color.Transparent;
+            BtnVoltarSelecao.BackgroundImage = (Image)resources.GetObject("BtnVoltarSelecao.BackgroundImage");
+            BtnVoltarSelecao.BackgroundImageLayout = ImageLayout.Zoom;
+            BtnVoltarSelecao.FlatAppearance.BorderSize = 0;
+            BtnVoltarSelecao.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            BtnVoltarSelecao.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            BtnVoltarSelecao.FlatStyle = FlatStyle.Flat;
+            BtnVoltarSelecao.ImagemHover = (Image)resources.GetObject("BtnVoltarSelecao.ImagemHover");
+            BtnVoltarSelecao.ImagemNormal = (Image)resources.GetObject("BtnVoltarSelecao.ImagemNormal");
+            BtnVoltarSelecao.Location = new Point(35, 28);
+            BtnVoltarSelecao.Name = "BtnVoltarSelecao";
+            BtnVoltarSelecao.Size = new Size(76, 62);
+            BtnVoltarSelecao.TabIndex = 17;
+            BtnVoltarSelecao.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // BtnVoltarInicioSelecao
             // 
-            button3.BackColor = Color.Transparent;
-            button3.BackgroundImage = (Image)resources.GetObject("button3.BackgroundImage");
-            button3.FlatAppearance.BorderSize = 0;
-            button3.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            button3.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.ForeColor = Color.Transparent;
-            button3.Location = new Point(458, 431);
-            button3.Name = "button3";
-            button3.Size = new Size(474, 266);
-            button3.TabIndex = 15;
-            button3.UseVisualStyleBackColor = false;
-            button3.Click += button3_Click;
+            BtnVoltarInicioSelecao.BackColor = Color.Transparent;
+            BtnVoltarInicioSelecao.BackgroundImage = (Image)resources.GetObject("BtnVoltarInicioSelecao.BackgroundImage");
+            BtnVoltarInicioSelecao.BackgroundImageLayout = ImageLayout.Zoom;
+            BtnVoltarInicioSelecao.FlatAppearance.BorderSize = 0;
+            BtnVoltarInicioSelecao.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            BtnVoltarInicioSelecao.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            BtnVoltarInicioSelecao.FlatStyle = FlatStyle.Flat;
+            BtnVoltarInicioSelecao.ImagemHover = (Image)resources.GetObject("BtnVoltarInicioSelecao.ImagemHover");
+            BtnVoltarInicioSelecao.ImagemNormal = (Image)resources.GetObject("BtnVoltarInicioSelecao.ImagemNormal");
+            BtnVoltarInicioSelecao.Location = new Point(1604, 984);
+            BtnVoltarInicioSelecao.Name = "BtnVoltarInicioSelecao";
+            BtnVoltarInicioSelecao.Size = new Size(254, 63);
+            BtnVoltarInicioSelecao.TabIndex = 18;
+            BtnVoltarInicioSelecao.UseVisualStyleBackColor = false;
+            BtnVoltarInicioSelecao.Click += BtnVoltarInicioSelecao_Click;
             // 
-            // button4
+            // BtnSelecaoBebe
             // 
-            button4.BackColor = Color.Transparent;
-            button4.BackgroundImage = (Image)resources.GetObject("button4.BackgroundImage");
-            button4.FlatAppearance.BorderSize = 0;
-            button4.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            button4.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.Location = new Point(1007, 431);
-            button4.Name = "button4";
-            button4.Size = new Size(473, 266);
-            button4.TabIndex = 16;
-            button4.UseVisualStyleBackColor = false;
-            button4.Click += button4_Click;
+            BtnSelecaoBebe.BackColor = Color.Transparent;
+            BtnSelecaoBebe.BackgroundImage = (Image)resources.GetObject("BtnSelecaoBebe.BackgroundImage");
+            BtnSelecaoBebe.BackgroundImageLayout = ImageLayout.Zoom;
+            BtnSelecaoBebe.FlatAppearance.BorderSize = 0;
+            BtnSelecaoBebe.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            BtnSelecaoBebe.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            BtnSelecaoBebe.FlatStyle = FlatStyle.Flat;
+            BtnSelecaoBebe.ImagemHover = (Image)resources.GetObject("BtnSelecaoBebe.ImagemHover");
+            BtnSelecaoBebe.ImagemNormal = (Image)resources.GetObject("BtnSelecaoBebe.ImagemNormal");
+            BtnSelecaoBebe.Location = new Point(458, 431);
+            BtnSelecaoBebe.Name = "BtnSelecaoBebe";
+            BtnSelecaoBebe.Size = new Size(474, 266);
+            BtnSelecaoBebe.TabIndex = 19;
+            BtnSelecaoBebe.UseVisualStyleBackColor = false;
+            BtnSelecaoBebe.Click += BtnSelecaoBebe_Click;
+            // 
+            // BtnSelecaoCriancas
+            // 
+            BtnSelecaoCriancas.BackColor = Color.Transparent;
+            BtnSelecaoCriancas.BackgroundImage = (Image)resources.GetObject("BtnSelecaoCriancas.BackgroundImage");
+            BtnSelecaoCriancas.BackgroundImageLayout = ImageLayout.Zoom;
+            BtnSelecaoCriancas.FlatAppearance.BorderSize = 0;
+            BtnSelecaoCriancas.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            BtnSelecaoCriancas.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            BtnSelecaoCriancas.FlatStyle = FlatStyle.Flat;
+            BtnSelecaoCriancas.ImagemHover = (Image)resources.GetObject("BtnSelecaoCriancas.ImagemHover");
+            BtnSelecaoCriancas.ImagemNormal = (Image)resources.GetObject("BtnSelecaoCriancas.ImagemNormal");
+            BtnSelecaoCriancas.Location = new Point(1007, 431);
+            BtnSelecaoCriancas.Name = "BtnSelecaoCriancas";
+            BtnSelecaoCriancas.Size = new Size(474, 266);
+            BtnSelecaoCriancas.TabIndex = 20;
+            BtnSelecaoCriancas.UseVisualStyleBackColor = false;
+            BtnSelecaoCriancas.Click += BtnSelecaoCriancas_Click;
             // 
             // TelaSelecao
             // 
@@ -152,13 +146,12 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1904, 1041);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
+            Controls.Add(BtnSelecaoCriancas);
+            Controls.Add(BtnSelecaoBebe);
+            Controls.Add(BtnVoltarInicioSelecao);
+            Controls.Add(BtnVoltarSelecao);
             Controls.Add(pictureBox1);
-            Controls.Add(VoltarAoInicio);
             Controls.Add(pictureBoxInfoRodape);
-            Controls.Add(button1);
             Controls.Add(pictureBoxInforRodape);
             Name = "TelaSelecao";
             Text = "Form5";
@@ -171,12 +164,12 @@
         #endregion
 
         private PictureBox pictureBoxInforRodape;
-        private Button button1;
         private PictureBox pictureBoxInfoRodape;
-        private Button VoltarAoInicio;
         private PictureBox pictureBox1;
         private Button button2;
-        private Button button3;
-        private Button button4;
+        private teste.ImageHoverButton BtnVoltarSelecao;
+        private teste.ImageHoverButton BtnVoltarInicioSelecao;
+        private teste.ImageHoverButton BtnSelecaoBebe;
+        private teste.ImageHoverButton BtnSelecaoCriancas;
     }
 }

@@ -15,58 +15,60 @@ namespace ProjetoLeiLucasTelas
             InitializeComponent();
         }
 
-        private void buttonVoltarTelaPara4Rcp_Click(object sender, EventArgs e)
+
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bnVoltarTelaPara4Rcp_Click(object sender, EventArgs e)
         {
             Form2 telaemergencia = new();
             telaemergencia.Show();
             this.Hide();
         }
 
-        private void buttoPasso5voltarTela4Rcp_Click(object sender, EventArgs e)
-        {
-            FormRcp4 telaemergencia = new();
-            telaemergencia.Show();
-            this.Hide();
-        }
-
-        private void buttonVerificacao5Rcp_Click(object sender, EventArgs e)
+        private void bnVerificacao5Rcp_Click(object sender, EventArgs e)
         {
             Form_RCP1 telaemergencia = new();
             telaemergencia.Show();
             this.Hide();
         }
 
-        private void buttonSoliciteAjuda5Rcp_Click(object sender, EventArgs e)
+        private void bnSoliciteAjuda5Rcp_Click(object sender, EventArgs e)
         {
             FormRcp2 telaemergencia = new();
             telaemergencia.Show();
             this.Hide();
         }
 
-        private void buttoninicie5Rcp_Rcp_Click(object sender, EventArgs e)
+        private void bninicie5Rcp_Rcp_Click(object sender, EventArgs e)
         {
             FormRcp3 telaemergencia = new();
             telaemergencia.Show();
             this.Hide();
         }
 
-        private void buttonMonitoreViti5Rcp_Click(object sender, EventArgs e)
+        private void bnMonitoreViti5Rcp_Click(object sender, EventArgs e)
         {
             FormRcp4 telaemergencia = new();
             telaemergencia.Show();
             this.Hide();
         }
 
-        private void buttonAcioneSamu5Rcp_Click(object sender, EventArgs e)
+        private void bnAcioneSamu5Rcp_Click(object sender, EventArgs e)
         {
             FormRcp5 telaemergencia = new();
             telaemergencia.Show();
             this.Hide();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void bnPasso5voltarTela4Rcp_Click(object sender, EventArgs e)
         {
-
+            FormRcp4 telaemergencia = new();
+            telaemergencia.Show();
+            this.Hide();
         }
     }
 }

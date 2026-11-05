@@ -33,14 +33,14 @@
             pictureBoxHEmorragiapasso3 = new PictureBox();
             FooterHemorragia3 = new PictureBox();
             SBHemorragias3 = new PictureBox();
-            buttonVoltartelaHemoragia3 = new Button();
-            buttonProximaTelaHemorragia3 = new Button();
-            buttonVoltarProtocoloHemorragia3 = new Button();
-            button3_1hemorragia = new Button();
-            button3_2Hemorragia = new Button();
-            button3_3Hemoragia = new Button();
-            button3_4Hemorragia = new Button();
-            button3_5Hemorragia = new Button();
+            btnVoltarTelaProtHemoCortes03 = new teste.ImageHoverButton();
+            btnVerificacaoHemoCortes03 = new teste.ImageHoverButton();
+            btnSoliciteAjudaHemoCortes03 = new teste.ImageHoverButton();
+            btnManobrasHemoCortes03 = new teste.ImageHoverButton();
+            btnMonitoreVitHemoCortes03 = new teste.ImageHoverButton();
+            btnAcioneSamuHemoCortes03 = new teste.ImageHoverButton();
+            btnVoltarPagHemoCortes03 = new teste.ImageHoverButton();
+            btnProximaPagHemoCortes03 = new teste.ImageHoverButton();
             ((System.ComponentModel.ISupportInitialize)HeaderHemorragia3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxHEmorragiapasso3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)FooterHemorragia3).BeginInit();
@@ -50,7 +50,7 @@
             // HeaderHemorragia3
             // 
             HeaderHemorragia3.BackgroundImage = (Image)resources.GetObject("HeaderHemorragia3.BackgroundImage");
-            HeaderHemorragia3.Location = new Point(1, -1);
+            HeaderHemorragia3.Location = new Point(0, 0);
             HeaderHemorragia3.Name = "HeaderHemorragia3";
             HeaderHemorragia3.Size = new Size(1920, 118);
             HeaderHemorragia3.TabIndex = 3;
@@ -59,7 +59,7 @@
             // pictureBoxHEmorragiapasso3
             // 
             pictureBoxHEmorragiapasso3.BackgroundImage = (Image)resources.GetObject("pictureBoxHEmorragiapasso3.BackgroundImage");
-            pictureBoxHEmorragiapasso3.Location = new Point(417, -19);
+            pictureBoxHEmorragiapasso3.Location = new Point(417, 0);
             pictureBoxHEmorragiapasso3.Name = "pictureBoxHEmorragiapasso3";
             pictureBoxHEmorragiapasso3.Size = new Size(1485, 1080);
             pictureBoxHEmorragiapasso3.TabIndex = 11;
@@ -69,7 +69,7 @@
             // FooterHemorragia3
             // 
             FooterHemorragia3.BackgroundImage = (Image)resources.GetObject("FooterHemorragia3.BackgroundImage");
-            FooterHemorragia3.Location = new Point(410, 842);
+            FooterHemorragia3.Location = new Point(415, 868);
             FooterHemorragia3.Name = "FooterHemorragia3";
             FooterHemorragia3.Size = new Size(1507, 200);
             FooterHemorragia3.TabIndex = 12;
@@ -78,131 +78,155 @@
             // SBHemorragias3
             // 
             SBHemorragias3.BackgroundImage = (Image)resources.GetObject("SBHemorragias3.BackgroundImage");
-            SBHemorragias3.Location = new Point(1, 116);
+            SBHemorragias3.Location = new Point(1, 111);
             SBHemorragias3.Name = "SBHemorragias3";
             SBHemorragias3.Size = new Size(414, 963);
             SBHemorragias3.TabIndex = 13;
             SBHemorragias3.TabStop = false;
             // 
-            // buttonVoltartelaHemoragia3
+            // btnVoltarTelaProtHemoCortes03
             // 
-            buttonVoltartelaHemoragia3.BackgroundImage = (Image)resources.GetObject("buttonVoltartelaHemoragia3.BackgroundImage");
-            buttonVoltartelaHemoragia3.FlatAppearance.BorderSize = 0;
-            buttonVoltartelaHemoragia3.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            buttonVoltartelaHemoragia3.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            buttonVoltartelaHemoragia3.FlatStyle = FlatStyle.Flat;
-            buttonVoltartelaHemoragia3.Location = new Point(591, 910);
-            buttonVoltartelaHemoragia3.Name = "buttonVoltartelaHemoragia3";
-            buttonVoltartelaHemoragia3.Size = new Size(266, 70);
-            buttonVoltartelaHemoragia3.TabIndex = 14;
-            buttonVoltartelaHemoragia3.UseVisualStyleBackColor = true;
-            buttonVoltartelaHemoragia3.Click += buttonVoltartelaHemoragia2_Click;
+            btnVoltarTelaProtHemoCortes03.BackColor = Color.Transparent;
+            btnVoltarTelaProtHemoCortes03.BackgroundImage = (Image)resources.GetObject("btnVoltarTelaProtHemoCortes03.BackgroundImage");
+            btnVoltarTelaProtHemoCortes03.BackgroundImageLayout = ImageLayout.Zoom;
+            btnVoltarTelaProtHemoCortes03.FlatAppearance.BorderSize = 0;
+            btnVoltarTelaProtHemoCortes03.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnVoltarTelaProtHemoCortes03.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btnVoltarTelaProtHemoCortes03.FlatStyle = FlatStyle.Flat;
+            btnVoltarTelaProtHemoCortes03.ImagemHover = (Image)resources.GetObject("btnVoltarTelaProtHemoCortes03.ImagemHover");
+            btnVoltarTelaProtHemoCortes03.ImagemNormal = (Image)resources.GetObject("btnVoltarTelaProtHemoCortes03.ImagemNormal");
+            btnVoltarTelaProtHemoCortes03.Location = new Point(35, 28);
+            btnVoltarTelaProtHemoCortes03.Name = "btnVoltarTelaProtHemoCortes03";
+            btnVoltarTelaProtHemoCortes03.Size = new Size(76, 62);
+            btnVoltarTelaProtHemoCortes03.TabIndex = 54;
+            btnVoltarTelaProtHemoCortes03.UseVisualStyleBackColor = false;
+            btnVoltarTelaProtHemoCortes03.Click += btnVoltarTelaProtHemoCortes03_Click;
             // 
-            // buttonProximaTelaHemorragia3
+            // btnVerificacaoHemoCortes03
             // 
-            buttonProximaTelaHemorragia3.BackColor = Color.Transparent;
-            buttonProximaTelaHemorragia3.BackgroundImage = (Image)resources.GetObject("buttonProximaTelaHemorragia3.BackgroundImage");
-            buttonProximaTelaHemorragia3.BackgroundImageLayout = ImageLayout.Center;
-            buttonProximaTelaHemorragia3.FlatAppearance.BorderSize = 0;
-            buttonProximaTelaHemorragia3.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            buttonProximaTelaHemorragia3.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            buttonProximaTelaHemorragia3.FlatStyle = FlatStyle.Flat;
-            buttonProximaTelaHemorragia3.Location = new Point(1482, 912);
-            buttonProximaTelaHemorragia3.Name = "buttonProximaTelaHemorragia3";
-            buttonProximaTelaHemorragia3.Size = new Size(272, 76);
-            buttonProximaTelaHemorragia3.TabIndex = 15;
-            buttonProximaTelaHemorragia3.UseVisualStyleBackColor = false;
-            buttonProximaTelaHemorragia3.Click += buttonProximaTelaHemorragia3_Click;
+            btnVerificacaoHemoCortes03.BackColor = Color.Transparent;
+            btnVerificacaoHemoCortes03.BackgroundImage = (Image)resources.GetObject("btnVerificacaoHemoCortes03.BackgroundImage");
+            btnVerificacaoHemoCortes03.BackgroundImageLayout = ImageLayout.Zoom;
+            btnVerificacaoHemoCortes03.FlatAppearance.BorderSize = 0;
+            btnVerificacaoHemoCortes03.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnVerificacaoHemoCortes03.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btnVerificacaoHemoCortes03.FlatStyle = FlatStyle.Flat;
+            btnVerificacaoHemoCortes03.ImagemHover = (Image)resources.GetObject("btnVerificacaoHemoCortes03.ImagemHover");
+            btnVerificacaoHemoCortes03.ImagemNormal = (Image)resources.GetObject("btnVerificacaoHemoCortes03.ImagemNormal");
+            btnVerificacaoHemoCortes03.Location = new Point(21, 151);
+            btnVerificacaoHemoCortes03.Name = "btnVerificacaoHemoCortes03";
+            btnVerificacaoHemoCortes03.Size = new Size(376, 65);
+            btnVerificacaoHemoCortes03.TabIndex = 63;
+            btnVerificacaoHemoCortes03.UseVisualStyleBackColor = false;
+            btnVerificacaoHemoCortes03.Click += btnVerificacaoHemoCortes03_Click;
             // 
-            // buttonVoltarProtocoloHemorragia3
+            // btnSoliciteAjudaHemoCortes03
             // 
-            buttonVoltarProtocoloHemorragia3.BackgroundImage = (Image)resources.GetObject("buttonVoltarProtocoloHemorragia3.BackgroundImage");
-            buttonVoltarProtocoloHemorragia3.FlatAppearance.BorderSize = 0;
-            buttonVoltarProtocoloHemorragia3.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            buttonVoltarProtocoloHemorragia3.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            buttonVoltarProtocoloHemorragia3.FlatStyle = FlatStyle.Flat;
-            buttonVoltarProtocoloHemorragia3.Image = (Image)resources.GetObject("buttonVoltarProtocoloHemorragia3.Image");
-            buttonVoltarProtocoloHemorragia3.Location = new Point(35, 25);
-            buttonVoltarProtocoloHemorragia3.Name = "buttonVoltarProtocoloHemorragia3";
-            buttonVoltarProtocoloHemorragia3.Size = new Size(75, 64);
-            buttonVoltarProtocoloHemorragia3.TabIndex = 16;
-            buttonVoltarProtocoloHemorragia3.UseVisualStyleBackColor = true;
-            buttonVoltarProtocoloHemorragia3.Click += buttonVoltarProtocoloHemorragia3_Click;
+            btnSoliciteAjudaHemoCortes03.BackColor = Color.Transparent;
+            btnSoliciteAjudaHemoCortes03.BackgroundImage = (Image)resources.GetObject("btnSoliciteAjudaHemoCortes03.BackgroundImage");
+            btnSoliciteAjudaHemoCortes03.BackgroundImageLayout = ImageLayout.Zoom;
+            btnSoliciteAjudaHemoCortes03.FlatAppearance.BorderSize = 0;
+            btnSoliciteAjudaHemoCortes03.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnSoliciteAjudaHemoCortes03.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btnSoliciteAjudaHemoCortes03.FlatStyle = FlatStyle.Flat;
+            btnSoliciteAjudaHemoCortes03.ImagemHover = (Image)resources.GetObject("btnSoliciteAjudaHemoCortes03.ImagemHover");
+            btnSoliciteAjudaHemoCortes03.ImagemNormal = (Image)resources.GetObject("btnSoliciteAjudaHemoCortes03.ImagemNormal");
+            btnSoliciteAjudaHemoCortes03.Location = new Point(21, 234);
+            btnSoliciteAjudaHemoCortes03.Name = "btnSoliciteAjudaHemoCortes03";
+            btnSoliciteAjudaHemoCortes03.Size = new Size(376, 65);
+            btnSoliciteAjudaHemoCortes03.TabIndex = 64;
+            btnSoliciteAjudaHemoCortes03.UseVisualStyleBackColor = false;
+            btnSoliciteAjudaHemoCortes03.Click += btnSoliciteAjudaHemoCortes03_Click;
             // 
-            // button3_1hemorragia
+            // btnManobrasHemoCortes03
             // 
-            button3_1hemorragia.BackgroundImage = (Image)resources.GetObject("button3_1hemorragia.BackgroundImage");
-            button3_1hemorragia.FlatAppearance.BorderSize = 0;
-            button3_1hemorragia.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            button3_1hemorragia.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            button3_1hemorragia.FlatStyle = FlatStyle.Flat;
-            button3_1hemorragia.Image = (Image)resources.GetObject("button3_1hemorragia.Image");
-            button3_1hemorragia.Location = new Point(12, 137);
-            button3_1hemorragia.Name = "button3_1hemorragia";
-            button3_1hemorragia.Size = new Size(376, 60);
-            button3_1hemorragia.TabIndex = 17;
-            button3_1hemorragia.UseVisualStyleBackColor = true;
-            button3_1hemorragia.Click += button3_1hemorragia_Click;
+            btnManobrasHemoCortes03.BackColor = Color.Transparent;
+            btnManobrasHemoCortes03.BackgroundImage = (Image)resources.GetObject("btnManobrasHemoCortes03.BackgroundImage");
+            btnManobrasHemoCortes03.BackgroundImageLayout = ImageLayout.Zoom;
+            btnManobrasHemoCortes03.FlatAppearance.BorderSize = 0;
+            btnManobrasHemoCortes03.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnManobrasHemoCortes03.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btnManobrasHemoCortes03.FlatStyle = FlatStyle.Flat;
+            btnManobrasHemoCortes03.ImagemHover = (Image)resources.GetObject("btnManobrasHemoCortes03.ImagemHover");
+            btnManobrasHemoCortes03.ImagemNormal = (Image)resources.GetObject("btnManobrasHemoCortes03.ImagemNormal");
+            btnManobrasHemoCortes03.Location = new Point(21, 322);
+            btnManobrasHemoCortes03.Name = "btnManobrasHemoCortes03";
+            btnManobrasHemoCortes03.Size = new Size(376, 65);
+            btnManobrasHemoCortes03.TabIndex = 65;
+            btnManobrasHemoCortes03.UseVisualStyleBackColor = false;
+            btnManobrasHemoCortes03.Click += btnManobrasHemoCortes03_Click;
             // 
-            // button3_2Hemorragia
+            // btnMonitoreVitHemoCortes03
             // 
-            button3_2Hemorragia.BackgroundImage = (Image)resources.GetObject("button3_2Hemorragia.BackgroundImage");
-            button3_2Hemorragia.FlatAppearance.BorderSize = 0;
-            button3_2Hemorragia.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            button3_2Hemorragia.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            button3_2Hemorragia.FlatStyle = FlatStyle.Flat;
-            button3_2Hemorragia.Image = (Image)resources.GetObject("button3_2Hemorragia.Image");
-            button3_2Hemorragia.Location = new Point(12, 203);
-            button3_2Hemorragia.Name = "button3_2Hemorragia";
-            button3_2Hemorragia.Size = new Size(376, 60);
-            button3_2Hemorragia.TabIndex = 18;
-            button3_2Hemorragia.UseVisualStyleBackColor = true;
-            button3_2Hemorragia.Click += button3_2Hemorragia_Click;
+            btnMonitoreVitHemoCortes03.BackColor = Color.Transparent;
+            btnMonitoreVitHemoCortes03.BackgroundImage = (Image)resources.GetObject("btnMonitoreVitHemoCortes03.BackgroundImage");
+            btnMonitoreVitHemoCortes03.BackgroundImageLayout = ImageLayout.Zoom;
+            btnMonitoreVitHemoCortes03.FlatAppearance.BorderSize = 0;
+            btnMonitoreVitHemoCortes03.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnMonitoreVitHemoCortes03.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btnMonitoreVitHemoCortes03.FlatStyle = FlatStyle.Flat;
+            btnMonitoreVitHemoCortes03.ImagemHover = (Image)resources.GetObject("btnMonitoreVitHemoCortes03.ImagemHover");
+            btnMonitoreVitHemoCortes03.ImagemNormal = (Image)resources.GetObject("btnMonitoreVitHemoCortes03.ImagemNormal");
+            btnMonitoreVitHemoCortes03.Location = new Point(21, 404);
+            btnMonitoreVitHemoCortes03.Name = "btnMonitoreVitHemoCortes03";
+            btnMonitoreVitHemoCortes03.Size = new Size(376, 65);
+            btnMonitoreVitHemoCortes03.TabIndex = 66;
+            btnMonitoreVitHemoCortes03.UseVisualStyleBackColor = false;
+            btnMonitoreVitHemoCortes03.Click += btnMonitoreVitHemoCortes03_Click;
             // 
-            // button3_3Hemoragia
+            // btnAcioneSamuHemoCortes03
             // 
-            button3_3Hemoragia.BackgroundImage = (Image)resources.GetObject("button3_3Hemoragia.BackgroundImage");
-            button3_3Hemoragia.FlatAppearance.BorderSize = 0;
-            button3_3Hemoragia.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            button3_3Hemoragia.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            button3_3Hemoragia.FlatStyle = FlatStyle.Flat;
-            button3_3Hemoragia.Image = (Image)resources.GetObject("button3_3Hemoragia.Image");
-            button3_3Hemoragia.Location = new Point(12, 269);
-            button3_3Hemoragia.Name = "button3_3Hemoragia";
-            button3_3Hemoragia.Size = new Size(376, 60);
-            button3_3Hemoragia.TabIndex = 19;
-            button3_3Hemoragia.UseVisualStyleBackColor = true;
-            button3_3Hemoragia.Click += button3_3Hemoragia_Click;
+            btnAcioneSamuHemoCortes03.BackColor = Color.Transparent;
+            btnAcioneSamuHemoCortes03.BackgroundImage = (Image)resources.GetObject("btnAcioneSamuHemoCortes03.BackgroundImage");
+            btnAcioneSamuHemoCortes03.BackgroundImageLayout = ImageLayout.Zoom;
+            btnAcioneSamuHemoCortes03.FlatAppearance.BorderSize = 0;
+            btnAcioneSamuHemoCortes03.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnAcioneSamuHemoCortes03.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btnAcioneSamuHemoCortes03.FlatStyle = FlatStyle.Flat;
+            btnAcioneSamuHemoCortes03.ImagemHover = (Image)resources.GetObject("btnAcioneSamuHemoCortes03.ImagemHover");
+            btnAcioneSamuHemoCortes03.ImagemNormal = (Image)resources.GetObject("btnAcioneSamuHemoCortes03.ImagemNormal");
+            btnAcioneSamuHemoCortes03.Location = new Point(21, 485);
+            btnAcioneSamuHemoCortes03.Name = "btnAcioneSamuHemoCortes03";
+            btnAcioneSamuHemoCortes03.Size = new Size(376, 65);
+            btnAcioneSamuHemoCortes03.TabIndex = 67;
+            btnAcioneSamuHemoCortes03.UseVisualStyleBackColor = false;
+            btnAcioneSamuHemoCortes03.Click += btnAcioneSamuHemoCortes03_Click;
             // 
-            // button3_4Hemorragia
+            // btnVoltarPagHemoCortes03
             // 
-            button3_4Hemorragia.BackgroundImage = (Image)resources.GetObject("button3_4Hemorragia.BackgroundImage");
-            button3_4Hemorragia.FlatAppearance.BorderSize = 0;
-            button3_4Hemorragia.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            button3_4Hemorragia.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            button3_4Hemorragia.FlatStyle = FlatStyle.Flat;
-            button3_4Hemorragia.Image = (Image)resources.GetObject("button3_4Hemorragia.Image");
-            button3_4Hemorragia.Location = new Point(9, 332);
-            button3_4Hemorragia.Name = "button3_4Hemorragia";
-            button3_4Hemorragia.Size = new Size(376, 60);
-            button3_4Hemorragia.TabIndex = 20;
-            button3_4Hemorragia.UseVisualStyleBackColor = true;
-            button3_4Hemorragia.Click += button3_4Hemorragia_Click;
+            btnVoltarPagHemoCortes03.BackColor = Color.Transparent;
+            btnVoltarPagHemoCortes03.BackgroundImage = (Image)resources.GetObject("btnVoltarPagHemoCortes03.BackgroundImage");
+            btnVoltarPagHemoCortes03.BackgroundImageLayout = ImageLayout.Zoom;
+            btnVoltarPagHemoCortes03.FlatAppearance.BorderSize = 0;
+            btnVoltarPagHemoCortes03.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnVoltarPagHemoCortes03.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btnVoltarPagHemoCortes03.FlatStyle = FlatStyle.Flat;
+            btnVoltarPagHemoCortes03.ImagemHover = (Image)resources.GetObject("btnVoltarPagHemoCortes03.ImagemHover");
+            btnVoltarPagHemoCortes03.ImagemNormal = (Image)resources.GetObject("btnVoltarPagHemoCortes03.ImagemNormal");
+            btnVoltarPagHemoCortes03.Location = new Point(605, 924);
+            btnVoltarPagHemoCortes03.Name = "btnVoltarPagHemoCortes03";
+            btnVoltarPagHemoCortes03.Size = new Size(272, 76);
+            btnVoltarPagHemoCortes03.TabIndex = 68;
+            btnVoltarPagHemoCortes03.UseVisualStyleBackColor = false;
+            btnVoltarPagHemoCortes03.Click += btnVoltarPagHemoCortes03_Click;
             // 
-            // button3_5Hemorragia
+            // btnProximaPagHemoCortes03
             // 
-            button3_5Hemorragia.BackgroundImage = (Image)resources.GetObject("button3_5Hemorragia.BackgroundImage");
-            button3_5Hemorragia.FlatAppearance.BorderSize = 0;
-            button3_5Hemorragia.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            button3_5Hemorragia.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            button3_5Hemorragia.FlatStyle = FlatStyle.Flat;
-            button3_5Hemorragia.Image = (Image)resources.GetObject("button3_5Hemorragia.Image");
-            button3_5Hemorragia.Location = new Point(12, 398);
-            button3_5Hemorragia.Name = "button3_5Hemorragia";
-            button3_5Hemorragia.Size = new Size(376, 60);
-            button3_5Hemorragia.TabIndex = 21;
-            button3_5Hemorragia.UseVisualStyleBackColor = true;
-            button3_5Hemorragia.Click += button3_5Hemorragia_Click;
+            btnProximaPagHemoCortes03.BackColor = Color.Transparent;
+            btnProximaPagHemoCortes03.BackgroundImage = (Image)resources.GetObject("btnProximaPagHemoCortes03.BackgroundImage");
+            btnProximaPagHemoCortes03.BackgroundImageLayout = ImageLayout.Zoom;
+            btnProximaPagHemoCortes03.FlatAppearance.BorderSize = 0;
+            btnProximaPagHemoCortes03.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            btnProximaPagHemoCortes03.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            btnProximaPagHemoCortes03.FlatStyle = FlatStyle.Flat;
+            btnProximaPagHemoCortes03.ImagemHover = (Image)resources.GetObject("btnProximaPagHemoCortes03.ImagemHover");
+            btnProximaPagHemoCortes03.ImagemNormal = (Image)resources.GetObject("btnProximaPagHemoCortes03.ImagemNormal");
+            btnProximaPagHemoCortes03.Location = new Point(1498, 930);
+            btnProximaPagHemoCortes03.Name = "btnProximaPagHemoCortes03";
+            btnProximaPagHemoCortes03.Size = new Size(272, 76);
+            btnProximaPagHemoCortes03.TabIndex = 70;
+            btnProximaPagHemoCortes03.UseVisualStyleBackColor = false;
+            btnProximaPagHemoCortes03.Click += btnProximaPagHemoCortes03_Click;
             // 
             // FormHemorragias_E_Cortes3
             // 
@@ -210,18 +234,18 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1904, 1041);
-            Controls.Add(button3_5Hemorragia);
-            Controls.Add(button3_4Hemorragia);
-            Controls.Add(button3_3Hemoragia);
-            Controls.Add(button3_2Hemorragia);
-            Controls.Add(button3_1hemorragia);
-            Controls.Add(buttonVoltarProtocoloHemorragia3);
-            Controls.Add(buttonProximaTelaHemorragia3);
-            Controls.Add(buttonVoltartelaHemoragia3);
-            Controls.Add(SBHemorragias3);
+            Controls.Add(btnProximaPagHemoCortes03);
+            Controls.Add(btnVoltarPagHemoCortes03);
+            Controls.Add(btnAcioneSamuHemoCortes03);
+            Controls.Add(btnMonitoreVitHemoCortes03);
+            Controls.Add(btnManobrasHemoCortes03);
+            Controls.Add(btnSoliciteAjudaHemoCortes03);
+            Controls.Add(btnVerificacaoHemoCortes03);
+            Controls.Add(btnVoltarTelaProtHemoCortes03);
             Controls.Add(FooterHemorragia3);
             Controls.Add(HeaderHemorragia3);
             Controls.Add(pictureBoxHEmorragiapasso3);
+            Controls.Add(SBHemorragias3);
             Name = "FormHemorragias_E_Cortes3";
             Text = "FormHemorragias_E_Cortes3";
             ((System.ComponentModel.ISupportInitialize)HeaderHemorragia3).EndInit();
@@ -237,13 +261,13 @@
         private PictureBox pictureBoxHEmorragiapasso3;
         private PictureBox FooterHemorragia3;
         private PictureBox SBHemorragias3;
-        private Button buttonVoltartelaHemoragia3;
-        private Button buttonProximaTelaHemorragia3;
-        private Button buttonVoltarProtocoloHemorragia3;
-        private Button button3_1hemorragia;
-        private Button button3_2Hemorragia;
-        private Button button3_3Hemoragia;
-        private Button button3_4Hemorragia;
-        private Button button3_5Hemorragia;
+        private teste.ImageHoverButton btnVoltarTelaProtHemoCortes03;
+        private teste.ImageHoverButton btnVerificacaoHemoCortes03;
+        private teste.ImageHoverButton btnSoliciteAjudaHemoCortes03;
+        private teste.ImageHoverButton btnManobrasHemoCortes03;
+        private teste.ImageHoverButton btnMonitoreVitHemoCortes03;
+        private teste.ImageHoverButton btnAcioneSamuHemoCortes03;
+        private teste.ImageHoverButton btnVoltarPagHemoCortes03;
+        private teste.ImageHoverButton btnProximaPagHemoCortes03;
     }
 }

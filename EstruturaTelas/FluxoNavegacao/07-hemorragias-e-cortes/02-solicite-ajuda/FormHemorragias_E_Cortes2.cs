@@ -15,58 +15,58 @@ namespace ProjetoLeiLucasTelas
             InitializeComponent();
         }
 
-        private void buttonVoltarProtocoloHemorragia2_Click(object sender, EventArgs e)
+        private void btnVoltarTelaProtHemoCortes02_Click(object sender, EventArgs e)
         {
             Form2 telaEmergencia = new();
             telaEmergencia.Show();
             this.Hide();
         }
 
-        private void buttonVoltartelaHemoragia2_Click(object sender, EventArgs e)
+        private void btnVerificacaoHemoCortes02_Click(object sender, EventArgs e)
         {
             FormHemorragia_E_Cortes1 telaEmergencia = new();
             telaEmergencia.Show();
             this.Hide();
         }
 
-        private void button2_1hemorragia_Click(object sender, EventArgs e)
-        {
-            FormHemorragia_E_Cortes1 telaEmergencia = new();
-            telaEmergencia.Show();
-            this.Hide();
-        }
-
-        private void buttonProximaTelaHemorragia2_Click(object sender, EventArgs e)
-        {
-            FormHemorragias_E_Cortes3 telaEmergencia = new();
-            telaEmergencia.Show();
-            this.Hide();
-        }
-
-        private void button2_2Hemorragia_Click(object sender, EventArgs e)
+        private void btnSoliciteAjudaHemoCortes02_Click(object sender, EventArgs e)
         {
             FormHemorragias_E_Cortes2 telaEmergencia = new();
             telaEmergencia.Show();
             this.Hide();
         }
 
-        private void button2_3Hemoragia_Click(object sender, EventArgs e)
+        private void btnManobrasHemoCortes02_Click(object sender, EventArgs e)
         {
             FormHemorragias_E_Cortes3 telaEmergencia = new();
             telaEmergencia.Show();
             this.Hide();
         }
 
-        private void button2_4Hemorragia_Click(object sender, EventArgs e)
+        private void btnMonitoreVitHemoCortes02_Click(object sender, EventArgs e)
         {
             FormHemorragias_E_Cortes4 telaEmergencia = new();
             telaEmergencia.Show();
             this.Hide();
         }
 
-        private void button2_5Hemorragia_Click(object sender, EventArgs e)
+        private void btnAcioneSamuHemoCortes02_Click(object sender, EventArgs e)
         {
             FormHemorragias_E_Cortes5 telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
+        }
+
+        private void btnVoltarPagHemoCortes02_Click(object sender, EventArgs e)
+        {
+            FormHemorragia_E_Cortes1 telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
+        }
+
+        private void btnProximaPagHemoCortes02_Click(object sender, EventArgs e)
+        {
+            FormHemorragias_E_Cortes3 telaEmergencia = new();
             telaEmergencia.Show();
             this.Hide();
         }

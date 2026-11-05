@@ -33,14 +33,14 @@
             barralateral4 = new PictureBox();
             Informacao4 = new PictureBox();
             VoltareProximo4 = new PictureBox();
-            VerificaASituacao4 = new Button();
-            SoliciteAjuda4 = new Button();
-            InicieAsManobras4 = new Button();
-            MonitorasAVitima4 = new Button();
-            AcioneOSamu4 = new Button();
-            voltar4 = new Button();
-            proximo4 = new Button();
-            voltar44 = new Button();
+            VerificaASituacao4 = new teste.ImageHoverButton();
+            SoliciteAjuda4 = new teste.ImageHoverButton();
+            IInicieAsManobras4 = new teste.ImageHoverButton();
+            MonitorasAVitima4 = new teste.ImageHoverButton();
+            AcioneOSamu4 = new teste.ImageHoverButton();
+            voltar44 = new teste.ImageHoverButton();
+            voltar4 = new teste.ImageHoverButton();
+            Proximo4 = new teste.ImageHoverButton();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)barralateral4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)Informacao4).BeginInit();
@@ -71,7 +71,7 @@
             Informacao4.BackgroundImage = (Image)resources.GetObject("Informacao4.BackgroundImage");
             Informacao4.Location = new Point(402, -12);
             Informacao4.Name = "Informacao4";
-            Informacao4.Size = new Size(1503, 1080);
+            Informacao4.Size = new Size(1506, 1080);
             Informacao4.TabIndex = 7;
             Informacao4.TabStop = false;
             // 
@@ -86,121 +86,147 @@
             // 
             // VerificaASituacao4
             // 
+            VerificaASituacao4.BackColor = Color.Transparent;
             VerificaASituacao4.BackgroundImage = (Image)resources.GetObject("VerificaASituacao4.BackgroundImage");
+            VerificaASituacao4.BackgroundImageLayout = ImageLayout.Zoom;
             VerificaASituacao4.FlatAppearance.BorderSize = 0;
             VerificaASituacao4.FlatAppearance.MouseDownBackColor = Color.Transparent;
             VerificaASituacao4.FlatAppearance.MouseOverBackColor = Color.Transparent;
             VerificaASituacao4.FlatStyle = FlatStyle.Flat;
-            VerificaASituacao4.ForeColor = Color.Transparent;
-            VerificaASituacao4.Location = new Point(20, 124);
+            VerificaASituacao4.ImagemHover = (Image)resources.GetObject("VerificaASituacao4.ImagemHover");
+            VerificaASituacao4.ImagemNormal = (Image)resources.GetObject("VerificaASituacao4.ImagemNormal");
+            VerificaASituacao4.Location = new Point(21, 151);
             VerificaASituacao4.Name = "VerificaASituacao4";
-            VerificaASituacao4.Size = new Size(376, 60);
-            VerificaASituacao4.TabIndex = 9;
-            VerificaASituacao4.UseVisualStyleBackColor = true;
-            VerificaASituacao4.Click += VerificaASituacao4_Click;
+            VerificaASituacao4.Size = new Size(376, 65);
+            VerificaASituacao4.TabIndex = 30;
+            VerificaASituacao4.UseVisualStyleBackColor = false;
+            VerificaASituacao4.Click += VerificaASituacao3_Click;
             // 
             // SoliciteAjuda4
             // 
+            SoliciteAjuda4.BackColor = Color.Transparent;
             SoliciteAjuda4.BackgroundImage = (Image)resources.GetObject("SoliciteAjuda4.BackgroundImage");
+            SoliciteAjuda4.BackgroundImageLayout = ImageLayout.Zoom;
             SoliciteAjuda4.FlatAppearance.BorderSize = 0;
             SoliciteAjuda4.FlatAppearance.MouseDownBackColor = Color.Transparent;
             SoliciteAjuda4.FlatAppearance.MouseOverBackColor = Color.Transparent;
             SoliciteAjuda4.FlatStyle = FlatStyle.Flat;
-            SoliciteAjuda4.Location = new Point(20, 181);
+            SoliciteAjuda4.ImagemHover = (Image)resources.GetObject("SoliciteAjuda4.ImagemHover");
+            SoliciteAjuda4.ImagemNormal = (Image)resources.GetObject("SoliciteAjuda4.ImagemNormal");
+            SoliciteAjuda4.Location = new Point(21, 234);
             SoliciteAjuda4.Name = "SoliciteAjuda4";
-            SoliciteAjuda4.Size = new Size(376, 60);
-            SoliciteAjuda4.TabIndex = 10;
-            SoliciteAjuda4.UseVisualStyleBackColor = true;
+            SoliciteAjuda4.Size = new Size(376, 65);
+            SoliciteAjuda4.TabIndex = 31;
+            SoliciteAjuda4.UseVisualStyleBackColor = false;
             SoliciteAjuda4.Click += SoliciteAjuda4_Click;
             // 
-            // InicieAsManobras4
+            // IInicieAsManobras4
             // 
-            InicieAsManobras4.BackgroundImage = (Image)resources.GetObject("InicieAsManobras4.BackgroundImage");
-            InicieAsManobras4.FlatAppearance.BorderSize = 0;
-            InicieAsManobras4.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            InicieAsManobras4.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            InicieAsManobras4.FlatStyle = FlatStyle.Flat;
-            InicieAsManobras4.Location = new Point(20, 237);
-            InicieAsManobras4.Name = "InicieAsManobras4";
-            InicieAsManobras4.Size = new Size(376, 59);
-            InicieAsManobras4.TabIndex = 11;
-            InicieAsManobras4.UseVisualStyleBackColor = true;
-            InicieAsManobras4.Click += InicieAsManobras4_Click;
+            IInicieAsManobras4.BackColor = Color.Transparent;
+            IInicieAsManobras4.BackgroundImage = (Image)resources.GetObject("IInicieAsManobras4.BackgroundImage");
+            IInicieAsManobras4.BackgroundImageLayout = ImageLayout.Zoom;
+            IInicieAsManobras4.FlatAppearance.BorderSize = 0;
+            IInicieAsManobras4.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            IInicieAsManobras4.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            IInicieAsManobras4.FlatStyle = FlatStyle.Flat;
+            IInicieAsManobras4.ImagemHover = (Image)resources.GetObject("IInicieAsManobras4.ImagemHover");
+            IInicieAsManobras4.ImagemNormal = (Image)resources.GetObject("IInicieAsManobras4.ImagemNormal");
+            IInicieAsManobras4.Location = new Point(21, 322);
+            IInicieAsManobras4.Name = "IInicieAsManobras4";
+            IInicieAsManobras4.Size = new Size(376, 65);
+            IInicieAsManobras4.TabIndex = 32;
+            IInicieAsManobras4.UseVisualStyleBackColor = false;
+            IInicieAsManobras4.Click += IInicieAsManobras4_Click;
             // 
             // MonitorasAVitima4
             // 
+            MonitorasAVitima4.BackColor = Color.Transparent;
             MonitorasAVitima4.BackgroundImage = (Image)resources.GetObject("MonitorasAVitima4.BackgroundImage");
+            MonitorasAVitima4.BackgroundImageLayout = ImageLayout.Zoom;
             MonitorasAVitima4.FlatAppearance.BorderSize = 0;
             MonitorasAVitima4.FlatAppearance.MouseDownBackColor = Color.Transparent;
             MonitorasAVitima4.FlatAppearance.MouseOverBackColor = Color.Transparent;
             MonitorasAVitima4.FlatStyle = FlatStyle.Flat;
-            MonitorasAVitima4.Location = new Point(20, 292);
+            MonitorasAVitima4.ImagemHover = (Image)resources.GetObject("MonitorasAVitima4.ImagemHover");
+            MonitorasAVitima4.ImagemNormal = (Image)resources.GetObject("MonitorasAVitima4.ImagemNormal");
+            MonitorasAVitima4.Location = new Point(21, 404);
             MonitorasAVitima4.Name = "MonitorasAVitima4";
-            MonitorasAVitima4.Size = new Size(375, 59);
-            MonitorasAVitima4.TabIndex = 12;
-            MonitorasAVitima4.UseVisualStyleBackColor = true;
+            MonitorasAVitima4.Size = new Size(376, 65);
+            MonitorasAVitima4.TabIndex = 33;
+            MonitorasAVitima4.UseVisualStyleBackColor = false;
             MonitorasAVitima4.Click += MonitorasAVitima4_Click;
             // 
             // AcioneOSamu4
             // 
+            AcioneOSamu4.BackColor = Color.Transparent;
             AcioneOSamu4.BackgroundImage = (Image)resources.GetObject("AcioneOSamu4.BackgroundImage");
+            AcioneOSamu4.BackgroundImageLayout = ImageLayout.Zoom;
             AcioneOSamu4.FlatAppearance.BorderSize = 0;
             AcioneOSamu4.FlatAppearance.MouseDownBackColor = Color.Transparent;
             AcioneOSamu4.FlatAppearance.MouseOverBackColor = Color.Transparent;
             AcioneOSamu4.FlatStyle = FlatStyle.Flat;
-            AcioneOSamu4.Location = new Point(20, 357);
+            AcioneOSamu4.ImagemHover = (Image)resources.GetObject("AcioneOSamu4.ImagemHover");
+            AcioneOSamu4.ImagemNormal = (Image)resources.GetObject("AcioneOSamu4.ImagemNormal");
+            AcioneOSamu4.Location = new Point(21, 485);
             AcioneOSamu4.Name = "AcioneOSamu4";
-            AcioneOSamu4.Size = new Size(371, 62);
-            AcioneOSamu4.TabIndex = 13;
-            AcioneOSamu4.UseVisualStyleBackColor = true;
+            AcioneOSamu4.Size = new Size(376, 65);
+            AcioneOSamu4.TabIndex = 34;
+            AcioneOSamu4.UseVisualStyleBackColor = false;
             AcioneOSamu4.Click += AcioneOSamu4_Click;
+            // 
+            // voltar44
+            // 
+            voltar44.BackColor = Color.Transparent;
+            voltar44.BackgroundImage = (Image)resources.GetObject("voltar44.BackgroundImage");
+            voltar44.BackgroundImageLayout = ImageLayout.Zoom;
+            voltar44.FlatAppearance.BorderSize = 0;
+            voltar44.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            voltar44.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            voltar44.FlatStyle = FlatStyle.Flat;
+            voltar44.ImagemHover = (Image)resources.GetObject("voltar44.ImagemHover");
+            voltar44.ImagemNormal = (Image)resources.GetObject("voltar44.ImagemNormal");
+            voltar44.Location = new Point(605, 924);
+            voltar44.Name = "voltar44";
+            voltar44.Size = new Size(272, 76);
+            voltar44.TabIndex = 36;
+            voltar44.UseVisualStyleBackColor = false;
+            voltar44.Click += voltar44_Click;
             // 
             // voltar4
             // 
             voltar4.BackColor = Color.Transparent;
             voltar4.BackgroundImage = (Image)resources.GetObject("voltar4.BackgroundImage");
-            voltar4.BackgroundImageLayout = ImageLayout.Center;
-            voltar4.FlatAppearance.BorderColor = Color.White;
+            voltar4.BackgroundImageLayout = ImageLayout.Zoom;
             voltar4.FlatAppearance.BorderSize = 0;
             voltar4.FlatAppearance.MouseDownBackColor = Color.Transparent;
             voltar4.FlatAppearance.MouseOverBackColor = Color.Transparent;
             voltar4.FlatStyle = FlatStyle.Flat;
-            voltar4.Location = new Point(51, 29);
+            voltar4.ImagemHover = (Image)resources.GetObject("voltar4.ImagemHover");
+            voltar4.ImagemNormal = (Image)resources.GetObject("voltar4.ImagemNormal");
+            voltar4.Location = new Point(35, 28);
             voltar4.Name = "voltar4";
-            voltar4.Size = new Size(75, 59);
-            voltar4.TabIndex = 14;
+            voltar4.Size = new Size(76, 62);
+            voltar4.TabIndex = 37;
             voltar4.UseVisualStyleBackColor = false;
             voltar4.Click += voltar4_Click;
             // 
-            // proximo4
+            // Proximo4
             // 
-            proximo4.BackColor = Color.Transparent;
-            proximo4.BackgroundImage = (Image)resources.GetObject("proximo4.BackgroundImage");
-            proximo4.BackgroundImageLayout = ImageLayout.Center;
-            proximo4.FlatAppearance.BorderSize = 0;
-            proximo4.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            proximo4.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            proximo4.FlatStyle = FlatStyle.Flat;
-            proximo4.Location = new Point(1482, 903);
-            proximo4.Name = "proximo4";
-            proximo4.Size = new Size(272, 76);
-            proximo4.TabIndex = 15;
-            proximo4.UseVisualStyleBackColor = false;
-            proximo4.Click += proximo4_Click;
-            // 
-            // voltar44
-            // 
-            voltar44.BackgroundImage = (Image)resources.GetObject("voltar44.BackgroundImage");
-            voltar44.FlatAppearance.BorderSize = 0;
-            voltar44.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            voltar44.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            voltar44.FlatStyle = FlatStyle.Flat;
-            voltar44.Location = new Point(592, 900);
-            voltar44.Name = "voltar44";
-            voltar44.Size = new Size(266, 70);
-            voltar44.TabIndex = 16;
-            voltar44.UseVisualStyleBackColor = true;
-            voltar44.Click += voltar44_Click;
+            Proximo4.BackColor = Color.Transparent;
+            Proximo4.BackgroundImage = (Image)resources.GetObject("Proximo4.BackgroundImage");
+            Proximo4.BackgroundImageLayout = ImageLayout.Zoom;
+            Proximo4.FlatAppearance.BorderSize = 0;
+            Proximo4.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            Proximo4.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            Proximo4.FlatStyle = FlatStyle.Flat;
+            Proximo4.ImagemHover = (Image)resources.GetObject("Proximo4.ImagemHover");
+            Proximo4.ImagemNormal = (Image)resources.GetObject("Proximo4.ImagemNormal");
+            Proximo4.Location = new Point(1498, 930);
+            Proximo4.Name = "Proximo4";
+            Proximo4.Size = new Size(272, 76);
+            Proximo4.TabIndex = 38;
+            Proximo4.UseVisualStyleBackColor = false;
+            Proximo4.Click += Proximo4_Click;
             // 
             // Form15
             // 
@@ -208,12 +234,12 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1904, 1041);
-            Controls.Add(voltar44);
-            Controls.Add(proximo4);
+            Controls.Add(Proximo4);
             Controls.Add(voltar4);
+            Controls.Add(voltar44);
             Controls.Add(AcioneOSamu4);
             Controls.Add(MonitorasAVitima4);
-            Controls.Add(InicieAsManobras4);
+            Controls.Add(IInicieAsManobras4);
             Controls.Add(SoliciteAjuda4);
             Controls.Add(VerificaASituacao4);
             Controls.Add(VoltareProximo4);
@@ -235,13 +261,13 @@
         private PictureBox barralateral4;
         private PictureBox Informacao4;
         private PictureBox VoltareProximo4;
-        private Button VerificaASituacao4;
-        private Button SoliciteAjuda4;
-        private Button InicieAsManobras4;
-        private Button MonitorasAVitima4;
-        private Button AcioneOSamu4;
-        private Button voltar4;
-        private Button proximo4;
-        private Button voltar44;
+        private teste.ImageHoverButton VerificaASituacao4;
+        private teste.ImageHoverButton SoliciteAjuda4;
+        private teste.ImageHoverButton IInicieAsManobras4;
+        private teste.ImageHoverButton MonitorasAVitima4;
+        private teste.ImageHoverButton AcioneOSamu4;
+        private teste.ImageHoverButton voltar44;
+        private teste.ImageHoverButton voltar4;
+        private teste.ImageHoverButton Proximo4;
     }
 }

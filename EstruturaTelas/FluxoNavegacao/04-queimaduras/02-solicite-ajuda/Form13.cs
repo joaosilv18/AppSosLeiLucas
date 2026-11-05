@@ -24,59 +24,60 @@ namespace ProjetoLeiLucasTelas
         {
 
         }
-
-        private void voltar2_Click(object sender, EventArgs e)
-        {
-            Form2 telaEmergencia = new();
-            telaEmergencia.Show();
-            this.Hide();
-        }
-
-        private void voltar22_Click(object sender, EventArgs e)
+        // novos botões
+        private void VerificaASituacao2_Click_1(object sender, EventArgs e)
         {
             Form12 telaEmergencia = new();
             telaEmergencia.Show();
             this.Hide();
         }
 
-        private void proximo2_Click(object sender, EventArgs e)
-        {
-            Form14 telaEmergencia = new();
-            telaEmergencia.Show();
-            this.Hide();
-        }
-
-        private void VerificaASituacao2_Click(object sender, EventArgs e)
-        {
-            Form12 telaEmergencia = new();
-            telaEmergencia.Show();
-            this.Hide();
-        }
-
-        private void SoliciteAjuda2_Click(object sender, EventArgs e)
+        private void SoliciteAjuda2_Click_1(object sender, EventArgs e)
         {
             Queimaduras2 telaEmergencia = new();
             telaEmergencia.Show();
             this.Hide();
         }
 
-        private void InicieAsManobras2_Click(object sender, EventArgs e)
+        private void IInicieAsManobras2_Click(object sender, EventArgs e)
         {
             Form14 telaEmergencia = new();
             telaEmergencia.Show();
             this.Hide();
         }
 
-        private void MonitorasAVitima2_Click(object sender, EventArgs e)
+        private void MonitorasAVitima2_Click_1(object sender, EventArgs e)
         {
             Form15 telaEmergencia = new();
             telaEmergencia.Show();
             this.Hide();
         }
 
-        private void AcioneOSamu2_Click(object sender, EventArgs e)
+        private void AcioneOSamu2_Click_1(object sender, EventArgs e)
         {
             Form16 telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
+
+        }
+
+        private void voltar2_Click_1(object sender, EventArgs e)
+        {
+            Form2 telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
+        }
+
+        private void voltar22_Click_1(object sender, EventArgs e)
+        {
+            Form12 telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
+        }
+
+        private void Proximo2_Click_1(object sender, EventArgs e)
+        {
+            Form14 telaEmergencia = new();
             telaEmergencia.Show();
             this.Hide();
         }

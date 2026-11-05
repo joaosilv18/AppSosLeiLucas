@@ -33,13 +33,13 @@
             barralateral5 = new PictureBox();
             Informacao5 = new PictureBox();
             VoltareProximo5 = new PictureBox();
-            VerificaASituacao5 = new Button();
-            SoliciteAjuda5 = new Button();
-            InicieAsManobras5 = new Button();
-            MonitorasAVitima5 = new Button();
-            AcioneOSamu5 = new Button();
-            voltar5 = new Button();
-            voltar55 = new Button();
+            VerificaASituacao5 = new teste.ImageHoverButton();
+            SoliciteAjuda5 = new teste.ImageHoverButton();
+            InicieAsManobras5 = new teste.ImageHoverButton();
+            MonitorasAVitima5 = new teste.ImageHoverButton();
+            voltar5 = new teste.ImageHoverButton();
+            voltar55 = new teste.ImageHoverButton();
+            AcioneOSamu = new teste.ImageHoverButton();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)barralateral5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)Informacao5).BeginInit();
@@ -70,7 +70,7 @@
             Informacao5.BackgroundImage = (Image)resources.GetObject("Informacao5.BackgroundImage");
             Informacao5.Location = new Point(416, -16);
             Informacao5.Name = "Informacao5";
-            Informacao5.Size = new Size(1503, 1080);
+            Informacao5.Size = new Size(1506, 1080);
             Informacao5.TabIndex = 8;
             Informacao5.TabStop = false;
             // 
@@ -85,105 +85,129 @@
             // 
             // VerificaASituacao5
             // 
+            VerificaASituacao5.BackColor = Color.Transparent;
             VerificaASituacao5.BackgroundImage = (Image)resources.GetObject("VerificaASituacao5.BackgroundImage");
+            VerificaASituacao5.BackgroundImageLayout = ImageLayout.Zoom;
             VerificaASituacao5.FlatAppearance.BorderSize = 0;
             VerificaASituacao5.FlatAppearance.MouseDownBackColor = Color.Transparent;
             VerificaASituacao5.FlatAppearance.MouseOverBackColor = Color.Transparent;
             VerificaASituacao5.FlatStyle = FlatStyle.Flat;
-            VerificaASituacao5.ForeColor = Color.Transparent;
-            VerificaASituacao5.Location = new Point(12, 125);
+            VerificaASituacao5.ImagemHover = (Image)resources.GetObject("VerificaASituacao5.ImagemHover");
+            VerificaASituacao5.ImagemNormal = (Image)resources.GetObject("VerificaASituacao5.ImagemNormal");
+            VerificaASituacao5.Location = new Point(21, 151);
             VerificaASituacao5.Name = "VerificaASituacao5";
-            VerificaASituacao5.Size = new Size(376, 60);
-            VerificaASituacao5.TabIndex = 10;
-            VerificaASituacao5.UseVisualStyleBackColor = true;
-            VerificaASituacao5.Click += VerificaASituacao5_Click;
+            VerificaASituacao5.Size = new Size(376, 65);
+            VerificaASituacao5.TabIndex = 30;
+            VerificaASituacao5.UseVisualStyleBackColor = false;
+            VerificaASituacao5.Click += VerificaASituacao3_Click;
             // 
             // SoliciteAjuda5
             // 
+            SoliciteAjuda5.BackColor = Color.Transparent;
             SoliciteAjuda5.BackgroundImage = (Image)resources.GetObject("SoliciteAjuda5.BackgroundImage");
+            SoliciteAjuda5.BackgroundImageLayout = ImageLayout.Zoom;
             SoliciteAjuda5.FlatAppearance.BorderSize = 0;
             SoliciteAjuda5.FlatAppearance.MouseDownBackColor = Color.Transparent;
             SoliciteAjuda5.FlatAppearance.MouseOverBackColor = Color.Transparent;
             SoliciteAjuda5.FlatStyle = FlatStyle.Flat;
-            SoliciteAjuda5.Location = new Point(12, 191);
+            SoliciteAjuda5.ImagemHover = (Image)resources.GetObject("SoliciteAjuda5.ImagemHover");
+            SoliciteAjuda5.ImagemNormal = (Image)resources.GetObject("SoliciteAjuda5.ImagemNormal");
+            SoliciteAjuda5.Location = new Point(21, 234);
             SoliciteAjuda5.Name = "SoliciteAjuda5";
-            SoliciteAjuda5.Size = new Size(376, 60);
-            SoliciteAjuda5.TabIndex = 11;
-            SoliciteAjuda5.UseVisualStyleBackColor = true;
-            SoliciteAjuda5.Click += SoliciteAjuda5_Click;
+            SoliciteAjuda5.Size = new Size(376, 65);
+            SoliciteAjuda5.TabIndex = 31;
+            SoliciteAjuda5.UseVisualStyleBackColor = false;
+            SoliciteAjuda5.Click += SoliciteAjuda5_Click_1;
             // 
             // InicieAsManobras5
             // 
+            InicieAsManobras5.BackColor = Color.Transparent;
             InicieAsManobras5.BackgroundImage = (Image)resources.GetObject("InicieAsManobras5.BackgroundImage");
+            InicieAsManobras5.BackgroundImageLayout = ImageLayout.Zoom;
             InicieAsManobras5.FlatAppearance.BorderSize = 0;
             InicieAsManobras5.FlatAppearance.MouseDownBackColor = Color.Transparent;
             InicieAsManobras5.FlatAppearance.MouseOverBackColor = Color.Transparent;
             InicieAsManobras5.FlatStyle = FlatStyle.Flat;
-            InicieAsManobras5.Location = new Point(12, 257);
+            InicieAsManobras5.ImagemHover = (Image)resources.GetObject("InicieAsManobras5.ImagemHover");
+            InicieAsManobras5.ImagemNormal = (Image)resources.GetObject("InicieAsManobras5.ImagemNormal");
+            InicieAsManobras5.Location = new Point(21, 322);
             InicieAsManobras5.Name = "InicieAsManobras5";
-            InicieAsManobras5.Size = new Size(376, 59);
-            InicieAsManobras5.TabIndex = 12;
-            InicieAsManobras5.UseVisualStyleBackColor = true;
-            InicieAsManobras5.Click += InicieAsManobras5_Click;
+            InicieAsManobras5.Size = new Size(376, 65);
+            InicieAsManobras5.TabIndex = 32;
+            InicieAsManobras5.UseVisualStyleBackColor = false;
+            InicieAsManobras5.Click += InicieAsManobras5_Click_1;
             // 
             // MonitorasAVitima5
             // 
+            MonitorasAVitima5.BackColor = Color.Transparent;
             MonitorasAVitima5.BackgroundImage = (Image)resources.GetObject("MonitorasAVitima5.BackgroundImage");
+            MonitorasAVitima5.BackgroundImageLayout = ImageLayout.Zoom;
             MonitorasAVitima5.FlatAppearance.BorderSize = 0;
             MonitorasAVitima5.FlatAppearance.MouseDownBackColor = Color.Transparent;
             MonitorasAVitima5.FlatAppearance.MouseOverBackColor = Color.Transparent;
             MonitorasAVitima5.FlatStyle = FlatStyle.Flat;
-            MonitorasAVitima5.Location = new Point(12, 322);
+            MonitorasAVitima5.ImagemHover = (Image)resources.GetObject("MonitorasAVitima5.ImagemHover");
+            MonitorasAVitima5.ImagemNormal = (Image)resources.GetObject("MonitorasAVitima5.ImagemNormal");
+            MonitorasAVitima5.Location = new Point(21, 404);
             MonitorasAVitima5.Name = "MonitorasAVitima5";
-            MonitorasAVitima5.Size = new Size(375, 59);
-            MonitorasAVitima5.TabIndex = 13;
-            MonitorasAVitima5.UseVisualStyleBackColor = true;
-            MonitorasAVitima5.Click += MonitorasAVitima5_Click;
-            // 
-            // AcioneOSamu5
-            // 
-            AcioneOSamu5.BackgroundImage = (Image)resources.GetObject("AcioneOSamu5.BackgroundImage");
-            AcioneOSamu5.FlatAppearance.BorderSize = 0;
-            AcioneOSamu5.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            AcioneOSamu5.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            AcioneOSamu5.FlatStyle = FlatStyle.Flat;
-            AcioneOSamu5.Location = new Point(12, 387);
-            AcioneOSamu5.Name = "AcioneOSamu5";
-            AcioneOSamu5.Size = new Size(371, 62);
-            AcioneOSamu5.TabIndex = 14;
-            AcioneOSamu5.UseVisualStyleBackColor = true;
-            AcioneOSamu5.Click += AcioneOSamu5_Click;
+            MonitorasAVitima5.Size = new Size(376, 65);
+            MonitorasAVitima5.TabIndex = 33;
+            MonitorasAVitima5.UseVisualStyleBackColor = false;
+            MonitorasAVitima5.Click += MonitorasAVitima5_Click_1;
             // 
             // voltar5
             // 
             voltar5.BackColor = Color.Transparent;
             voltar5.BackgroundImage = (Image)resources.GetObject("voltar5.BackgroundImage");
-            voltar5.BackgroundImageLayout = ImageLayout.Center;
-            voltar5.FlatAppearance.BorderColor = Color.White;
+            voltar5.BackgroundImageLayout = ImageLayout.Zoom;
             voltar5.FlatAppearance.BorderSize = 0;
             voltar5.FlatAppearance.MouseDownBackColor = Color.Transparent;
             voltar5.FlatAppearance.MouseOverBackColor = Color.Transparent;
             voltar5.FlatStyle = FlatStyle.Flat;
-            voltar5.Location = new Point(59, 29);
+            voltar5.ImagemHover = (Image)resources.GetObject("voltar5.ImagemHover");
+            voltar5.ImagemNormal = (Image)resources.GetObject("voltar5.ImagemNormal");
+            voltar5.Location = new Point(35, 28);
             voltar5.Name = "voltar5";
-            voltar5.Size = new Size(75, 59);
-            voltar5.TabIndex = 15;
+            voltar5.Size = new Size(76, 62);
+            voltar5.TabIndex = 35;
             voltar5.UseVisualStyleBackColor = false;
-            voltar5.Click += voltar5_Click;
+            voltar5.Click += voltar5_Click_1;
             // 
             // voltar55
             // 
+            voltar55.BackColor = Color.Transparent;
             voltar55.BackgroundImage = (Image)resources.GetObject("voltar55.BackgroundImage");
+            voltar55.BackgroundImageLayout = ImageLayout.Zoom;
             voltar55.FlatAppearance.BorderSize = 0;
             voltar55.FlatAppearance.MouseDownBackColor = Color.Transparent;
             voltar55.FlatAppearance.MouseOverBackColor = Color.Transparent;
             voltar55.FlatStyle = FlatStyle.Flat;
-            voltar55.Location = new Point(590, 905);
+            voltar55.ImagemHover = (Image)resources.GetObject("voltar55.ImagemHover");
+            voltar55.ImagemNormal = (Image)resources.GetObject("voltar55.ImagemNormal");
+            voltar55.Location = new Point(605, 924);
             voltar55.Name = "voltar55";
-            voltar55.Size = new Size(266, 70);
-            voltar55.TabIndex = 16;
-            voltar55.UseVisualStyleBackColor = true;
-            voltar55.Click += voltar55_Click;
+            voltar55.Size = new Size(272, 76);
+            voltar55.TabIndex = 36;
+            voltar55.UseVisualStyleBackColor = false;
+            voltar55.Click += voltar55_Click_1;
+            // 
+            // AcioneOSamu
+            // 
+            AcioneOSamu.BackColor = Color.Transparent;
+            AcioneOSamu.BackgroundImage = (Image)resources.GetObject("AcioneOSamu.BackgroundImage");
+            AcioneOSamu.BackgroundImageLayout = ImageLayout.Zoom;
+            AcioneOSamu.FlatAppearance.BorderSize = 0;
+            AcioneOSamu.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            AcioneOSamu.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            AcioneOSamu.FlatStyle = FlatStyle.Flat;
+            AcioneOSamu.ImagemHover = (Image)resources.GetObject("AcioneOSamu.ImagemHover");
+            AcioneOSamu.ImagemNormal = (Image)resources.GetObject("AcioneOSamu.ImagemNormal");
+            AcioneOSamu.Location = new Point(21, 485);
+            AcioneOSamu.Name = "AcioneOSamu";
+            AcioneOSamu.Size = new Size(376, 65);
+            AcioneOSamu.TabIndex = 37;
+            AcioneOSamu.UseVisualStyleBackColor = false;
+            AcioneOSamu.Click += AcioneOSamu_Click;
             // 
             // Form16
             // 
@@ -191,9 +215,9 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1904, 1041);
+            Controls.Add(AcioneOSamu);
             Controls.Add(voltar55);
             Controls.Add(voltar5);
-            Controls.Add(AcioneOSamu5);
             Controls.Add(MonitorasAVitima5);
             Controls.Add(InicieAsManobras5);
             Controls.Add(SoliciteAjuda5);
@@ -217,12 +241,12 @@
         private PictureBox barralateral5;
         private PictureBox Informacao5;
         private PictureBox VoltareProximo5;
-        private Button VerificaASituacao5;
-        private Button SoliciteAjuda5;
-        private Button InicieAsManobras5;
-        private Button MonitorasAVitima5;
-        private Button AcioneOSamu5;
-        private Button voltar5;
-        private Button voltar55;
+        private teste.ImageHoverButton VerificaASituacao5;
+        private teste.ImageHoverButton SoliciteAjuda5;
+        private teste.ImageHoverButton InicieAsManobras5;
+        private teste.ImageHoverButton MonitorasAVitima5;
+        private teste.ImageHoverButton voltar5;
+        private teste.ImageHoverButton voltar55;
+        private teste.ImageHoverButton AcioneOSamu;
     }
 }

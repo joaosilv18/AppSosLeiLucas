@@ -33,14 +33,14 @@
             barralateral3 = new PictureBox();
             Informacao3 = new PictureBox();
             VoltareProximo3 = new PictureBox();
-            VerificaASituacao3 = new Button();
-            SoliciteAjuda3 = new Button();
-            InicieAsManobras3 = new Button();
-            MonitorasAVitima3 = new Button();
-            AcioneOSamu3 = new Button();
-            voltar3 = new Button();
-            proximo3 = new Button();
-            voltar33 = new Button();
+            VerificaASituacao3 = new teste.ImageHoverButton();
+            IInicieAsManobras3 = new teste.ImageHoverButton();
+            MonitorasAVitima3 = new teste.ImageHoverButton();
+            AcioneOSamu3 = new teste.ImageHoverButton();
+            voltar3 = new teste.ImageHoverButton();
+            voltar333 = new teste.ImageHoverButton();
+            Proximo3 = new teste.ImageHoverButton();
+            SoliciteAjuda3 = new teste.ImageHoverButton();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)barralateral3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)Informacao3).BeginInit();
@@ -71,7 +71,7 @@
             Informacao3.BackgroundImage = (Image)resources.GetObject("Informacao3.BackgroundImage");
             Informacao3.Location = new Point(403, -17);
             Informacao3.Name = "Informacao3";
-            Informacao3.Size = new Size(1503, 1080);
+            Informacao3.Size = new Size(1506, 1080);
             Informacao3.TabIndex = 6;
             Informacao3.TabStop = false;
             // 
@@ -86,121 +86,147 @@
             // 
             // VerificaASituacao3
             // 
+            VerificaASituacao3.BackColor = Color.Transparent;
             VerificaASituacao3.BackgroundImage = (Image)resources.GetObject("VerificaASituacao3.BackgroundImage");
+            VerificaASituacao3.BackgroundImageLayout = ImageLayout.Zoom;
             VerificaASituacao3.FlatAppearance.BorderSize = 0;
             VerificaASituacao3.FlatAppearance.MouseDownBackColor = Color.Transparent;
             VerificaASituacao3.FlatAppearance.MouseOverBackColor = Color.Transparent;
             VerificaASituacao3.FlatStyle = FlatStyle.Flat;
-            VerificaASituacao3.ForeColor = Color.Transparent;
-            VerificaASituacao3.Location = new Point(21, 121);
+            VerificaASituacao3.ImagemHover = (Image)resources.GetObject("VerificaASituacao3.ImagemHover");
+            VerificaASituacao3.ImagemNormal = (Image)resources.GetObject("VerificaASituacao3.ImagemNormal");
+            VerificaASituacao3.Location = new Point(21, 151);
             VerificaASituacao3.Name = "VerificaASituacao3";
-            VerificaASituacao3.Size = new Size(376, 60);
-            VerificaASituacao3.TabIndex = 8;
-            VerificaASituacao3.UseVisualStyleBackColor = true;
-            VerificaASituacao3.Click += VerificaASituacao3_Click;
+            VerificaASituacao3.Size = new Size(376, 65);
+            VerificaASituacao3.TabIndex = 29;
+            VerificaASituacao3.UseVisualStyleBackColor = false;
+            VerificaASituacao3.Click += VerificaASituacao3_Click_1;
             // 
-            // SoliciteAjuda3
+            // IInicieAsManobras3
             // 
-            SoliciteAjuda3.BackgroundImage = (Image)resources.GetObject("SoliciteAjuda3.BackgroundImage");
-            SoliciteAjuda3.FlatAppearance.BorderSize = 0;
-            SoliciteAjuda3.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            SoliciteAjuda3.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            SoliciteAjuda3.FlatStyle = FlatStyle.Flat;
-            SoliciteAjuda3.Location = new Point(21, 187);
-            SoliciteAjuda3.Name = "SoliciteAjuda3";
-            SoliciteAjuda3.Size = new Size(376, 60);
-            SoliciteAjuda3.TabIndex = 9;
-            SoliciteAjuda3.UseVisualStyleBackColor = true;
-            SoliciteAjuda3.Click += SoliciteAjuda3_Click;
-            // 
-            // InicieAsManobras3
-            // 
-            InicieAsManobras3.BackgroundImage = (Image)resources.GetObject("InicieAsManobras3.BackgroundImage");
-            InicieAsManobras3.FlatAppearance.BorderSize = 0;
-            InicieAsManobras3.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            InicieAsManobras3.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            InicieAsManobras3.FlatStyle = FlatStyle.Flat;
-            InicieAsManobras3.Location = new Point(21, 253);
-            InicieAsManobras3.Name = "InicieAsManobras3";
-            InicieAsManobras3.Size = new Size(376, 59);
-            InicieAsManobras3.TabIndex = 10;
-            InicieAsManobras3.UseVisualStyleBackColor = true;
-            InicieAsManobras3.Click += InicieAsManobras3_Click;
+            IInicieAsManobras3.BackColor = Color.Transparent;
+            IInicieAsManobras3.BackgroundImage = (Image)resources.GetObject("IInicieAsManobras3.BackgroundImage");
+            IInicieAsManobras3.BackgroundImageLayout = ImageLayout.Zoom;
+            IInicieAsManobras3.FlatAppearance.BorderSize = 0;
+            IInicieAsManobras3.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            IInicieAsManobras3.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            IInicieAsManobras3.FlatStyle = FlatStyle.Flat;
+            IInicieAsManobras3.ImagemHover = (Image)resources.GetObject("IInicieAsManobras3.ImagemHover");
+            IInicieAsManobras3.ImagemNormal = (Image)resources.GetObject("IInicieAsManobras3.ImagemNormal");
+            IInicieAsManobras3.Location = new Point(21, 322);
+            IInicieAsManobras3.Name = "IInicieAsManobras3";
+            IInicieAsManobras3.Size = new Size(376, 65);
+            IInicieAsManobras3.TabIndex = 31;
+            IInicieAsManobras3.UseVisualStyleBackColor = false;
+            IInicieAsManobras3.Click += IInicieAsManobras3_Click;
             // 
             // MonitorasAVitima3
             // 
+            MonitorasAVitima3.BackColor = Color.Transparent;
             MonitorasAVitima3.BackgroundImage = (Image)resources.GetObject("MonitorasAVitima3.BackgroundImage");
+            MonitorasAVitima3.BackgroundImageLayout = ImageLayout.Zoom;
             MonitorasAVitima3.FlatAppearance.BorderSize = 0;
             MonitorasAVitima3.FlatAppearance.MouseDownBackColor = Color.Transparent;
             MonitorasAVitima3.FlatAppearance.MouseOverBackColor = Color.Transparent;
             MonitorasAVitima3.FlatStyle = FlatStyle.Flat;
-            MonitorasAVitima3.Location = new Point(21, 318);
+            MonitorasAVitima3.ImagemHover = (Image)resources.GetObject("MonitorasAVitima3.ImagemHover");
+            MonitorasAVitima3.ImagemNormal = (Image)resources.GetObject("MonitorasAVitima3.ImagemNormal");
+            MonitorasAVitima3.Location = new Point(21, 404);
             MonitorasAVitima3.Name = "MonitorasAVitima3";
-            MonitorasAVitima3.Size = new Size(375, 59);
-            MonitorasAVitima3.TabIndex = 11;
-            MonitorasAVitima3.UseVisualStyleBackColor = true;
+            MonitorasAVitima3.Size = new Size(376, 65);
+            MonitorasAVitima3.TabIndex = 32;
+            MonitorasAVitima3.UseVisualStyleBackColor = false;
             MonitorasAVitima3.Click += MonitorasAVitima3_Click;
             // 
             // AcioneOSamu3
             // 
+            AcioneOSamu3.BackColor = Color.Transparent;
             AcioneOSamu3.BackgroundImage = (Image)resources.GetObject("AcioneOSamu3.BackgroundImage");
+            AcioneOSamu3.BackgroundImageLayout = ImageLayout.Zoom;
             AcioneOSamu3.FlatAppearance.BorderSize = 0;
             AcioneOSamu3.FlatAppearance.MouseDownBackColor = Color.Transparent;
             AcioneOSamu3.FlatAppearance.MouseOverBackColor = Color.Transparent;
             AcioneOSamu3.FlatStyle = FlatStyle.Flat;
-            AcioneOSamu3.Location = new Point(21, 383);
+            AcioneOSamu3.ImagemHover = (Image)resources.GetObject("AcioneOSamu3.ImagemHover");
+            AcioneOSamu3.ImagemNormal = (Image)resources.GetObject("AcioneOSamu3.ImagemNormal");
+            AcioneOSamu3.Location = new Point(21, 485);
             AcioneOSamu3.Name = "AcioneOSamu3";
-            AcioneOSamu3.Size = new Size(371, 62);
-            AcioneOSamu3.TabIndex = 12;
-            AcioneOSamu3.UseVisualStyleBackColor = true;
+            AcioneOSamu3.Size = new Size(376, 65);
+            AcioneOSamu3.TabIndex = 33;
+            AcioneOSamu3.UseVisualStyleBackColor = false;
             AcioneOSamu3.Click += AcioneOSamu3_Click;
             // 
             // voltar3
             // 
             voltar3.BackColor = Color.Transparent;
             voltar3.BackgroundImage = (Image)resources.GetObject("voltar3.BackgroundImage");
-            voltar3.BackgroundImageLayout = ImageLayout.Center;
-            voltar3.FlatAppearance.BorderColor = Color.White;
+            voltar3.BackgroundImageLayout = ImageLayout.Zoom;
             voltar3.FlatAppearance.BorderSize = 0;
             voltar3.FlatAppearance.MouseDownBackColor = Color.Transparent;
             voltar3.FlatAppearance.MouseOverBackColor = Color.Transparent;
             voltar3.FlatStyle = FlatStyle.Flat;
-            voltar3.Location = new Point(45, 25);
+            voltar3.ImagemHover = (Image)resources.GetObject("voltar3.ImagemHover");
+            voltar3.ImagemNormal = (Image)resources.GetObject("voltar3.ImagemNormal");
+            voltar3.Location = new Point(35, 28);
             voltar3.Name = "voltar3";
-            voltar3.Size = new Size(75, 59);
-            voltar3.TabIndex = 13;
+            voltar3.Size = new Size(76, 62);
+            voltar3.TabIndex = 34;
             voltar3.UseVisualStyleBackColor = false;
             voltar3.Click += voltar3_Click;
             // 
-            // proximo3
+            // voltar333
             // 
-            proximo3.BackColor = Color.Transparent;
-            proximo3.BackgroundImage = (Image)resources.GetObject("proximo3.BackgroundImage");
-            proximo3.BackgroundImageLayout = ImageLayout.Center;
-            proximo3.FlatAppearance.BorderSize = 0;
-            proximo3.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            proximo3.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            proximo3.FlatStyle = FlatStyle.Flat;
-            proximo3.Location = new Point(1481, 907);
-            proximo3.Name = "proximo3";
-            proximo3.Size = new Size(272, 76);
-            proximo3.TabIndex = 14;
-            proximo3.UseVisualStyleBackColor = false;
-            proximo3.Click += proximo3_Click_1;
+            voltar333.BackColor = Color.Transparent;
+            voltar333.BackgroundImage = (Image)resources.GetObject("voltar333.BackgroundImage");
+            voltar333.BackgroundImageLayout = ImageLayout.Zoom;
+            voltar333.FlatAppearance.BorderSize = 0;
+            voltar333.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            voltar333.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            voltar333.FlatStyle = FlatStyle.Flat;
+            voltar333.ImagemHover = (Image)resources.GetObject("voltar333.ImagemHover");
+            voltar333.ImagemNormal = (Image)resources.GetObject("voltar333.ImagemNormal");
+            voltar333.Location = new Point(605, 924);
+            voltar333.Name = "voltar333";
+            voltar333.Size = new Size(272, 76);
+            voltar333.TabIndex = 35;
+            voltar333.UseVisualStyleBackColor = false;
+            voltar333.Click += voltar333_Click;
             // 
-            // voltar33
+            // Proximo3
             // 
-            voltar33.BackgroundImage = (Image)resources.GetObject("voltar33.BackgroundImage");
-            voltar33.FlatAppearance.BorderSize = 0;
-            voltar33.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            voltar33.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            voltar33.FlatStyle = FlatStyle.Flat;
-            voltar33.Location = new Point(590, 904);
-            voltar33.Name = "voltar33";
-            voltar33.Size = new Size(266, 70);
-            voltar33.TabIndex = 15;
-            voltar33.UseVisualStyleBackColor = true;
-            voltar33.Click += voltar33_Click;
+            Proximo3.BackColor = Color.Transparent;
+            Proximo3.BackgroundImage = (Image)resources.GetObject("Proximo3.BackgroundImage");
+            Proximo3.BackgroundImageLayout = ImageLayout.Zoom;
+            Proximo3.FlatAppearance.BorderSize = 0;
+            Proximo3.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            Proximo3.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            Proximo3.FlatStyle = FlatStyle.Flat;
+            Proximo3.ImagemHover = (Image)resources.GetObject("Proximo3.ImagemHover");
+            Proximo3.ImagemNormal = (Image)resources.GetObject("Proximo3.ImagemNormal");
+            Proximo3.Location = new Point(1498, 930);
+            Proximo3.Name = "Proximo3";
+            Proximo3.Size = new Size(272, 76);
+            Proximo3.TabIndex = 36;
+            Proximo3.UseVisualStyleBackColor = false;
+            Proximo3.Click += Proximo3_Click;
+            // 
+            // SoliciteAjuda3
+            // 
+            SoliciteAjuda3.BackColor = Color.Transparent;
+            SoliciteAjuda3.BackgroundImage = (Image)resources.GetObject("SoliciteAjuda3.BackgroundImage");
+            SoliciteAjuda3.BackgroundImageLayout = ImageLayout.Zoom;
+            SoliciteAjuda3.FlatAppearance.BorderSize = 0;
+            SoliciteAjuda3.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            SoliciteAjuda3.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            SoliciteAjuda3.FlatStyle = FlatStyle.Flat;
+            SoliciteAjuda3.ImagemHover = (Image)resources.GetObject("SoliciteAjuda3.ImagemHover");
+            SoliciteAjuda3.ImagemNormal = (Image)resources.GetObject("SoliciteAjuda3.ImagemNormal");
+            SoliciteAjuda3.Location = new Point(21, 234);
+            SoliciteAjuda3.Name = "SoliciteAjuda3";
+            SoliciteAjuda3.Size = new Size(376, 65);
+            SoliciteAjuda3.TabIndex = 30;
+            SoliciteAjuda3.UseVisualStyleBackColor = false;
+            SoliciteAjuda3.Click += SoliciteAjuda3_Click;
             // 
             // Form14
             // 
@@ -208,12 +234,12 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1904, 1041);
-            Controls.Add(voltar33);
-            Controls.Add(proximo3);
+            Controls.Add(Proximo3);
+            Controls.Add(voltar333);
             Controls.Add(voltar3);
             Controls.Add(AcioneOSamu3);
             Controls.Add(MonitorasAVitima3);
-            Controls.Add(InicieAsManobras3);
+            Controls.Add(IInicieAsManobras3);
             Controls.Add(SoliciteAjuda3);
             Controls.Add(VerificaASituacao3);
             Controls.Add(VoltareProximo3);
@@ -235,13 +261,13 @@
         private PictureBox barralateral3;
         private PictureBox Informacao3;
         private PictureBox VoltareProximo3;
-        private Button VerificaASituacao3;
-        private Button SoliciteAjuda3;
-        private Button InicieAsManobras3;
-        private Button MonitorasAVitima3;
-        private Button AcioneOSamu3;
-        private Button voltar3;
-        private Button proximo3;
-        private Button voltar33;
+        private teste.ImageHoverButton VerificaASituacao3;
+        private teste.ImageHoverButton IInicieAsManobras3;
+        private teste.ImageHoverButton MonitorasAVitima3;
+        private teste.ImageHoverButton AcioneOSamu3;
+        private teste.ImageHoverButton voltar3;
+        private teste.ImageHoverButton voltar333;
+        private teste.ImageHoverButton Proximo3;
+        private teste.ImageHoverButton SoliciteAjuda3;
     }
 }

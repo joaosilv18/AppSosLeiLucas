@@ -15,28 +15,8 @@ namespace ProjetoLeiLucasTelas
             InitializeComponent();
         }
 
-        private void proximo4_Click(object sender, EventArgs e)
-        {
-            Form16 telaEmergencia = new();
-            telaEmergencia.Show();
-            this.Hide();
-        }
 
-        private void voltar44_Click(object sender, EventArgs e)
-        {
-            Form14 telaEmergencia = new();
-            telaEmergencia.Show();
-            this.Hide();
-        }
-
-        private void voltar4_Click(object sender, EventArgs e)
-        {
-            Form2 telaEmergencia = new();
-            telaEmergencia.Show();
-            this.Hide();
-        }
-
-        private void VerificaASituacao4_Click(object sender, EventArgs e)
+        private void VerificaASituacao3_Click(object sender, EventArgs e)
         {
             Form12 telaEmergencia = new();
             telaEmergencia.Show();
@@ -50,7 +30,7 @@ namespace ProjetoLeiLucasTelas
             this.Hide();
         }
 
-        private void InicieAsManobras4_Click(object sender, EventArgs e)
+        private void IInicieAsManobras4_Click(object sender, EventArgs e)
         {
             Form14 telaEmergencia = new();
             telaEmergencia.Show();
@@ -65,6 +45,27 @@ namespace ProjetoLeiLucasTelas
         }
 
         private void AcioneOSamu4_Click(object sender, EventArgs e)
+        {
+            Form16 telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
+        }
+
+        private void voltar4_Click(object sender, EventArgs e)
+        {
+            Form2 telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
+        }
+
+        private void voltar44_Click(object sender, EventArgs e)
+        {
+            Form14 telaEmergencia = new();
+            telaEmergencia.Show();
+            this.Hide();
+        }
+
+        private void Proximo4_Click(object sender, EventArgs e)
         {
             Form16 telaEmergencia = new();
             telaEmergencia.Show();

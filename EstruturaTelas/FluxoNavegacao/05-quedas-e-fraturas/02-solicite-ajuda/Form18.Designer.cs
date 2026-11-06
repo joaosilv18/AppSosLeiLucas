@@ -32,15 +32,15 @@
             headerQuedaFra2 = new PictureBox();
             pictureBoxQuedaFra1 = new PictureBox();
             FooterQuedaFra2 = new PictureBox();
-            buttonSBQuedaFra2_1 = new Button();
-            buttonQuedaFra2_2 = new Button();
-            buttonQuedaFra2_3 = new Button();
-            buttonQuedaFra2_4 = new Button();
-            buttonQuedaFra2_5 = new Button();
-            buttonQuedaFraVol_Tela1 = new Button();
-            buttonVoltarQuedatela1 = new Button();
-            buttonQuedaProximaTela3 = new Button();
             pictureBoxQuedaFra2 = new PictureBox();
+            bnQuedaFraVol_Tela1 = new teste.ImageHoverButton();
+            bnSBQuedaFra2_1 = new teste.ImageHoverButton();
+            bnQuedaFra2_2 = new teste.ImageHoverButton();
+            bnQuedaFra2_3 = new teste.ImageHoverButton();
+            bnQuedaFra2_4 = new teste.ImageHoverButton();
+            bnQuedaFra2_5 = new teste.ImageHoverButton();
+            bnVoltarQuedatela1 = new teste.ImageHoverButton();
+            bnQuedaProximaTela3 = new teste.ImageHoverButton();
             ((System.ComponentModel.ISupportInitialize)headerQuedaFra2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxQuedaFra1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)FooterQuedaFra2).BeginInit();
@@ -50,7 +50,7 @@
             // headerQuedaFra2
             // 
             headerQuedaFra2.BackgroundImage = (Image)resources.GetObject("headerQuedaFra2.BackgroundImage");
-            headerQuedaFra2.Location = new Point(2, -1);
+            headerQuedaFra2.Location = new Point(2, -2);
             headerQuedaFra2.Name = "headerQuedaFra2";
             headerQuedaFra2.Size = new Size(1920, 118);
             headerQuedaFra2.TabIndex = 0;
@@ -74,134 +74,158 @@
             FooterQuedaFra2.TabIndex = 2;
             FooterQuedaFra2.TabStop = false;
             // 
-            // buttonSBQuedaFra2_1
-            // 
-            buttonSBQuedaFra2_1.BackgroundImage = (Image)resources.GetObject("buttonSBQuedaFra2_1.BackgroundImage");
-            buttonSBQuedaFra2_1.FlatAppearance.BorderSize = 0;
-            buttonSBQuedaFra2_1.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            buttonSBQuedaFra2_1.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            buttonSBQuedaFra2_1.FlatStyle = FlatStyle.Flat;
-            buttonSBQuedaFra2_1.Image = (Image)resources.GetObject("buttonSBQuedaFra2_1.Image");
-            buttonSBQuedaFra2_1.Location = new Point(0, 141);
-            buttonSBQuedaFra2_1.Name = "buttonSBQuedaFra2_1";
-            buttonSBQuedaFra2_1.Size = new Size(376, 60);
-            buttonSBQuedaFra2_1.TabIndex = 4;
-            buttonSBQuedaFra2_1.UseVisualStyleBackColor = true;
-            buttonSBQuedaFra2_1.Click += buttonSBQuedaFra2_1_Click;
-            // 
-            // buttonQuedaFra2_2
-            // 
-            buttonQuedaFra2_2.BackgroundImage = (Image)resources.GetObject("buttonQuedaFra2_2.BackgroundImage");
-            buttonQuedaFra2_2.FlatAppearance.BorderSize = 0;
-            buttonQuedaFra2_2.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            buttonQuedaFra2_2.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            buttonQuedaFra2_2.FlatStyle = FlatStyle.Flat;
-            buttonQuedaFra2_2.Image = (Image)resources.GetObject("buttonQuedaFra2_2.Image");
-            buttonQuedaFra2_2.Location = new Point(1, 203);
-            buttonQuedaFra2_2.Name = "buttonQuedaFra2_2";
-            buttonQuedaFra2_2.Size = new Size(376, 60);
-            buttonQuedaFra2_2.TabIndex = 5;
-            buttonQuedaFra2_2.UseVisualStyleBackColor = true;
-            buttonQuedaFra2_2.Click += buttonQuedaFra2_2_Click;
-            // 
-            // buttonQuedaFra2_3
-            // 
-            buttonQuedaFra2_3.BackgroundImage = (Image)resources.GetObject("buttonQuedaFra2_3.BackgroundImage");
-            buttonQuedaFra2_3.FlatAppearance.BorderSize = 0;
-            buttonQuedaFra2_3.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            buttonQuedaFra2_3.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            buttonQuedaFra2_3.FlatStyle = FlatStyle.Flat;
-            buttonQuedaFra2_3.Image = (Image)resources.GetObject("buttonQuedaFra2_3.Image");
-            buttonQuedaFra2_3.Location = new Point(1, 269);
-            buttonQuedaFra2_3.Name = "buttonQuedaFra2_3";
-            buttonQuedaFra2_3.Size = new Size(376, 60);
-            buttonQuedaFra2_3.TabIndex = 6;
-            buttonQuedaFra2_3.UseVisualStyleBackColor = true;
-            buttonQuedaFra2_3.Click += buttonQuedaFra2_3_Click;
-            // 
-            // buttonQuedaFra2_4
-            // 
-            buttonQuedaFra2_4.BackgroundImage = (Image)resources.GetObject("buttonQuedaFra2_4.BackgroundImage");
-            buttonQuedaFra2_4.FlatAppearance.BorderSize = 0;
-            buttonQuedaFra2_4.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            buttonQuedaFra2_4.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            buttonQuedaFra2_4.FlatStyle = FlatStyle.Flat;
-            buttonQuedaFra2_4.Image = (Image)resources.GetObject("buttonQuedaFra2_4.Image");
-            buttonQuedaFra2_4.Location = new Point(-1, 332);
-            buttonQuedaFra2_4.Name = "buttonQuedaFra2_4";
-            buttonQuedaFra2_4.Size = new Size(376, 60);
-            buttonQuedaFra2_4.TabIndex = 7;
-            buttonQuedaFra2_4.UseVisualStyleBackColor = true;
-            buttonQuedaFra2_4.Click += buttonQuedaFra2_4_Click;
-            // 
-            // buttonQuedaFra2_5
-            // 
-            buttonQuedaFra2_5.BackgroundImage = (Image)resources.GetObject("buttonQuedaFra2_5.BackgroundImage");
-            buttonQuedaFra2_5.FlatAppearance.BorderSize = 0;
-            buttonQuedaFra2_5.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            buttonQuedaFra2_5.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            buttonQuedaFra2_5.FlatStyle = FlatStyle.Flat;
-            buttonQuedaFra2_5.Image = (Image)resources.GetObject("buttonQuedaFra2_5.Image");
-            buttonQuedaFra2_5.Location = new Point(1, 387);
-            buttonQuedaFra2_5.Name = "buttonQuedaFra2_5";
-            buttonQuedaFra2_5.Size = new Size(376, 60);
-            buttonQuedaFra2_5.TabIndex = 8;
-            buttonQuedaFra2_5.UseVisualStyleBackColor = true;
-            buttonQuedaFra2_5.Click += buttonQuedaFra2_5_Click;
-            // 
-            // buttonQuedaFraVol_Tela1
-            // 
-            buttonQuedaFraVol_Tela1.BackgroundImage = (Image)resources.GetObject("buttonQuedaFraVol_Tela1.BackgroundImage");
-            buttonQuedaFraVol_Tela1.FlatAppearance.BorderSize = 0;
-            buttonQuedaFraVol_Tela1.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            buttonQuedaFraVol_Tela1.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            buttonQuedaFraVol_Tela1.FlatStyle = FlatStyle.Flat;
-            buttonQuedaFraVol_Tela1.Image = (Image)resources.GetObject("buttonQuedaFraVol_Tela1.Image");
-            buttonQuedaFraVol_Tela1.Location = new Point(25, 27);
-            buttonQuedaFraVol_Tela1.Name = "buttonQuedaFraVol_Tela1";
-            buttonQuedaFraVol_Tela1.Size = new Size(75, 59);
-            buttonQuedaFraVol_Tela1.TabIndex = 9;
-            buttonQuedaFraVol_Tela1.UseVisualStyleBackColor = true;
-            buttonQuedaFraVol_Tela1.Click += buttonQuedaFraVol_Tela1_Click;
-            // 
-            // buttonVoltarQuedatela1
-            // 
-            buttonVoltarQuedatela1.BackgroundImage = (Image)resources.GetObject("buttonVoltarQuedatela1.BackgroundImage");
-            buttonVoltarQuedatela1.FlatAppearance.BorderSize = 0;
-            buttonVoltarQuedatela1.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            buttonVoltarQuedatela1.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            buttonVoltarQuedatela1.FlatStyle = FlatStyle.Flat;
-            buttonVoltarQuedatela1.Image = (Image)resources.GetObject("buttonVoltarQuedatela1.Image");
-            buttonVoltarQuedatela1.Location = new Point(593, 898);
-            buttonVoltarQuedatela1.Name = "buttonVoltarQuedatela1";
-            buttonVoltarQuedatela1.Size = new Size(266, 70);
-            buttonVoltarQuedatela1.TabIndex = 11;
-            buttonVoltarQuedatela1.UseVisualStyleBackColor = true;
-            buttonVoltarQuedatela1.Click += buttonVoltarQuedatela1_Click;
-            // 
-            // buttonQuedaProximaTela3
-            // 
-            buttonQuedaProximaTela3.BackgroundImage = (Image)resources.GetObject("buttonQuedaProximaTela3.BackgroundImage");
-            buttonQuedaProximaTela3.FlatAppearance.BorderSize = 0;
-            buttonQuedaProximaTela3.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            buttonQuedaProximaTela3.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            buttonQuedaProximaTela3.FlatStyle = FlatStyle.Flat;
-            buttonQuedaProximaTela3.Image = (Image)resources.GetObject("buttonQuedaProximaTela3.Image");
-            buttonQuedaProximaTela3.Location = new Point(1486, 904);
-            buttonQuedaProximaTela3.Name = "buttonQuedaProximaTela3";
-            buttonQuedaProximaTela3.Size = new Size(266, 70);
-            buttonQuedaProximaTela3.TabIndex = 12;
-            buttonQuedaProximaTela3.UseVisualStyleBackColor = true;
-            buttonQuedaProximaTela3.Click += buttonQuedaProximaTela3_Click;
-            // 
             // pictureBoxQuedaFra2
             // 
             pictureBoxQuedaFra2.BackgroundImage = (Image)resources.GetObject("pictureBoxQuedaFra2.BackgroundImage");
-            pictureBoxQuedaFra2.Location = new Point(381, -31);
+            pictureBoxQuedaFra2.Location = new Point(405, -23);
             pictureBoxQuedaFra2.Name = "pictureBoxQuedaFra2";
-            pictureBoxQuedaFra2.Size = new Size(1503, 1080);
+            pictureBoxQuedaFra2.Size = new Size(1506, 1080);
             pictureBoxQuedaFra2.TabIndex = 13;
             pictureBoxQuedaFra2.TabStop = false;
+            // 
+            // bnQuedaFraVol_Tela1
+            // 
+            bnQuedaFraVol_Tela1.BackColor = Color.Transparent;
+            bnQuedaFraVol_Tela1.BackgroundImage = (Image)resources.GetObject("bnQuedaFraVol_Tela1.BackgroundImage");
+            bnQuedaFraVol_Tela1.BackgroundImageLayout = ImageLayout.Zoom;
+            bnQuedaFraVol_Tela1.FlatAppearance.BorderSize = 0;
+            bnQuedaFraVol_Tela1.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            bnQuedaFraVol_Tela1.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            bnQuedaFraVol_Tela1.FlatStyle = FlatStyle.Flat;
+            bnQuedaFraVol_Tela1.ImagemHover = (Image)resources.GetObject("bnQuedaFraVol_Tela1.ImagemHover");
+            bnQuedaFraVol_Tela1.ImagemNormal = (Image)resources.GetObject("bnQuedaFraVol_Tela1.ImagemNormal");
+            bnQuedaFraVol_Tela1.Location = new Point(35, 28);
+            bnQuedaFraVol_Tela1.Name = "bnQuedaFraVol_Tela1";
+            bnQuedaFraVol_Tela1.Size = new Size(76, 62);
+            bnQuedaFraVol_Tela1.TabIndex = 41;
+            bnQuedaFraVol_Tela1.UseVisualStyleBackColor = false;
+            bnQuedaFraVol_Tela1.Click += bnQuedaFraVol_Tela1_Click;
+            // 
+            // bnSBQuedaFra2_1
+            // 
+            bnSBQuedaFra2_1.BackColor = Color.Transparent;
+            bnSBQuedaFra2_1.BackgroundImage = (Image)resources.GetObject("bnSBQuedaFra2_1.BackgroundImage");
+            bnSBQuedaFra2_1.BackgroundImageLayout = ImageLayout.Zoom;
+            bnSBQuedaFra2_1.FlatAppearance.BorderSize = 0;
+            bnSBQuedaFra2_1.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            bnSBQuedaFra2_1.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            bnSBQuedaFra2_1.FlatStyle = FlatStyle.Flat;
+            bnSBQuedaFra2_1.ImagemHover = (Image)resources.GetObject("bnSBQuedaFra2_1.ImagemHover");
+            bnSBQuedaFra2_1.ImagemNormal = (Image)resources.GetObject("bnSBQuedaFra2_1.ImagemNormal");
+            bnSBQuedaFra2_1.Location = new Point(21, 151);
+            bnSBQuedaFra2_1.Name = "bnSBQuedaFra2_1";
+            bnSBQuedaFra2_1.Size = new Size(376, 65);
+            bnSBQuedaFra2_1.TabIndex = 42;
+            bnSBQuedaFra2_1.UseVisualStyleBackColor = false;
+            bnSBQuedaFra2_1.Click += bnSBQuedaFra2_1_Click;
+            // 
+            // bnQuedaFra2_2
+            // 
+            bnQuedaFra2_2.BackColor = Color.Transparent;
+            bnQuedaFra2_2.BackgroundImage = (Image)resources.GetObject("bnQuedaFra2_2.BackgroundImage");
+            bnQuedaFra2_2.BackgroundImageLayout = ImageLayout.Zoom;
+            bnQuedaFra2_2.FlatAppearance.BorderSize = 0;
+            bnQuedaFra2_2.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            bnQuedaFra2_2.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            bnQuedaFra2_2.FlatStyle = FlatStyle.Flat;
+            bnQuedaFra2_2.ImagemHover = (Image)resources.GetObject("bnQuedaFra2_2.ImagemHover");
+            bnQuedaFra2_2.ImagemNormal = (Image)resources.GetObject("bnQuedaFra2_2.ImagemNormal");
+            bnQuedaFra2_2.Location = new Point(21, 234);
+            bnQuedaFra2_2.Name = "bnQuedaFra2_2";
+            bnQuedaFra2_2.Size = new Size(376, 65);
+            bnQuedaFra2_2.TabIndex = 43;
+            bnQuedaFra2_2.UseVisualStyleBackColor = false;
+            bnQuedaFra2_2.Click += bnQuedaFra2_2_Click;
+            // 
+            // bnQuedaFra2_3
+            // 
+            bnQuedaFra2_3.BackColor = Color.Transparent;
+            bnQuedaFra2_3.BackgroundImage = (Image)resources.GetObject("bnQuedaFra2_3.BackgroundImage");
+            bnQuedaFra2_3.BackgroundImageLayout = ImageLayout.Zoom;
+            bnQuedaFra2_3.FlatAppearance.BorderSize = 0;
+            bnQuedaFra2_3.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            bnQuedaFra2_3.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            bnQuedaFra2_3.FlatStyle = FlatStyle.Flat;
+            bnQuedaFra2_3.ImagemHover = (Image)resources.GetObject("bnQuedaFra2_3.ImagemHover");
+            bnQuedaFra2_3.ImagemNormal = (Image)resources.GetObject("bnQuedaFra2_3.ImagemNormal");
+            bnQuedaFra2_3.Location = new Point(21, 322);
+            bnQuedaFra2_3.Name = "bnQuedaFra2_3";
+            bnQuedaFra2_3.Size = new Size(376, 65);
+            bnQuedaFra2_3.TabIndex = 44;
+            bnQuedaFra2_3.UseVisualStyleBackColor = false;
+            bnQuedaFra2_3.Click += bnQuedaFra2_3_Click;
+            // 
+            // bnQuedaFra2_4
+            // 
+            bnQuedaFra2_4.BackColor = Color.Transparent;
+            bnQuedaFra2_4.BackgroundImage = (Image)resources.GetObject("bnQuedaFra2_4.BackgroundImage");
+            bnQuedaFra2_4.BackgroundImageLayout = ImageLayout.Zoom;
+            bnQuedaFra2_4.FlatAppearance.BorderSize = 0;
+            bnQuedaFra2_4.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            bnQuedaFra2_4.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            bnQuedaFra2_4.FlatStyle = FlatStyle.Flat;
+            bnQuedaFra2_4.ImagemHover = (Image)resources.GetObject("bnQuedaFra2_4.ImagemHover");
+            bnQuedaFra2_4.ImagemNormal = (Image)resources.GetObject("bnQuedaFra2_4.ImagemNormal");
+            bnQuedaFra2_4.Location = new Point(21, 404);
+            bnQuedaFra2_4.Name = "bnQuedaFra2_4";
+            bnQuedaFra2_4.Size = new Size(376, 65);
+            bnQuedaFra2_4.TabIndex = 45;
+            bnQuedaFra2_4.UseVisualStyleBackColor = false;
+            bnQuedaFra2_4.Click += bnQuedaFra2_4_Click;
+            // 
+            // bnQuedaFra2_5
+            // 
+            bnQuedaFra2_5.BackColor = Color.Transparent;
+            bnQuedaFra2_5.BackgroundImage = (Image)resources.GetObject("bnQuedaFra2_5.BackgroundImage");
+            bnQuedaFra2_5.BackgroundImageLayout = ImageLayout.Zoom;
+            bnQuedaFra2_5.FlatAppearance.BorderSize = 0;
+            bnQuedaFra2_5.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            bnQuedaFra2_5.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            bnQuedaFra2_5.FlatStyle = FlatStyle.Flat;
+            bnQuedaFra2_5.ImagemHover = (Image)resources.GetObject("bnQuedaFra2_5.ImagemHover");
+            bnQuedaFra2_5.ImagemNormal = (Image)resources.GetObject("bnQuedaFra2_5.ImagemNormal");
+            bnQuedaFra2_5.Location = new Point(21, 485);
+            bnQuedaFra2_5.Name = "bnQuedaFra2_5";
+            bnQuedaFra2_5.Size = new Size(376, 65);
+            bnQuedaFra2_5.TabIndex = 46;
+            bnQuedaFra2_5.UseVisualStyleBackColor = false;
+            bnQuedaFra2_5.Click += bnQuedaFra2_5_Click;
+            // 
+            // bnVoltarQuedatela1
+            // 
+            bnVoltarQuedatela1.BackColor = Color.Transparent;
+            bnVoltarQuedatela1.BackgroundImage = (Image)resources.GetObject("bnVoltarQuedatela1.BackgroundImage");
+            bnVoltarQuedatela1.BackgroundImageLayout = ImageLayout.Zoom;
+            bnVoltarQuedatela1.FlatAppearance.BorderSize = 0;
+            bnVoltarQuedatela1.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            bnVoltarQuedatela1.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            bnVoltarQuedatela1.FlatStyle = FlatStyle.Flat;
+            bnVoltarQuedatela1.ImagemHover = (Image)resources.GetObject("bnVoltarQuedatela1.ImagemHover");
+            bnVoltarQuedatela1.ImagemNormal = (Image)resources.GetObject("bnVoltarQuedatela1.ImagemNormal");
+            bnVoltarQuedatela1.Location = new Point(605, 924);
+            bnVoltarQuedatela1.Name = "bnVoltarQuedatela1";
+            bnVoltarQuedatela1.Size = new Size(272, 76);
+            bnVoltarQuedatela1.TabIndex = 47;
+            bnVoltarQuedatela1.UseVisualStyleBackColor = false;
+            bnVoltarQuedatela1.Click += bnVoltarQuedatela1_Click;
+            // 
+            // bnQuedaProximaTela3
+            // 
+            bnQuedaProximaTela3.BackColor = Color.Transparent;
+            bnQuedaProximaTela3.BackgroundImage = (Image)resources.GetObject("bnQuedaProximaTela3.BackgroundImage");
+            bnQuedaProximaTela3.BackgroundImageLayout = ImageLayout.Zoom;
+            bnQuedaProximaTela3.FlatAppearance.BorderSize = 0;
+            bnQuedaProximaTela3.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            bnQuedaProximaTela3.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            bnQuedaProximaTela3.FlatStyle = FlatStyle.Flat;
+            bnQuedaProximaTela3.ImagemHover = (Image)resources.GetObject("bnQuedaProximaTela3.ImagemHover");
+            bnQuedaProximaTela3.ImagemNormal = (Image)resources.GetObject("bnQuedaProximaTela3.ImagemNormal");
+            bnQuedaProximaTela3.Location = new Point(1498, 930);
+            bnQuedaProximaTela3.Name = "bnQuedaProximaTela3";
+            bnQuedaProximaTela3.Size = new Size(272, 76);
+            bnQuedaProximaTela3.TabIndex = 48;
+            bnQuedaProximaTela3.UseVisualStyleBackColor = false;
+            bnQuedaProximaTela3.Click += bnQuedaProximaTela3_Click;
             // 
             // FormQuedaFra2
             // 
@@ -209,14 +233,14 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1904, 1041);
-            Controls.Add(buttonQuedaProximaTela3);
-            Controls.Add(buttonVoltarQuedatela1);
-            Controls.Add(buttonQuedaFraVol_Tela1);
-            Controls.Add(buttonQuedaFra2_5);
-            Controls.Add(buttonQuedaFra2_4);
-            Controls.Add(buttonQuedaFra2_3);
-            Controls.Add(buttonQuedaFra2_2);
-            Controls.Add(buttonSBQuedaFra2_1);
+            Controls.Add(bnQuedaProximaTela3);
+            Controls.Add(bnVoltarQuedatela1);
+            Controls.Add(bnQuedaFra2_5);
+            Controls.Add(bnQuedaFra2_4);
+            Controls.Add(bnQuedaFra2_3);
+            Controls.Add(bnQuedaFra2_2);
+            Controls.Add(bnSBQuedaFra2_1);
+            Controls.Add(bnQuedaFraVol_Tela1);
             Controls.Add(FooterQuedaFra2);
             Controls.Add(headerQuedaFra2);
             Controls.Add(pictureBoxQuedaFra1);
@@ -235,14 +259,14 @@
         private PictureBox headerQuedaFra2;
         private PictureBox pictureBoxQuedaFra1;
         private PictureBox FooterQuedaFra2;
-        private Button buttonSBQuedaFra2_1;
-        private Button buttonQuedaFra2_2;
-        private Button buttonQuedaFra2_3;
-        private Button buttonQuedaFra2_4;
-        private Button buttonQuedaFra2_5;
-        private Button buttonQuedaFraVol_Tela1;
-        private Button buttonVoltarQuedatela1;
-        private Button buttonQuedaProximaTela3;
         private PictureBox pictureBoxQuedaFra2;
+        private teste.ImageHoverButton bnQuedaFraVol_Tela1;
+        private teste.ImageHoverButton bnSBQuedaFra2_1;
+        private teste.ImageHoverButton bnQuedaFra2_2;
+        private teste.ImageHoverButton bnQuedaFra2_3;
+        private teste.ImageHoverButton bnQuedaFra2_4;
+        private teste.ImageHoverButton bnQuedaFra2_5;
+        private teste.ImageHoverButton bnVoltarQuedatela1;
+        private teste.ImageHoverButton bnQuedaProximaTela3;
     }
 }

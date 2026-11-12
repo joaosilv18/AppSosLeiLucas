@@ -60,7 +60,7 @@
             // 
             barralateral4.BackColor = Color.Transparent;
             barralateral4.BackgroundImage = (Image)resources.GetObject("barralateral4.BackgroundImage");
-            barralateral4.Location = new Point(2, 82);
+            barralateral4.Location = new Point(1, 118);
             barralateral4.Name = "barralateral4";
             barralateral4.Size = new Size(414, 963);
             barralateral4.TabIndex = 6;
@@ -69,7 +69,7 @@
             // Informacao4
             // 
             Informacao4.BackgroundImage = (Image)resources.GetObject("Informacao4.BackgroundImage");
-            Informacao4.Location = new Point(402, -12);
+            Informacao4.Location = new Point(402, 20);
             Informacao4.Name = "Informacao4";
             Informacao4.Size = new Size(1506, 1080);
             Informacao4.TabIndex = 7;
@@ -78,7 +78,7 @@
             // VoltareProximo4
             // 
             VoltareProximo4.BackgroundImage = (Image)resources.GetObject("VoltareProximo4.BackgroundImage");
-            VoltareProximo4.Location = new Point(414, 849);
+            VoltareProximo4.Location = new Point(414, 889);
             VoltareProximo4.Name = "VoltareProximo4";
             VoltareProximo4.Size = new Size(1507, 200);
             VoltareProximo4.TabIndex = 8;
@@ -185,7 +185,7 @@
             voltar44.FlatStyle = FlatStyle.Flat;
             voltar44.ImagemHover = (Image)resources.GetObject("voltar44.ImagemHover");
             voltar44.ImagemNormal = (Image)resources.GetObject("voltar44.ImagemNormal");
-            voltar44.Location = new Point(605, 924);
+            voltar44.Location = new Point(605, 953);
             voltar44.Name = "voltar44";
             voltar44.Size = new Size(272, 76);
             voltar44.TabIndex = 36;
@@ -221,7 +221,7 @@
             Proximo4.FlatStyle = FlatStyle.Flat;
             Proximo4.ImagemHover = (Image)resources.GetObject("Proximo4.ImagemHover");
             Proximo4.ImagemNormal = (Image)resources.GetObject("Proximo4.ImagemNormal");
-            Proximo4.Location = new Point(1498, 930);
+            Proximo4.Location = new Point(1498, 953);
             Proximo4.Name = "Proximo4";
             Proximo4.Size = new Size(272, 76);
             Proximo4.TabIndex = 38;
@@ -248,6 +248,7 @@
             Controls.Add(Informacao4);
             Name = "Form15";
             Text = "Form15";
+            Load += Form15_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)barralateral4).EndInit();
             ((System.ComponentModel.ISupportInitialize)Informacao4).EndInit();

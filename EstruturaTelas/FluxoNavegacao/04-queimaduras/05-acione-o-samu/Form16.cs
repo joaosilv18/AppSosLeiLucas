@@ -64,6 +64,15 @@ namespace ProjetoLeiLucasTelas
             this.Hide();
         }
 
-       
+        private void Informacao5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form16_Load(object sender, EventArgs e)
+        {
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
+        }
     }
 }

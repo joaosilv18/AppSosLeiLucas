@@ -44,7 +44,7 @@
             // pictureBoxInforRodape
             // 
             pictureBoxInforRodape.BackgroundImage = (Image)resources.GetObject("pictureBoxInforRodape.BackgroundImage");
-            pictureBoxInforRodape.Location = new Point(-1, 974);
+            pictureBoxInforRodape.Location = new Point(-1, 997);
             pictureBoxInforRodape.Name = "pictureBoxInforRodape";
             pictureBoxInforRodape.Size = new Size(1920, 84);
             pictureBoxInforRodape.TabIndex = 2;
@@ -54,7 +54,7 @@
             // 
             pictureBoxInfoRodape.BackgroundImage = (Image)resources.GetObject("pictureBoxInfoRodape.BackgroundImage");
             pictureBoxInfoRodape.Image = (Image)resources.GetObject("pictureBoxInfoRodape.Image");
-            pictureBoxInfoRodape.Location = new Point(39, 985);
+            pictureBoxInfoRodape.Location = new Point(39, 1012);
             pictureBoxInfoRodape.Name = "pictureBoxInfoRodape";
             pictureBoxInfoRodape.Size = new Size(222, 48);
             pictureBoxInfoRodape.TabIndex = 11;
@@ -98,7 +98,7 @@
             BtnVoltarInicioSelecao.FlatStyle = FlatStyle.Flat;
             BtnVoltarInicioSelecao.ImagemHover = (Image)resources.GetObject("BtnVoltarInicioSelecao.ImagemHover");
             BtnVoltarInicioSelecao.ImagemNormal = (Image)resources.GetObject("BtnVoltarInicioSelecao.ImagemNormal");
-            BtnVoltarInicioSelecao.Location = new Point(1604, 984);
+            BtnVoltarInicioSelecao.Location = new Point(1604, 1010);
             BtnVoltarInicioSelecao.Name = "BtnVoltarInicioSelecao";
             BtnVoltarInicioSelecao.Size = new Size(254, 63);
             BtnVoltarInicioSelecao.TabIndex = 18;
@@ -156,6 +156,7 @@
             Controls.Add(pictureBoxInforRodape);
             Name = "TelaSelecao";
             Text = "Form5";
+            Load += TelaSelecao_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBoxInforRodape).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxInfoRodape).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

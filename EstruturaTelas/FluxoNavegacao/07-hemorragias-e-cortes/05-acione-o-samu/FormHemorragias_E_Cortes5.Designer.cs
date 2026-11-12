@@ -67,7 +67,7 @@
             // FooterHemorragia5
             // 
             FooterHemorragia5.BackgroundImage = (Image)resources.GetObject("FooterHemorragia5.BackgroundImage");
-            FooterHemorragia5.Location = new Point(415, 868);
+            FooterHemorragia5.Location = new Point(414, 889);
             FooterHemorragia5.Name = "FooterHemorragia5";
             FooterHemorragia5.Size = new Size(1507, 200);
             FooterHemorragia5.TabIndex = 12;
@@ -76,7 +76,7 @@
             // SBHemorragias5
             // 
             SBHemorragias5.BackgroundImage = (Image)resources.GetObject("SBHemorragias5.BackgroundImage");
-            SBHemorragias5.Location = new Point(1, 111);
+            SBHemorragias5.Location = new Point(1, 118);
             SBHemorragias5.Name = "SBHemorragias5";
             SBHemorragias5.Size = new Size(414, 963);
             SBHemorragias5.TabIndex = 13;
@@ -93,7 +93,7 @@
             btnVoltarPagHemoCortes05.FlatStyle = FlatStyle.Flat;
             btnVoltarPagHemoCortes05.ImagemHover = (Image)resources.GetObject("btnVoltarPagHemoCortes05.ImagemHover");
             btnVoltarPagHemoCortes05.ImagemNormal = (Image)resources.GetObject("btnVoltarPagHemoCortes05.ImagemNormal");
-            btnVoltarPagHemoCortes05.Location = new Point(605, 924);
+            btnVoltarPagHemoCortes05.Location = new Point(605, 953);
             btnVoltarPagHemoCortes05.Name = "btnVoltarPagHemoCortes05";
             btnVoltarPagHemoCortes05.Size = new Size(272, 76);
             btnVoltarPagHemoCortes05.TabIndex = 78;
@@ -227,6 +227,7 @@
             Controls.Add(pictureBoxHEmorragiapasso5);
             Name = "FormHemorragias_E_Cortes5";
             Text = "FormHemorragias_E_Cortes5";
+            Load += FormHemorragias_E_Cortes5_Load;
             ((System.ComponentModel.ISupportInitialize)HeaderHemorragia5).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxHEmorragiapasso5).EndInit();
             ((System.ComponentModel.ISupportInitialize)FooterHemorragia5).EndInit();

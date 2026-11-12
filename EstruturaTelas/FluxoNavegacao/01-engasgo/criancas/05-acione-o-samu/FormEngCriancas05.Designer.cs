@@ -58,7 +58,7 @@
             // SiderBar1Rcp
             // 
             SiderBar1Rcp.BackgroundImage = (Image)resources.GetObject("SiderBar1Rcp.BackgroundImage");
-            SiderBar1Rcp.Location = new Point(1, 112);
+            SiderBar1Rcp.Location = new Point(1, 118);
             SiderBar1Rcp.Name = "SiderBar1Rcp";
             SiderBar1Rcp.Size = new Size(414, 963);
             SiderBar1Rcp.TabIndex = 35;
@@ -67,7 +67,7 @@
             // pictureBox2
             // 
             pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
-            pictureBox2.Location = new Point(415, 868);
+            pictureBox2.Location = new Point(414, 889);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(1507, 200);
             pictureBox2.TabIndex = 40;
@@ -201,7 +201,7 @@
             btnVoltarPagCrianca05.FlatStyle = FlatStyle.Flat;
             btnVoltarPagCrianca05.ImagemHover = (Image)resources.GetObject("btnVoltarPagCrianca05.ImagemHover");
             btnVoltarPagCrianca05.ImagemNormal = (Image)resources.GetObject("btnVoltarPagCrianca05.ImagemNormal");
-            btnVoltarPagCrianca05.Location = new Point(605, 924);
+            btnVoltarPagCrianca05.Location = new Point(605, 953);
             btnVoltarPagCrianca05.Name = "btnVoltarPagCrianca05";
             btnVoltarPagCrianca05.Size = new Size(272, 76);
             btnVoltarPagCrianca05.TabIndex = 57;
@@ -227,6 +227,7 @@
             Controls.Add(pictureBox4);
             Name = "FormEngCriancas05";
             Text = "FormEngCriancas05";
+            Load += FormEngCriancas05_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)SiderBar1Rcp).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();

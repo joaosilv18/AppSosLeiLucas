@@ -11,8 +11,10 @@ namespace ProjetoLeiLucasTelas
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
         }
+        
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -65,7 +67,9 @@ namespace ProjetoLeiLucasTelas
 
         private void btnSair1_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            DialogResult respostaSair = MessageBox.Show("Deseja fechar o Programa?", "Sair", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+            if (respostaSair == DialogResult.Yes) Application.Exit();
+            else return;
         }
 
 

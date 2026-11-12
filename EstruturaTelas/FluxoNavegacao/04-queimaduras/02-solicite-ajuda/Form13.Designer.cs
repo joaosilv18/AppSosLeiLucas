@@ -60,7 +60,7 @@
             // 
             barralateral2.BackColor = Color.Transparent;
             barralateral2.BackgroundImage = (Image)resources.GetObject("barralateral2.BackgroundImage");
-            barralateral2.Location = new Point(3, 79);
+            barralateral2.Location = new Point(1, 118);
             barralateral2.Name = "barralateral2";
             barralateral2.Size = new Size(414, 963);
             barralateral2.TabIndex = 4;
@@ -69,7 +69,7 @@
             // InformacaoQueimadura2
             // 
             InformacaoQueimadura2.BackgroundImage = (Image)resources.GetObject("InformacaoQueimadura2.BackgroundImage");
-            InformacaoQueimadura2.Location = new Point(408, -6);
+            InformacaoQueimadura2.Location = new Point(408, 18);
             InformacaoQueimadura2.Name = "InformacaoQueimadura2";
             InformacaoQueimadura2.Size = new Size(1506, 1080);
             InformacaoQueimadura2.TabIndex = 5;
@@ -79,7 +79,7 @@
             // VoltareProximo2
             // 
             VoltareProximo2.BackgroundImage = (Image)resources.GetObject("VoltareProximo2.BackgroundImage");
-            VoltareProximo2.Location = new Point(416, 865);
+            VoltareProximo2.Location = new Point(414, 889);
             VoltareProximo2.Name = "VoltareProximo2";
             VoltareProximo2.Size = new Size(1507, 200);
             VoltareProximo2.TabIndex = 6;
@@ -204,7 +204,7 @@
             voltar22.FlatStyle = FlatStyle.Flat;
             voltar22.ImagemHover = (Image)resources.GetObject("voltar22.ImagemHover");
             voltar22.ImagemNormal = (Image)resources.GetObject("voltar22.ImagemNormal");
-            voltar22.Location = new Point(605, 924);
+            voltar22.Location = new Point(605, 953);
             voltar22.Name = "voltar22";
             voltar22.Size = new Size(272, 76);
             voltar22.TabIndex = 34;
@@ -222,7 +222,7 @@
             Proximo2.FlatStyle = FlatStyle.Flat;
             Proximo2.ImagemHover = (Image)resources.GetObject("Proximo2.ImagemHover");
             Proximo2.ImagemNormal = (Image)resources.GetObject("Proximo2.ImagemNormal");
-            Proximo2.Location = new Point(1498, 930);
+            Proximo2.Location = new Point(1498, 953);
             Proximo2.Name = "Proximo2";
             Proximo2.Size = new Size(272, 76);
             Proximo2.TabIndex = 35;

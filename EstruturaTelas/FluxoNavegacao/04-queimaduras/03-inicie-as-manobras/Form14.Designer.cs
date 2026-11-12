@@ -60,7 +60,7 @@
             // 
             barralateral3.BackColor = Color.Transparent;
             barralateral3.BackgroundImage = (Image)resources.GetObject("barralateral3.BackgroundImage");
-            barralateral3.Location = new Point(1, 86);
+            barralateral3.Location = new Point(1, 118);
             barralateral3.Name = "barralateral3";
             barralateral3.Size = new Size(414, 963);
             barralateral3.TabIndex = 5;
@@ -69,7 +69,7 @@
             // Informacao3
             // 
             Informacao3.BackgroundImage = (Image)resources.GetObject("Informacao3.BackgroundImage");
-            Informacao3.Location = new Point(403, -17);
+            Informacao3.Location = new Point(414, 21);
             Informacao3.Name = "Informacao3";
             Informacao3.Size = new Size(1506, 1080);
             Informacao3.TabIndex = 6;
@@ -78,7 +78,7 @@
             // VoltareProximo3
             // 
             VoltareProximo3.BackgroundImage = (Image)resources.GetObject("VoltareProximo3.BackgroundImage");
-            VoltareProximo3.Location = new Point(414, 849);
+            VoltareProximo3.Location = new Point(414, 889);
             VoltareProximo3.Name = "VoltareProximo3";
             VoltareProximo3.Size = new Size(1507, 200);
             VoltareProximo3.TabIndex = 7;
@@ -185,7 +185,7 @@
             voltar333.FlatStyle = FlatStyle.Flat;
             voltar333.ImagemHover = (Image)resources.GetObject("voltar333.ImagemHover");
             voltar333.ImagemNormal = (Image)resources.GetObject("voltar333.ImagemNormal");
-            voltar333.Location = new Point(605, 924);
+            voltar333.Location = new Point(605, 953);
             voltar333.Name = "voltar333";
             voltar333.Size = new Size(272, 76);
             voltar333.TabIndex = 35;
@@ -203,7 +203,7 @@
             Proximo3.FlatStyle = FlatStyle.Flat;
             Proximo3.ImagemHover = (Image)resources.GetObject("Proximo3.ImagemHover");
             Proximo3.ImagemNormal = (Image)resources.GetObject("Proximo3.ImagemNormal");
-            Proximo3.Location = new Point(1498, 930);
+            Proximo3.Location = new Point(1498, 953);
             Proximo3.Name = "Proximo3";
             Proximo3.Size = new Size(272, 76);
             Proximo3.TabIndex = 36;
@@ -248,6 +248,7 @@
             Controls.Add(Informacao3);
             Name = "Form14";
             Text = "Form14";
+            Load += Form14_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)barralateral3).EndInit();
             ((System.ComponentModel.ISupportInitialize)Informacao3).EndInit();

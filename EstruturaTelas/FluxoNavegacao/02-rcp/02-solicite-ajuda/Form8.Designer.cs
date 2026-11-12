@@ -60,7 +60,7 @@
             // pictureBoxRcp2
             // 
             pictureBoxRcp2.BackgroundImage = (Image)resources.GetObject("pictureBoxRcp2.BackgroundImage");
-            pictureBoxRcp2.Location = new Point(0, 82);
+            pictureBoxRcp2.Location = new Point(1, 118);
             pictureBoxRcp2.Name = "pictureBoxRcp2";
             pictureBoxRcp2.Size = new Size(414, 963);
             pictureBoxRcp2.TabIndex = 1;
@@ -70,7 +70,7 @@
             // pictureBoxFooterRcp
             // 
             pictureBoxFooterRcp.BackgroundImage = (Image)resources.GetObject("pictureBoxFooterRcp.BackgroundImage");
-            pictureBoxFooterRcp.Location = new Point(412, 839);
+            pictureBoxFooterRcp.Location = new Point(414, 889);
             pictureBoxFooterRcp.Name = "pictureBoxFooterRcp";
             pictureBoxFooterRcp.Size = new Size(1507, 200);
             pictureBoxFooterRcp.TabIndex = 2;
@@ -80,7 +80,7 @@
             // pixRcp2
             // 
             pixRcp2.BackgroundImage = (Image)resources.GetObject("pixRcp2.BackgroundImage");
-            pixRcp2.Location = new Point(405, -23);
+            pixRcp2.Location = new Point(403, 13);
             pixRcp2.Name = "pixRcp2";
             pixRcp2.Size = new Size(1506, 1080);
             pixRcp2.TabIndex = 14;
@@ -222,7 +222,7 @@
             bn2voltarTela1.FlatStyle = FlatStyle.Flat;
             bn2voltarTela1.ImagemHover = (Image)resources.GetObject("bn2voltarTela1.ImagemHover");
             bn2voltarTela1.ImagemNormal = (Image)resources.GetObject("bn2voltarTela1.ImagemNormal");
-            bn2voltarTela1.Location = new Point(605, 924);
+            bn2voltarTela1.Location = new Point(605, 953);
             bn2voltarTela1.Name = "bn2voltarTela1";
             bn2voltarTela1.Size = new Size(272, 76);
             bn2voltarTela1.TabIndex = 44;
@@ -240,7 +240,7 @@
             bnPasso2ProximaTela3.FlatStyle = FlatStyle.Flat;
             bnPasso2ProximaTela3.ImagemHover = (Image)resources.GetObject("bnPasso2ProximaTela3.ImagemHover");
             bnPasso2ProximaTela3.ImagemNormal = (Image)resources.GetObject("bnPasso2ProximaTela3.ImagemNormal");
-            bnPasso2ProximaTela3.Location = new Point(1498, 930);
+            bnPasso2ProximaTela3.Location = new Point(1498, 953);
             bnPasso2ProximaTela3.Name = "bnPasso2ProximaTela3";
             bnPasso2ProximaTela3.Size = new Size(272, 76);
             bnPasso2ProximaTela3.TabIndex = 45;
@@ -268,6 +268,7 @@
             Controls.Add(pixRcp2);
             Name = "FormRcp2";
             Text = "RcpPasso2";
+            Load += FormRcp2_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBoxHeaderRcp).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxRcp2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxFooterRcp).EndInit();

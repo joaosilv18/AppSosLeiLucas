@@ -22,7 +22,7 @@ namespace ProjetoLeiLucasTelas
 
 
 
-  
+
 
 
 
@@ -82,6 +82,12 @@ namespace ProjetoLeiLucasTelas
             FormRcp2 telaemergencia = new FormRcp2();
             telaemergencia.Show();
             this.Hide();
+        }
+
+        private void Form_RCP1_Load(object sender, EventArgs e)
+        {
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
         }
     }
 }

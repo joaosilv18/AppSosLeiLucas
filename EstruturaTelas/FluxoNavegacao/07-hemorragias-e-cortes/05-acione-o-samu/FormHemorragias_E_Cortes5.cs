@@ -63,5 +63,11 @@ namespace ProjetoLeiLucasTelas
             telaEmergencia.Show();
             this.Hide();
         }
+
+        private void FormHemorragias_E_Cortes5_Load(object sender, EventArgs e)
+        {
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
+        }
     }
 }

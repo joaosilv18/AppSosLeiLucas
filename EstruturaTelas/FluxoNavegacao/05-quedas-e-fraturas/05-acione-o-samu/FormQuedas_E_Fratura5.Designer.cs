@@ -58,7 +58,7 @@
             // pictureBoxQueda5
             // 
             pictureBoxQueda5.BackgroundImage = (Image)resources.GetObject("pictureBoxQueda5.BackgroundImage");
-            pictureBoxQueda5.Location = new Point(3, 77);
+            pictureBoxQueda5.Location = new Point(1, 118);
             pictureBoxQueda5.Name = "pictureBoxQueda5";
             pictureBoxQueda5.Size = new Size(414, 963);
             pictureBoxQueda5.TabIndex = 2;
@@ -67,7 +67,7 @@
             // FooterQueda5
             // 
             FooterQueda5.BackgroundImage = (Image)resources.GetObject("FooterQueda5.BackgroundImage");
-            FooterQueda5.Location = new Point(417, 840);
+            FooterQueda5.Location = new Point(414, 889);
             FooterQueda5.Name = "FooterQueda5";
             FooterQueda5.Size = new Size(1507, 200);
             FooterQueda5.TabIndex = 8;
@@ -76,7 +76,7 @@
             // Queda5
             // 
             Queda5.BackgroundImage = (Image)resources.GetObject("Queda5.BackgroundImage");
-            Queda5.Location = new Point(405, -23);
+            Queda5.Location = new Point(405, -3);
             Queda5.Name = "Queda5";
             Queda5.Size = new Size(1503, 1080);
             Queda5.TabIndex = 15;
@@ -201,7 +201,7 @@
             bnVoltarQuedaVtela4.FlatStyle = FlatStyle.Flat;
             bnVoltarQuedaVtela4.ImagemHover = (Image)resources.GetObject("bnVoltarQuedaVtela4.ImagemHover");
             bnVoltarQuedaVtela4.ImagemNormal = (Image)resources.GetObject("bnVoltarQuedaVtela4.ImagemNormal");
-            bnVoltarQuedaVtela4.Location = new Point(605, 924);
+            bnVoltarQuedaVtela4.Location = new Point(605, 953);
             bnVoltarQuedaVtela4.Name = "bnVoltarQuedaVtela4";
             bnVoltarQuedaVtela4.Size = new Size(272, 76);
             bnVoltarQuedaVtela4.TabIndex = 58;
@@ -227,6 +227,7 @@
             Controls.Add(Queda5);
             Name = "FormQuedas_E_Fratura5";
             Text = "Quedas e Fraturas ";
+            Load += FormQuedas_E_Fratura5_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxQueda5).EndInit();
             ((System.ComponentModel.ISupportInitialize)FooterQueda5).EndInit();

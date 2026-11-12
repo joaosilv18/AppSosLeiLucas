@@ -59,7 +59,7 @@
             // 
             barralateral5.BackColor = Color.Transparent;
             barralateral5.BackgroundImage = (Image)resources.GetObject("barralateral5.BackgroundImage");
-            barralateral5.Location = new Point(3, 120);
+            barralateral5.Location = new Point(1, 118);
             barralateral5.Name = "barralateral5";
             barralateral5.Size = new Size(414, 963);
             barralateral5.TabIndex = 7;
@@ -68,16 +68,17 @@
             // Informacao5
             // 
             Informacao5.BackgroundImage = (Image)resources.GetObject("Informacao5.BackgroundImage");
-            Informacao5.Location = new Point(416, -16);
+            Informacao5.Location = new Point(416, 7);
             Informacao5.Name = "Informacao5";
             Informacao5.Size = new Size(1506, 1080);
             Informacao5.TabIndex = 8;
             Informacao5.TabStop = false;
+            Informacao5.Click += Informacao5_Click;
             // 
             // VoltareProximo5
             // 
             VoltareProximo5.BackgroundImage = (Image)resources.GetObject("VoltareProximo5.BackgroundImage");
-            VoltareProximo5.Location = new Point(414, 854);
+            VoltareProximo5.Location = new Point(414, 889);
             VoltareProximo5.Name = "VoltareProximo5";
             VoltareProximo5.Size = new Size(1507, 200);
             VoltareProximo5.TabIndex = 9;
@@ -184,7 +185,7 @@
             voltar55.FlatStyle = FlatStyle.Flat;
             voltar55.ImagemHover = (Image)resources.GetObject("voltar55.ImagemHover");
             voltar55.ImagemNormal = (Image)resources.GetObject("voltar55.ImagemNormal");
-            voltar55.Location = new Point(605, 924);
+            voltar55.Location = new Point(605, 953);
             voltar55.Name = "voltar55";
             voltar55.Size = new Size(272, 76);
             voltar55.TabIndex = 36;
@@ -228,6 +229,7 @@
             Controls.Add(Informacao5);
             Name = "Form16";
             Text = "Form16";
+            Load += Form16_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)barralateral5).EndInit();
             ((System.ComponentModel.ISupportInitialize)Informacao5).EndInit();

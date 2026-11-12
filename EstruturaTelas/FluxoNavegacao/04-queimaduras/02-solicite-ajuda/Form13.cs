@@ -22,7 +22,8 @@ namespace ProjetoLeiLucasTelas
 
         private void Queimaduras2_Load(object sender, EventArgs e)
         {
-
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
         }
         // novos botões
         private void VerificaASituacao2_Click_1(object sender, EventArgs e)

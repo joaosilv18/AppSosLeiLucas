@@ -61,7 +61,7 @@
             // SiderBar1Rcp
             // 
             SiderBar1Rcp.BackgroundImage = (Image)resources.GetObject("SiderBar1Rcp.BackgroundImage");
-            SiderBar1Rcp.Location = new Point(1, 111);
+            SiderBar1Rcp.Location = new Point(1, 118);
             SiderBar1Rcp.Name = "SiderBar1Rcp";
             SiderBar1Rcp.Size = new Size(414, 963);
             SiderBar1Rcp.TabIndex = 12;
@@ -70,7 +70,7 @@
             // pictureBox2
             // 
             pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
-            pictureBox2.Location = new Point(415, 868);
+            pictureBox2.Location = new Point(414, 889);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(1507, 200);
             pictureBox2.TabIndex = 18;
@@ -79,7 +79,7 @@
             // pictureBox4
             // 
             pictureBox4.BackgroundImage = (Image)resources.GetObject("pictureBox4.BackgroundImage");
-            pictureBox4.Location = new Point(414, 10);
+            pictureBox4.Location = new Point(414, 25);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(1506, 1080);
             pictureBox4.TabIndex = 20;
@@ -214,7 +214,7 @@
             imageHoverButton1.FlatStyle = FlatStyle.Flat;
             imageHoverButton1.ImagemHover = (Image)resources.GetObject("imageHoverButton1.ImagemHover");
             imageHoverButton1.ImagemNormal = (Image)resources.GetObject("imageHoverButton1.ImagemNormal");
-            imageHoverButton1.Location = new Point(605, 924);
+            imageHoverButton1.Location = new Point(605, 953);
             imageHoverButton1.Name = "imageHoverButton1";
             imageHoverButton1.Size = new Size(272, 76);
             imageHoverButton1.TabIndex = 30;
@@ -231,7 +231,7 @@
             btnProximaPagBebe01.FlatStyle = FlatStyle.Flat;
             btnProximaPagBebe01.ImagemHover = (Image)resources.GetObject("btnProximaPagBebe01.ImagemHover");
             btnProximaPagBebe01.ImagemNormal = (Image)resources.GetObject("btnProximaPagBebe01.ImagemNormal");
-            btnProximaPagBebe01.Location = new Point(1498, 930);
+            btnProximaPagBebe01.Location = new Point(1498, 953);
             btnProximaPagBebe01.Name = "btnProximaPagBebe01";
             btnProximaPagBebe01.Size = new Size(272, 76);
             btnProximaPagBebe01.TabIndex = 31;
@@ -259,6 +259,7 @@
             Controls.Add(pictureBox5);
             Name = "Form6";
             Text = "Form6";
+            Load += Form6_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)SiderBar1Rcp).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();

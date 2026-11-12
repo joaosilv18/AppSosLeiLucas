@@ -49,7 +49,7 @@
             // pictureBoxInforRodape
             // 
             pictureBoxInforRodape.BackgroundImage = (Image)resources.GetObject("pictureBoxInforRodape.BackgroundImage");
-            pictureBoxInforRodape.Location = new Point(-1, 974);
+            pictureBoxInforRodape.Location = new Point(-1, 997);
             pictureBoxInforRodape.Name = "pictureBoxInforRodape";
             pictureBoxInforRodape.Size = new Size(1920, 84);
             pictureBoxInforRodape.TabIndex = 12;
@@ -66,7 +66,7 @@
             BtnVoltarPagAntRelat.FlatStyle = FlatStyle.Flat;
             BtnVoltarPagAntRelat.ImagemHover = (Image)resources.GetObject("BtnVoltarPagAntRelat.ImagemHover");
             BtnVoltarPagAntRelat.ImagemNormal = (Image)resources.GetObject("BtnVoltarPagAntRelat.ImagemNormal");
-            BtnVoltarPagAntRelat.Location = new Point(39, 984);
+            BtnVoltarPagAntRelat.Location = new Point(39, 1010);
             BtnVoltarPagAntRelat.Name = "BtnVoltarPagAntRelat";
             BtnVoltarPagAntRelat.Size = new Size(76, 62);
             BtnVoltarPagAntRelat.TabIndex = 16;
@@ -84,7 +84,7 @@
             BtnVoltarInicioRelat.FlatStyle = FlatStyle.Flat;
             BtnVoltarInicioRelat.ImagemHover = (Image)resources.GetObject("BtnVoltarInicioRelat.ImagemHover");
             BtnVoltarInicioRelat.ImagemNormal = (Image)resources.GetObject("BtnVoltarInicioRelat.ImagemNormal");
-            BtnVoltarInicioRelat.Location = new Point(1604, 984);
+            BtnVoltarInicioRelat.Location = new Point(1604, 1010);
             BtnVoltarInicioRelat.Name = "BtnVoltarInicioRelat";
             BtnVoltarInicioRelat.Size = new Size(254, 63);
             BtnVoltarInicioRelat.TabIndex = 17;
@@ -103,6 +103,7 @@
             Controls.Add(telaAjuda);
             Name = "FormRelatorios";
             Text = "FormRelatorios";
+            Load += FormRelatorios_Load;
             ((System.ComponentModel.ISupportInitialize)telaAjuda).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxInforRodape).EndInit();
             ResumeLayout(false);

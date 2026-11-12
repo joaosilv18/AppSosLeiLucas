@@ -59,7 +59,7 @@
             // SideBarFraTCo1
             // 
             SideBarFraTCo1.BackgroundImage = (Image)resources.GetObject("SideBarFraTCo1.BackgroundImage");
-            SideBarFraTCo1.Location = new Point(3, 77);
+            SideBarFraTCo1.Location = new Point(1, 118);
             SideBarFraTCo1.Name = "SideBarFraTCo1";
             SideBarFraTCo1.Size = new Size(414, 963);
             SideBarFraTCo1.TabIndex = 1;
@@ -68,7 +68,7 @@
             // FooterQuedaFra1
             // 
             FooterQuedaFra1.BackgroundImage = (Image)resources.GetObject("FooterQuedaFra1.BackgroundImage");
-            FooterQuedaFra1.Location = new Point(417, 840);
+            FooterQuedaFra1.Location = new Point(414, 889);
             FooterQuedaFra1.Name = "FooterQuedaFra1";
             FooterQuedaFra1.Size = new Size(1507, 200);
             FooterQuedaFra1.TabIndex = 2;
@@ -77,7 +77,7 @@
             // picturQuedaFra1
             // 
             picturQuedaFra1.BackgroundImage = (Image)resources.GetObject("picturQuedaFra1.BackgroundImage");
-            picturQuedaFra1.Location = new Point(405, -23);
+            picturQuedaFra1.Location = new Point(404, 9);
             picturQuedaFra1.Name = "picturQuedaFra1";
             picturQuedaFra1.Size = new Size(1506, 1080);
             picturQuedaFra1.TabIndex = 9;
@@ -202,7 +202,7 @@
             bnVoltarProtocoloQuedaFra1.FlatStyle = FlatStyle.Flat;
             bnVoltarProtocoloQuedaFra1.ImagemHover = (Image)resources.GetObject("bnVoltarProtocoloQuedaFra1.ImagemHover");
             bnVoltarProtocoloQuedaFra1.ImagemNormal = (Image)resources.GetObject("bnVoltarProtocoloQuedaFra1.ImagemNormal");
-            bnVoltarProtocoloQuedaFra1.Location = new Point(605, 924);
+            bnVoltarProtocoloQuedaFra1.Location = new Point(605, 953);
             bnVoltarProtocoloQuedaFra1.Name = "bnVoltarProtocoloQuedaFra1";
             bnVoltarProtocoloQuedaFra1.Size = new Size(272, 76);
             bnVoltarProtocoloQuedaFra1.TabIndex = 46;
@@ -220,7 +220,7 @@
             bnQuedaProTela2.FlatStyle = FlatStyle.Flat;
             bnQuedaProTela2.ImagemHover = (Image)resources.GetObject("bnQuedaProTela2.ImagemHover");
             bnQuedaProTela2.ImagemNormal = (Image)resources.GetObject("bnQuedaProTela2.ImagemNormal");
-            bnQuedaProTela2.Location = new Point(1498, 930);
+            bnQuedaProTela2.Location = new Point(1498, 953);
             bnQuedaProTela2.Name = "bnQuedaProTela2";
             bnQuedaProTela2.Size = new Size(272, 76);
             bnQuedaProTela2.TabIndex = 47;
@@ -247,6 +247,7 @@
             Controls.Add(picturQuedaFra1);
             Name = "FormQuedafra1";
             Text = "Quedas e Fraturas";
+            Load += FormQuedafra1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBoxFraCoheader1).EndInit();
             ((System.ComponentModel.ISupportInitialize)SideBarFraTCo1).EndInit();
             ((System.ComponentModel.ISupportInitialize)FooterQuedaFra1).EndInit();

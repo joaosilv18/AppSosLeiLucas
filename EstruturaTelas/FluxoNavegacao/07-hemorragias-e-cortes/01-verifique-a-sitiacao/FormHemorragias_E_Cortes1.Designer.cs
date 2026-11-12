@@ -59,7 +59,7 @@
             // SBHemorragiaECortes1
             // 
             SBHemorragiaECortes1.BackgroundImage = (Image)resources.GetObject("SBHemorragiaECortes1.BackgroundImage");
-            SBHemorragiaECortes1.Location = new Point(1, 111);
+            SBHemorragiaECortes1.Location = new Point(1, 118);
             SBHemorragiaECortes1.Name = "SBHemorragiaECortes1";
             SBHemorragiaECortes1.Size = new Size(414, 963);
             SBHemorragiaECortes1.TabIndex = 2;
@@ -68,7 +68,7 @@
             // FooterHemorragia1
             // 
             FooterHemorragia1.BackgroundImage = (Image)resources.GetObject("FooterHemorragia1.BackgroundImage");
-            FooterHemorragia1.Location = new Point(415, 868);
+            FooterHemorragia1.Location = new Point(414, 889);
             FooterHemorragia1.Name = "FooterHemorragia1";
             FooterHemorragia1.Size = new Size(1507, 200);
             FooterHemorragia1.TabIndex = 8;
@@ -94,7 +94,7 @@
             btnProximaPagHemoCortes01.FlatStyle = FlatStyle.Flat;
             btnProximaPagHemoCortes01.ImagemHover = (Image)resources.GetObject("btnProximaPagHemoCortes01.ImagemHover");
             btnProximaPagHemoCortes01.ImagemNormal = (Image)resources.GetObject("btnProximaPagHemoCortes01.ImagemNormal");
-            btnProximaPagHemoCortes01.Location = new Point(1498, 930);
+            btnProximaPagHemoCortes01.Location = new Point(1498, 953);
             btnProximaPagHemoCortes01.Name = "btnProximaPagHemoCortes01";
             btnProximaPagHemoCortes01.Size = new Size(272, 76);
             btnProximaPagHemoCortes01.TabIndex = 77;
@@ -112,7 +112,7 @@
             btnVoltarPagHemoCortes01.FlatStyle = FlatStyle.Flat;
             btnVoltarPagHemoCortes01.ImagemHover = (Image)resources.GetObject("btnVoltarPagHemoCortes01.ImagemHover");
             btnVoltarPagHemoCortes01.ImagemNormal = (Image)resources.GetObject("btnVoltarPagHemoCortes01.ImagemNormal");
-            btnVoltarPagHemoCortes01.Location = new Point(605, 924);
+            btnVoltarPagHemoCortes01.Location = new Point(605, 953);
             btnVoltarPagHemoCortes01.Name = "btnVoltarPagHemoCortes01";
             btnVoltarPagHemoCortes01.Size = new Size(272, 76);
             btnVoltarPagHemoCortes01.TabIndex = 76;

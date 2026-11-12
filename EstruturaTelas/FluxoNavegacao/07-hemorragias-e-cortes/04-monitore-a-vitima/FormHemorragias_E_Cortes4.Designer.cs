@@ -59,7 +59,7 @@
             // pictureBoxHEmorragiapasso4
             // 
             pictureBoxHEmorragiapasso4.BackgroundImage = (Image)resources.GetObject("pictureBoxHEmorragiapasso4.BackgroundImage");
-            pictureBoxHEmorragiapasso4.Location = new Point(405, -22);
+            pictureBoxHEmorragiapasso4.Location = new Point(405, -9);
             pictureBoxHEmorragiapasso4.Name = "pictureBoxHEmorragiapasso4";
             pictureBoxHEmorragiapasso4.Size = new Size(1503, 1080);
             pictureBoxHEmorragiapasso4.TabIndex = 11;
@@ -68,7 +68,7 @@
             // FooterHemorragia4
             // 
             FooterHemorragia4.BackgroundImage = (Image)resources.GetObject("FooterHemorragia4.BackgroundImage");
-            FooterHemorragia4.Location = new Point(415, 868);
+            FooterHemorragia4.Location = new Point(414, 889);
             FooterHemorragia4.Name = "FooterHemorragia4";
             FooterHemorragia4.Size = new Size(1507, 200);
             FooterHemorragia4.TabIndex = 12;
@@ -77,7 +77,7 @@
             // SBHemorragias4
             // 
             SBHemorragias4.BackgroundImage = (Image)resources.GetObject("SBHemorragias4.BackgroundImage");
-            SBHemorragias4.Location = new Point(1, 111);
+            SBHemorragias4.Location = new Point(1, 118);
             SBHemorragias4.Name = "SBHemorragias4";
             SBHemorragias4.Size = new Size(414, 963);
             SBHemorragias4.TabIndex = 13;
@@ -202,7 +202,7 @@
             btnVoltarPagHemoCortes04.FlatStyle = FlatStyle.Flat;
             btnVoltarPagHemoCortes04.ImagemHover = (Image)resources.GetObject("btnVoltarPagHemoCortes04.ImagemHover");
             btnVoltarPagHemoCortes04.ImagemNormal = (Image)resources.GetObject("btnVoltarPagHemoCortes04.ImagemNormal");
-            btnVoltarPagHemoCortes04.Location = new Point(605, 924);
+            btnVoltarPagHemoCortes04.Location = new Point(605, 953);
             btnVoltarPagHemoCortes04.Name = "btnVoltarPagHemoCortes04";
             btnVoltarPagHemoCortes04.Size = new Size(272, 76);
             btnVoltarPagHemoCortes04.TabIndex = 69;
@@ -220,7 +220,7 @@
             btnProximaPagHemoCortes04.FlatStyle = FlatStyle.Flat;
             btnProximaPagHemoCortes04.ImagemHover = (Image)resources.GetObject("btnProximaPagHemoCortes04.ImagemHover");
             btnProximaPagHemoCortes04.ImagemNormal = (Image)resources.GetObject("btnProximaPagHemoCortes04.ImagemNormal");
-            btnProximaPagHemoCortes04.Location = new Point(1498, 930);
+            btnProximaPagHemoCortes04.Location = new Point(1498, 953);
             btnProximaPagHemoCortes04.Name = "btnProximaPagHemoCortes04";
             btnProximaPagHemoCortes04.Size = new Size(272, 76);
             btnProximaPagHemoCortes04.TabIndex = 71;
@@ -247,6 +247,7 @@
             Controls.Add(pictureBoxHEmorragiapasso4);
             Name = "FormHemorragias_E_Cortes4";
             Text = "FormHemorragias_E_Cortes4";
+            Load += FormHemorragias_E_Cortes4_Load;
             ((System.ComponentModel.ISupportInitialize)HeaderHemorragia4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxHEmorragiapasso4).EndInit();
             ((System.ComponentModel.ISupportInitialize)FooterHemorragia4).EndInit();

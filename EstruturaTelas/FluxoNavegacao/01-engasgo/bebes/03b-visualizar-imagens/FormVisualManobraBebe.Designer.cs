@@ -49,7 +49,7 @@
             // pictureBox2
             // 
             pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
-            pictureBox2.Location = new Point(-5, 859);
+            pictureBox2.Location = new Point(-5, 889);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(1920, 200);
             pictureBox2.TabIndex = 0;
@@ -66,7 +66,7 @@
             btnVoltarPagVisualManobraBebe03.FlatStyle = FlatStyle.Flat;
             btnVoltarPagVisualManobraBebe03.ImagemHover = (Image)resources.GetObject("btnVoltarPagVisualManobraBebe03.ImagemHover");
             btnVoltarPagVisualManobraBebe03.ImagemNormal = (Image)resources.GetObject("btnVoltarPagVisualManobraBebe03.ImagemNormal");
-            btnVoltarPagVisualManobraBebe03.Location = new Point(239, 922);
+            btnVoltarPagVisualManobraBebe03.Location = new Point(239, 953);
             btnVoltarPagVisualManobraBebe03.Name = "btnVoltarPagVisualManobraBebe03";
             btnVoltarPagVisualManobraBebe03.Size = new Size(272, 76);
             btnVoltarPagVisualManobraBebe03.TabIndex = 1;
@@ -84,7 +84,7 @@
             btnProximaPagVisualManobraBebe03.FlatStyle = FlatStyle.Flat;
             btnProximaPagVisualManobraBebe03.ImagemHover = (Image)resources.GetObject("btnProximaPagVisualManobraBebe03.ImagemHover");
             btnProximaPagVisualManobraBebe03.ImagemNormal = (Image)resources.GetObject("btnProximaPagVisualManobraBebe03.ImagemNormal");
-            btnProximaPagVisualManobraBebe03.Location = new Point(1474, 922);
+            btnProximaPagVisualManobraBebe03.Location = new Point(1474, 953);
             btnProximaPagVisualManobraBebe03.Name = "btnProximaPagVisualManobraBebe03";
             btnProximaPagVisualManobraBebe03.Size = new Size(272, 76);
             btnProximaPagVisualManobraBebe03.TabIndex = 2;

@@ -70,7 +70,7 @@
             // SiderBar1Rcp
             // 
             SiderBar1Rcp.BackgroundImage = (Image)resources.GetObject("SiderBar1Rcp.BackgroundImage");
-            SiderBar1Rcp.Location = new Point(1, 112);
+            SiderBar1Rcp.Location = new Point(1, 118);
             SiderBar1Rcp.Name = "SiderBar1Rcp";
             SiderBar1Rcp.Size = new Size(414, 963);
             SiderBar1Rcp.TabIndex = 13;
@@ -79,7 +79,7 @@
             // pictureBox4
             // 
             pictureBox4.BackgroundImage = (Image)resources.GetObject("pictureBox4.BackgroundImage");
-            pictureBox4.Location = new Point(415, 868);
+            pictureBox4.Location = new Point(414, 889);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(1507, 200);
             pictureBox4.TabIndex = 21;
@@ -88,7 +88,7 @@
             // pictureBox5
             // 
             pictureBox5.BackgroundImage = (Image)resources.GetObject("pictureBox5.BackgroundImage");
-            pictureBox5.Location = new Point(414, 10);
+            pictureBox5.Location = new Point(406, 12);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(1506, 1080);
             pictureBox5.TabIndex = 25;
@@ -213,7 +213,7 @@
             btnVoltarPagBebe02.FlatStyle = FlatStyle.Flat;
             btnVoltarPagBebe02.ImagemHover = (Image)resources.GetObject("btnVoltarPagBebe02.ImagemHover");
             btnVoltarPagBebe02.ImagemNormal = (Image)resources.GetObject("btnVoltarPagBebe02.ImagemNormal");
-            btnVoltarPagBebe02.Location = new Point(605, 924);
+            btnVoltarPagBebe02.Location = new Point(605, 953);
             btnVoltarPagBebe02.Name = "btnVoltarPagBebe02";
             btnVoltarPagBebe02.Size = new Size(272, 76);
             btnVoltarPagBebe02.TabIndex = 32;
@@ -231,7 +231,7 @@
             btnProximaPagBebe02.FlatStyle = FlatStyle.Flat;
             btnProximaPagBebe02.ImagemHover = (Image)resources.GetObject("btnProximaPagBebe02.ImagemHover");
             btnProximaPagBebe02.ImagemNormal = (Image)resources.GetObject("btnProximaPagBebe02.ImagemNormal");
-            btnProximaPagBebe02.Location = new Point(1498, 930);
+            btnProximaPagBebe02.Location = new Point(1498, 953);
             btnProximaPagBebe02.Name = "btnProximaPagBebe02";
             btnProximaPagBebe02.Size = new Size(272, 76);
             btnProximaPagBebe02.TabIndex = 33;
@@ -259,6 +259,7 @@
             Controls.Add(pictureBox5);
             Name = "FormEngBebe02";
             Text = "FormEngBebe02";
+            Load += FormEngBebe02_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)SiderBar1Rcp).EndInit();

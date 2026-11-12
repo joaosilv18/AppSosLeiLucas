@@ -39,7 +39,8 @@ namespace ProjetoLeiLucasTelas
 
         private void Form2_Load(object sender, EventArgs e)
         {
-
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
         }
         private void BtnVoltar_Click(object sender, EventArgs e)
         {

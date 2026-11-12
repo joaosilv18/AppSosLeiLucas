@@ -60,7 +60,7 @@
             // SBHemorragias2
             // 
             SBHemorragias2.BackgroundImage = (Image)resources.GetObject("SBHemorragias2.BackgroundImage");
-            SBHemorragias2.Location = new Point(1, 111);
+            SBHemorragias2.Location = new Point(1, 118);
             SBHemorragias2.Name = "SBHemorragias2";
             SBHemorragias2.Size = new Size(414, 963);
             SBHemorragias2.TabIndex = 3;
@@ -69,7 +69,7 @@
             // FooterHemorragia2
             // 
             FooterHemorragia2.BackgroundImage = (Image)resources.GetObject("FooterHemorragia2.BackgroundImage");
-            FooterHemorragia2.Location = new Point(415, 868);
+            FooterHemorragia2.Location = new Point(414, 889);
             FooterHemorragia2.Name = "FooterHemorragia2";
             FooterHemorragia2.Size = new Size(1507, 200);
             FooterHemorragia2.TabIndex = 9;
@@ -78,7 +78,7 @@
             // pictureBoxHEmorragiapasso2
             // 
             pictureBoxHEmorragiapasso2.BackgroundImage = (Image)resources.GetObject("pictureBoxHEmorragiapasso2.BackgroundImage");
-            pictureBoxHEmorragiapasso2.Location = new Point(405, 4);
+            pictureBoxHEmorragiapasso2.Location = new Point(402, 4);
             pictureBoxHEmorragiapasso2.Name = "pictureBoxHEmorragiapasso2";
             pictureBoxHEmorragiapasso2.Size = new Size(1503, 1080);
             pictureBoxHEmorragiapasso2.TabIndex = 10;
@@ -203,7 +203,7 @@
             btnVoltarPagHemoCortes02.FlatStyle = FlatStyle.Flat;
             btnVoltarPagHemoCortes02.ImagemHover = (Image)resources.GetObject("btnVoltarPagHemoCortes02.ImagemHover");
             btnVoltarPagHemoCortes02.ImagemNormal = (Image)resources.GetObject("btnVoltarPagHemoCortes02.ImagemNormal");
-            btnVoltarPagHemoCortes02.Location = new Point(605, 924);
+            btnVoltarPagHemoCortes02.Location = new Point(605, 953);
             btnVoltarPagHemoCortes02.Name = "btnVoltarPagHemoCortes02";
             btnVoltarPagHemoCortes02.Size = new Size(272, 76);
             btnVoltarPagHemoCortes02.TabIndex = 67;
@@ -238,7 +238,7 @@
             btnProximaPagHemoCortes02.FlatStyle = FlatStyle.Flat;
             btnProximaPagHemoCortes02.ImagemHover = (Image)resources.GetObject("btnProximaPagHemoCortes02.ImagemHover");
             btnProximaPagHemoCortes02.ImagemNormal = (Image)resources.GetObject("btnProximaPagHemoCortes02.ImagemNormal");
-            btnProximaPagHemoCortes02.Location = new Point(1498, 930);
+            btnProximaPagHemoCortes02.Location = new Point(1498, 953);
             btnProximaPagHemoCortes02.Name = "btnProximaPagHemoCortes02";
             btnProximaPagHemoCortes02.Size = new Size(272, 76);
             btnProximaPagHemoCortes02.TabIndex = 69;
@@ -266,6 +266,7 @@
             Controls.Add(pictureBoxHEmorragiapasso2);
             Name = "FormHemorragias_E_Cortes2";
             Text = "Hemorragias e Cortes 2";
+            Load += FormHemorragias_E_Cortes2_Load;
             ((System.ComponentModel.ISupportInitialize)HeaderHemorragia2).EndInit();
             ((System.ComponentModel.ISupportInitialize)SBHemorragias2).EndInit();
             ((System.ComponentModel.ISupportInitialize)FooterHemorragia2).EndInit();

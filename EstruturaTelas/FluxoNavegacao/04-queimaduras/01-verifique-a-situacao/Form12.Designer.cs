@@ -50,7 +50,7 @@
             // InformacaoQueimadura1
             // 
             InformacaoQueimadura1.BackgroundImage = (Image)resources.GetObject("InformacaoQueimadura1.BackgroundImage");
-            InformacaoQueimadura1.Location = new Point(405, -23);
+            InformacaoQueimadura1.Location = new Point(411, -3);
             InformacaoQueimadura1.Name = "InformacaoQueimadura1";
             InformacaoQueimadura1.Size = new Size(1506, 1080);
             InformacaoQueimadura1.TabIndex = 0;
@@ -68,17 +68,18 @@
             // VoltareProximo1
             // 
             VoltareProximo1.BackgroundImage = (Image)resources.GetObject("VoltareProximo1.BackgroundImage");
-            VoltareProximo1.Location = new Point(412, 859);
+            VoltareProximo1.Location = new Point(414, 889);
             VoltareProximo1.Name = "VoltareProximo1";
             VoltareProximo1.Size = new Size(1507, 200);
             VoltareProximo1.TabIndex = 2;
             VoltareProximo1.TabStop = false;
+            VoltareProximo1.Click += VoltareProximo1_Click;
             // 
             // barralateral1
             // 
             barralateral1.BackColor = Color.Transparent;
             barralateral1.BackgroundImage = (Image)resources.GetObject("barralateral1.BackgroundImage");
-            barralateral1.Location = new Point(0, 117);
+            barralateral1.Location = new Point(1, 118);
             barralateral1.Name = "barralateral1";
             barralateral1.Size = new Size(414, 963);
             barralateral1.TabIndex = 3;
@@ -203,7 +204,7 @@
             voltar11.FlatStyle = FlatStyle.Flat;
             voltar11.ImagemHover = (Image)resources.GetObject("voltar11.ImagemHover");
             voltar11.ImagemNormal = (Image)resources.GetObject("voltar11.ImagemNormal");
-            voltar11.Location = new Point(605, 924);
+            voltar11.Location = new Point(605, 953);
             voltar11.Name = "voltar11";
             voltar11.Size = new Size(272, 76);
             voltar11.TabIndex = 33;
@@ -221,7 +222,7 @@
             Proximo1.FlatStyle = FlatStyle.Flat;
             Proximo1.ImagemHover = (Image)resources.GetObject("Proximo1.ImagemHover");
             Proximo1.ImagemNormal = (Image)resources.GetObject("Proximo1.ImagemNormal");
-            Proximo1.Location = new Point(1498, 930);
+            Proximo1.Location = new Point(1498, 953);
             Proximo1.Name = "Proximo1";
             Proximo1.Size = new Size(272, 76);
             Proximo1.TabIndex = 34;

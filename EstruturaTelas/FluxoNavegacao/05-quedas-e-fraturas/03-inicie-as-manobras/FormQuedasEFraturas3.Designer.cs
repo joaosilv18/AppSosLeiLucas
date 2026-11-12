@@ -59,7 +59,7 @@
             // SBQuetas_E_Fraturas3
             // 
             SBQuetas_E_Fraturas3.BackgroundImage = (Image)resources.GetObject("SBQuetas_E_Fraturas3.BackgroundImage");
-            SBQuetas_E_Fraturas3.Location = new Point(3, 77);
+            SBQuetas_E_Fraturas3.Location = new Point(1, 118);
             SBQuetas_E_Fraturas3.Name = "SBQuetas_E_Fraturas3";
             SBQuetas_E_Fraturas3.Size = new Size(414, 963);
             SBQuetas_E_Fraturas3.TabIndex = 1;
@@ -68,7 +68,7 @@
             // FooterQueda3
             // 
             FooterQueda3.BackgroundImage = (Image)resources.GetObject("FooterQueda3.BackgroundImage");
-            FooterQueda3.Location = new Point(417, 840);
+            FooterQueda3.Location = new Point(414, 889);
             FooterQueda3.Name = "FooterQueda3";
             FooterQueda3.Size = new Size(1507, 200);
             FooterQueda3.TabIndex = 8;
@@ -77,7 +77,7 @@
             // pictureBoxQuedas3
             // 
             pictureBoxQuedas3.BackgroundImage = (Image)resources.GetObject("pictureBoxQuedas3.BackgroundImage");
-            pictureBoxQuedas3.Location = new Point(405, -23);
+            pictureBoxQuedas3.Location = new Point(408, -1);
             pictureBoxQuedas3.Name = "pictureBoxQuedas3";
             pictureBoxQuedas3.Size = new Size(1503, 1080);
             pictureBoxQuedas3.TabIndex = 14;
@@ -202,7 +202,7 @@
             bnVoltarQuedaVtela2.FlatStyle = FlatStyle.Flat;
             bnVoltarQuedaVtela2.ImagemHover = (Image)resources.GetObject("bnVoltarQuedaVtela2.ImagemHover");
             bnVoltarQuedaVtela2.ImagemNormal = (Image)resources.GetObject("bnVoltarQuedaVtela2.ImagemNormal");
-            bnVoltarQuedaVtela2.Location = new Point(605, 924);
+            bnVoltarQuedaVtela2.Location = new Point(605, 953);
             bnVoltarQuedaVtela2.Name = "bnVoltarQuedaVtela2";
             bnVoltarQuedaVtela2.Size = new Size(272, 76);
             bnVoltarQuedaVtela2.TabIndex = 48;
@@ -220,7 +220,7 @@
             bunQuedaProximaTela4.FlatStyle = FlatStyle.Flat;
             bunQuedaProximaTela4.ImagemHover = (Image)resources.GetObject("bunQuedaProximaTela4.ImagemHover");
             bunQuedaProximaTela4.ImagemNormal = (Image)resources.GetObject("bunQuedaProximaTela4.ImagemNormal");
-            bunQuedaProximaTela4.Location = new Point(1498, 930);
+            bunQuedaProximaTela4.Location = new Point(1498, 953);
             bunQuedaProximaTela4.Name = "bunQuedaProximaTela4";
             bunQuedaProximaTela4.Size = new Size(272, 76);
             bunQuedaProximaTela4.TabIndex = 49;
@@ -247,6 +247,7 @@
             Controls.Add(pictureBoxQuedas3);
             Name = "FormQuedasEFraturas3";
             Text = "Quedas e Fraturas  3";
+            Load += FormQuedasEFraturas3_Load;
             ((System.ComponentModel.ISupportInitialize)HeaderQuedas3).EndInit();
             ((System.ComponentModel.ISupportInitialize)SBQuetas_E_Fraturas3).EndInit();
             ((System.ComponentModel.ISupportInitialize)FooterQueda3).EndInit();

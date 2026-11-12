@@ -51,7 +51,7 @@
             // pictureBoxInforRodape
             // 
             pictureBoxInforRodape.BackgroundImage = (Image)resources.GetObject("pictureBoxInforRodape.BackgroundImage");
-            pictureBoxInforRodape.Location = new Point(-1, 974);
+            pictureBoxInforRodape.Location = new Point(-1, 997);
             pictureBoxInforRodape.Name = "pictureBoxInforRodape";
             pictureBoxInforRodape.Size = new Size(1920, 84);
             pictureBoxInforRodape.TabIndex = 1;
@@ -61,7 +61,7 @@
             // 
             pictureBoxInfoRodape.BackgroundImage = (Image)resources.GetObject("pictureBoxInfoRodape.BackgroundImage");
             pictureBoxInfoRodape.Image = (Image)resources.GetObject("pictureBoxInfoRodape.Image");
-            pictureBoxInfoRodape.Location = new Point(855, 988);
+            pictureBoxInfoRodape.Location = new Point(855, 1012);
             pictureBoxInfoRodape.Name = "pictureBoxInfoRodape";
             pictureBoxInfoRodape.Size = new Size(222, 48);
             pictureBoxInfoRodape.TabIndex = 3;
@@ -78,7 +78,7 @@
             BtnVoltarLeiLucas.FlatStyle = FlatStyle.Flat;
             BtnVoltarLeiLucas.ImagemHover = (Image)resources.GetObject("BtnVoltarLeiLucas.ImagemHover");
             BtnVoltarLeiLucas.ImagemNormal = (Image)resources.GetObject("BtnVoltarLeiLucas.ImagemNormal");
-            BtnVoltarLeiLucas.Location = new Point(39, 984);
+            BtnVoltarLeiLucas.Location = new Point(39, 1010);
             BtnVoltarLeiLucas.Name = "BtnVoltarLeiLucas";
             BtnVoltarLeiLucas.Size = new Size(76, 62);
             BtnVoltarLeiLucas.TabIndex = 10;
@@ -96,7 +96,7 @@
             BtnVoltarInicioLeiLucas.FlatStyle = FlatStyle.Flat;
             BtnVoltarInicioLeiLucas.ImagemHover = (Image)resources.GetObject("BtnVoltarInicioLeiLucas.ImagemHover");
             BtnVoltarInicioLeiLucas.ImagemNormal = (Image)resources.GetObject("BtnVoltarInicioLeiLucas.ImagemNormal");
-            BtnVoltarInicioLeiLucas.Location = new Point(1604, 984);
+            BtnVoltarInicioLeiLucas.Location = new Point(1604, 1010);
             BtnVoltarInicioLeiLucas.Name = "BtnVoltarInicioLeiLucas";
             BtnVoltarInicioLeiLucas.Size = new Size(254, 63);
             BtnVoltarInicioLeiLucas.TabIndex = 11;
@@ -116,6 +116,7 @@
             Controls.Add(pictureBoxHedarInforLei);
             Name = "telaInforLei";
             Text = "Informações da Lei Lucas";
+            Load += telaInforLei_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBoxHedarInforLei).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxInforRodape).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxInfoRodape).EndInit();

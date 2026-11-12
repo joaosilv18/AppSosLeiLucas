@@ -70,5 +70,11 @@ namespace ProjetoLeiLucasTelas
             telaemergencia.Show();
             this.Hide();
         }
+
+        private void FormRcp5_Load(object sender, EventArgs e)
+        {
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
+        }
     }
 }

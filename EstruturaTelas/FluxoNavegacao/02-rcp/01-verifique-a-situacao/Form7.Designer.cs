@@ -59,7 +59,7 @@
             // pictureBoxFooterRcp
             // 
             pictureBoxFooterRcp.BackgroundImage = (Image)resources.GetObject("pictureBoxFooterRcp.BackgroundImage");
-            pictureBoxFooterRcp.Location = new Point(414, 866);
+            pictureBoxFooterRcp.Location = new Point(414, 889);
             pictureBoxFooterRcp.Name = "pictureBoxFooterRcp";
             pictureBoxFooterRcp.Size = new Size(1507, 200);
             pictureBoxFooterRcp.TabIndex = 2;
@@ -69,7 +69,7 @@
             // SiderBar1Rcp
             // 
             SiderBar1Rcp.BackgroundImage = (Image)resources.GetObject("SiderBar1Rcp.BackgroundImage");
-            SiderBar1Rcp.Location = new Point(1, 112);
+            SiderBar1Rcp.Location = new Point(1, 118);
             SiderBar1Rcp.Name = "SiderBar1Rcp";
             SiderBar1Rcp.Size = new Size(414, 963);
             SiderBar1Rcp.TabIndex = 11;
@@ -78,7 +78,7 @@
             // pictureBoxRcp1
             // 
             pictureBoxRcp1.BackgroundImage = (Image)resources.GetObject("pictureBoxRcp1.BackgroundImage");
-            pictureBoxRcp1.Location = new Point(405, -23);
+            pictureBoxRcp1.Location = new Point(408, 28);
             pictureBoxRcp1.Name = "pictureBoxRcp1";
             pictureBoxRcp1.Size = new Size(1506, 1080);
             pictureBoxRcp1.TabIndex = 12;
@@ -203,7 +203,7 @@
             bnvoltarRcp1.FlatStyle = FlatStyle.Flat;
             bnvoltarRcp1.ImagemHover = (Image)resources.GetObject("bnvoltarRcp1.ImagemHover");
             bnvoltarRcp1.ImagemNormal = (Image)resources.GetObject("bnvoltarRcp1.ImagemNormal");
-            bnvoltarRcp1.Location = new Point(605, 924);
+            bnvoltarRcp1.Location = new Point(605, 953);
             bnvoltarRcp1.Name = "bnvoltarRcp1";
             bnvoltarRcp1.Size = new Size(272, 76);
             bnvoltarRcp1.TabIndex = 42;
@@ -221,7 +221,7 @@
             bnRCP1proximo.FlatStyle = FlatStyle.Flat;
             bnRCP1proximo.ImagemHover = (Image)resources.GetObject("bnRCP1proximo.ImagemHover");
             bnRCP1proximo.ImagemNormal = (Image)resources.GetObject("bnRCP1proximo.ImagemNormal");
-            bnRCP1proximo.Location = new Point(1498, 930);
+            bnRCP1proximo.Location = new Point(1498, 953);
             bnRCP1proximo.Name = "bnRCP1proximo";
             bnRCP1proximo.Size = new Size(272, 76);
             bnRCP1proximo.TabIndex = 43;
@@ -248,6 +248,7 @@
             Controls.Add(pictureBoxRcp1);
             Name = "Form_RCP1";
             Text = "Massagem Cardíaca /RCP";
+            Load += Form_RCP1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBoxHeader).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxFooterRcp).EndInit();
             ((System.ComponentModel.ISupportInitialize)SiderBar1Rcp).EndInit();

@@ -79,7 +79,7 @@
             // 
             pictureBoxInfoRodape.BackgroundImage = (Image)resources.GetObject("pictureBoxInfoRodape.BackgroundImage");
             pictureBoxInfoRodape.Image = (Image)resources.GetObject("pictureBoxInfoRodape.Image");
-            pictureBoxInfoRodape.Location = new Point(855, 988);
+            pictureBoxInfoRodape.Location = new Point(855, 1012);
             pictureBoxInfoRodape.Name = "pictureBoxInfoRodape";
             pictureBoxInfoRodape.Size = new Size(222, 48);
             pictureBoxInfoRodape.TabIndex = 11;
@@ -88,7 +88,7 @@
             // pictureBoxInforRodape
             // 
             pictureBoxInforRodape.BackgroundImage = (Image)resources.GetObject("pictureBoxInforRodape.BackgroundImage");
-            pictureBoxInforRodape.Location = new Point(-1, 974);
+            pictureBoxInforRodape.Location = new Point(-1, 997);
             pictureBoxInforRodape.Name = "pictureBoxInforRodape";
             pictureBoxInforRodape.Size = new Size(1920, 84);
             pictureBoxInforRodape.TabIndex = 10;
@@ -105,7 +105,7 @@
             BtnVoltar.FlatStyle = FlatStyle.Flat;
             BtnVoltar.ImagemHover = (Image)resources.GetObject("BtnVoltar.ImagemHover");
             BtnVoltar.ImagemNormal = (Image)resources.GetObject("BtnVoltar.ImagemNormal");
-            BtnVoltar.Location = new Point(39, 984);
+            BtnVoltar.Location = new Point(39, 1010);
             BtnVoltar.Name = "BtnVoltar";
             BtnVoltar.Size = new Size(76, 62);
             BtnVoltar.TabIndex = 14;
@@ -123,7 +123,7 @@
             BtnVoltarInicio2.FlatStyle = FlatStyle.Flat;
             BtnVoltarInicio2.ImagemHover = (Image)resources.GetObject("BtnVoltarInicio2.ImagemHover");
             BtnVoltarInicio2.ImagemNormal = (Image)resources.GetObject("BtnVoltarInicio2.ImagemNormal");
-            BtnVoltarInicio2.Location = new Point(1604, 984);
+            BtnVoltarInicio2.Location = new Point(1604, 1010);
             BtnVoltarInicio2.Name = "BtnVoltarInicio2";
             BtnVoltarInicio2.Size = new Size(254, 63);
             BtnVoltarInicio2.TabIndex = 15;
@@ -145,6 +145,7 @@
             Controls.Add(telaAjuda);
             Name = "Form3";
             Text = "Form3";
+            Load += Form3_Load;
             ((System.ComponentModel.ISupportInitialize)telaAjuda).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();

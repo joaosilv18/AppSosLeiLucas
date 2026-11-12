@@ -68,7 +68,7 @@
             // Footer5Rcp
             // 
             Footer5Rcp.BackgroundImage = (Image)resources.GetObject("Footer5Rcp.BackgroundImage");
-            Footer5Rcp.Location = new Point(415, 839);
+            Footer5Rcp.Location = new Point(414, 889);
             Footer5Rcp.Name = "Footer5Rcp";
             Footer5Rcp.Size = new Size(1507, 200);
             Footer5Rcp.TabIndex = 0;
@@ -77,7 +77,7 @@
             // SiderBox5
             // 
             SiderBox5.BackgroundImage = (Image)resources.GetObject("SiderBox5.BackgroundImage");
-            SiderBox5.Location = new Point(1, 76);
+            SiderBox5.Location = new Point(1, 118);
             SiderBox5.Name = "SiderBox5";
             SiderBox5.Size = new Size(414, 963);
             SiderBox5.TabIndex = 1;
@@ -95,7 +95,7 @@
             // pictureBoxRcp5
             // 
             pictureBoxRcp5.BackgroundImage = (Image)resources.GetObject("pictureBoxRcp5.BackgroundImage");
-            pictureBoxRcp5.Location = new Point(405, -23);
+            pictureBoxRcp5.Location = new Point(411, 16);
             pictureBoxRcp5.Name = "pictureBoxRcp5";
             pictureBoxRcp5.Size = new Size(1506, 1080);
             pictureBoxRcp5.TabIndex = 28;
@@ -203,7 +203,7 @@
             bnPasso5voltarTela4Rcp.FlatStyle = FlatStyle.Flat;
             bnPasso5voltarTela4Rcp.ImagemHover = (Image)resources.GetObject("bnPasso5voltarTela4Rcp.ImagemHover");
             bnPasso5voltarTela4Rcp.ImagemNormal = (Image)resources.GetObject("bnPasso5voltarTela4Rcp.ImagemNormal");
-            bnPasso5voltarTela4Rcp.Location = new Point(605, 924);
+            bnPasso5voltarTela4Rcp.Location = new Point(605, 953);
             bnPasso5voltarTela4Rcp.Name = "bnPasso5voltarTela4Rcp";
             bnPasso5voltarTela4Rcp.Size = new Size(272, 76);
             bnPasso5voltarTela4Rcp.TabIndex = 55;
@@ -229,6 +229,7 @@
             Controls.Add(pictureBoxRcp5);
             Name = "FormRcp5";
             Text = "Rcp Passo 5";
+            Load += FormRcp5_Load;
             ((System.ComponentModel.ISupportInitialize)Footer5Rcp).EndInit();
             ((System.ComponentModel.ISupportInitialize)SiderBox5).EndInit();
             ((System.ComponentModel.ISupportInitialize)Header5Rcp).EndInit();

@@ -18,7 +18,8 @@ namespace ProjetoLeiLucasTelas
 
         private void Form12_Load(object sender, EventArgs e)
         {
-
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void voltar_Click(object sender, EventArgs e)
@@ -87,6 +88,11 @@ namespace ProjetoLeiLucasTelas
             Queimaduras2 telaEmergencia = new();
             telaEmergencia.Show();
             this.Hide();
+        }
+
+        private void VoltareProximo1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

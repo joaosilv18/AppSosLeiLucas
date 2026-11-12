@@ -59,7 +59,7 @@
             // SiderBar1Rcp
             // 
             SiderBar1Rcp.BackgroundImage = (Image)resources.GetObject("SiderBar1Rcp.BackgroundImage");
-            SiderBar1Rcp.Location = new Point(1, 112);
+            SiderBar1Rcp.Location = new Point(1, 118);
             SiderBar1Rcp.Name = "SiderBar1Rcp";
             SiderBar1Rcp.Size = new Size(414, 963);
             SiderBar1Rcp.TabIndex = 28;
@@ -68,7 +68,7 @@
             // pictureBox2
             // 
             pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
-            pictureBox2.Location = new Point(415, 868);
+            pictureBox2.Location = new Point(414, 889);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(1507, 200);
             pictureBox2.TabIndex = 34;
@@ -77,7 +77,7 @@
             // pictureBox4
             // 
             pictureBox4.BackgroundImage = (Image)resources.GetObject("pictureBox4.BackgroundImage");
-            pictureBox4.Location = new Point(394, 14);
+            pictureBox4.Location = new Point(391, 18);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(1506, 1080);
             pictureBox4.TabIndex = 37;
@@ -202,7 +202,7 @@
             btnVoltarPagCrianca02.FlatStyle = FlatStyle.Flat;
             btnVoltarPagCrianca02.ImagemHover = (Image)resources.GetObject("btnVoltarPagCrianca02.ImagemHover");
             btnVoltarPagCrianca02.ImagemNormal = (Image)resources.GetObject("btnVoltarPagCrianca02.ImagemNormal");
-            btnVoltarPagCrianca02.Location = new Point(605, 924);
+            btnVoltarPagCrianca02.Location = new Point(605, 953);
             btnVoltarPagCrianca02.Name = "btnVoltarPagCrianca02";
             btnVoltarPagCrianca02.Size = new Size(272, 76);
             btnVoltarPagCrianca02.TabIndex = 44;
@@ -220,7 +220,7 @@
             btnProximaPagCrianca02.FlatStyle = FlatStyle.Flat;
             btnProximaPagCrianca02.ImagemHover = (Image)resources.GetObject("btnProximaPagCrianca02.ImagemHover");
             btnProximaPagCrianca02.ImagemNormal = (Image)resources.GetObject("btnProximaPagCrianca02.ImagemNormal");
-            btnProximaPagCrianca02.Location = new Point(1498, 930);
+            btnProximaPagCrianca02.Location = new Point(1498, 953);
             btnProximaPagCrianca02.Name = "btnProximaPagCrianca02";
             btnProximaPagCrianca02.Size = new Size(272, 76);
             btnProximaPagCrianca02.TabIndex = 45;
@@ -247,6 +247,7 @@
             Controls.Add(pictureBox4);
             Name = "FormEngCriancas02";
             Text = "FormEngCriancas02";
+            Load += FormEngCriancas02_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)SiderBar1Rcp).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();

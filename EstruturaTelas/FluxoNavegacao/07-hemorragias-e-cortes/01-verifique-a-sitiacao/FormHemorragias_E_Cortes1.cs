@@ -16,7 +16,8 @@ namespace ProjetoLeiLucasTelas
         }
         private void FormHemorragia_E_Cortes1_Load(object sender, EventArgs e)
         {
-
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void btnVoltarTelaProtHemoCortes01_Click(object sender, EventArgs e)

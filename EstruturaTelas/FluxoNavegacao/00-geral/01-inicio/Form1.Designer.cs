@@ -65,7 +65,7 @@
             // 
             pictureBox2.BackColor = Color.Transparent;
             pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
-            pictureBox2.Location = new Point(0, 95);
+            pictureBox2.Location = new Point(0, 118);
             pictureBox2.Margin = new Padding(3, 2, 3, 2);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(414, 963);
@@ -75,7 +75,7 @@
             // pictureBox3
             // 
             pictureBox3.BackgroundImage = (Image)resources.GetObject("pictureBox3.BackgroundImage");
-            pictureBox3.Location = new Point(413, 973);
+            pictureBox3.Location = new Point(413, 997);
             pictureBox3.Margin = new Padding(3, 2, 3, 2);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(1507, 84);
@@ -86,7 +86,7 @@
             // 
             pictureBox4.BackColor = Color.Transparent;
             pictureBox4.BackgroundImage = (Image)resources.GetObject("pictureBox4.BackgroundImage");
-            pictureBox4.Location = new Point(1381, 559);
+            pictureBox4.Location = new Point(1382, 567);
             pictureBox4.Margin = new Padding(3, 2, 3, 2);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(454, 383);
@@ -115,7 +115,7 @@
             btnSair1.FlatStyle = FlatStyle.Flat;
             btnSair1.ImagemHover = (Image)resources.GetObject("btnSair1.ImagemHover");
             btnSair1.ImagemNormal = (Image)resources.GetObject("btnSair1.ImagemNormal");
-            btnSair1.Location = new Point(14, 952);
+            btnSair1.Location = new Point(14, 984);
             btnSair1.Name = "btnSair1";
             btnSair1.Size = new Size(382, 65);
             btnSair1.TabIndex = 19;
@@ -133,7 +133,7 @@
             BtnIniciarTelaInicio.FlatStyle = FlatStyle.Flat;
             BtnIniciarTelaInicio.ImagemHover = Properties.Resources.BtnInicioSideBar_Hover;
             BtnIniciarTelaInicio.ImagemNormal = Properties.Resources.BtnInicioSideBar_Default;
-            BtnIniciarTelaInicio.Location = new Point(14, 157);
+            BtnIniciarTelaInicio.Location = new Point(14, 139);
             BtnIniciarTelaInicio.Name = "BtnIniciarTelaInicio";
             BtnIniciarTelaInicio.Size = new Size(382, 65);
             BtnIniciarTelaInicio.TabIndex = 21;
@@ -151,7 +151,7 @@
             BtnTreinamento.FlatStyle = FlatStyle.Flat;
             BtnTreinamento.ImagemHover = Properties.Resources.BtnTreinamentoSideBar_Hover;
             BtnTreinamento.ImagemNormal = Properties.Resources.BtnTreinamentoSideBar_Default;
-            BtnTreinamento.Location = new Point(14, 238);
+            BtnTreinamento.Location = new Point(14, 222);
             BtnTreinamento.Name = "BtnTreinamento";
             BtnTreinamento.Size = new Size(382, 65);
             BtnTreinamento.TabIndex = 22;
@@ -169,7 +169,7 @@
             BtnProtocolos.FlatStyle = FlatStyle.Flat;
             BtnProtocolos.ImagemHover = Properties.Resources.BtnProtocolosSideBar_Hover;
             BtnProtocolos.ImagemNormal = Properties.Resources.BtnProtocolosSideBar_Default;
-            BtnProtocolos.Location = new Point(14, 312);
+            BtnProtocolos.Location = new Point(14, 307);
             BtnProtocolos.Name = "BtnProtocolos";
             BtnProtocolos.Size = new Size(382, 65);
             BtnProtocolos.TabIndex = 23;
@@ -187,7 +187,7 @@
             BtnAjuda.FlatStyle = FlatStyle.Flat;
             BtnAjuda.ImagemHover = Properties.Resources.BtnAjudaSideBar_Hover;
             BtnAjuda.ImagemNormal = Properties.Resources.BtnAjudaSideBar_Default;
-            BtnAjuda.Location = new Point(14, 866);
+            BtnAjuda.Location = new Point(14, 887);
             BtnAjuda.Name = "BtnAjuda";
             BtnAjuda.Size = new Size(382, 65);
             BtnAjuda.TabIndex = 24;
@@ -205,7 +205,7 @@
             BtnTreinamento2.FlatStyle = FlatStyle.Flat;
             BtnTreinamento2.ImagemHover = Properties.Resources.CardTreinamentoHover;
             BtnTreinamento2.ImagemNormal = Properties.Resources.CardTreinamentoDefault;
-            BtnTreinamento2.Location = new Point(512, 713);
+            BtnTreinamento2.Location = new Point(512, 721);
             BtnTreinamento2.Name = "BtnTreinamento2";
             BtnTreinamento2.Size = new Size(247, 229);
             BtnTreinamento2.TabIndex = 25;
@@ -223,7 +223,7 @@
             BtnProtocolos2.FlatStyle = FlatStyle.Flat;
             BtnProtocolos2.ImagemHover = Properties.Resources.BtnProtocolos_Hover;
             BtnProtocolos2.ImagemNormal = Properties.Resources.BtnProtocolos_Default;
-            BtnProtocolos2.Location = new Point(794, 713);
+            BtnProtocolos2.Location = new Point(794, 721);
             BtnProtocolos2.Name = "BtnProtocolos2";
             BtnProtocolos2.Size = new Size(246, 229);
             BtnProtocolos2.TabIndex = 26;
@@ -241,7 +241,7 @@
             BtnRelatorios2.FlatStyle = FlatStyle.Flat;
             BtnRelatorios2.ImagemHover = Properties.Resources.BtnRelatorios_Hover;
             BtnRelatorios2.ImagemNormal = Properties.Resources.BtnRelatorios_Default;
-            BtnRelatorios2.Location = new Point(1078, 713);
+            BtnRelatorios2.Location = new Point(1077, 721);
             BtnRelatorios2.Name = "BtnRelatorios2";
             BtnRelatorios2.Size = new Size(246, 229);
             BtnRelatorios2.TabIndex = 27;

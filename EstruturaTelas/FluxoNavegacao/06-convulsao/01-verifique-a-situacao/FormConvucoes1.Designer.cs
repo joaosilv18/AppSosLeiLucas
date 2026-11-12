@@ -60,7 +60,7 @@
             // pictureBoxlateralesquerdoConvulcoes1
             // 
             pictureBoxlateralesquerdoConvulcoes1.Image = (Image)resources.GetObject("pictureBoxlateralesquerdoConvulcoes1.Image");
-            pictureBoxlateralesquerdoConvulcoes1.Location = new Point(1, 78);
+            pictureBoxlateralesquerdoConvulcoes1.Location = new Point(1, 118);
             pictureBoxlateralesquerdoConvulcoes1.Name = "pictureBoxlateralesquerdoConvulcoes1";
             pictureBoxlateralesquerdoConvulcoes1.Size = new Size(414, 963);
             pictureBoxlateralesquerdoConvulcoes1.TabIndex = 1;
@@ -69,7 +69,7 @@
             // pictureBoxConvulcoesBarraInferior1
             // 
             pictureBoxConvulcoesBarraInferior1.BackgroundImage = (Image)resources.GetObject("pictureBoxConvulcoesBarraInferior1.BackgroundImage");
-            pictureBoxConvulcoesBarraInferior1.Location = new Point(415, 842);
+            pictureBoxConvulcoesBarraInferior1.Location = new Point(414, 889);
             pictureBoxConvulcoesBarraInferior1.Name = "pictureBoxConvulcoesBarraInferior1";
             pictureBoxConvulcoesBarraInferior1.Size = new Size(1507, 200);
             pictureBoxConvulcoesBarraInferior1.TabIndex = 2;
@@ -78,7 +78,7 @@
             // pictureBoxinformacoesConvulcoes1
             // 
             pictureBoxinformacoesConvulcoes1.BackgroundImage = (Image)resources.GetObject("pictureBoxinformacoesConvulcoes1.BackgroundImage");
-            pictureBoxinformacoesConvulcoes1.Location = new Point(415, -27);
+            pictureBoxinformacoesConvulcoes1.Location = new Point(415, -1);
             pictureBoxinformacoesConvulcoes1.Name = "pictureBoxinformacoesConvulcoes1";
             pictureBoxinformacoesConvulcoes1.Size = new Size(1506, 1080);
             pictureBoxinformacoesConvulcoes1.TabIndex = 3;
@@ -203,7 +203,7 @@
             BtnVoltarTelaDeInformacao1.FlatStyle = FlatStyle.Flat;
             BtnVoltarTelaDeInformacao1.ImagemHover = (Image)resources.GetObject("BtnVoltarTelaDeInformacao1.ImagemHover");
             BtnVoltarTelaDeInformacao1.ImagemNormal = (Image)resources.GetObject("BtnVoltarTelaDeInformacao1.ImagemNormal");
-            BtnVoltarTelaDeInformacao1.Location = new Point(586, 898);
+            BtnVoltarTelaDeInformacao1.Location = new Point(605, 953);
             BtnVoltarTelaDeInformacao1.Name = "BtnVoltarTelaDeInformacao1";
             BtnVoltarTelaDeInformacao1.Size = new Size(272, 76);
             BtnVoltarTelaDeInformacao1.TabIndex = 31;
@@ -221,7 +221,7 @@
             BtnProximoTelaDeInformacao1.FlatStyle = FlatStyle.Flat;
             BtnProximoTelaDeInformacao1.ImagemHover = (Image)resources.GetObject("BtnProximoTelaDeInformacao1.ImagemHover");
             BtnProximoTelaDeInformacao1.ImagemNormal = (Image)resources.GetObject("BtnProximoTelaDeInformacao1.ImagemNormal");
-            BtnProximoTelaDeInformacao1.Location = new Point(1480, 904);
+            BtnProximoTelaDeInformacao1.Location = new Point(1498, 953);
             BtnProximoTelaDeInformacao1.Name = "BtnProximoTelaDeInformacao1";
             BtnProximoTelaDeInformacao1.Size = new Size(272, 76);
             BtnProximoTelaDeInformacao1.TabIndex = 32;
@@ -248,6 +248,7 @@
             Controls.Add(pictureBoxinformacoesConvulcoes1);
             Name = "FormConvulcoes1";
             Text = "FormConvulcoes1";
+            Load += FormConvulcoes1_Load;
             ((System.ComponentModel.ISupportInitialize)picturboxConvulcoes1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxlateralesquerdoConvulcoes1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBoxConvulcoesBarraInferior1).EndInit();

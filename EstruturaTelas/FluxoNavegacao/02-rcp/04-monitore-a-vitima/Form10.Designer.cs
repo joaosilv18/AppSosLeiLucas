@@ -50,7 +50,7 @@
             // Footer4Rcp
             // 
             Footer4Rcp.BackgroundImage = (Image)resources.GetObject("Footer4Rcp.BackgroundImage");
-            Footer4Rcp.Location = new Point(416, 838);
+            Footer4Rcp.Location = new Point(414, 889);
             Footer4Rcp.Name = "Footer4Rcp";
             Footer4Rcp.Size = new Size(1507, 200);
             Footer4Rcp.TabIndex = 0;
@@ -68,7 +68,7 @@
             // SiderBox4Rcp
             // 
             SiderBox4Rcp.BackgroundImage = (Image)resources.GetObject("SiderBox4Rcp.BackgroundImage");
-            SiderBox4Rcp.Location = new Point(0, 75);
+            SiderBox4Rcp.Location = new Point(1, 118);
             SiderBox4Rcp.Name = "SiderBox4Rcp";
             SiderBox4Rcp.Size = new Size(414, 963);
             SiderBox4Rcp.TabIndex = 2;
@@ -77,7 +77,7 @@
             // pictureBoxRcp4
             // 
             pictureBoxRcp4.BackgroundImage = (Image)resources.GetObject("pictureBoxRcp4.BackgroundImage");
-            pictureBoxRcp4.Location = new Point(405, -23);
+            pictureBoxRcp4.Location = new Point(393, -7);
             pictureBoxRcp4.Name = "pictureBoxRcp4";
             pictureBoxRcp4.Size = new Size(1506, 1080);
             pictureBoxRcp4.TabIndex = 28;
@@ -203,7 +203,7 @@
             bnPasso4voltarTela3Rcp.FlatStyle = FlatStyle.Flat;
             bnPasso4voltarTela3Rcp.ImagemHover = (Image)resources.GetObject("bnPasso4voltarTela3Rcp.ImagemHover");
             bnPasso4voltarTela3Rcp.ImagemNormal = (Image)resources.GetObject("bnPasso4voltarTela3Rcp.ImagemNormal");
-            bnPasso4voltarTela3Rcp.Location = new Point(605, 924);
+            bnPasso4voltarTela3Rcp.Location = new Point(605, 953);
             bnPasso4voltarTela3Rcp.Name = "bnPasso4voltarTela3Rcp";
             bnPasso4voltarTela3Rcp.Size = new Size(272, 76);
             bnPasso4voltarTela3Rcp.TabIndex = 46;
@@ -221,7 +221,7 @@
             bnPasso4ProximaTela5Rcp.FlatStyle = FlatStyle.Flat;
             bnPasso4ProximaTela5Rcp.ImagemHover = (Image)resources.GetObject("bnPasso4ProximaTela5Rcp.ImagemHover");
             bnPasso4ProximaTela5Rcp.ImagemNormal = (Image)resources.GetObject("bnPasso4ProximaTela5Rcp.ImagemNormal");
-            bnPasso4ProximaTela5Rcp.Location = new Point(1498, 930);
+            bnPasso4ProximaTela5Rcp.Location = new Point(1498, 953);
             bnPasso4ProximaTela5Rcp.Name = "bnPasso4ProximaTela5Rcp";
             bnPasso4ProximaTela5Rcp.Size = new Size(272, 76);
             bnPasso4ProximaTela5Rcp.TabIndex = 47;
@@ -248,6 +248,7 @@
             Controls.Add(pictureBoxRcp4);
             Name = "FormRcp4";
             Text = "Rcp_Passo  4";
+            Load += FormRcp4_Load;
             ((System.ComponentModel.ISupportInitialize)Footer4Rcp).EndInit();
             ((System.ComponentModel.ISupportInitialize)header4Rcp).EndInit();
             ((System.ComponentModel.ISupportInitialize)SiderBox4Rcp).EndInit();

@@ -66,5 +66,11 @@ namespace ProjetoLeiLucasTelas
             telaemergencia.Show();
             this.Hide();
         }
+
+        private void FormQuedas_E_Fratura5_Load(object sender, EventArgs e)
+        {
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
+        }
     }
 }

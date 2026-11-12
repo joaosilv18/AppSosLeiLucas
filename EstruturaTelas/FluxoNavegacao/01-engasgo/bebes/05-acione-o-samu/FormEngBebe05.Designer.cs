@@ -69,7 +69,7 @@
             // SiderBar1Rcp
             // 
             SiderBar1Rcp.BackgroundImage = (Image)resources.GetObject("SiderBar1Rcp.BackgroundImage");
-            SiderBar1Rcp.Location = new Point(1, 112);
+            SiderBar1Rcp.Location = new Point(1, 118);
             SiderBar1Rcp.Name = "SiderBar1Rcp";
             SiderBar1Rcp.Size = new Size(414, 963);
             SiderBar1Rcp.TabIndex = 16;
@@ -78,7 +78,7 @@
             // pictureBox4
             // 
             pictureBox4.BackgroundImage = (Image)resources.GetObject("pictureBox4.BackgroundImage");
-            pictureBox4.Location = new Point(416, 868);
+            pictureBox4.Location = new Point(414, 889);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(1507, 200);
             pictureBox4.TabIndex = 31;
@@ -87,7 +87,7 @@
             // pictureBox5
             // 
             pictureBox5.BackgroundImage = (Image)resources.GetObject("pictureBox5.BackgroundImage");
-            pictureBox5.Location = new Point(415, -11);
+            pictureBox5.Location = new Point(415, 10);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(1506, 1080);
             pictureBox5.TabIndex = 34;
@@ -212,7 +212,7 @@
             btnVoltarPagBebe05.FlatStyle = FlatStyle.Flat;
             btnVoltarPagBebe05.ImagemHover = (Image)resources.GetObject("btnVoltarPagBebe05.ImagemHover");
             btnVoltarPagBebe05.ImagemNormal = (Image)resources.GetObject("btnVoltarPagBebe05.ImagemNormal");
-            btnVoltarPagBebe05.Location = new Point(605, 924);
+            btnVoltarPagBebe05.Location = new Point(605, 953);
             btnVoltarPagBebe05.Name = "btnVoltarPagBebe05";
             btnVoltarPagBebe05.Size = new Size(272, 76);
             btnVoltarPagBebe05.TabIndex = 41;
@@ -239,6 +239,7 @@
             Controls.Add(pictureBox5);
             Name = "FormEngBebe05";
             Text = "FormEngBebe05";
+            Load += FormEngBebe05_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)SiderBar1Rcp).EndInit();

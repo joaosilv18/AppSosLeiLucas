@@ -25,7 +25,7 @@ namespace ProjetoLeiLucasTelas
 
         }
 
-      
+
         private void BtnVoltar_Click(object sender, EventArgs e)
         {
             TelaInicio telaemergencia = new();
@@ -38,6 +38,12 @@ namespace ProjetoLeiLucasTelas
             TelaInicio telaEmergencia = new TelaInicio();
             telaEmergencia.Show();
             this.Hide();
+        }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
         }
     }
 }

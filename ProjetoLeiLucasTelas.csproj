@@ -23,4 +23,8 @@
     </EmbeddedResource>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="EstruturaTelas\FluxoNavegacao\01-engasgo\criancas\01-verifique-a-situacao\" />
+  </ItemGroup>
+
 </Project>

@@ -76,64 +76,55 @@ namespace ProjetoLeiLucasTelas
 
         private void BtnIniciarTelaInicio_Click(object sender, EventArgs e)
         {
-            TelaInicio telaEmergencia = new();
-            telaEmergencia.Show();
+            Program.Inicio.Show();
             this.Hide();
         }
 
         private void BtnTreinamento_Click(object sender, EventArgs e)
         {
-            FormTreinamento telaEmergencia = new();
-            telaEmergencia.Show();
+            Program.Treinamento.Show();
             this.Hide();
         }
 
         private void BtnProtocolos_Click_1(object sender, EventArgs e)
         {
-            Form2 telaEmergencia = new Form2();
-            telaEmergencia.Show();
+            Program.Emergencia.Show();
             this.Hide();
         }
 
         private void BtnAjuda_Click(object sender, EventArgs e)
         {
-            Form3 telaEmergencia = new();
-            telaEmergencia.Show();
+            Program.Ajuda.Show();
             this.Hide();
         }
 
         private void BtnProtocolos2_Click(object sender, EventArgs e)
         {
-            Form2 telaEmergencia = new Form2();
-            telaEmergencia.Show();
+            Program.Emergencia.Show();
             this.Hide();
         }
 
         private void imageHoverButton1_Click_1(object sender, EventArgs e)
         {
-            Form2 telaEmergencia = new Form2();
-            telaEmergencia.Show();
+            Program.Emergencia.Show();
             this.Hide();
         }
 
         private void BtnvoceSabia_Click(object sender, EventArgs e)
         {
-            telaInforLei telaLei = new telaInforLei();
-            telaLei.Show();
+            Program.InfoLei.Show();
             this.Hide();
         }
 
         private void BtnTreinamento2_Click(object sender, EventArgs e)
         {
-            FormTreinamento telaEmergencia = new();
-            telaEmergencia.Show();
+            Program.Treinamento.Show();
             this.Hide();
         }
 
         private void BtnRelatorios2_Click(object sender, EventArgs e)
         {
-            FormRelatorios telaEmergencia = new();
-            telaEmergencia.Show();
+            Program.Relatorios.Show();
             this.Hide();
         }
     }

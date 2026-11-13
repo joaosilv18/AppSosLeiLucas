@@ -28,15 +28,13 @@ namespace ProjetoLeiLucasTelas
 
         private void BtnVoltar_Click(object sender, EventArgs e)
         {
-            TelaInicio telaemergencia = new();
-            telaemergencia.Show();
+            Program.Inicio.Show();
             this.Hide();
         }
 
         private void BtnVoltarInicio2_Click(object sender, EventArgs e)
         {
-            TelaInicio telaEmergencia = new TelaInicio();
-            telaEmergencia.Show();
+            Program.Inicio.Show();
             this.Hide();
         }
 

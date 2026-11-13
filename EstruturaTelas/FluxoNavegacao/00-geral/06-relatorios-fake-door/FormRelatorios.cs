@@ -17,15 +17,13 @@ namespace ProjetoLeiLucasTelas
 
         private void BtnVoltarPagAntRelat_Click(object sender, EventArgs e)
         {
-            TelaInicio telaEmergencia = new();
-            telaEmergencia.Show();
+            Program.Inicio.Show();
             this.Hide();
         }
 
         private void BtnVoltarInicioRelat_Click(object sender, EventArgs e)
         {
-            TelaInicio telaEmergencia = new();
-            telaEmergencia.Show();
+            Program.Inicio.Show();
             this.Hide();
         }
 

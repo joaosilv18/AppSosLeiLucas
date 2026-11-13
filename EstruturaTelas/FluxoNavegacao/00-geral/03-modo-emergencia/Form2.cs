@@ -44,8 +44,7 @@ namespace ProjetoLeiLucasTelas
         }
         private void BtnVoltar_Click(object sender, EventArgs e)
         {
-            TelaInicio telaEmergencia = new TelaInicio();
-            telaEmergencia.Show();
+            Program.Inicio.Show();
             this.Hide();
         }
 
@@ -72,9 +71,7 @@ namespace ProjetoLeiLucasTelas
 
         private void BtnLevaTelaInicio_Click(object sender, EventArgs e)
         {
-            Form12 InformacaoQueimadura1 = new Form12();
-            InformacaoQueimadura1.Show();
-            this.Hide();
+
         }
 
         private void BtnLevaTelaDeQuedas_Click(object sender, EventArgs e)
@@ -93,8 +90,7 @@ namespace ProjetoLeiLucasTelas
 
         private void BtnVoltarInicio_Click_1(object sender, EventArgs e)
         {
-            TelaInicio telaEmergencia = new TelaInicio();
-            telaEmergencia.Show();
+            Program.Inicio.Show();
             this.Hide();
         }
     }

@@ -10,9 +10,19 @@ namespace ProjetoLeiLucasTelas
 {
     public partial class Form2 : Form
     {
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams cp = base.CreateParams;
+                cp.ExStyle |= 0x02000000; // WS_EX_COMPOSITED
+                return cp;
+            }
+        }
         public Form2()
         {
             InitializeComponent();
+            this.DoubleBuffered = true;
         }
 
 
@@ -44,7 +54,8 @@ namespace ProjetoLeiLucasTelas
         }
         private void BtnVoltar_Click(object sender, EventArgs e)
         {
-            Program.Inicio.Show();
+            TelaInicio telaemergencia = new();
+            telaemergencia.Show();
             this.Hide();
         }
 
@@ -90,7 +101,8 @@ namespace ProjetoLeiLucasTelas
 
         private void BtnVoltarInicio_Click_1(object sender, EventArgs e)
         {
-            Program.Inicio.Show();
+            TelaInicio telaemergencia = new();
+            telaemergencia.Show();
             this.Hide();
         }
     }

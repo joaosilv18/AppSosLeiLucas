@@ -4,9 +4,20 @@ namespace ProjetoLeiLucasTelas
 {
     public partial class TelaInicio : Form
     {
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams cp = base.CreateParams;
+                cp.ExStyle |= 0x02000000; // WS_EX_COMPOSITED
+                return cp;
+            }
+        }
+    
         public TelaInicio()
         {
             InitializeComponent();
+            this.DoubleBuffered = true;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -76,55 +87,63 @@ namespace ProjetoLeiLucasTelas
 
         private void BtnIniciarTelaInicio_Click(object sender, EventArgs e)
         {
-            Program.Inicio.Show();
+            TelaInicio telaemergencia = new();
+            telaemergencia.Show();
             this.Hide();
         }
 
         private void BtnTreinamento_Click(object sender, EventArgs e)
         {
-            Program.Treinamento.Show();
+            FormTreinamento telaemergencia = new();
+            telaemergencia.Show();
             this.Hide();
         }
 
         private void BtnProtocolos_Click_1(object sender, EventArgs e)
         {
-            Program.Emergencia.Show();
+            Form2 telaemergencia = new();
+            telaemergencia.Show();
             this.Hide();
         }
 
         private void BtnAjuda_Click(object sender, EventArgs e)
         {
-            Program.Ajuda.Show();
+            Form3 telaemergencia = new();
+            telaemergencia.Show();
             this.Hide();
         }
 
         private void BtnProtocolos2_Click(object sender, EventArgs e)
         {
-            Program.Emergencia.Show();
+            Form2 telaemergencia = new();
+            telaemergencia.Show();
             this.Hide();
         }
 
         private void imageHoverButton1_Click_1(object sender, EventArgs e)
         {
             Program.Emergencia.Show();
-            this.Hide();
+            this.Hide();   
         }
 
         private void BtnvoceSabia_Click(object sender, EventArgs e)
         {
-            Program.InfoLei.Show();
+            telaInforLei telaemergencia = new();
+            telaemergencia.Show();
             this.Hide();
         }
 
         private void BtnTreinamento2_Click(object sender, EventArgs e)
         {
-            Program.Treinamento.Show();
+            FormTreinamento telaemergencia = new();
+            telaemergencia.Show();
             this.Hide();
         }
 
         private void BtnRelatorios2_Click(object sender, EventArgs e)
         {
-            Program.Relatorios.Show();
+            FormRelatorios telaemergencia = new();
+            telaemergencia.Show();
             this.Hide();
         }
     }

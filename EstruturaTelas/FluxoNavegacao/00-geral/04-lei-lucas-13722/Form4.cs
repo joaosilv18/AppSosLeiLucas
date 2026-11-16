@@ -10,20 +10,32 @@ namespace ProjetoLeiLucasTelas
 {
     public partial class telaInforLei : Form
     {
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams cp = base.CreateParams;
+                cp.ExStyle |= 0x02000000; // WS_EX_COMPOSITED
+                return cp;
+            }
+        }
         public telaInforLei()
         {
             InitializeComponent();
+            this.DoubleBuffered = true;
         }
 
         private void BtnVoltarLeiLucas_Click(object sender, EventArgs e)
         {
-            Program.Inicio.Show();
+            TelaInicio telaemergencia = new();
+            telaemergencia.Show();
             this.Hide();
         }
 
         private void BtnVoltarInicioLeiLucas_Click(object sender, EventArgs e)
         {
-            Program.Inicio.Show();
+            TelaInicio telaemergencia = new();
+            telaemergencia.Show();
             this.Hide();
         }
 

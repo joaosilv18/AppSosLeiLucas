@@ -10,9 +10,19 @@ namespace ProjetoLeiLucasTelas
 {
     public partial class Queimaduras2 : Form
     {
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams cp = base.CreateParams;
+                cp.ExStyle |= 0x2000000; // WS_EX_COMPOSITED
+                return cp;
+            }
+        }
         public Queimaduras2()
         {
             InitializeComponent();
+            this.DoubleBuffered = true;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

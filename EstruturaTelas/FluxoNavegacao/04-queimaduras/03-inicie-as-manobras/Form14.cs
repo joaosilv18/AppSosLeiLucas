@@ -10,9 +10,19 @@ namespace ProjetoLeiLucasTelas
 {
     public partial class Form14 : Form
     {
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams cp = base.CreateParams;
+                cp.ExStyle |= 0x2000000; // WS_EX_COMPOSITED
+                return cp;
+            }
+        }
         public Form14()
         {
             InitializeComponent();
+            this.DoubleBuffered = true;
         }
         // novo botões 
         private void VerificaASituacao3_Click_1(object sender, EventArgs e)

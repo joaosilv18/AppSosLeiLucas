@@ -7,12 +7,22 @@ using System.Text;
 using System.Windows.Forms;
 
 namespace ProjetoLeiLucasTelas
-{
+{ 
     public partial class FormRcp5 : Form
     {
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams cp = base.CreateParams;
+                cp.ExStyle |= 0x2000000; // WS_EX_COMPOSITED
+                return cp;
+            }
+        }
         public FormRcp5()
         {
             InitializeComponent();
+            this.DoubleBuffered = true;
         }
 
 

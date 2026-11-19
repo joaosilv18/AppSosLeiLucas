@@ -11,9 +11,19 @@ namespace ProjetoLeiLucasTelas
 {
     public partial class Form12 : Form
     {
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams cp = base.CreateParams;
+                cp.ExStyle |= 0x2000000; // WS_EX_COMPOSITED
+                return cp;
+            }
+        }
         public Form12()
         {
             InitializeComponent();
+            this.DoubleBuffered = true;
         }
 
         private void Form12_Load(object sender, EventArgs e)

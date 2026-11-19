@@ -10,9 +10,19 @@ namespace ProjetoLeiLucasTelas
 {
     public partial class FormRcp2 : Form
     {
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams cp = base.CreateParams;
+                cp.ExStyle |= 0x2000000; // WS_EX_COMPOSITED
+                return cp;
+            }
+        }
         public FormRcp2()
         {
             InitializeComponent();
+            this.DoubleBuffered = true;
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -24,20 +34,6 @@ namespace ProjetoLeiLucasTelas
         {
 
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
         private void bnVoltarTelaPara1Rcp_Click(object sender, EventArgs e)

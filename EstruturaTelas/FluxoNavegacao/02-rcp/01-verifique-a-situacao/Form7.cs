@@ -9,24 +9,26 @@ using System.Windows.Forms;
 namespace ProjetoLeiLucasTelas
 {
     public partial class Form_RCP1 : Form
-    {
+    { 
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams cp = base.CreateParams;
+                cp.ExStyle |= 0x02000000; // WS_EX_COMPOSITED
+                return cp;
+            }
+        }
         public Form_RCP1()
         {
             InitializeComponent();
+            this.DoubleBuffered = true;
         }
 
         private void pictureBoxFooterRcp_Click(object sender, EventArgs e)
         {
 
         }
-
-
-
-
-
-
-
-
 
         private void bnVoltarProtocoloRcp_Click(object sender, EventArgs e)
         {

@@ -10,9 +10,19 @@ namespace ProjetoLeiLucasTelas
 {
     public partial class FormConvulcoes1 : Form
     {
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams cp = base.CreateParams;
+                cp.ExStyle |= 0x2000000; // WS_EX_COMPOSITED
+                return cp;
+            }
+        }
         public FormConvulcoes1()
         {
             InitializeComponent();
+            this.DoubleBuffered = true;
         }
         private void picturboxConvulcoes1_Click(object sender, EventArgs e)
         {

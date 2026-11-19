@@ -10,9 +10,19 @@ namespace ProjetoLeiLucasTelas
 {
     public partial class FormHemorragia_E_Cortes1 : Form
     {
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams cp = base.CreateParams;
+                cp.ExStyle |= 0x2000000; // WS_EX_COMPOSITED
+                return cp;
+            }
+        }
         public FormHemorragia_E_Cortes1()
         {
             InitializeComponent();
+            this.DoubleBuffered = true;
         }
         private void FormHemorragia_E_Cortes1_Load(object sender, EventArgs e)
         {

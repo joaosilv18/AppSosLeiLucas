@@ -10,9 +10,19 @@ namespace ProjetoLeiLucasTelas
 {
     public partial class FormConvulcoes5 : Form
     {
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams cp = base.CreateParams;
+                cp.ExStyle |= 0x2000000; // WS_EX_COMPOSITED
+                return cp;
+            }
+        }
         public FormConvulcoes5()
         {
             InitializeComponent();
+            this.DoubleBuffered = true;
         }
 
         // novos botões

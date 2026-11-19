@@ -10,9 +10,19 @@ namespace ProjetoLeiLucasTelas
 {
     public partial class FormEngCriancas03 : Form
     {
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams cp = base.CreateParams;
+                cp.ExStyle |= 0x02000000; // WS_EX_COMPOSITED
+                return cp;
+            }
+        }
         public FormEngCriancas03()
         {
             InitializeComponent();
+            this.DoubleBuffered = true;
         }
 
         private void btnVoltarTelaProtCrianca03_Click(object sender, EventArgs e)

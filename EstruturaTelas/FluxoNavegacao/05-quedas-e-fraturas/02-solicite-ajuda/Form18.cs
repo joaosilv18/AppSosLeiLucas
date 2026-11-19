@@ -10,9 +10,19 @@ namespace ProjetoLeiLucasTelas
 {
     public partial class FormQuedaFra2 : Form
     {
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams cp = base.CreateParams;
+                cp.ExStyle |= 0x02000000; // WS_EX_COMPOSITED
+                return cp;
+            }
+        }
         public FormQuedaFra2()
         {
             InitializeComponent();
+            this.DoubleBuffered = true;
         }
 
         private void bnQuedaFraVol_Tela1_Click(object sender, EventArgs e)

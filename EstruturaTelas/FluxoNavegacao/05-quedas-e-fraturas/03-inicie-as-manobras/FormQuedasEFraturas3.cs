@@ -10,9 +10,20 @@ namespace ProjetoLeiLucasTelas
 {
     public partial class FormQuedasEFraturas3 : Form
     {
+       protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams cp = base.CreateParams;
+                cp.ExStyle |= 0x02000000; // WS_EX_COMPOSITED
+                return cp;
+            }
+        }
         public FormQuedasEFraturas3()
         {
             InitializeComponent();
+            this.DoubleBuffered = true;
+
         }
 
 

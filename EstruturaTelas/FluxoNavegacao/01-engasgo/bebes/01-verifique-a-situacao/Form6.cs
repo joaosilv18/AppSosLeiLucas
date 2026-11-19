@@ -10,9 +10,20 @@ namespace ProjetoLeiLucasTelas
 {
     public partial class Form6 : Form
     {
+        protected override CreateParams CreateParams
+        {
+            get
+            {
+                CreateParams cp = base.CreateParams;
+                cp.ExStyle |= 0x02000000; // WS_EX_COMPOSITED
+                return cp;
+            }
+        }
+
         public Form6()
         {
             InitializeComponent();
+            this.DoubleBuffered = true;
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)

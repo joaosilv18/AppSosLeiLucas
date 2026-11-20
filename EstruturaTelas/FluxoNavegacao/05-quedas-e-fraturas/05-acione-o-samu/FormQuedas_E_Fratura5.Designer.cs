@@ -49,7 +49,7 @@
             // pictureBox1
             // 
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
-            pictureBox1.Location = new Point(2, -1);
+            pictureBox1.Location = new Point(0, 0);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(1920, 118);
             pictureBox1.TabIndex = 0;
@@ -58,7 +58,7 @@
             // pictureBoxQueda5
             // 
             pictureBoxQueda5.BackgroundImage = (Image)resources.GetObject("pictureBoxQueda5.BackgroundImage");
-            pictureBoxQueda5.Location = new Point(1, 118);
+            pictureBoxQueda5.Location = new Point(1, 117);
             pictureBoxQueda5.Name = "pictureBoxQueda5";
             pictureBoxQueda5.Size = new Size(414, 963);
             pictureBoxQueda5.TabIndex = 2;
@@ -76,7 +76,7 @@
             // Queda5
             // 
             Queda5.BackgroundImage = (Image)resources.GetObject("Queda5.BackgroundImage");
-            Queda5.Location = new Point(405, -3);
+            Queda5.Location = new Point(414, -3);
             Queda5.Name = "Queda5";
             Queda5.Size = new Size(1503, 1080);
             Queda5.TabIndex = 15;

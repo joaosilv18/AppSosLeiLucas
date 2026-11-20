@@ -68,7 +68,7 @@
             // SiderBox4Rcp
             // 
             SiderBox4Rcp.BackgroundImage = (Image)resources.GetObject("SiderBox4Rcp.BackgroundImage");
-            SiderBox4Rcp.Location = new Point(1, 118);
+            SiderBox4Rcp.Location = new Point(1, 117);
             SiderBox4Rcp.Name = "SiderBox4Rcp";
             SiderBox4Rcp.Size = new Size(414, 963);
             SiderBox4Rcp.TabIndex = 2;
@@ -77,7 +77,7 @@
             // pictureBoxRcp4
             // 
             pictureBoxRcp4.BackgroundImage = (Image)resources.GetObject("pictureBoxRcp4.BackgroundImage");
-            pictureBoxRcp4.Location = new Point(393, -7);
+            pictureBoxRcp4.Location = new Point(414, -7);
             pictureBoxRcp4.Name = "pictureBoxRcp4";
             pictureBoxRcp4.Size = new Size(1506, 1080);
             pictureBoxRcp4.TabIndex = 28;

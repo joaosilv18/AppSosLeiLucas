@@ -86,5 +86,10 @@ namespace ProjetoLeiLucasTelas
             this.FormBorderStyle = FormBorderStyle.None;
             this.WindowState = FormWindowState.Maximized;
         }
+
+        private void pictureBoxQuedaFra1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -59,11 +59,12 @@
             // pictureBoxHEmorragiapasso4
             // 
             pictureBoxHEmorragiapasso4.BackgroundImage = (Image)resources.GetObject("pictureBoxHEmorragiapasso4.BackgroundImage");
-            pictureBoxHEmorragiapasso4.Location = new Point(405, -9);
+            pictureBoxHEmorragiapasso4.Location = new Point(414, -9);
             pictureBoxHEmorragiapasso4.Name = "pictureBoxHEmorragiapasso4";
             pictureBoxHEmorragiapasso4.Size = new Size(1503, 1080);
             pictureBoxHEmorragiapasso4.TabIndex = 11;
             pictureBoxHEmorragiapasso4.TabStop = false;
+            pictureBoxHEmorragiapasso4.Click += pictureBoxHEmorragiapasso4_Click;
             // 
             // FooterHemorragia4
             // 
@@ -77,7 +78,7 @@
             // SBHemorragias4
             // 
             SBHemorragias4.BackgroundImage = (Image)resources.GetObject("SBHemorragias4.BackgroundImage");
-            SBHemorragias4.Location = new Point(1, 118);
+            SBHemorragias4.Location = new Point(1, 117);
             SBHemorragias4.Name = "SBHemorragias4";
             SBHemorragias4.Size = new Size(414, 963);
             SBHemorragias4.TabIndex = 13;

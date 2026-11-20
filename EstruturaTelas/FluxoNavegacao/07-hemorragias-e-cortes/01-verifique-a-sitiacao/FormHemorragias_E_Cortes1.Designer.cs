@@ -50,7 +50,7 @@
             // HeaderHemorragiaECortes1
             // 
             HeaderHemorragiaECortes1.BackgroundImage = (Image)resources.GetObject("HeaderHemorragiaECortes1.BackgroundImage");
-            HeaderHemorragiaECortes1.Location = new Point(2, -1);
+            HeaderHemorragiaECortes1.Location = new Point(0, 0);
             HeaderHemorragiaECortes1.Name = "HeaderHemorragiaECortes1";
             HeaderHemorragiaECortes1.Size = new Size(1920, 118);
             HeaderHemorragiaECortes1.TabIndex = 1;
@@ -59,11 +59,12 @@
             // SBHemorragiaECortes1
             // 
             SBHemorragiaECortes1.BackgroundImage = (Image)resources.GetObject("SBHemorragiaECortes1.BackgroundImage");
-            SBHemorragiaECortes1.Location = new Point(1, 118);
+            SBHemorragiaECortes1.Location = new Point(1, 117);
             SBHemorragiaECortes1.Name = "SBHemorragiaECortes1";
             SBHemorragiaECortes1.Size = new Size(414, 963);
             SBHemorragiaECortes1.TabIndex = 2;
             SBHemorragiaECortes1.TabStop = false;
+            SBHemorragiaECortes1.Click += SBHemorragiaECortes1_Click;
             // 
             // FooterHemorragia1
             // 
@@ -77,7 +78,7 @@
             // pictureBoxpasso1HEmo
             // 
             pictureBoxpasso1HEmo.BackgroundImage = (Image)resources.GetObject("pictureBoxpasso1HEmo.BackgroundImage");
-            pictureBoxpasso1HEmo.Location = new Point(405, -14);
+            pictureBoxpasso1HEmo.Location = new Point(414, -14);
             pictureBoxpasso1HEmo.Name = "pictureBoxpasso1HEmo";
             pictureBoxpasso1HEmo.Size = new Size(1503, 1080);
             pictureBoxpasso1HEmo.TabIndex = 9;

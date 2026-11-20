@@ -58,7 +58,7 @@
             // pictureBoxHEmorragiapasso5
             // 
             pictureBoxHEmorragiapasso5.BackgroundImage = (Image)resources.GetObject("pictureBoxHEmorragiapasso5.BackgroundImage");
-            pictureBoxHEmorragiapasso5.Location = new Point(405, -2);
+            pictureBoxHEmorragiapasso5.Location = new Point(414, -2);
             pictureBoxHEmorragiapasso5.Name = "pictureBoxHEmorragiapasso5";
             pictureBoxHEmorragiapasso5.Size = new Size(1503, 1080);
             pictureBoxHEmorragiapasso5.TabIndex = 11;
@@ -76,7 +76,7 @@
             // SBHemorragias5
             // 
             SBHemorragias5.BackgroundImage = (Image)resources.GetObject("SBHemorragias5.BackgroundImage");
-            SBHemorragias5.Location = new Point(1, 118);
+            SBHemorragias5.Location = new Point(1, 117);
             SBHemorragias5.Name = "SBHemorragias5";
             SBHemorragias5.Size = new Size(414, 963);
             SBHemorragias5.TabIndex = 13;

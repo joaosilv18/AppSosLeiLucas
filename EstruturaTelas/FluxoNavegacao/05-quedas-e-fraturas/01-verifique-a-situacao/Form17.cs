@@ -88,5 +88,10 @@ namespace ProjetoLeiLucasTelas
             this.FormBorderStyle = FormBorderStyle.None;
             this.WindowState = FormWindowState.Maximized;
         }
+
+        private void SideBarFraTCo1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -50,7 +50,7 @@
             // pictureBox2
             // 
             pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
-            pictureBox2.Location = new Point(1, 0);
+            pictureBox2.Location = new Point(0, 0);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(1920, 118);
             pictureBox2.TabIndex = 4;
@@ -60,7 +60,7 @@
             // 
             barralateral4.BackColor = Color.Transparent;
             barralateral4.BackgroundImage = (Image)resources.GetObject("barralateral4.BackgroundImage");
-            barralateral4.Location = new Point(1, 118);
+            barralateral4.Location = new Point(1, 117);
             barralateral4.Name = "barralateral4";
             barralateral4.Size = new Size(414, 963);
             barralateral4.TabIndex = 6;
@@ -69,7 +69,7 @@
             // Informacao4
             // 
             Informacao4.BackgroundImage = (Image)resources.GetObject("Informacao4.BackgroundImage");
-            Informacao4.Location = new Point(402, 20);
+            Informacao4.Location = new Point(414, 20);
             Informacao4.Name = "Informacao4";
             Informacao4.Size = new Size(1506, 1080);
             Informacao4.TabIndex = 7;

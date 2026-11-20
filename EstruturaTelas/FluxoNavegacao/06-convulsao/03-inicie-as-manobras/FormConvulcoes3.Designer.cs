@@ -50,7 +50,7 @@
             // picturboxConvulcoes3
             // 
             picturboxConvulcoes3.BackgroundImage = (Image)resources.GetObject("picturboxConvulcoes3.BackgroundImage");
-            picturboxConvulcoes3.Location = new Point(3, 0);
+            picturboxConvulcoes3.Location = new Point(0, 0);
             picturboxConvulcoes3.Name = "picturboxConvulcoes3";
             picturboxConvulcoes3.Size = new Size(1920, 118);
             picturboxConvulcoes3.TabIndex = 2;
@@ -59,7 +59,7 @@
             // pictureBoxlateralesquerdoConvulcoes3
             // 
             pictureBoxlateralesquerdoConvulcoes3.Image = (Image)resources.GetObject("pictureBoxlateralesquerdoConvulcoes3.Image");
-            pictureBoxlateralesquerdoConvulcoes3.Location = new Point(1, 118);
+            pictureBoxlateralesquerdoConvulcoes3.Location = new Point(1, 117);
             pictureBoxlateralesquerdoConvulcoes3.Name = "pictureBoxlateralesquerdoConvulcoes3";
             pictureBoxlateralesquerdoConvulcoes3.Size = new Size(414, 963);
             pictureBoxlateralesquerdoConvulcoes3.TabIndex = 3;

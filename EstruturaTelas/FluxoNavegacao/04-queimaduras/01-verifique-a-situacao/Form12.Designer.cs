@@ -50,7 +50,7 @@
             // InformacaoQueimadura1
             // 
             InformacaoQueimadura1.BackgroundImage = (Image)resources.GetObject("InformacaoQueimadura1.BackgroundImage");
-            InformacaoQueimadura1.Location = new Point(411, -3);
+            InformacaoQueimadura1.Location = new Point(414, -3);
             InformacaoQueimadura1.Name = "InformacaoQueimadura1";
             InformacaoQueimadura1.Size = new Size(1506, 1080);
             InformacaoQueimadura1.TabIndex = 0;
@@ -59,7 +59,7 @@
             // pictureBox2
             // 
             pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
-            pictureBox2.Location = new Point(2, -1);
+            pictureBox2.Location = new Point(0, 0);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(1920, 118);
             pictureBox2.TabIndex = 1;
@@ -79,7 +79,7 @@
             // 
             barralateral1.BackColor = Color.Transparent;
             barralateral1.BackgroundImage = (Image)resources.GetObject("barralateral1.BackgroundImage");
-            barralateral1.Location = new Point(1, 118);
+            barralateral1.Location = new Point(1, 117);
             barralateral1.Name = "barralateral1";
             barralateral1.Size = new Size(414, 963);
             barralateral1.TabIndex = 3;

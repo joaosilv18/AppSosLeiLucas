@@ -50,7 +50,7 @@
             // pictureBox2
             // 
             pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
-            pictureBox2.Location = new Point(2, -1);
+            pictureBox2.Location = new Point(0, 0);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(1920, 118);
             pictureBox2.TabIndex = 2;
@@ -60,7 +60,7 @@
             // 
             barralateral2.BackColor = Color.Transparent;
             barralateral2.BackgroundImage = (Image)resources.GetObject("barralateral2.BackgroundImage");
-            barralateral2.Location = new Point(1, 118);
+            barralateral2.Location = new Point(1, 117);
             barralateral2.Name = "barralateral2";
             barralateral2.Size = new Size(414, 963);
             barralateral2.TabIndex = 4;
@@ -69,7 +69,7 @@
             // InformacaoQueimadura2
             // 
             InformacaoQueimadura2.BackgroundImage = (Image)resources.GetObject("InformacaoQueimadura2.BackgroundImage");
-            InformacaoQueimadura2.Location = new Point(408, 18);
+            InformacaoQueimadura2.Location = new Point(414, 18);
             InformacaoQueimadura2.Name = "InformacaoQueimadura2";
             InformacaoQueimadura2.Size = new Size(1506, 1080);
             InformacaoQueimadura2.TabIndex = 5;

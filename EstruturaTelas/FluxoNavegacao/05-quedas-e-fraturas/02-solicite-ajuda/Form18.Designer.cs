@@ -50,7 +50,7 @@
             // headerQuedaFra2
             // 
             headerQuedaFra2.BackgroundImage = (Image)resources.GetObject("headerQuedaFra2.BackgroundImage");
-            headerQuedaFra2.Location = new Point(2, -2);
+            headerQuedaFra2.Location = new Point(0, 0);
             headerQuedaFra2.Name = "headerQuedaFra2";
             headerQuedaFra2.Size = new Size(1920, 118);
             headerQuedaFra2.TabIndex = 0;
@@ -59,11 +59,12 @@
             // pictureBoxQuedaFra1
             // 
             pictureBoxQuedaFra1.BackgroundImage = (Image)resources.GetObject("pictureBoxQuedaFra1.BackgroundImage");
-            pictureBoxQuedaFra1.Location = new Point(1, 118);
+            pictureBoxQuedaFra1.Location = new Point(1, 117);
             pictureBoxQuedaFra1.Name = "pictureBoxQuedaFra1";
             pictureBoxQuedaFra1.Size = new Size(414, 963);
             pictureBoxQuedaFra1.TabIndex = 1;
             pictureBoxQuedaFra1.TabStop = false;
+            pictureBoxQuedaFra1.Click += pictureBoxQuedaFra1_Click;
             // 
             // FooterQuedaFra2
             // 
@@ -77,7 +78,7 @@
             // pictureBoxQuedaFra2
             // 
             pictureBoxQuedaFra2.BackgroundImage = (Image)resources.GetObject("pictureBoxQuedaFra2.BackgroundImage");
-            pictureBoxQuedaFra2.Location = new Point(411, 16);
+            pictureBoxQuedaFra2.Location = new Point(414, 16);
             pictureBoxQuedaFra2.Name = "pictureBoxQuedaFra2";
             pictureBoxQuedaFra2.Size = new Size(1506, 1080);
             pictureBoxQuedaFra2.TabIndex = 13;

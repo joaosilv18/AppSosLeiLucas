@@ -85,5 +85,10 @@ namespace ProjetoLeiLucasTelas
             telaEmergencia.Show();
             this.Hide();
         }
+
+        private void SBHemorragiaECortes1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

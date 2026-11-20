@@ -49,7 +49,7 @@
             // pictureBox2
             // 
             pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
-            pictureBox2.Location = new Point(3, 1);
+            pictureBox2.Location = new Point(0, 0);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(1920, 118);
             pictureBox2.TabIndex = 5;
@@ -59,7 +59,7 @@
             // 
             barralateral5.BackColor = Color.Transparent;
             barralateral5.BackgroundImage = (Image)resources.GetObject("barralateral5.BackgroundImage");
-            barralateral5.Location = new Point(1, 118);
+            barralateral5.Location = new Point(1, 117);
             barralateral5.Name = "barralateral5";
             barralateral5.Size = new Size(414, 963);
             barralateral5.TabIndex = 7;

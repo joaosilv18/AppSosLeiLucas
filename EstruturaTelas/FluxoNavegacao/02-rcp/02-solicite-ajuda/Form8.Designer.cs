@@ -60,7 +60,7 @@
             // pictureBoxRcp2
             // 
             pictureBoxRcp2.BackgroundImage = (Image)resources.GetObject("pictureBoxRcp2.BackgroundImage");
-            pictureBoxRcp2.Location = new Point(1, 118);
+            pictureBoxRcp2.Location = new Point(1, 117);
             pictureBoxRcp2.Name = "pictureBoxRcp2";
             pictureBoxRcp2.Size = new Size(414, 963);
             pictureBoxRcp2.TabIndex = 1;
@@ -80,7 +80,7 @@
             // pixRcp2
             // 
             pixRcp2.BackgroundImage = (Image)resources.GetObject("pixRcp2.BackgroundImage");
-            pixRcp2.Location = new Point(403, 13);
+            pixRcp2.Location = new Point(414, 13);
             pixRcp2.Name = "pixRcp2";
             pixRcp2.Size = new Size(1506, 1080);
             pixRcp2.TabIndex = 14;

@@ -80,11 +80,6 @@ namespace ProjetoLeiLucasTelas
             this.Hide();
         }
 
-        private void BtnLevaTelaInicio_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void BtnLevaTelaDeQuedas_Click(object sender, EventArgs e)
         {
             FormQuedafra1 telaEmergencia = new();
@@ -103,6 +98,13 @@ namespace ProjetoLeiLucasTelas
         {
             TelaInicio telaemergencia = new();
             telaemergencia.Show();
+            this.Hide();
+        }
+
+        private void BtnLevaTelaQueimaduras_Click(object sender, EventArgs e)
+        {
+            Form12 telaEmergencia = new();
+            telaEmergencia.Show();
             this.Hide();
         }
     }

@@ -86,5 +86,10 @@ namespace ProjetoLeiLucasTelas
             this.FormBorderStyle = FormBorderStyle.None;
             this.WindowState = FormWindowState.Maximized;
         }
+
+        private void pictureBoxlateralesquerdoConvulcoes4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

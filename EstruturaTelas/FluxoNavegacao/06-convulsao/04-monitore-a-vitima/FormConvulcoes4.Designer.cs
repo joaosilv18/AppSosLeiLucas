@@ -50,7 +50,7 @@
             // picturboxConvulcoes4
             // 
             picturboxConvulcoes4.BackgroundImage = (Image)resources.GetObject("picturboxConvulcoes4.BackgroundImage");
-            picturboxConvulcoes4.Location = new Point(1, 1);
+            picturboxConvulcoes4.Location = new Point(0, 0);
             picturboxConvulcoes4.Name = "picturboxConvulcoes4";
             picturboxConvulcoes4.Size = new Size(1920, 118);
             picturboxConvulcoes4.TabIndex = 3;
@@ -59,11 +59,12 @@
             // pictureBoxlateralesquerdoConvulcoes4
             // 
             pictureBoxlateralesquerdoConvulcoes4.Image = (Image)resources.GetObject("pictureBoxlateralesquerdoConvulcoes4.Image");
-            pictureBoxlateralesquerdoConvulcoes4.Location = new Point(1, 118);
+            pictureBoxlateralesquerdoConvulcoes4.Location = new Point(1, 117);
             pictureBoxlateralesquerdoConvulcoes4.Name = "pictureBoxlateralesquerdoConvulcoes4";
             pictureBoxlateralesquerdoConvulcoes4.Size = new Size(414, 963);
             pictureBoxlateralesquerdoConvulcoes4.TabIndex = 4;
             pictureBoxlateralesquerdoConvulcoes4.TabStop = false;
+            pictureBoxlateralesquerdoConvulcoes4.Click += pictureBoxlateralesquerdoConvulcoes4_Click;
             // 
             // pictureBoxConvulcoesBarraInferior4
             // 
@@ -77,7 +78,7 @@
             // pictureBoxinformacoesConvulcoes4
             // 
             pictureBoxinformacoesConvulcoes4.BackgroundImage = (Image)resources.GetObject("pictureBoxinformacoesConvulcoes4.BackgroundImage");
-            pictureBoxinformacoesConvulcoes4.Location = new Point(416, 18);
+            pictureBoxinformacoesConvulcoes4.Location = new Point(414, 18);
             pictureBoxinformacoesConvulcoes4.Name = "pictureBoxinformacoesConvulcoes4";
             pictureBoxinformacoesConvulcoes4.Size = new Size(1506, 1080);
             pictureBoxinformacoesConvulcoes4.TabIndex = 6;

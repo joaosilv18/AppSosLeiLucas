@@ -50,7 +50,7 @@
             // pictureBoxFraCoheader1
             // 
             pictureBoxFraCoheader1.BackgroundImage = (Image)resources.GetObject("pictureBoxFraCoheader1.BackgroundImage");
-            pictureBoxFraCoheader1.Location = new Point(2, -1);
+            pictureBoxFraCoheader1.Location = new Point(0, 0);
             pictureBoxFraCoheader1.Name = "pictureBoxFraCoheader1";
             pictureBoxFraCoheader1.Size = new Size(1920, 118);
             pictureBoxFraCoheader1.TabIndex = 0;
@@ -59,11 +59,12 @@
             // SideBarFraTCo1
             // 
             SideBarFraTCo1.BackgroundImage = (Image)resources.GetObject("SideBarFraTCo1.BackgroundImage");
-            SideBarFraTCo1.Location = new Point(1, 118);
+            SideBarFraTCo1.Location = new Point(1, 117);
             SideBarFraTCo1.Name = "SideBarFraTCo1";
             SideBarFraTCo1.Size = new Size(414, 963);
             SideBarFraTCo1.TabIndex = 1;
             SideBarFraTCo1.TabStop = false;
+            SideBarFraTCo1.Click += SideBarFraTCo1_Click;
             // 
             // FooterQuedaFra1
             // 
@@ -77,7 +78,7 @@
             // picturQuedaFra1
             // 
             picturQuedaFra1.BackgroundImage = (Image)resources.GetObject("picturQuedaFra1.BackgroundImage");
-            picturQuedaFra1.Location = new Point(404, 9);
+            picturQuedaFra1.Location = new Point(414, 9);
             picturQuedaFra1.Name = "picturQuedaFra1";
             picturQuedaFra1.Size = new Size(1506, 1080);
             picturQuedaFra1.TabIndex = 9;

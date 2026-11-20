@@ -33,11 +33,11 @@
             BtnProtoEngasgo = new teste.ImageHoverButton();
             BtnProtoRcp = new teste.ImageHoverButton();
             BtProtoHemorragiaCortes = new teste.ImageHoverButton();
-            BtnLevaTelaInicio = new teste.ImageHoverButton();
             BtnLevaTelaDeQuedas = new teste.ImageHoverButton();
             BtnLevaTelaDeConvulcoes = new teste.ImageHoverButton();
             BtnVoltarInicio = new teste.ImageHoverButton();
             BtnInfeite = new teste.ImageHoverButton();
+            BtnLevaTelaQueimaduras = new teste.ImageHoverButton();
             SuspendLayout();
             // 
             // BtnVoltar
@@ -112,24 +112,6 @@
             BtProtoHemorragiaCortes.UseVisualStyleBackColor = false;
             BtProtoHemorragiaCortes.Click += BtProtoHemorragiaCortes_Click;
             // 
-            // BtnLevaTelaInicio
-            // 
-            BtnLevaTelaInicio.BackColor = Color.Transparent;
-            BtnLevaTelaInicio.BackgroundImage = (Image)resources.GetObject("BtnLevaTelaInicio.BackgroundImage");
-            BtnLevaTelaInicio.BackgroundImageLayout = ImageLayout.Zoom;
-            BtnLevaTelaInicio.FlatAppearance.BorderSize = 0;
-            BtnLevaTelaInicio.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            BtnLevaTelaInicio.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            BtnLevaTelaInicio.FlatStyle = FlatStyle.Flat;
-            BtnLevaTelaInicio.ImagemHover = (Image)resources.GetObject("BtnLevaTelaInicio.ImagemHover");
-            BtnLevaTelaInicio.ImagemNormal = (Image)resources.GetObject("BtnLevaTelaInicio.ImagemNormal");
-            BtnLevaTelaInicio.Location = new Point(163, 514);
-            BtnLevaTelaInicio.Name = "BtnLevaTelaInicio";
-            BtnLevaTelaInicio.Size = new Size(514, 306);
-            BtnLevaTelaInicio.TabIndex = 19;
-            BtnLevaTelaInicio.UseVisualStyleBackColor = false;
-            BtnLevaTelaInicio.Click += BtnLevaTelaInicio_Click;
-            // 
             // BtnLevaTelaDeQuedas
             // 
             BtnLevaTelaDeQuedas.BackColor = Color.Transparent;
@@ -201,17 +183,35 @@
             BtnInfeite.TabIndex = 23;
             BtnInfeite.UseVisualStyleBackColor = false;
             // 
+            // BtnLevaTelaQueimaduras
+            // 
+            BtnLevaTelaQueimaduras.BackColor = Color.Transparent;
+            BtnLevaTelaQueimaduras.BackgroundImage = (Image)resources.GetObject("BtnLevaTelaQueimaduras.BackgroundImage");
+            BtnLevaTelaQueimaduras.BackgroundImageLayout = ImageLayout.Zoom;
+            BtnLevaTelaQueimaduras.FlatAppearance.BorderSize = 0;
+            BtnLevaTelaQueimaduras.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            BtnLevaTelaQueimaduras.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            BtnLevaTelaQueimaduras.FlatStyle = FlatStyle.Flat;
+            BtnLevaTelaQueimaduras.ImagemHover = (Image)resources.GetObject("BtnLevaTelaQueimaduras.ImagemHover");
+            BtnLevaTelaQueimaduras.ImagemNormal = (Image)resources.GetObject("BtnLevaTelaQueimaduras.ImagemNormal");
+            BtnLevaTelaQueimaduras.Location = new Point(163, 514);
+            BtnLevaTelaQueimaduras.Name = "BtnLevaTelaQueimaduras";
+            BtnLevaTelaQueimaduras.Size = new Size(514, 306);
+            BtnLevaTelaQueimaduras.TabIndex = 24;
+            BtnLevaTelaQueimaduras.UseVisualStyleBackColor = false;
+            BtnLevaTelaQueimaduras.Click += BtnLevaTelaQueimaduras_Click;
+            // 
             // Form2
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1904, 1041);
+            Controls.Add(BtnLevaTelaQueimaduras);
             Controls.Add(BtnInfeite);
             Controls.Add(BtnVoltarInicio);
             Controls.Add(BtnLevaTelaDeConvulcoes);
             Controls.Add(BtnLevaTelaDeQuedas);
-            Controls.Add(BtnLevaTelaInicio);
             Controls.Add(BtProtoHemorragiaCortes);
             Controls.Add(BtnProtoRcp);
             Controls.Add(BtnProtoEngasgo);
@@ -227,10 +227,10 @@
         private teste.ImageHoverButton BtnProtoEngasgo;
         private teste.ImageHoverButton BtnProtoRcp;
         private teste.ImageHoverButton BtProtoHemorragiaCortes;
-        private teste.ImageHoverButton BtnLevaTelaInicio;
         private teste.ImageHoverButton BtnLevaTelaDeQuedas;
         private teste.ImageHoverButton BtnLevaTelaDeConvulcoes;
         private teste.ImageHoverButton BtnVoltarInicio;
         private teste.ImageHoverButton BtnInfeite;
+        private teste.ImageHoverButton BtnLevaTelaQueimaduras;
     }
 }

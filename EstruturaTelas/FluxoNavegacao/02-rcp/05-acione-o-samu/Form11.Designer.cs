@@ -77,7 +77,7 @@
             // SiderBox5
             // 
             SiderBox5.BackgroundImage = (Image)resources.GetObject("SiderBox5.BackgroundImage");
-            SiderBox5.Location = new Point(1, 118);
+            SiderBox5.Location = new Point(1, 117);
             SiderBox5.Name = "SiderBox5";
             SiderBox5.Size = new Size(414, 963);
             SiderBox5.TabIndex = 1;
@@ -86,7 +86,7 @@
             // Header5Rcp
             // 
             Header5Rcp.BackgroundImage = (Image)resources.GetObject("Header5Rcp.BackgroundImage");
-            Header5Rcp.Location = new Point(1, 1);
+            Header5Rcp.Location = new Point(0, 0);
             Header5Rcp.Name = "Header5Rcp";
             Header5Rcp.Size = new Size(1920, 118);
             Header5Rcp.TabIndex = 2;
@@ -95,7 +95,7 @@
             // pictureBoxRcp5
             // 
             pictureBoxRcp5.BackgroundImage = (Image)resources.GetObject("pictureBoxRcp5.BackgroundImage");
-            pictureBoxRcp5.Location = new Point(411, 16);
+            pictureBoxRcp5.Location = new Point(414, 16);
             pictureBoxRcp5.Name = "pictureBoxRcp5";
             pictureBoxRcp5.Size = new Size(1506, 1080);
             pictureBoxRcp5.TabIndex = 28;

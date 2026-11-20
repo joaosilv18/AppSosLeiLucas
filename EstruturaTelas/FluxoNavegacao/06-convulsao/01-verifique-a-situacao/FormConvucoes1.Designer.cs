@@ -60,7 +60,7 @@
             // pictureBoxlateralesquerdoConvulcoes1
             // 
             pictureBoxlateralesquerdoConvulcoes1.Image = (Image)resources.GetObject("pictureBoxlateralesquerdoConvulcoes1.Image");
-            pictureBoxlateralesquerdoConvulcoes1.Location = new Point(1, 118);
+            pictureBoxlateralesquerdoConvulcoes1.Location = new Point(1, 117);
             pictureBoxlateralesquerdoConvulcoes1.Name = "pictureBoxlateralesquerdoConvulcoes1";
             pictureBoxlateralesquerdoConvulcoes1.Size = new Size(414, 963);
             pictureBoxlateralesquerdoConvulcoes1.TabIndex = 1;

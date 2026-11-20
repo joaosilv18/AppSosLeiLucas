@@ -50,7 +50,7 @@
             // pictureBoxHeaderQueda4
             // 
             pictureBoxHeaderQueda4.BackgroundImage = (Image)resources.GetObject("pictureBoxHeaderQueda4.BackgroundImage");
-            pictureBoxHeaderQueda4.Location = new Point(2, -1);
+            pictureBoxHeaderQueda4.Location = new Point(0, 0);
             pictureBoxHeaderQueda4.Name = "pictureBoxHeaderQueda4";
             pictureBoxHeaderQueda4.Size = new Size(1920, 118);
             pictureBoxHeaderQueda4.TabIndex = 1;
@@ -59,11 +59,12 @@
             // SbQuedas4
             // 
             SbQuedas4.BackgroundImage = (Image)resources.GetObject("SbQuedas4.BackgroundImage");
-            SbQuedas4.Location = new Point(1, 118);
+            SbQuedas4.Location = new Point(1, 117);
             SbQuedas4.Name = "SbQuedas4";
             SbQuedas4.Size = new Size(414, 963);
             SbQuedas4.TabIndex = 7;
             SbQuedas4.TabStop = false;
+            SbQuedas4.Click += SbQuedas4_Click;
             // 
             // FooterQueda4
             // 
@@ -77,7 +78,7 @@
             // pictureBoxQuedas4
             // 
             pictureBoxQuedas4.BackgroundImage = (Image)resources.GetObject("pictureBoxQuedas4.BackgroundImage");
-            pictureBoxQuedas4.Location = new Point(410, 9);
+            pictureBoxQuedas4.Location = new Point(414, 9);
             pictureBoxQuedas4.Name = "pictureBoxQuedas4";
             pictureBoxQuedas4.Size = new Size(1503, 1080);
             pictureBoxQuedas4.TabIndex = 16;

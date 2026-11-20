@@ -50,7 +50,7 @@
             // pictureBoxHeader3Rcp
             // 
             pictureBoxHeader3Rcp.BackgroundImage = (Image)resources.GetObject("pictureBoxHeader3Rcp.BackgroundImage");
-            pictureBoxHeader3Rcp.Location = new Point(0, -1);
+            pictureBoxHeader3Rcp.Location = new Point(0, 0);
             pictureBoxHeader3Rcp.Name = "pictureBoxHeader3Rcp";
             pictureBoxHeader3Rcp.Size = new Size(1920, 118);
             pictureBoxHeader3Rcp.TabIndex = 0;
@@ -59,7 +59,7 @@
             // SinderBar3Rcp
             // 
             SinderBar3Rcp.BackgroundImage = (Image)resources.GetObject("SinderBar3Rcp.BackgroundImage");
-            SinderBar3Rcp.Location = new Point(1, 118);
+            SinderBar3Rcp.Location = new Point(1, 117);
             SinderBar3Rcp.Name = "SinderBar3Rcp";
             SinderBar3Rcp.Size = new Size(414, 963);
             SinderBar3Rcp.TabIndex = 1;
@@ -77,7 +77,7 @@
             // pictureBoxRcp3
             // 
             pictureBoxRcp3.BackgroundImage = (Image)resources.GetObject("pictureBoxRcp3.BackgroundImage");
-            pictureBoxRcp3.Location = new Point(388, 29);
+            pictureBoxRcp3.Location = new Point(414, 29);
             pictureBoxRcp3.Name = "pictureBoxRcp3";
             pictureBoxRcp3.Size = new Size(1506, 1080);
             pictureBoxRcp3.TabIndex = 20;

@@ -70,7 +70,7 @@
             // SiderBar1Rcp
             // 
             SiderBar1Rcp.BackgroundImage = (Image)resources.GetObject("SiderBar1Rcp.BackgroundImage");
-            SiderBar1Rcp.Location = new Point(1, 118);
+            SiderBar1Rcp.Location = new Point(1, 117);
             SiderBar1Rcp.Name = "SiderBar1Rcp";
             SiderBar1Rcp.Size = new Size(414, 963);
             SiderBar1Rcp.TabIndex = 13;
@@ -88,9 +88,9 @@
             // pictureBox5
             // 
             pictureBox5.BackgroundImage = (Image)resources.GetObject("pictureBox5.BackgroundImage");
-            pictureBox5.Location = new Point(406, 12);
+            pictureBox5.Location = new Point(415, 12);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(1506, 1080);
+            pictureBox5.Size = new Size(1522, 1080);
             pictureBox5.TabIndex = 25;
             pictureBox5.TabStop = false;
             // 

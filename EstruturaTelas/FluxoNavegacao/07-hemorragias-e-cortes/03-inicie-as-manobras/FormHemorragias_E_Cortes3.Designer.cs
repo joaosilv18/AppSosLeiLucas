@@ -59,9 +59,9 @@
             // pictureBoxHEmorragiapasso3
             // 
             pictureBoxHEmorragiapasso3.BackgroundImage = (Image)resources.GetObject("pictureBoxHEmorragiapasso3.BackgroundImage");
-            pictureBoxHEmorragiapasso3.Location = new Point(421, 2);
+            pictureBoxHEmorragiapasso3.Location = new Point(413, 2);
             pictureBoxHEmorragiapasso3.Name = "pictureBoxHEmorragiapasso3";
-            pictureBoxHEmorragiapasso3.Size = new Size(1485, 1080);
+            pictureBoxHEmorragiapasso3.Size = new Size(1506, 1080);
             pictureBoxHEmorragiapasso3.TabIndex = 11;
             pictureBoxHEmorragiapasso3.TabStop = false;
             pictureBoxHEmorragiapasso3.Click += pictureBoxHEmorragiapasso3_Click;
@@ -78,7 +78,7 @@
             // SBHemorragias3
             // 
             SBHemorragias3.BackgroundImage = (Image)resources.GetObject("SBHemorragias3.BackgroundImage");
-            SBHemorragias3.Location = new Point(1, 118);
+            SBHemorragias3.Location = new Point(1, 117);
             SBHemorragias3.Name = "SBHemorragias3";
             SBHemorragias3.Size = new Size(414, 963);
             SBHemorragias3.TabIndex = 13;

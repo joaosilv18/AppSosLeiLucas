@@ -50,7 +50,7 @@
             // picturboxConvulcoes2
             // 
             picturboxConvulcoes2.BackgroundImage = (Image)resources.GetObject("picturboxConvulcoes2.BackgroundImage");
-            picturboxConvulcoes2.Location = new Point(2, 1);
+            picturboxConvulcoes2.Location = new Point(0, 0);
             picturboxConvulcoes2.Name = "picturboxConvulcoes2";
             picturboxConvulcoes2.Size = new Size(1920, 118);
             picturboxConvulcoes2.TabIndex = 1;
@@ -59,7 +59,7 @@
             // pictureBoxlateralesquerdoConvulcoes2
             // 
             pictureBoxlateralesquerdoConvulcoes2.Image = (Image)resources.GetObject("pictureBoxlateralesquerdoConvulcoes2.Image");
-            pictureBoxlateralesquerdoConvulcoes2.Location = new Point(1, 118);
+            pictureBoxlateralesquerdoConvulcoes2.Location = new Point(1, 117);
             pictureBoxlateralesquerdoConvulcoes2.Name = "pictureBoxlateralesquerdoConvulcoes2";
             pictureBoxlateralesquerdoConvulcoes2.Size = new Size(414, 963);
             pictureBoxlateralesquerdoConvulcoes2.TabIndex = 2;
@@ -78,7 +78,7 @@
             // pictureBoxinformacoesConvulcoes2
             // 
             pictureBoxinformacoesConvulcoes2.BackgroundImage = (Image)resources.GetObject("pictureBoxinformacoesConvulcoes2.BackgroundImage");
-            pictureBoxinformacoesConvulcoes2.Location = new Point(402, 19);
+            pictureBoxinformacoesConvulcoes2.Location = new Point(414, 19);
             pictureBoxinformacoesConvulcoes2.Name = "pictureBoxinformacoesConvulcoes2";
             pictureBoxinformacoesConvulcoes2.Size = new Size(1506, 1080);
             pictureBoxinformacoesConvulcoes2.TabIndex = 4;

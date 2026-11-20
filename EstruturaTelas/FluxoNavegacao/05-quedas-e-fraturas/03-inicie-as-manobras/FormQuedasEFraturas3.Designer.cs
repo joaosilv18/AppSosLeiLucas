@@ -50,7 +50,7 @@
             // HeaderQuedas3
             // 
             HeaderQuedas3.BackgroundImage = (Image)resources.GetObject("HeaderQuedas3.BackgroundImage");
-            HeaderQuedas3.Location = new Point(2, -1);
+            HeaderQuedas3.Location = new Point(0, 0);
             HeaderQuedas3.Name = "HeaderQuedas3";
             HeaderQuedas3.Size = new Size(1920, 118);
             HeaderQuedas3.TabIndex = 0;
@@ -59,7 +59,7 @@
             // SBQuetas_E_Fraturas3
             // 
             SBQuetas_E_Fraturas3.BackgroundImage = (Image)resources.GetObject("SBQuetas_E_Fraturas3.BackgroundImage");
-            SBQuetas_E_Fraturas3.Location = new Point(1, 118);
+            SBQuetas_E_Fraturas3.Location = new Point(1, 117);
             SBQuetas_E_Fraturas3.Name = "SBQuetas_E_Fraturas3";
             SBQuetas_E_Fraturas3.Size = new Size(414, 963);
             SBQuetas_E_Fraturas3.TabIndex = 1;
@@ -77,7 +77,7 @@
             // pictureBoxQuedas3
             // 
             pictureBoxQuedas3.BackgroundImage = (Image)resources.GetObject("pictureBoxQuedas3.BackgroundImage");
-            pictureBoxQuedas3.Location = new Point(408, -1);
+            pictureBoxQuedas3.Location = new Point(414, -1);
             pictureBoxQuedas3.Name = "pictureBoxQuedas3";
             pictureBoxQuedas3.Size = new Size(1503, 1080);
             pictureBoxQuedas3.TabIndex = 14;

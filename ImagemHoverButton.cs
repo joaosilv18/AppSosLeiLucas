@@ -10,15 +10,18 @@ namespace teste
     internal class ImageHoverButton : Button
     {
 
-
+        // Criação de variaveis que armazenam as imagens nas proriedades dos buttons
         private Image? _imagemNormal;
         private Image? _imagemHover;
 
         [Category("Appearance")]
-        [Description("Imagem exibida quando o mouse está fora do botão.")]
-        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
+        [Description("Imagem exibida quando o mouse está fora do botão.")] // Imagem com o mouse fora do button.
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)] // Salva imagens escolhidas!
+
+        // COMPORTAMENTO DEFAULT DO BUTTON
         public Image? ImagemNormal
         {
+            // Chama imagem default do button.
             get => _imagemNormal;
             set
             {
@@ -34,10 +37,12 @@ namespace teste
         [Category("Appearance")]
         [Description("Imagem exibida quando o mouse passa por cima do botão.")]
         [DesignerSerializationVisibility(DesignerSerializationVisibility.Visible)]
+
+        // COMPORTAMENTO HOVER DO BUTTON
         public Image? ImagemHover
         {
-            get => _imagemHover;
-            set => _imagemHover = value;
+            get => _imagemHover; // Chama imagem Hover.
+            set => _imagemHover = value; // retorna quando o valor de _imagemHover for válido.
         }
 
         public ImageHoverButton()
@@ -49,6 +54,7 @@ namespace teste
             this.BackColor = Color.Transparent;
         }
 
+        // Evento que realiza a substituição da imagem de Default para Hover
         protected override void OnMouseEnter(System.EventArgs e)
         {
             base.OnMouseEnter(e);
@@ -58,6 +64,7 @@ namespace teste
             }
         }
 
+        // Evento que realiza a substituição da imagem de Hover para Default
         protected override void OnMouseLeave(System.EventArgs e)
         {
             base.OnMouseLeave(e);

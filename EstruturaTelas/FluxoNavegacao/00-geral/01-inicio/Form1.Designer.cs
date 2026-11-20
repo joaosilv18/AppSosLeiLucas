@@ -44,6 +44,8 @@
             BtnRelatorios2 = new teste.ImageHoverButton();
             BtnIniciarEmergencia = new teste.ImageHoverButton();
             BtnvoceSabia = new teste.ImageHoverButton();
+            BtnRelatorios = new teste.ImageHoverButton();
+            BtnCreditos = new teste.ImageHoverButton();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -187,7 +189,7 @@
             BtnAjuda.FlatStyle = FlatStyle.Flat;
             BtnAjuda.ImagemHover = Properties.Resources.BtnAjudaSideBar_Hover;
             BtnAjuda.ImagemNormal = Properties.Resources.BtnAjudaSideBar_Default;
-            BtnAjuda.Location = new Point(14, 887);
+            BtnAjuda.Location = new Point(14, 475);
             BtnAjuda.Name = "BtnAjuda";
             BtnAjuda.Size = new Size(382, 65);
             BtnAjuda.TabIndex = 24;
@@ -284,12 +286,51 @@
             BtnvoceSabia.UseVisualStyleBackColor = false;
             BtnvoceSabia.Click += BtnvoceSabia_Click;
             // 
+            // BtnRelatorios
+            // 
+            BtnRelatorios.BackColor = Color.Transparent;
+            BtnRelatorios.BackgroundImage = (Image)resources.GetObject("BtnRelatorios.BackgroundImage");
+            BtnRelatorios.BackgroundImageLayout = ImageLayout.Zoom;
+            BtnRelatorios.FlatAppearance.BorderSize = 0;
+            BtnRelatorios.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            BtnRelatorios.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            BtnRelatorios.FlatStyle = FlatStyle.Flat;
+            BtnRelatorios.ImagemHover = (Image)resources.GetObject("BtnRelatorios.ImagemHover");
+            BtnRelatorios.ImagemNormal = (Image)resources.GetObject("BtnRelatorios.ImagemNormal");
+            BtnRelatorios.Location = new Point(14, 391);
+            BtnRelatorios.Name = "BtnRelatorios";
+            BtnRelatorios.Size = new Size(382, 65);
+            BtnRelatorios.TabIndex = 30;
+            BtnRelatorios.UseVisualStyleBackColor = false;
+            BtnRelatorios.Click += BtnRelatorios_Click;
+            // 
+            // BtnCreditos
+            // 
+            BtnCreditos.BackColor = Color.Transparent;
+            BtnCreditos.BackgroundImageLayout = ImageLayout.Zoom;
+            BtnCreditos.FlatAppearance.BorderSize = 0;
+            BtnCreditos.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            BtnCreditos.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            BtnCreditos.FlatStyle = FlatStyle.Flat;
+            BtnCreditos.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
+            BtnCreditos.ForeColor = Color.White;
+            BtnCreditos.ImagemHover = null;
+            BtnCreditos.ImagemNormal = null;
+            BtnCreditos.Location = new Point(14, 887);
+            BtnCreditos.Name = "BtnCreditos";
+            BtnCreditos.Size = new Size(382, 65);
+            BtnCreditos.TabIndex = 31;
+            BtnCreditos.Text = "CRÉDITOS...";
+            BtnCreditos.UseVisualStyleBackColor = false;
+            // 
             // TelaInicio
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(1904, 1041);
+            Controls.Add(BtnCreditos);
+            Controls.Add(BtnRelatorios);
             Controls.Add(BtnvoceSabia);
             Controls.Add(BtnIniciarEmergencia);
             Controls.Add(BtnRelatorios2);
@@ -335,5 +376,7 @@
         private teste.ImageHoverButton BtnRelatorios2;
         private teste.ImageHoverButton BtnIniciarEmergencia;
         private teste.ImageHoverButton BtnvoceSabia;
+        private teste.ImageHoverButton BtnRelatorios;
+        private teste.ImageHoverButton BtnCreditos;
     }
 }

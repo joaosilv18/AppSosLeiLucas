@@ -4,48 +4,39 @@ namespace ProjetoLeiLucasTelas
 {
     public partial class TelaInicio : Form
     {
-        protected override CreateParams CreateParams
+        protected override CreateParams CreateParams // Reimplementa o Parametro
         {
             get
             {
+                // Aqui ele define que a Exibição aconteça quando tudo que a envolva Form estiver definido (DoubleBuffered).
                 CreateParams cp = base.CreateParams;
                 cp.ExStyle |= 0x02000000; // WS_EX_COMPOSITED
                 return cp;
             }
         }
-    
+
         public TelaInicio()
         {
             InitializeComponent();
-            this.DoubleBuffered = true;
+            this.DoubleBuffered = true; // Habilita o DoubleBuffered.
         }
 
+        // Este trecho garante que a inicialização da Tela ocorra em FullScreen.
         private void Form1_Load(object sender, EventArgs e)
         {
             this.FormBorderStyle = FormBorderStyle.None;
             this.WindowState = FormWindowState.Maximized;
         }
-        
+
 
         private void button1_Click(object sender, EventArgs e)
         {
 
         }
 
-        Image imgNormalSair = Properties.Resources.BtnSair_Default;
-        Image imgHoverSair = Properties.Resources.BtnSair_Hover;
         private void btnSair_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }
-        private void btnSair_MouseEnter(object sender, EventArgs e)
-        {
-            btnSair1.BackgroundImage = imgHoverSair;
-        }
-
-        private void btnSair_MouseLeave(object sender, EventArgs e)
-        {
-            btnSair1.BackgroundImage = imgNormalSair;
         }
 
         private void button11_Click(object sender, EventArgs e)
@@ -76,6 +67,7 @@ namespace ProjetoLeiLucasTelas
 
         }
 
+        // Uso de MessageBox para confirmar que o Programa seja fechado.
         private void btnSair1_Click(object sender, EventArgs e)
         {
             DialogResult respostaSair = MessageBox.Show("Deseja fechar o Programa?", "Sair", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
@@ -83,8 +75,7 @@ namespace ProjetoLeiLucasTelas
             else return;
         }
 
-
-
+        // Este trecho faz a trasição entre Telas. (Cada button precisa modificar seu destino do Click).
         private void BtnIniciarTelaInicio_Click(object sender, EventArgs e)
         {
             TelaInicio telaemergencia = new();
@@ -122,8 +113,9 @@ namespace ProjetoLeiLucasTelas
 
         private void imageHoverButton1_Click_1(object sender, EventArgs e)
         {
-            Program.Emergencia.Show();
-            this.Hide();   
+            Form2 telaemergencia = new();
+            telaemergencia.Show();
+            this.Hide();
         }
 
         private void BtnvoceSabia_Click(object sender, EventArgs e)
@@ -141,6 +133,13 @@ namespace ProjetoLeiLucasTelas
         }
 
         private void BtnRelatorios2_Click(object sender, EventArgs e)
+        {
+            FormRelatorios telaemergencia = new();
+            telaemergencia.Show();
+            this.Hide();
+        }
+
+        private void BtnRelatorios_Click(object sender, EventArgs e)
         {
             FormRelatorios telaemergencia = new();
             telaemergencia.Show();

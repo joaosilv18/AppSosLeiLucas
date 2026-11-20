@@ -145,5 +145,12 @@ namespace ProjetoLeiLucasTelas
             telaemergencia.Show();
             this.Hide();
         }
+
+        private void BtnCreditos_Click(object sender, EventArgs e)
+        {
+            FormCreditos telaemergencia = new();
+            telaemergencia.Show();
+            this.Hide();
+        }
     }
 }

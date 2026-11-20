@@ -55,5 +55,19 @@ namespace ProjetoLeiLucasTelas
             this.FormBorderStyle = FormBorderStyle.None;
             this.WindowState = FormWindowState.Maximized;
         }
+
+        private void BtnVoltarLeiLucas_Click(object sender, EventArgs e)
+        {
+            TelaInicio telaemergencia = new();
+            telaemergencia.Show();
+            this.Hide();
+        }
+
+        private void BtnVoltarInicioLeiLucasTAjuda_Click(object sender, EventArgs e)
+        {
+            TelaInicio telaemergencia = new();
+            telaemergencia.Show();
+            this.Hide();
+        }
     }
 }

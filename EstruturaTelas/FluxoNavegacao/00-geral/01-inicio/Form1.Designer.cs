@@ -307,6 +307,7 @@
             // BtnCreditos
             // 
             BtnCreditos.BackColor = Color.Transparent;
+            BtnCreditos.BackgroundImage = (Image)resources.GetObject("BtnCreditos.BackgroundImage");
             BtnCreditos.BackgroundImageLayout = ImageLayout.Zoom;
             BtnCreditos.FlatAppearance.BorderSize = 0;
             BtnCreditos.FlatAppearance.MouseDownBackColor = Color.Transparent;
@@ -314,14 +315,14 @@
             BtnCreditos.FlatStyle = FlatStyle.Flat;
             BtnCreditos.Font = new Font("Segoe UI", 20F, FontStyle.Bold);
             BtnCreditos.ForeColor = Color.White;
-            BtnCreditos.ImagemHover = null;
-            BtnCreditos.ImagemNormal = null;
+            BtnCreditos.ImagemHover = (Image)resources.GetObject("BtnCreditos.ImagemHover");
+            BtnCreditos.ImagemNormal = (Image)resources.GetObject("BtnCreditos.ImagemNormal");
             BtnCreditos.Location = new Point(14, 887);
             BtnCreditos.Name = "BtnCreditos";
             BtnCreditos.Size = new Size(382, 65);
             BtnCreditos.TabIndex = 31;
-            BtnCreditos.Text = "CRÉDITOS...";
             BtnCreditos.UseVisualStyleBackColor = false;
+            BtnCreditos.Click += BtnCreditos_Click;
             // 
             // TelaInicio
             // 

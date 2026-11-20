@@ -34,8 +34,8 @@
             pictureBox4 = new PictureBox();
             pictureBoxInfoRodape = new PictureBox();
             pictureBoxInforRodape = new PictureBox();
-            BtnVoltar = new teste.ImageHoverButton();
-            BtnVoltarInicio2 = new teste.ImageHoverButton();
+            BtnVoltarLeiLucas = new teste.ImageHoverButton();
+            BtnVoltarInicioLeiLucasTAjuda = new teste.ImageHoverButton();
             ((System.ComponentModel.ISupportInitialize)telaAjuda).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
@@ -94,50 +94,50 @@
             pictureBoxInforRodape.TabIndex = 10;
             pictureBoxInforRodape.TabStop = false;
             // 
-            // BtnVoltar
+            // BtnVoltarLeiLucas
             // 
-            BtnVoltar.BackColor = Color.Transparent;
-            BtnVoltar.BackgroundImage = (Image)resources.GetObject("BtnVoltar.BackgroundImage");
-            BtnVoltar.BackgroundImageLayout = ImageLayout.Zoom;
-            BtnVoltar.FlatAppearance.BorderSize = 0;
-            BtnVoltar.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            BtnVoltar.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            BtnVoltar.FlatStyle = FlatStyle.Flat;
-            BtnVoltar.ImagemHover = (Image)resources.GetObject("BtnVoltar.ImagemHover");
-            BtnVoltar.ImagemNormal = (Image)resources.GetObject("BtnVoltar.ImagemNormal");
-            BtnVoltar.Location = new Point(39, 1010);
-            BtnVoltar.Name = "BtnVoltar";
-            BtnVoltar.Size = new Size(76, 62);
-            BtnVoltar.TabIndex = 14;
-            BtnVoltar.UseVisualStyleBackColor = false;
-            BtnVoltar.Click += BtnVoltar_Click;
+            BtnVoltarLeiLucas.BackColor = Color.Transparent;
+            BtnVoltarLeiLucas.BackgroundImage = (Image)resources.GetObject("BtnVoltarLeiLucas.BackgroundImage");
+            BtnVoltarLeiLucas.BackgroundImageLayout = ImageLayout.Zoom;
+            BtnVoltarLeiLucas.FlatAppearance.BorderSize = 0;
+            BtnVoltarLeiLucas.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            BtnVoltarLeiLucas.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            BtnVoltarLeiLucas.FlatStyle = FlatStyle.Flat;
+            BtnVoltarLeiLucas.ImagemHover = (Image)resources.GetObject("BtnVoltarLeiLucas.ImagemHover");
+            BtnVoltarLeiLucas.ImagemNormal = (Image)resources.GetObject("BtnVoltarLeiLucas.ImagemNormal");
+            BtnVoltarLeiLucas.Location = new Point(39, 1010);
+            BtnVoltarLeiLucas.Name = "BtnVoltarLeiLucas";
+            BtnVoltarLeiLucas.Size = new Size(76, 62);
+            BtnVoltarLeiLucas.TabIndex = 12;
+            BtnVoltarLeiLucas.UseVisualStyleBackColor = false;
+            BtnVoltarLeiLucas.Click += BtnVoltarLeiLucas_Click;
             // 
-            // BtnVoltarInicio2
+            // BtnVoltarInicioLeiLucasTAjuda
             // 
-            BtnVoltarInicio2.BackColor = Color.Transparent;
-            BtnVoltarInicio2.BackgroundImage = (Image)resources.GetObject("BtnVoltarInicio2.BackgroundImage");
-            BtnVoltarInicio2.BackgroundImageLayout = ImageLayout.Zoom;
-            BtnVoltarInicio2.FlatAppearance.BorderSize = 0;
-            BtnVoltarInicio2.FlatAppearance.MouseDownBackColor = Color.Transparent;
-            BtnVoltarInicio2.FlatAppearance.MouseOverBackColor = Color.Transparent;
-            BtnVoltarInicio2.FlatStyle = FlatStyle.Flat;
-            BtnVoltarInicio2.ImagemHover = (Image)resources.GetObject("BtnVoltarInicio2.ImagemHover");
-            BtnVoltarInicio2.ImagemNormal = (Image)resources.GetObject("BtnVoltarInicio2.ImagemNormal");
-            BtnVoltarInicio2.Location = new Point(1604, 1010);
-            BtnVoltarInicio2.Name = "BtnVoltarInicio2";
-            BtnVoltarInicio2.Size = new Size(254, 63);
-            BtnVoltarInicio2.TabIndex = 15;
-            BtnVoltarInicio2.UseVisualStyleBackColor = false;
-            BtnVoltarInicio2.Click += BtnVoltarInicio2_Click;
+            BtnVoltarInicioLeiLucasTAjuda.BackColor = Color.Transparent;
+            BtnVoltarInicioLeiLucasTAjuda.BackgroundImage = (Image)resources.GetObject("BtnVoltarInicioLeiLucasTAjuda.BackgroundImage");
+            BtnVoltarInicioLeiLucasTAjuda.BackgroundImageLayout = ImageLayout.Zoom;
+            BtnVoltarInicioLeiLucasTAjuda.FlatAppearance.BorderSize = 0;
+            BtnVoltarInicioLeiLucasTAjuda.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            BtnVoltarInicioLeiLucasTAjuda.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            BtnVoltarInicioLeiLucasTAjuda.FlatStyle = FlatStyle.Flat;
+            BtnVoltarInicioLeiLucasTAjuda.ImagemHover = (Image)resources.GetObject("BtnVoltarInicioLeiLucasTAjuda.ImagemHover");
+            BtnVoltarInicioLeiLucasTAjuda.ImagemNormal = (Image)resources.GetObject("BtnVoltarInicioLeiLucasTAjuda.ImagemNormal");
+            BtnVoltarInicioLeiLucasTAjuda.Location = new Point(1604, 1010);
+            BtnVoltarInicioLeiLucasTAjuda.Name = "BtnVoltarInicioLeiLucasTAjuda";
+            BtnVoltarInicioLeiLucasTAjuda.Size = new Size(254, 63);
+            BtnVoltarInicioLeiLucasTAjuda.TabIndex = 13;
+            BtnVoltarInicioLeiLucasTAjuda.UseVisualStyleBackColor = false;
+            BtnVoltarInicioLeiLucasTAjuda.Click += BtnVoltarInicioLeiLucasTAjuda_Click;
             // 
             // Form3
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            ClientSize = new Size(1904, 1041);
-            Controls.Add(BtnVoltarInicio2);
-            Controls.Add(BtnVoltar);
+            ClientSize = new Size(1904, 1061);
+            Controls.Add(BtnVoltarInicioLeiLucasTAjuda);
+            Controls.Add(BtnVoltarLeiLucas);
             Controls.Add(pictureBoxInfoRodape);
             Controls.Add(pictureBoxInforRodape);
             Controls.Add(pictureBox4);
@@ -163,5 +163,7 @@
         private PictureBox pictureBoxInforRodape;
         private teste.ImageHoverButton BtnVoltar;
         private teste.ImageHoverButton BtnVoltarInicio2;
+        private teste.ImageHoverButton BtnVoltarLeiLucas;
+        private teste.ImageHoverButton BtnVoltarInicioLeiLucasTAjuda;
     }
 }
